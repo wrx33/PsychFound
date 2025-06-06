@@ -136,3 +136,6 @@ If you use PsychFound in your research, please cite:
 Coming soon!
 ```
 
+### 🤝 Acknowledgments
+
+This project benifits from [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) and [TinyZero](https://github.com/Jiayi-Pan/TinyZero).
