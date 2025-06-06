@@ -15,18 +15,6 @@
 
 ---
 
-## 📁 Repository Structure
-
-```bash
-.
-├── data/                # Open-source datasets
-├── scripts/             # Preprocessing, training, evaluation scripts
-├── model/               # Checkpoints and config files
-├── examples/            # Clinical usage examples
-├── docs/                # Figures, paper summary
-└── README.md
-```
-
 ## 🚀Getting Started
 
 ### 1. Clone the repository
