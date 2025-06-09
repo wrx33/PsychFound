@@ -55,22 +55,21 @@ extra_require = {
 
 def main():
     setup(
-        name="llamafactory",
+        name="psychfound",
         version=get_version(),
-        author="hiyouga",
-        author_email="hiyouga" "@" "buaa.edu.cn",
-        description="Easy-to-use LLM fine-tuning framework",
+        author="ruoxi",
+        author_email="15352319" "@" "sjtu.edu.cn",
+        description="A Domain-Adapted and Clinician-Oriented Language Model for Real-World Psychiatric Clinical Practice",
         long_description=open("README.md", "r", encoding="utf-8").read(),
         long_description_content_type="text/markdown",
-        keywords=["LLaMA", "BLOOM", "Falcon", "LLM", "ChatGPT", "transformer", "pytorch", "deep learning"],
+        keywords=["Psychiatry", "Domain-Adapted", "Clinician-Oriented"],
         license="Apache 2.0 License",
-        url="https://github.com/hiyouga/LLaMA-Factory",
+        url="https://github.com/wangrx33/PsychFound",
         package_dir={"": "src"},
         packages=find_packages("src"),
         python_requires=">=3.8.0",
         install_requires=get_requires(),
         extras_require=extra_require,
-        entry_points={"console_scripts": ["llamafactory-cli = llamafactory.cli:main"]},
         classifiers=[
             "Development Status :: 4 - Beta",
             "Intended Audience :: Developers",
