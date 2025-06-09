@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;ICD-10&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-10 is a classification system for mental and behavioral disorders used globally, providing diagnostic criteria for conditions such as schizoid personality disorder."</data>
+      <data key="d2">chunk-66fe2dbdcde1631d6915dcef039c9392</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;分裂型人格障碍 (SCHIZOID PERSONALITY DISORDER)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Split-personality disorder characterized by a lack of interest in interpersonal relationships, emotional detachment from others, and social isolation, affecting males more commonly than females with a prevalence rate of 4.9% according to U.S. comorbidity surveys."</data>
+      <data key="d2">chunk-66fe2dbdcde1631d6915dcef039c9392</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;精神分裂症 (SCHIZOPHRENIA)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A severe mental disorder characterized by psychotic symptoms such as delusions and hallucinations, often leading to social impairment and cognitive dysfunction."</data>
+      <data key="d2">chunk-66fe2dbdcde1631d6915dcef039c9392</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;美国共病调查 (U.S. COMORBIDITY SURVEY)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The U.S. Comorbidity Survey is a research study that investigates co-occurring mental health conditions and their prevalence in the population."</data>
+      <data key="d2">chunk-66fe2dbdcde1631d6915dcef039c9392</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;患者 (PATIENT WITH SCHIZOID PERSONALITY DISORDER)&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"A person diagnosed with schizoid personality disorder, characterized by social isolation, lack of emotional expression, and difficulty forming close relationships."</data>
+      <data key="d2">chunk-66fe2dbdcde1631d6915dcef039c9392</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;亲密关系 (INTIMATE RELATIONSHIP)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"An intimate relationship refers to a deep personal connection between individuals, which patients with schizoid personality disorder find difficult or impossible to establish due to their condition's characteristics."</data>
+      <data key="d2">chunk-66fe2dbdcde1631d6915dcef039c9392</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;社交互动 (SOCIAL INTERACTION)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A social interaction is an exchange between people, such as conversations or shared activities. Patients with schizoid personality disorder often struggle in these interactions due to their emotional detachment and lack of interest."</data>
+      <data key="d2">chunk-66fe2dbdcde1631d6915dcef039c9392</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;孤独症谱系障碍 (AUTISM SPECTRUM DISORDER)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"A neurodevelopmental condition characterized by persistent challenges with social communication and restricted, repetitive patterns of behavior. It can be difficult to distinguish from schizoid personality disorder due to overlapping symptoms but is typically more severe."</data>
+      <data key="d2">chunk-66fe2dbdcde1631d6915dcef039c9392</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;偏执型人格障碍 (PARANOID PERSONALITY DISORDER)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"A pattern of pervasive distrust and suspiciousness towards others. Unlike schizoid personality disorder, paranoid personality disorder involves significant levels of suspicion and mistrust."</data>
+      <data key="d2">chunk-66fe2dbdcde1631d6915dcef039c9392</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;回避型人格障碍 (AVOIDANT PERSONALITY DISORDER)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"A condition characterized by a persistent fear of rejection, avoidance of social interaction due to a fear of being criticized or rejected. Unlike schizoid personality disorder, avoidance stems from fears rather than lack of interest in relationships."</data>
+      <data key="d2">chunk-66fe2dbdcde1631d6915dcef039c9392</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;强迫型人格障碍 (OBSESSIVE-COMPULSIVE PERSONALITY DISORDER)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"A pervasive pattern of perfectionism, control, and orderliness to the point of rigidity. Unlike schizoid personality disorder, individuals with this condition have difficulty forming close relationships due to their rigid adherence to rules and routines."</data>
+      <data key="d2">chunk-66fe2dbdcde1631d6915dcef039c9392</data>
+    </node>
+    <node id="&quot;强迫型人格障碍 (OBSESSIVE-COMPLUSIVE PERSONALITY DISORDER)&quot;">
+      <data key="d2">chunk-66fe2dbdcde1631d6915dcef039c9392</data>
+      <data key="d1">"Both conditions involve social isolation but differ in that obsessive-compulsive personality disorder is marked by a need for control and perfectionism, while schizoid personality disorder reflects emotional detachment."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;ICD-10&quot;" target="&quot;分裂型人格障碍 (SCHIZOID PERSONALITY DISORDER)&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"ICD-10 provides diagnostic criteria for the identification of Schizoid Personality Disorder."</data>
+      <data key="d6">chunk-66fe2dbdcde1631d6915dcef039c9392</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分裂型人格障碍 (SCHIZOID PERSONALITY DISORDER)&quot;" target="&quot;精神分裂症 (SCHIZOPHRENIA)&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Individuals with schizophrenia may have a higher risk of developing schizoid personality disorder, but it must be present before the onset of psychotic symptoms and persist after their resolution."</data>
+      <data key="d6">chunk-66fe2dbdcde1631d6915dcef039c9392</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分裂型人格障碍 (SCHIZOID PERSONALITY DISORDER)&quot;" target="&quot;美国共病调查 (U.S. COMORBIDITY SURVEY)&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"The U.S. Comorbidity Survey provides data on the prevalence of schizoid personality disorder, indicating a rate of 4.9% in clinical samples."</data>
+      <data key="d6">chunk-66fe2dbdcde1631d6915dcef039c9392</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分裂型人格障碍 (SCHIZOID PERSONALITY DISORDER)&quot;" target="&quot;患者 (PATIENT WITH SCHIZOID PERSONALITY DISORDER)&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Patients exhibit key symptoms and behaviors associated with schizoid personality disorder, such as social isolation, lack of emotional expression, and difficulty forming close relationships."</data>
+      <data key="d6">chunk-66fe2dbdcde1631d6915dcef039c9392</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分裂型人格障碍 (SCHIZOID PERSONALITY DISORDER)&quot;" target="&quot;孤独症谱系障碍 (AUTISM SPECTRUM DISORDER)&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"Both conditions involve difficulties in social interaction but differ significantly in the severity of symptoms such as social communication impairments and behavioral patterns."</data>
+      <data key="d6">chunk-66fe2dbdcde1631d6915dcef039c9392</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分裂型人格障碍 (SCHIZOID PERSONALITY DISORDER)&quot;" target="&quot;偏执型人格障碍 (PARANOID PERSONALITY DISORDER)&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"While both disorders involve interpersonal difficulties, paranoid personality disorder involves excessive suspicion and mistrust whereas schizoid personality disorder is characterized by emotional detachment."</data>
+      <data key="d6">chunk-66fe2dbdcde1631d6915dcef039c9392</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分裂型人格障碍 (SCHIZOID PERSONALITY DISORDER)&quot;" target="&quot;回避型人格障碍 (AVOIDANT PERSONALITY DISORDER)&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Both conditions feature social avoidance but differ in that avoidant personality disorder stems from fear of criticism and rejection, whereas schizoid personality disorder arises from a lack of interest in relationships."</data>
+      <data key="d6">chunk-66fe2dbdcde1631d6915dcef039c9392</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分裂型人格障碍 (SCHIZOID PERSONALITY DISORDER)&quot;" target="&quot;强迫型人格障碍 (OBSESSIVE-COMPLUSIVE PERSONALITY DISORDER)&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"Both conditions involve social isolation but differ in that obsessive-compulsive personality disorder is marked by a need for control and perfectionism, while schizoid personality disorder reflects emotional detachment."</data>
+      <data key="d6">chunk-66fe2dbdcde1631d6915dcef039c9392</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;患者 (PATIENT WITH SCHIZOID PERSONALITY DISORDER)&quot;" target="&quot;亲密关系 (INTIMATE RELATIONSHIP)&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Individuals diagnosed with schizoid personality disorder find it challenging to establish intimate relationships due to their detachment from others and lack of interest in forming close connections."</data>
+      <data key="d6">chunk-66fe2dbdcde1631d6915dcef039c9392</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;患者 (PATIENT WITH SCHIZOID PERSONALITY DISORDER)&quot;" target="&quot;社交互动 (SOCIAL INTERACTION)&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Patients struggle during social interactions because they lack emotional expression, have difficulty understanding social cues, and prefer to be alone."</data>
+      <data key="d6">chunk-66fe2dbdcde1631d6915dcef039c9392</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

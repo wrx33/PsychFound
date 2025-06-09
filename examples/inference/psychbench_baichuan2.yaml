@@ -1,0 +1,3 @@
+model_name_or_path: /data/sjtu/wrx/model_weights/Baichuan2-7B-Chat/
+template: baichuan2
+

@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;暴食障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"暴食障碍是一种疾病，其特征是反复发作的不可控制的进食行为，不伴有神经性贪食症特有的补偿行为。患者通常会出现肥胖及其相关并发症。&lt;SEP&gt;"暴食障碍是一种疾病，其特征是反复发作的不可控制的进食行为，不伴有神经性贪食症特有的补偿行为。患者通常会出现肥胖及其相关并发症。"</data>
+      <data key="d2">chunk-0a6ff60ff7b1f36c433dab95d85681c6</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;神经性厌食&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"神经性厌食是一个相关的饮食障碍事件，在诊断和鉴别暴食障碍时需要进行精神病理评估。&lt;SEP&gt;"神经性厌食是一个相关的饮食障碍事件，在诊断和鉴别暴食障碍时需要进行精神病理评估。"</data>
+      <data key="d2">chunk-0a6ff60ff7b1f36c433dab95d85681c6</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;神经性贪食&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"神经性贪食是一种与暴食障碍相似的疾病，但后者在暴食后没有防止体重增加的行为。两者的主要区别在于补偿行为的存在与否。&lt;SEP&gt;"神经性贪食是一种与暴食障碍相似的疾病，但后者在暴食后没有防止体重增加的行为。两者的主要区别在于补偿行为的存在与否。"</data>
+      <data key="d2">chunk-0a6ff60ff7b1f36c433dab95d85681c6</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;双相障碍和抑郁障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"这些情绪障碍可以在某些情况下与暴食障碍共存，并且可能影响患者的饮食行为及体重变化。&lt;SEP&gt;"这些情绪障碍可以在某些情况下与暴食障碍共存，并且可能影响患者的饮食行为及体重变化。"</data>
+      <data key="d2">chunk-0a6ff60ff7b1f36c433dab95d85681c6</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;多学科协作团队&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"多学科协作团队是负责制定和实施暴食障碍患者的综合治疗计划的组织机构，包括心理、药物及躯体治疗。</data>
+      <data key="d2">chunk-0a6ff60ff7b1f36c433dab95d85681c6</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;认知行为治疗&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"这是一种有效的治疗方法，被广泛应用于暴食障碍的心理治疗中，旨在帮助患者识别并改变不健康的思维模式和行为习惯。</data>
+      <data key="d2">chunk-0a6ff60ff7b1f36c433dab95d85681c6</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;人际心理治疗&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"一种针对人际关系问题的疗法，适用于处理与进食障碍相关的社交困境和社会支持系统的改善。</data>
+      <data key="d2">chunk-0a6ff60ff7b1f36c433dab95d85681c6</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;辩证行为治疗&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"旨在帮助患者学习如何调节情绪和应对压力，在暴食障碍的治疗中显示出积极的效果。</data>
+      <data key="d2">chunk-0a6ff60ff7b1f36c433dab95d85681c6</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;行为减重治疗&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"该疗法专注于减少体重，通过改变患者的饮食习惯和增加身体活动来实现这一目标。</data>
+      <data key="d2">chunk-0a6ff60ff7b1f36c433dab95d85681c6</data>
+    </node>
+    <node id="&quot;内科及外科治疗&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"针对肥胖和其他生理并发症的治疗方法，包括药物管理和手术干预等手段。</data>
+      <data key="d2">chunk-0a6ff60ff7b1f36c433dab95d85681c6</data>
+    </node>
+    <node id="&quot;肥胖&quot;">
+      <data key="d2">chunk-0a6ff60ff7b1f36c433dab95d85681c6</data>
+      <data key="d1">"这种疗法直接针对肥胖问题，通过改变生活方式来实现减轻体重的目标。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;消化系统并发症&quot;">
+      <data key="d2">chunk-0a6ff60ff7b1f36c433dab95d85681c6</data>
+      <data key="d1">"这些治疗方法可以有效缓解和管理暴食障碍相关的身体症状，如胃肠道不适等。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;暴食障碍&quot;" target="&quot;神经性厌食&quot;">
+      <data key="d4">12.0</data>
+      <data key="d5">"暴食障碍需要通过精神病理评估进行诊断，其中参考了《神经性厌食》章节中的内容以确定是否存在其他进食障碍的症状。"</data>
+      <data key="d6">chunk-0a6ff60ff7b1f36c433dab95d85681c6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;暴食障碍&quot;" target="&quot;神经性贪食&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"两者都涉及反复的暴食行为，但神经性贪食包含有防止体重增加的行为，而暴食障碍则没有这些补偿性行为，导致肥胖风险更高。"</data>
+      <data key="d6">chunk-0a6ff60ff7b1f36c433dab95d85681c6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;暴食障碍&quot;" target="&quot;双相障碍和抑郁障碍&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"患者可能同时患有情感障碍（如双相或抑郁症）以及进食障碍，这需要综合治疗方案来解决多重症状。"</data>
+      <data key="d6">chunk-0a6ff60ff7b1f36c433dab95d85681c6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;暴食障碍&quot;" target="&quot;多学科协作团队&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"多学科协作团队负责为暴食障碍患者提供全面的综合治疗方案，确保各方面需求得到满足。"</data>
+      <data key="d6">chunk-0a6ff60ff7b1f36c433dab95d85681c6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;暴食障碍&quot;" target="&quot;认知行为治疗&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"认知行为治疗是治疗暴食障碍的主要方法之一，旨在帮助患者控制饮食行为和情绪问题。"</data>
+      <data key="d6">chunk-0a6ff60ff7b1f36c433dab95d85681c6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;暴食障碍&quot;" target="&quot;人际心理治疗&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"这种疗法有助于处理与进食障碍相关的社会因素，并改善患者的社交功能。"</data>
+      <data key="d6">chunk-0a6ff60ff7b1f36c433dab95d85681c6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;暴食障碍&quot;" target="&quot;辩证行为治疗&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"该治疗方法帮助患者管理情绪，减少暴食发作的频率和严重程度。"</data>
+      <data key="d6">chunk-0a6ff60ff7b1f36c433dab95d85681c6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;行为减重治疗&quot;" target="&quot;肥胖&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"这种疗法直接针对肥胖问题，通过改变生活方式来实现减轻体重的目标。"</data>
+      <data key="d6">chunk-0a6ff60ff7b1f36c433dab95d85681c6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;内科及外科治疗&quot;" target="&quot;消化系统并发症&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"这些治疗方法可以有效缓解和管理暴食障碍相关的身体症状，如胃肠道不适等。"</data>
+      <data key="d6">chunk-0a6ff60ff7b1f36c433dab95d85681c6</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;分离性身份障碍 (DID)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"分离性身份障碍是一种精神疾病，表现为患者身上存在两种或以上不同的身份或人格状态，这些状态各自有独特的自我体验和行为模式。症状包括记忆缺失、情绪波动和其他与创伤相关的症状。"</data>
+      <data key="d2">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;女性&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"在分离性身份障碍中，女性的患病率高于男性，约85%～97%的患者发病与严重童年创伤密切相关。"</data>
+      <data key="d2">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;医疗机构/精神科医生&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"医疗机构和精神科医生负责对分离性身份障碍进行诊断、鉴别诊断以及治疗工作。他们使用心理疗法（如认知干预和催眠治疗）和药物治疗来帮助患者管理症状并改善生活质量。"</data>
+      <data key="d2">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;童年创伤&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"童年创伤是导致分离性身份障碍的重要因素，特别是身体虐待和性虐待。这种经历可能会严重影响一个人的心理健康状况。"</data>
+      <data key="d2">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;记忆缺失&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"记忆缺失是指患者在特定时间段内无法回忆起重要的个人信息，这是分离性身份障碍的一个典型症状。"</data>
+      <data key="d2">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;情绪波动&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"情绪波动指患者经历频繁且快速的情绪变化，这些变化通常由创伤后和分离症状引起，与双相障碍不同。"</data>
+      <data key="d2">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;抑郁障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"一些分离性身份障碍的患者同时符合抑郁障碍的标准，表现为持续的悲伤感、失去兴趣或愉悦感等症状。"</data>
+      <data key="d2">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;创伤后应激障碍 (PTSD)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"创伤后应激障碍是由于经历严重精神压力事件导致的精神疾病，可能伴随分离性身份障碍出现。"</data>
+      <data key="d2">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;强迫症&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"与分离性身份障碍不同，强迫症患者体验到的是同一个人（自己）有互相反对、抵触的观念，没有身份认同障碍。"</data>
+      <data key="d2">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;精神分裂症&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"精神分裂症需要与分离性身份障碍进行鉴别诊断，因为它可能导致类似的症状表现。"</data>
+      <data key="d2">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;情感障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"情感障碍包括各种情绪调节问题，可能影响患者的日常生活和功能。这种障碍也需要与其他疾病区分开来。"</data>
+      <data key="d2">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;焦虑障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"患者可能会经历过度的担忧、恐惧和其他形式的焦虑症状，需要与分离性身份障碍进行鉴别诊断。"</data>
+      <data key="d2">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;人格障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"人格障碍涉及持久的行为模式和思维方式，这些可能影响个体的社会互动和功能表现。与分离性身份障碍需区分。"</data>
+      <data key="d2">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;神经认知障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"神经认知障碍可能包括记忆、注意力和其他认知能力的下降，也需与分离性身份障碍进行鉴别诊断。"</data>
+      <data key="d2">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;边缘性人格障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"边缘性人格障碍涉及不稳定的人际关系和自我形象，以及情绪调节问题，需要与其他疾病区分开来。"</data>
+      <data key="d2">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;癫痫&quot;">
+      <data key="d0">"MEDICAL_CONDITION"</data>
+      <data key="d1">"某些类型的癫痫可能表现出类似于分离性身份障碍的症状，因此诊断时需排除其他医学状况。"</data>
+      <data key="d2">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;躯体不适障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"患者可能会经历各种身体症状或疼痛感觉，这些可能是心理因素造成的而非实质性健康问题。"</data>
+      <data key="d2">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;做作性障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"做作性障碍是指个体故意夸大或制造病态表现来吸引注意或者避免责任，需与其他疾病区分开来。"</data>
+      <data key="d2">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;分离性身份障碍 (DID)&quot;" target="&quot;女性&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"女性群体在分离性身份障碍中的患病率较高，特别是那些经历过严重童年创伤的人群。</data>
+      <data key="d6">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性身份障碍 (DID)&quot;" target="&quot;医疗机构/精神科医生&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"医疗机构和精神科医生提供专业诊断、鉴别诊断及治疗服务给患有分离性身份障碍的患者。</data>
+      <data key="d6">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性身份障碍 (DID)&quot;" target="&quot;童年创伤&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"童年经历的身体虐待或性虐待等严重事件是导致分离性身份障碍的重要因素。</data>
+      <data key="d6">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性身份障碍 (DID)&quot;" target="&quot;记忆缺失&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"记忆缺失是分离性身份障碍患者报告的一种常见症状，影响他们的日常生活功能。</data>
+      <data key="d6">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性身份障碍 (DID)&quot;" target="&quot;情绪波动&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"频繁且快速的情绪变化是分离性身份障碍患者的典型表现之一。</data>
+      <data key="d6">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性身份障碍 (DID)&quot;" target="&quot;抑郁障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"一些分离性身份障碍的患者同时符合抑郁障碍的标准，表现出持续的悲伤和失去兴趣的症状。</data>
+      <data key="d6">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性身份障碍 (DID)&quot;" target="&quot;创伤后应激障碍 (PTSD)&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"创伤后应激障碍是与分离性身份障碍常见的共病情况，表现为焦虑、失眠等症状。</data>
+      <data key="d6">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性身份障碍 (DID)&quot;" target="&quot;强迫症&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"尽管两者有症状重叠，但强迫症患者没有身份认同障碍，因此需要区别诊断和治疗。</data>
+      <data key="d6">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性身份障碍 (DID)&quot;" target="&quot;精神分裂症&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"精神分裂症与分离性身份障碍在临床表现上有相似之处，需仔细鉴别以提供正确的治疗方法。</data>
+      <data key="d6">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性身份障碍 (DID)&quot;" target="&quot;情感障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"情感障碍涉及情绪调节问题，需要与其他疾病区分开来，以便制定适当的治疗计划。</data>
+      <data key="d6">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性身份障碍 (DID)&quot;" target="&quot;焦虑障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"患者经历过度的担忧或恐惧等焦虑症状时，需与分离性身份障碍进行鉴别诊断。</data>
+      <data key="d6">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性身份障碍 (DID)&quot;" target="&quot;人格障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"不稳定的人际关系和自我形象等问题需要与其他疾病区分开来以提供正确的治疗建议。</data>
+      <data key="d6">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性身份障碍 (DID)&quot;" target="&quot;神经认知障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"记忆、注意力和其他认知能力的下降可能由多种因素引起，需排除其他医学状况。</data>
+      <data key="d6">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性身份障碍 (DID)&quot;" target="&quot;边缘性人格障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"边缘性人格障碍涉及的情绪调节问题需要与其他疾病区分开来以制定适当的治疗方案。</data>
+      <data key="d6">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性身份障碍 (DID)&quot;" target="&quot;癫痫&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"某些类型的癫痫可能表现出类似分离性身份障碍的症状，需排除其他医学状况进行鉴别诊断。</data>
+      <data key="d6">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性身份障碍 (DID)&quot;" target="&quot;躯体不适障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"患者经历的身体症状或疼痛感觉可能是心理因素造成的而非实质性健康问题，需要与其他疾病区分。</data>
+      <data key="d6">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性身份障碍 (DID)&quot;" target="&quot;做作性障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"个体故意夸大或制造病态表现以吸引注意或者避免责任的倾向需与分离性身份障碍进行鉴别诊断。</data>
+      <data key="d6">chunk-31706b76cb6f82056f3cc811cadde522</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

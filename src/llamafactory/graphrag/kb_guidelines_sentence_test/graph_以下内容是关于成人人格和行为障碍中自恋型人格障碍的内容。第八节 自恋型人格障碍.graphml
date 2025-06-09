@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;ICD-10&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-10是国际疾病分类第十版的简称，用于对各类疾病的诊断标准进行分类和编码。"</data>
+      <data key="d2">chunk-22816076205a79818b204435bc490c33</data>
+    </node>
+    <node id="&quot;DSM-5&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"DSM-5是《精神疾病诊断与统计手册》第五版的简称，由美国精神病学会出版，提供了精神障碍和其他心理健康状况的标准定义。"</data>
+      <data key="d2">chunk-22816076205a79818b204435bc490c33</data>
+    </node>
+    <node id="&quot;自恋型人格障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"自恋型人格障碍是一种心理病理状态，表现为过度夸大自我价值、缺乏共情能力等症状。该事件描述了这种障碍的特征、临床表现和诊断标准等信息。"</data>
+      <data key="d2">chunk-22816076205a79818b204435bc490c33</data>
+    </node>
+    <node id="&quot;患者&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"患有自恋型人格障碍的个体，表现出不切实际的自我夸大、缺乏共情能力等症状。"&lt;SEP&gt;"患者指患有自恋型人格障碍的个体，表现出过度夸大自我价值、缺乏共情能力等症状。"</data>
+      <data key="d2">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;青少年&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"在青少年时期可能出现自恋倾向，但多数能正常成长而不发展为心理障碍。"&lt;SEP&gt;"青少年是易患自恋问题的人群之一，但大多数能够成长而不出现症状。"</data>
+      <data key="d2">chunk-22816076205a79818b204435bc490c33</data>
+    </node>
+    <node id="&quot;男性&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"男性比女性更容易患病，自恋型人格障碍在男性中的发病率较高。"&lt;SEP&gt;"相较于女性，男性更容易患此病。患病率估计约为1%至6%不等。"</data>
+      <data key="d2">chunk-22816076205a79818b204435bc490c33</data>
+    </node>
+    <node id="&quot;自相矛盾的现象&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"自相矛盾的现象指尽管自恋者表现出强烈的自信和优越感，但他们内心实际上却长期体验着脆弱的低自尊。"</data>
+      <data key="d2">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;不切实际的自大感&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"不切实际的自大感是指患者夸大自己的才能、成就等，并要求别人把他们当作特殊人物对待。"</data>
+      <data key="d2">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;先占观念&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"先占观念是指对无限成功、权利、才华、美丽或理想爱情的幻想，是自恋型人格障碍的一个特征性概念。"</data>
+      <data key="d2">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;情感上的剥削者&quot;">
+      <data key="d0">"ROLE"</data>
+      <data key="d1">"情感上的剥削者指在人际关系中利用他人满足自身病理性需求的人，难以建立长期稳定的关系。"</data>
+      <data key="d2">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;自恋创伤&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"由于未能满足自我期望而产生的心理打击，表现为抑郁、愤怒或其他负面情绪。"&lt;SEP&gt;"自恋创伤是指当患者不能获得认可或面对无法抗拒的现实时所经历的心理打击，表现为抑郁心境或其他症状。"</data>
+      <data key="d2">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;自我夸大感&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"患者认为自己具有无限制的成功、权力或才华，表现出极端的自尊心和优越性。"</data>
+      <data key="d2">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;情感剥削者&quot;">
+      <data key="d0">"ROLE"</data>
+      <data key="d1">"在人际关系中利用他人以满足自身需求的人，通常表现为对他人的冷漠与不理解。"</data>
+      <data key="d2">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;脆弱感&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"面对批评或无法达到预期目标时的敏感和易受伤害性反应。"</data>
+      <data key="d2">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;低自尊感&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"尽管患者表面上表现出高度自信和优越感，但内心却经常感到自卑与脆弱。"</data>
+      <data key="d2">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;共情能力缺乏&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"无法理解或关心他人的感受和需求，体现为人际关系中的孤立行为。"</data>
+      <data key="d2">chunk-22816076205a79818b204435bc490c33</data>
+    </node>
+    <node id="&quot;自恋型人格障碍的临床特征&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"描述了患者在日常生活中的典型表现及心理状态。"</data>
+      <data key="d2">chunk-22816076205a79818b204435bc490c33</data>
+    </node>
+    <node id="&quot;边缘型人格障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"一种严重的人格障碍，以不稳定的情感关系和强烈的恐惧感为特点。"</data>
+      <data key="d2">chunk-22816076205a79818b204435bc490c33</data>
+    </node>
+    <node id="&quot;反社会型人格障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"具有持续的、不遵守社会规范的行为模式及缺乏同情心的特点。"</data>
+      <data key="d2">chunk-22816076205a79818b204435bc490c33</data>
+    </node>
+    <node id="&quot;表演型人格障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"患者通过戏剧化的情感表达以获取他人的注意和认可，性格外向热情。"</data>
+      <data key="d2">chunk-22816076205a79818b204435bc490c33</data>
+    </node>
+    <node id="&quot;批评&quot;">
+      <data key="d2">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d1">"面对批评或无法获得认可时，患者可能经历心理打击，并出现抑郁等表现。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;人际关系疏远&quot;">
+      <data key="d2">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d1">"患者无法理解或关心他人的感受与需求，从而导致人际关系疏远和回避。</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;ICD-10&quot;" target="&quot;自恋型人格障碍&quot;">
+      <data key="d4">24.0</data>
+      <data key="d5">"ICD-10将自恋型人格障碍归类于其他特异性人格障碍中，为这一心理健康状况提供了分类编码依据."</data>
+      <data key="d6">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DSM-5&quot;" target="&quot;自恋型人格障碍&quot;">
+      <data key="d4">27.0</data>
+      <data key="d5">"DSM-5单独列出了自恋型人格障碍，并详细描述了其诊断标准和临床特征等信息."</data>
+      <data key="d6">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DSM-5&quot;" target="&quot;自恋型人格障碍的临床特征&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"DSM-5提供了详细的诊断标准以识别患者的典型表现及心理状态。"</data>
+      <data key="d6">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;自恋型人格障碍&quot;" target="&quot;青少年&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"青少年中自恋的问题比较常见，大多数能够以此成长而不出现症状。"</data>
+      <data key="d6">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;自恋型人格障碍&quot;" target="&quot;男性&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"自恋型人格障碍在男性中的发病率较高。"</data>
+      <data key="d6">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;自恋型人格障碍&quot;" target="&quot;边缘型人格障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"两者在互动模式上有明显区别，前者更具有情感上的波动性和自我伤害行为。</data>
+      <data key="d6">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;自恋型人格障碍&quot;" target="&quot;反社会型人格障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"两者的共同点在于意志坚强、能说会道和缺乏同情心，不同之处在于后者更多地利用他人以建立优越感。"</data>
+      <data key="d6">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;自恋型人格障碍&quot;" target="&quot;表演型人格障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"两者在需要被关注等方面相似，但前者更外向热情，而后者更内向冷漠。</data>
+      <data key="d6">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;患者&quot;" target="&quot;自相矛盾的现象&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"患者表现出强烈的自信和优越感，但其内心实际上长期体验着脆弱的低自尊。"</data>
+      <data key="d6">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;患者&quot;" target="&quot;不切实际的自大感&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"患者表现出对自我价值感的过度夸大，认为自己是特殊的人或机构理解的独特人物。"</data>
+      <data key="d6">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;患者&quot;" target="&quot;先占观念&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"患者的幻想内容包括无限成功、权利、才华等，体现其内在的心理特征。"</data>
+      <data key="d6">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;患者&quot;" target="&quot;情感上的剥削者&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"患者在人际关系中倾向于利用他人满足自身病理性需求，难以建立长期稳定的关系。"</data>
+      <data key="d6">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;患者&quot;" target="&quot;自我夸大感&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"患者表现出极端的自尊心和优越性，认为自己具有无限制的成功、权力或才华。"</data>
+      <data key="d6">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;患者&quot;" target="&quot;情感剥削者&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"在人际关系中，患者倾向于利用他人以满足自身需求，表现为冷漠与不理解他人。</data>
+      <data key="d6">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;自恋创伤&quot;" target="&quot;批评&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"面对批评或无法获得认可时，患者可能经历心理打击，并出现抑郁等表现。"</data>
+      <data key="d6">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;自恋创伤&quot;" target="&quot;自我夸大感&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"当未能满足自我期望时，患者经历心理打击，并出现抑郁等负面情绪。"</data>
+      <data key="d6">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;脆弱感&quot;" target="&quot;批评&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"面对批评或无法达到预期目标时，患者表现出敏感和易受伤害的反应。"</data>
+      <data key="d6">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;脆弱感&quot;" target="&quot;低自尊感&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"尽管外表自信，内心却经常感到自卑和脆弱，导致对批评敏感。"</data>
+      <data key="d6">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;共情能力缺乏&quot;" target="&quot;人际关系疏远&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"患者无法理解或关心他人的感受与需求，从而导致人际关系疏远和回避。</data>
+      <data key="d6">chunk-22816076205a79818b204435bc490c33</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

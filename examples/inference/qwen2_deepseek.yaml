@@ -1,0 +1,8 @@
+model_name_or_path: /data/sjtu/wrx/llamafactory/psychgpt-sft-orpo-qwen2-7b-lora-all-256-12tasks-0114-diagnosis-firstcourse-missing-0220-merge
+adapter_name_or_path: /data/sjtu/wrx/llamafactory/psychgpt-sft-orpo-qwen2-7b-lora-all-256-12tasks-0114-diagnosis-firstcourse-missing-0220-merge-distill-0305
+template: qwen
+finetuning_type: lora
+# infer_backend: vllm
+temperature: 0.9
+max_new_tokens: 4096
+# repetition_penalty: 1.2

@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;OBSTRUCTIVE SLEEP APNEA (OSA)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Obstructive Sleep Apnea is a sleep-related breathing disorder characterized by repeated episodes of complete or partial blockage of the upper airway during sleep, leading to intermittent hypoxemia and fragmented sleep."</data>
+      <data key="d2">chunk-ece3b1385ebd9fc8d290460374ced25f</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;POLYSOMNOGRAPHY (PSG)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Polysomnography is an objective monitoring method used in diagnosing obstructive sleep apnea by analyzing various physiological signals such as brain waves, muscle activity, eye movements, respiration, oxygen saturation, and snoring."</data>
+      <data key="d2">chunk-ece3b1385ebd9fc8d290460374ced25f</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;AHI (APNEA-HYPOPNEA INDEX)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The AHI is a key metric for assessing the severity of obstructive sleep apnea, indicating the number of apneas and hypopneas per hour of sleep."</data>
+      <data key="d2">chunk-ece3b1385ebd9fc8d290460374ced25f</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;ICSD-3 (INTERNATIONAL CLASSIFICATION OF SLEEP DISORDERS, THIRD EDITION)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"ICSD-03 provides diagnostic criteria for identifying obstructive sleep apnea based on objective sleep-breathing monitoring results and symptomatology."</data>
+      <data key="d2">chunk-ece3b1385ebd9fc8d290460374ced25f</data>
+    </node>
+    <node id="&quot;CENTER OUT-OF-CENTER SLEEP TEST (OCST)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The OCST is a type of sleep test conducted outside a specialized sleep center, primarily assessing respiratory events without EEG to determine the severity of obstructive sleep apnea."</data>
+      <data key="d2">chunk-ece3b1385ebd9fc8d290460374ced25f</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;BMI (BODY MASS INDEX)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"BMI is an index calculated from weight and height measurements used to assess obesity status and risk factors for conditions such as OSA."</data>
+      <data key="d2">chunk-ece3b1385ebd9fc8d290460374ced25f</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;MALLAMPATI SCORE&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The Mallampati score is a grading system that predicts the ease of intubation and difficulty in airway management, also useful in assessing anatomical risk factors for OSA."</data>
+      <data key="d2">chunk-ece3b1385ebd9fc8d290460374ced25f</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;MULTIPLE SLEEP LATENCY TEST (MSLT)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"A diagnostic tool used to measure how long it takes an individual to fall asleep during the day, which can help diagnose conditions like narcolepsy and assess daytime sleepiness in OSA patients."</data>
+      <data key="d2">chunk-ece3b1385ebd9fc8d290460374ced25f</data>
+    </node>
+    <node id="&quot;HYPERTENSION&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"High blood pressure is a common comorbidity associated with Obstructive Sleep Apnea that affects cardiovascular health."</data>
+      <data key="d2">chunk-ece3b1385ebd9fc8d290460374ced25f</data>
+    </node>
+    <node id="&quot;HEART FAILURE&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A serious medical condition where the heart muscle doesn't pump blood as well as it should, which can be exacerbated or caused by OSA."</data>
+      <data key="d2">chunk-ece3b1385ebd9fc8d290460374ced25f</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;RESPIRATORY EVENT INDEX (REI)&quot;">
+      <data key="d2">chunk-ece3b1385ebd9fc8d290460374ced25f</data>
+      <data key="d1">"The OCST measures the REI, which reflects the number of breathing pauses and reductions in breathing per hour of monitoring."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <edge source="&quot;OBSTRUCTIVE SLEEP APNEA (OSA)&quot;" target="&quot;POLYSOMNOGRAPHY (PSG)&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"Polysomnography is used as the gold standard method for diagnosing and grading the severity of Obstructive Sleep Apnea."</data>
+      <data key="d6">chunk-ece3b1385ebd9fc8d290460374ced25f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;OBSTRUCTIVE SLEEP APNEA (OSA)&quot;" target="&quot;CENTER OUT-OF-CENTER SLEEP TEST (OCST)&quot;">
+      <data key="d4">12.0</data>
+      <data key="d5">"The OCST serves as an alternative to PSG, primarily used for suspected moderate to severe OSA patients and may underestimate the severity of obstructive sleep apnea."</data>
+      <data key="d6">chunk-ece3b1385ebd9fc8d290460374ced25f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;OBSTRUCTIVE SLEEP APNEA (OSA)&quot;" target="&quot;BMI (BODY MASS INDEX)&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"High BMI is a significant risk factor for Obstructive Sleep Apnea due to increased fat deposits around the upper airway, leading to obstruction."</data>
+      <data key="d6">chunk-ece3b1385ebd9fc8d290460374ced25f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;OBSTRUCTIVE SLEEP APNEA (OSA)&quot;" target="&quot;MALLAMPATI SCORE&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"The Mallampati score can be used in assessing anatomical risk factors that contribute to OSA, such as narrow pharynx and tongue base displacement."</data>
+      <data key="d6">chunk-ece3b1385ebd9fc8d290460374ced25f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;OBSTRUCTIVE SLEEP APNEA (OSA)&quot;" target="&quot;HEART FAILURE&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Patients with heart failure are at higher risk of developing or exacerbating Obstructive Sleep Apnea due to compromised cardiac function."</data>
+      <data key="d6">chunk-ece3b1385ebd9fc8d290460374ced25f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;POLYSOMNOGRAPHY (PSG)&quot;" target="&quot;AHI (APNEA-HYPOPNEA INDEX)&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"The AHI index is derived from polysomnographic data to assess the frequency of respiratory events during sleep."</data>
+      <data key="d6">chunk-ece3b1385ebd9fc8d290460374ced25f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;CENTER OUT-OF-CENTER SLEEP TEST (OCST)&quot;" target="&quot;RESPIRATORY EVENT INDEX (REI)&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"The OCST measures the REI, which reflects the number of breathing pauses and reductions in breathing per hour of monitoring."</data>
+      <data key="d6">chunk-ece3b1385ebd9fc8d290460374ced25f</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

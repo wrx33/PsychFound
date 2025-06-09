@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;ICD-10&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-10 is an international classification system used in mental health for diagnosing and categorizing various disorders, including adjustment disorder."</data>
+      <data key="d2">chunk-b219e6aec84473ffd87daf05acab2ba1</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;DSM-5&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"DSM-5 stands for the Diagnostic and Statistical Manual of Mental Disorders, fifth edition, which provides criteria for diagnosing a variety of mental health conditions, including adjustment disorder."</data>
+      <data key="d2">chunk-b219e6aec84473ffd87daf05acab2ba1</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;适应障碍（ADJUSTMENT DISORDER，AD）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"适应障碍是指个体在遭遇显著的生活改变或环境变化时出现的短期情绪和行为失调，通常伴随着轻度的情绪问题，但不发展成精神病性症状。常见生活事件包括居丧、离婚、失业等。"</data>
+      <data key="d2">chunk-b219e6aec84473ffd87daf05acab2ba1</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;创伤及应激相关障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"创伤及应激相关障碍是一类由于受到重大心理刺激或压力引发的精神疾病群，适应障碍是其中的一种类型。"</data>
+      <data key="d2">chunk-b219e6aec84473ffd87daf05acab2ba1</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;居丧、离婚、失业等生活事件&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"这些是生活中可能引起适应障碍的典型应激源，包括家庭成员去世、婚姻破裂和失去工作等情况。"</data>
+      <data key="d2">chunk-b219e6aec84473ffd87daf05acab2ba1</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;初高中学生、大学新生、新兵、退休人群&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"这些群体由于处于人生中的重大变化期或转型阶段，更容易经历生活压力事件从而引发适应障碍。"</data>
+      <data key="d2">chunk-b219e6aec84473ffd87daf05acab2ba1</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;重病患者&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"患有严重疾病的人群也属于高风险群体之一，在疾病的冲击下易出现适应问题。"</data>
+      <data key="d2">chunk-b219e6aec84473ffd87daf05acab2ba1</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;心理课程设置&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"在小学、中学和大学中开设心理健康教育课程，旨在帮助学生更好地应对环境变化和社会压力。"</data>
+      <data key="d2">chunk-b219e6aec84473ffd87daf05acab2ba1</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;新兵训练&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"针对新入伍的士兵进行的心理适应训练，帮助他们快速融入部队生活并处理潜在的压力源。"</data>
+      <data key="d2">chunk-b219e6aec84473ffd87daf05acab2ba1</data>
+    </node>
+    <node id="&quot;健康讲堂设置&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"社区中设立健康讲座和活动，旨在教育退休人员如何维持健康的日常生活习惯，并鼓励他们在社会中的再参与。"</data>
+      <data key="d2">chunk-b219e6aec84473ffd87daf05acab2ba1</data>
+    </node>
+    <node id="&quot;退休人员&quot;">
+      <data key="d2">chunk-b219e6aec84473ffd87daf05acab2ba1</data>
+      <data key="d1">"为退休人员设立的健康讲座旨在改善他们的生活质量，并减少适应障碍的风险。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;ICD-10&quot;" target="&quot;适应障碍（ADJUSTMENT DISORDER，AD）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"ICD-10 提供了对调整障碍的诊断标准和定义。"</data>
+      <data key="d6">chunk-b219e6aec84473ffd87daf05acab2ba1</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DSM-5&quot;" target="&quot;适应障碍（ADJUSTMENT DISORDER，AD）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"DSM-5 也提供了关于调整障碍的具体诊断准则，包括症状持续的时间等细节。"</data>
+      <data key="d6">chunk-b219e6aec84473ffd87daf05acab2ba1</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;适应障碍（ADJUSTMENT DISORDER，AD）&quot;" target="&quot;创伤及应激相关障碍&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"适应障碍是创伤及应激相关障碍的一种类型，通常由于生活压力事件引发的情绪或行为反应。"</data>
+      <data key="d6">chunk-b219e6aec84473ffd87daf05acab2ba1</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;适应障碍（ADJUSTMENT DISORDER，AD）&quot;" target="&quot;居丧、离婚、失业等生活事件&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"这些特定的生活变化直接导致个体产生适应障碍的症状，如情绪低落或行为问题。"</data>
+      <data key="d6">chunk-b219e6aec84473ffd87daf05acab2ba1</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;适应障碍（ADJUSTMENT DISORDER，AD）&quot;" target="&quot;初高中学生、大学新生、新兵、退休人群&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"上述群体由于面临重要的人生转变和挑战，更容易出现适应障碍的特征性症状。"</data>
+      <data key="d6">chunk-b219e6aec84473ffd87daf05acab2ba1</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;适应障碍（ADJUSTMENT DISORDER，AD）&quot;" target="&quot;重病患者&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"患有重大疾病的人群因生活发生巨大变化而容易产生适应问题的症状，如抑郁或焦虑。"</data>
+      <data key="d6">chunk-b219e6aec84473ffd87daf05acab2ba1</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;初高中学生、大学新生、新兵、退休人群&quot;" target="&quot;心理课程设置&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"为特定群体提供心理健康教育和培训，帮助他们更好地应对压力源和提高适应能力。"</data>
+      <data key="d6">chunk-b219e6aec84473ffd87daf05acab2ba1</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;健康讲堂设置&quot;" target="&quot;退休人员&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"为退休人员设立的健康讲座旨在改善他们的生活质量，并减少适应障碍的风险。"</data>
+      <data key="d6">chunk-b219e6aec84473ffd87daf05acab2ba1</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

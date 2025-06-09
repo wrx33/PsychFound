@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;ICD-11&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"ICD-11是《国际疾病分类第十一次修订本》，用于诊断精神活性物质使用所致的精神障碍。"</data>
+      <data key="d2">chunk-ff3c443a7656c351144d7cadcd720388</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;DSM-5&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"DSM-5是美国精神病学协会出版的第五版《精神疾病诊断与统计手册》，包含对物质使用障碍的定义和分类。"</data>
+      <data key="d2">chunk-ff3c443a7656c351144d7cadcd720388</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;UNODC&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"联合国毒品和犯罪问题办公室，负责监测和应对全球范围内的新精神活性物质及其滥用情况。"</data>
+      <data key="d2">chunk-ff3c443a7656c351144d7cadcd720388</data>
+    </node>
+    <node id="&quot;ICD-10&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"ICD-10是《国际疾病分类第十版》，其有害使用的定义与ICD-11和DSM-5有所不同，用于早期精神活性物质使用障碍的诊断。"</data>
+      <data key="d2">chunk-ff3c443a7656c351144d7cadcd720388</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;DSM-IV&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"DSM-IV是《精神疾病诊断与统计手册》的第四版，包含了对依赖和滥用的定义，这是DSM-5的基础之一。"</data>
+      <data key="d2">chunk-ff3c443a7656c351144d7cadcd720388</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;治疗机构&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"治疗机构指的是负责提供成瘾物质使用问题整体治疗方法和服务的医疗机构。"</data>
+      <data key="d2">chunk-b3cfef086e1b2eded6bd8f620e497524</data>
+    </node>
+    <node id="&quot;患者&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"患者是指正在接受成瘾物质使用问题治疗和康复的人。"</data>
+      <data key="d2">chunk-b3cfef086e1b2eded6bd8f620e497524</data>
+    </node>
+    <node id="&quot;家庭成员&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"家庭成员是患者个人化需求评估中的重要部分，包括家人、朋友和其他支持人员。"</data>
+      <data key="d2">chunk-b3cfef086e1b2eded6bd8f620e497524</data>
+    </node>
+    <node id="&quot;NEW PSYCHOACTIVE SUBSTANCES (NPS)&quot;">
+      <data key="d2">chunk-ff3c443a7656c351144d7cadcd720388</data>
+      <data key="d1">"UNODC负责监测和应对新精神活性物质的滥用情况及其带来的公共健康威胁。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;ICD-11&quot;" target="&quot;DSM-5&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"ICD-11与DSM-5在诊断精神活性物质使用所致障碍方面存在一定的相似性和差异性。如两者都包含对有害使用的分类，但定义略有不同。"</data>
+      <data key="d6">chunk-ff3c443a7656c351144d7cadcd720388</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ICD-11&quot;" target="&quot;ICD-10&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"ICD-11在某些方面继承了ICD-10的精神活性物质分类，并对其进行了更新和完善。"</data>
+      <data key="d6">chunk-ff3c443a7656c351144d7cadcd720388</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DSM-5&quot;" target="&quot;DSM-IV&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"DSM-5在继承了DSM-IV关于物质使用障碍分类的基础上进行了改进，形成了更加综合性的诊断标准。"</data>
+      <data key="d6">chunk-ff3c443a7656c351144d7cadcd720388</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;UNODC&quot;" target="&quot;NEW PSYCHOACTIVE SUBSTANCES (NPS)&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"UNODC负责监测和应对新精神活性物质的滥用情况及其带来的公共健康威胁。"</data>
+      <data key="d6">chunk-ff3c443a7656c351144d7cadcd720388</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;治疗机构&quot;" target="&quot;患者&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"治疗机构为患者提供成瘾物质使用问题的整体治疗方法和服务."</data>
+      <data key="d6">chunk-b3cfef086e1b2eded6bd8f620e497524</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;患者&quot;" target="&quot;家庭成员&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"家庭成员对患者的康复环境评估和个人化需求具有重要影响."</data>
+      <data key="d6">chunk-b3cfef086e1b2eded6bd8f620e497524</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;精神活性物质使用障碍心理社会干预小组&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"这是一个为患有精神活性物质使用障碍的个体提供心理和社会支持的专业团队。该组织采用多种技术如目标设定、解决问题和情绪管理，以及治疗方法如动机强化治疗、认知行为治疗等，帮助患者康复。"</data>
+      <data key="d2">chunk-89f69e6b2bcdee17c499e34bd00c0419</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;治疗师&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"治疗师是进行精神活性物质使用障碍心理社会干预的专业人员，他们负责指导患者解决生活中的实际问题，并提供支持以预防复发和改善生活质量。"</data>
+      <data key="d2">chunk-89f69e6b2bcdee17c499e34bd00c0419</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;患者&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"患有精神活性物质使用障碍的个体，在接受心理社会干预的过程中逐渐认识到自己的问题并寻求改变。治疗过程中，他们会参与动机强化、认知行为等治疗方法的学习与实践。"</data>
+      <data key="d2">chunk-89f69e6b2bcdee17c499e34bd00c0419</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;复吸&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"复吸指的是个体在戒断某种精神活性物质一段时间后重新开始使用的现象，这通常被视为康复过程中的一大挑战。"</data>
+      <data key="d2">chunk-89f69e6b2bcdee17c499e34bd00c0419</data>
+    </node>
+    <node id="&quot;健康生活方式&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"健康生活方式是指包括合理饮食、规律运动和良好心理状态在内的生活模式，旨在促进身心健康并防止疾病发生。"</data>
+      <data key="d2">chunk-89f69e6b2bcdee17c499e34bd00c0419</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;药物依赖治疗&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"药物依赖治疗是一个长期的过程，通过综合运用多种治疗方法帮助患者戒除对精神活性物质的依赖，并预防复吸。"</data>
+      <data key="d2">chunk-89f69e6b2bcdee17c499e34bd00c0419</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;精神活性物质使用障碍&quot;">
+      <data key="d2">chunk-89f69e6b2bcdee17c499e34bd00c0419</data>
+      <data key="d1">"精神活性物质的使用可能导致依赖性增加，从而引发复吸现象。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;精神活性物质使用障碍心理社会干预小组&quot;" target="&quot;药物依赖治疗&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"心理社会干预小组是进行药物依赖治疗的重要组成部分，负责提供多种治疗方法和支持服务。"</data>
+      <data key="d6">chunk-89f69e6b2bcdee17c499e34bd00c0419</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;精神活性物质使用障碍心理社会干预小组&quot;" target="&quot;健康生活方式&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"专业团队提供指导和支持帮助患者建立和维护有益于康复的健康生活方式。"</data>
+      <data key="d6">chunk-89f69e6b2bcdee17c499e34bd00c0419</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;治疗师&quot;" target="&quot;患者&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"治疗师提供多种心理社会干预方法帮助患者恢复健康生活方式，预防复吸，并改善家庭和社会关系。"</data>
+      <data key="d6">chunk-89f69e6b2bcdee17c499e34bd00c0419</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;患者&quot;" target="&quot;健康生活方式&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"通过参与治疗和支持活动，患者逐步建立并维持一种有利于康复的日常健康生活方式。"</data>
+      <data key="d6">chunk-89f69e6b2bcdee17c499e34bd00c0419</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;复吸&quot;" target="&quot;精神活性物质使用障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"精神活性物质的使用可能导致依赖性增加，从而引发复吸现象。"</data>
+      <data key="d6">chunk-89f69e6b2bcdee17c499e34bd00c0419</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

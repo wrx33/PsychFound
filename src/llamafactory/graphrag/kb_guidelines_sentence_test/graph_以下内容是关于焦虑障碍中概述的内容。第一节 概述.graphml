@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;中国精神卫生调查（CHMS）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"中国精神卫生调查是中国的一项研究项目，旨在调查和分析中国的心理健康状况，尤其是焦虑障碍的发病率。"</data>
+      <data key="d2">chunk-5d577e9bd917758434f95e90f6cca3b8</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;遗传、生物节律、下丘脑-垂体-肾上腺轴（HYPOTHALAMIC-PITUITARY-ADRENAL AXIS，HPA）功能失调、神经递质平衡失调等&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"这些是引起焦虑障碍的潜在生物学因素，包括遗传学特性以及内分泌和神经系统的问题。"</data>
+      <data key="d2">chunk-5d577e9bd917758434f95e90f6cca3b8</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;童年经历、性格特点、生活事件等&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"这是影响个体心理健康的因素，如早年的生活环境和个人特质可能会影响其发展中的心理健康状况。"</data>
+      <data key="d2">chunk-5d577e9bd917758434f95e90f6cca3b8</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;社会文化、生活节奏、经济状况等&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"这些是外部环境因素，它们可能对个人的心理状态产生直接或间接的影响。"</data>
+      <data key="d2">chunk-5d577e9bd917758434f95e90f6cca3b8</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;DSM-5&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The Diagnostic and Statistical Manual of Mental Disorders (DSM-5) is a handbook used to diagnose and classify mental health conditions in the United States."</data>
+      <data key="d2">chunk-5d577e9bd917758434f95e90f6cca3b8</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;广泛性焦虑障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"广义焦虑症是一种长期存在的精神健康状况，其中个体经历持续的过度担忧和恐惧。"</data>
+      <data key="d2">chunk-5d577e9bd917758434f95e90f6cca3b8</data>
+    </node>
+    <node id="&quot;惊恐障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"惊恐障碍涉及反复出现的、突发且极度强烈的恐慌发作，常伴有呼吸急促等身体症状。"</data>
+      <data key="d2">chunk-5d577e9bd917758434f95e90f6cca3b8</data>
+    </node>
+    <node id="&quot;场所恐惧症&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"场所恐惧症是一种特定类型的焦虑障碍，患者在感到无法逃脱或寻求帮助的情况下会经历严重的恐惧和回避行为。"</data>
+      <data key="d2">chunk-5d577e9bd917758434f95e90f6cca3b8</data>
+    </node>
+    <node id="&quot;社交焦虑障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"社交焦虑障碍涉及对社会互动和公共场合的强烈且持久的恐惧感和不安情绪。"</data>
+      <data key="d2">chunk-5d577e9bd917758434f95e90f6cca3b8</data>
+    </node>
+    <node id="&quot;特定恐惧障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"特定恐惧障碍是一种强烈的、不合理的对具体物体或情况的恐惧，导致个体避免接触这些触发因素。"</data>
+      <data key="d2">chunk-5d577e9bd917758434f95e90f6cca3b8</data>
+    </node>
+    <node id="&quot;选择性缄默症&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"选择性缄默症是儿童期的一种精神健康状况，表现为在某些社交场合中无法开口说话。"</data>
+      <data key="d2">chunk-5d577e9bd917758434f95e90f6cca3b8</data>
+    </node>
+    <node id="&quot;焦虑障碍&quot;">
+      <data key="d2">chunk-5d577e9bd917758434f95e90f6cca3b8</data>
+      <data key="d1">"CHMS 为研究和了解中国的焦虑障碍提供数据支持，揭示了该疾病在中国的流行情况及其影响因素。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;ICD-11&quot;">
+      <data key="d2">chunk-5d577e9bd917758434f95e90f6cca3b8</data>
+      <data key="d1">"ICD-11提供了关于焦虑障碍的分类和诊断标准，帮助识别和治疗这种疾病。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;中国精神卫生调查（CHMS）&quot;" target="&quot;焦虑障碍&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"CHMS 为研究和了解中国的焦虑障碍提供数据支持，揭示了该疾病在中国的流行情况及其影响因素。"</data>
+      <data key="d6">chunk-5d577e9bd917758434f95e90f6cca3b8</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;遗传、生物节律、下丘脑-垂体-肾上腺轴（HYPOTHALAMIC-PITUITARY-ADRENAL AXIS，HPA）功能失调、神经递质平衡失调等&quot;" target="&quot;焦虑障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"这些生物学因素被认为是导致焦虑障碍的重要原因。通过研究这些因素可以帮助更好地理解疾病的发生机制，并为治疗提供指导方向。"</data>
+      <data key="d6">chunk-5d577e9bd917758434f95e90f6cca3b8</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;遗传、生物节律、下丘脑-垂体-肾上腺轴（HYPOTHALAMIC-PITUITARY-ADRENAL AXIS，HPA）功能失调、神经递质平衡失调等&quot;" target="&quot;童年经历、性格特点、生活事件等&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"心理因素和生物学因素共同作用于个体，影响其心理健康状况。研究这些相互关系有助于更全面地理解焦虑障碍的成因及其治疗方式。"</data>
+      <data key="d6">chunk-5d577e9bd917758434f95e90f6cca3b8</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;童年经历、性格特点、生活事件等&quot;" target="&quot;社会文化、生活节奏、经济状况等&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"外部环境因素（如社会文化和经济状况）可能通过影响个体的生活经历和心理特质，进而影响其心理健康状态。理解这些关系有助于更全面地认识焦虑障碍的成因及其管理策略。"</data>
+      <data key="d6">chunk-5d577e9bd917758434f95e90f6cca3b8</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DSM-5&quot;" target="&quot;焦虑障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"DSM-5为美国医疗专业人员提供了一套用于诊断焦虑障碍的标准和指导方针。"</data>
+      <data key="d6">chunk-5d577e9bd917758434f95e90f6cca3b8</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;广泛性焦虑障碍&quot;" target="&quot;惊恐障碍&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"这两种障碍都属于焦虑障碍范畴，且患者可能同时患有多种类型的焦虑障碍。"</data>
+      <data key="d6">chunk-5d577e9bd917758434f95e90f6cca3b8</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;场所恐惧症&quot;" target="&quot;社交焦虑障碍&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"这些特定类型焦虑障碍与个体面对不同情境时的恐惧反应有关联。"</data>
+      <data key="d6">chunk-5d577e9bd917758434f95e90f6cca3b8</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;焦虑障碍&quot;" target="&quot;ICD-11&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"ICD-11提供了关于焦虑障碍的分类和诊断标准，帮助识别和治疗这种疾病。"</data>
+      <data key="d6">chunk-5d577e9bd917758434f95e90f6cca3b8</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

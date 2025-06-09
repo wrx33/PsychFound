@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;ICD-9&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-9 is a diagnostic classification system used by healthcare professionals for classifying and coding health conditions and signs and symptoms, which includes the diagnosis of mixed conduct and emotional disorders."</data>
+      <data key="d2">chunk-364a0f18af41630336362c4d5fb65421</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;ICD-10&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-10 is an updated version of ICD that explicitly lists mixed conduct and emotional disorders as separate diagnostic entries."</data>
+      <data key="d2">chunk-364a0f18af41630336362c4d5fb65421</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;ICD-11&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-11 further refines the classification, specifically detailing subcategories for childhood-onset conditions."</data>
+      <data key="d2">chunk-364a0f18af41630336362c4d5fb65421</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;DSM-5&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"DSM-5 is a diagnostic manual used in psychiatric practice that does not include a specific diagnosis for mixed conduct and emotional disorders but describes disruptive mood dysregulation disorder under depressive disorders."</data>
+      <data key="d2">chunk-364a0f18af41630336362c4d5fb65421</data>
+    </node>
+    <node id="&quot;儿童与青少年阶段起病品行障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Refers to the onset of conduct disorder during childhood or adolescence, as detailed in ICD-11."&lt;SEP&gt;"This refers to conduct disorders that start during childhood or adolescence."</data>
+      <data key="d2">chunk-364a0f18af41630336362c4d5fb65421</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;破坏性情绪失调障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Describes a condition characterized by severe recurrent temper outbursts and chronic irritability, similar to mixed conduct and emotional disorders as per DSM-5."</data>
+      <data key="d2">chunk-364a0f18af41630336362c4d5fb65421</data>
+    </node>
+    <node id="&quot;抑郁性品行障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Depressive Conduct Disorder is described as having both childhood conduct disorder and persistent significant depressive mood with symptoms like excessive sadness, loss of interest in activities, self-blame and hopelessness."</data>
+      <data key="d2">chunk-364a0f18af41630336362c4d5fb65421</data>
+    </node>
+    <node id="&quot;其他品行与情绪混合型障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Other mixed conduct and emotional disorders are described as having childhood conduct disorder along with persistent significant emotional symptoms such as fear, anxiety, obsessive-compulsive behaviors, depersonalization or derealization, phobias or hypochondriasis."</data>
+      <data key="d2">chunk-364a0f18af41630336362c4d5fb65421</data>
+    </node>
+    <node id="&quot;注意缺陷多动障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Attention Deficit Hyperactivity Disorder (ADHD) is mentioned as a potential underlying condition to be managed in conjunction with mixed conduct and emotional disorders."</data>
+      <data key="d2">chunk-364a0f18af41630336362c4d5fb65421</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <edge source="&quot;ICD-9&quot;" target="&quot;ICD-10&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"ICD-10 builds upon ICD-9 by clearly listing mixed conduct and emotional disorders as separate diagnostic entries."</data>
+      <data key="d6">chunk-364a0f18af41630336362c4d5fb65421</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ICD-10&quot;" target="&quot;ICD-11&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"ICD-11 further refines the classification system, introducing detailed subcategories for childhood-onset conditions like mixed conduct and emotional disorders."</data>
+      <data key="d6">chunk-364a0f18af41630336362c4d5fb65421</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ICD-10&quot;" target="&quot;儿童与青少年阶段起病品行障碍&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"ICD-10 includes specific diagnoses for conduct disorder onset during childhood or adolescence."</data>
+      <data key="d6">chunk-364a0f18af41630336362c4d5fb65421</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DSM-5&quot;" target="&quot;破坏性情绪失调障碍&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"The DSM-5 includes a diagnosis similar to mixed conduct and emotional disorders under disruptive mood dysregulation disorder."</data>
+      <data key="d6">chunk-364a0f18af41630336362c4d5fb65421</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;儿童与青少年阶段起病品行障碍&quot;" target="&quot;注意缺陷多动障碍&quot;">
+      <data key="d4">12.0</data>
+      <data key="d5">"Children or adolescents with childhood-onset conduct disorder may also have underlying ADHD, which needs to be managed comprehensively."</data>
+      <data key="d6">chunk-364a0f18af41630336362c4d5fb65421</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;抑郁性品行障碍&quot;" target="&quot;其他品行与情绪混合型障碍&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"Both depressive conduct disorder and other mixed conduct and emotional disorders are subcategories of mixed conduct and emotional disorders listed in ICD-10."</data>
+      <data key="d6">chunk-364a0f18af41630336362c4d5fb65421</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;精神分裂症&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"精神分裂症是一种严重的精神疾病，具有多种症状如幻觉、妄想和思维混乱等，影响患者的日常生活和社会功能。&lt;SEP&gt;"精神分裂症是一种严重的精神疾病，具有多种症状如幻觉、妄想和思维混乱等，影响患者的日常生活和社会功能。"</data>
+      <data key="d2">chunk-06e522f1fab6a76790ed96554edafb32</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;分裂型障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"分裂型障碍是一类原发性精神病性障碍，以行为怪异、思维与情感异常为特征，但不满足精神分裂症的诊断标准。其症状类似于精神分裂症，具有慢性病程和波动性。&lt;SEP&gt;"分裂型障碍是一类原发性精神病性障碍，以行为怪异、思维与情感异常为特征，但不满足精神分裂症的诊断标准。其症状类似于精神分裂症，具有慢性病程和波动性。"</data>
+      <data key="d2">chunk-06e522f1fab6a76790ed96554edafb32</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;阿斯伯格（ASPERGER’S）综合征&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"阿斯伯格（Asperger’s）综合征是一种神经发育障碍，主要特征包括社会交往困难及局限而异常的兴趣行为模式，在童年期发病。通常不伴有精神病性症状如猜疑、偏执等。"</data>
+      <data key="d2">chunk-06e522f1fab6a76790ed96554edafb32</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;分裂样人格障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"分裂样人格障碍表现为情感淡漠和人际交往困难，往往在青少年时期显现并长期存在。区别于分裂型障碍的核心特征在于其诊断标准中更强调的是长期的人格模式异常而非急性精神病性症状。"</data>
+      <data key="d2">chunk-06e522f1fab6a76790ed96554edafb32</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;家属&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"家属是分裂型障碍患者通常的照料者，在察觉到患者的异常行为时，会带患者去医院就诊。"</data>
+      <data key="d2">chunk-06e522f1fab6a76790ed96554edafb32</data>
+    </node>
+    <node id="&quot;分裂型障碍患者&quot;">
+      <data key="d2">chunk-06e522f1fab6a76790ed96554edafb32</data>
+      <data key="d1">"家属在察觉到分裂型障碍患者的异常行为时会带其去医院就诊，并提供必要的照顾和支持。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;精神分裂症&quot;" target="&quot;分裂型障碍&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"分裂型障碍与精神分裂症的症状相似但不满足精神分裂症的诊断要求，两者之间存在密切联系且某些病例可能从分裂型障碍发展为精神分裂症。"</data>
+      <data key="d6">chunk-06e522f1fab6a76790ed96554edafb32</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分裂型障碍&quot;" target="&quot;阿斯伯格（ASPERGER’S）综合征&quot;">
+      <data key="d4">12.0</data>
+      <data key="d5">"阿斯伯格（Asperger’s）综合征在早期阶段的某些症状与分裂型障碍相似，但随着年龄增长两者分道扬镳，后者更可能伴有精神病性症状。"</data>
+      <data key="d6">chunk-06e522f1fab6a76790ed96554edafb32</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分裂型障碍&quot;" target="&quot;分裂样人格障碍&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"分裂样人格障碍和分裂型障碍虽然都有情感淡漠、人际交往困难的特点，但在诊断标准及临床表现上有所不同，分裂型障碍强调短暂的精神病性发作而分裂样人格障碍则更关注长期的人格模式异常。"</data>
+      <data key="d6">chunk-06e522f1fab6a76790ed96554edafb32</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;家属&quot;" target="&quot;分裂型障碍患者&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"家属在察觉到分裂型障碍患者的异常行为时会带其去医院就诊，并提供必要的照顾和支持。"</data>
+      <data key="d6">chunk-06e522f1fab6a76790ed96554edafb32</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

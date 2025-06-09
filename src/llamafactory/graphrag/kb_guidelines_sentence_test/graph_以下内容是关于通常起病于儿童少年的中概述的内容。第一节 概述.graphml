@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;美国精神病学协会 (APA)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"美国精神病学协会是发布《精神疾病诊断和统计手册》(DSM) 的组织。"</data>
+      <data key="d2">chunk-fd76edf0273eb874e62a47e288eb767e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;《精神疾病诊断和统计手册》（DSM）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"《精神疾病诊断和统计手册》是一个分类标准，用于精神疾病的诊断，从 1952 年至今已经发布了多个版本。"</data>
+      <data key="d2">chunk-fd76edf0273eb874e62a47e288eb767e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;ICD-10 和 ICD-11&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"ICD-10 和 ICD-11 是国际疾病分类系统的不同版本，为行为与情绪障碍提供诊断标准和分类。"</data>
+      <data key="d2">chunk-fd76edf0273eb874e62a47e288eb767e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;IVAN PAVLOV&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"巴甫洛夫是一位著名的俄国生理学家，以条件反射实验而闻名。他证明了学习是通过条件反射或简单联系实现的。"</data>
+      <data key="d2">chunk-fd76edf0273eb874e62a47e288eb767e</data>
+    </node>
+    <node id="&quot;JOHN B. WATSON&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"华生是行为主义理论的重要人物，认为行为建立在经验基础上，并强调环境对行为的影响。"</data>
+      <data key="d2">chunk-fd76edf0273eb874e62a47e288eb767e</data>
+    </node>
+    <node id="&quot;EDWARD THORNDIKE&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"桑代克提出了效果律，指出导致令人满意结果的行为会受到强化并可能重复出现。"</data>
+      <data key="d2">chunk-fd76edf0273eb874e62a47e288eb767e</data>
+    </node>
+    <node id="&quot;B.F. SKINNER&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"斯金纳认为行为包括言语、思维和动作，并主张所有行为都是可以预测和影响的。"</data>
+      <data key="d2">chunk-fd76edf0273eb874e62a47e288eb767e</data>
+    </node>
+    <node id="&quot;BEHAVIORISM THEORY&quot;">
+      <data key="d2">chunk-fd76edf0273eb874e62a47e288eb767e</data>
+      <data key="d1">"Ivan Pavlov's experiments on classical conditioning contributed to the development of behaviorist theory."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;LAW OF EFFECT&quot;">
+      <data key="d2">chunk-fd76edf0273eb874e62a47e288eb767e</data>
+      <data key="d1">"Edward Thorndike introduced the Law of Effect which explains how behaviors are strengthened or weakened based on consequences."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;OPERANT CONDITIONING&quot;">
+      <data key="d2">chunk-fd76edf0273eb874e62a47e288eb767e</data>
+      <data key="d1">"B.F. Skinner's work on operant conditioning further developed behaviorist theory, focusing on the role of reinforcement in shaping behavior."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;美国精神病学协会 (APA)&quot;" target="&quot;《精神疾病诊断和统计手册》（DSM）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"美国精神病学协会发布了 DSM 系统，并不断对其进行更新和完善。"</data>
+      <data key="d6">chunk-fd76edf0273eb874e62a47e288eb767e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;《精神疾病诊断和统计手册》（DSM）&quot;" target="&quot;ICD-10 和 ICD-11&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"在分类标准上，ICD-10 和 ICD-11 越来越倾向于与 DSM 的一致。"</data>
+      <data key="d6">chunk-fd76edf0273eb874e62a47e288eb767e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;IVAN PAVLOV&quot;" target="&quot;BEHAVIORISM THEORY&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Ivan Pavlov's experiments on classical conditioning contributed to the development of behaviorist theory."</data>
+      <data key="d6">chunk-fd76edf0273eb874e62a47e288eb767e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;JOHN B. WATSON&quot;" target="&quot;BEHAVIORISM THEORY&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"John B. Watson is considered a founder of behaviorism, emphasizing environmental influences on behavior."</data>
+      <data key="d6">chunk-fd76edf0273eb874e62a47e288eb767e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;EDWARD THORNDIKE&quot;" target="&quot;LAW OF EFFECT&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Edward Thorndike introduced the Law of Effect which explains how behaviors are strengthened or weakened based on consequences."</data>
+      <data key="d6">chunk-fd76edf0273eb874e62a47e288eb767e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;B.F. SKINNER&quot;" target="&quot;OPERANT CONDITIONING&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"B.F. Skinner's work on operant conditioning further developed behaviorist theory, focusing on the role of reinforcement in shaping behavior."</data>
+      <data key="d6">chunk-fd76edf0273eb874e62a47e288eb767e</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

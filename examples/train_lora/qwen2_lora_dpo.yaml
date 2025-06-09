@@ -1,0 +1,42 @@
+### model
+model_name_or_path: /data/sjtu/wrx/llamafactory/psychgpt-r1-0313-refine-sft-dpo-task2-knowledge-merge/
+
+### method
+stage: dpo
+do_train: true
+finetuning_type: lora
+lora_target: all
+lora_rank: 256
+pref_beta: 0.1
+pref_loss: orpo  # choices: [sigmoid (dpo), orpo, simpo]
+
+### dataset
+dataset: dpo_refine_knowledge
+template: qwen
+cutoff_len: 5000
+# max_samples: 1000
+overwrite_cache: true
+preprocessing_num_workers: 16
+
+### output
+output_dir: /data/sjtu/wrx/llamafactory/psychgpt-r1-0313-refine-sft-dpo-task2-knowledge-dpo-CMBCME
+logging_steps: 10
+save_steps: 200
+plot_loss: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 8
+learning_rate: 1.0e-5
+num_train_epochs: 10.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: false
+ddp_timeout: 180000000
+
+### eval
+val_size: 0.1
+per_device_eval_batch_size: 1
+eval_strategy: steps
+eval_steps: 100

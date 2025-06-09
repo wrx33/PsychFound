@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;ILAE&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ILAE是国际抗癫痫联盟（International League Against Epilepsy）的缩写，该组织负责癫痫分类的标准制定。"&lt;SEP&gt;"ILAE是国际抗癫痫联盟（International League Against Epilepsy）的缩写，负责制定和更新关于癫痫的分类标准。"</data>
+      <data key="d2">chunk-8d926b93e39ba22b74329c016be68187</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;癫痫&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"癫痫是一种由多种病因引起的慢性脑部疾病，以反复性、发作性和短暂性的中枢神经系统功能失常为特征。"</data>
+      <data key="d2">chunk-8d926b93e39ba22b74329c016be68187</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;精神行为障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"精神行为障碍是指在癫痫患者中出现的精神和行为上的异常表现，包括抑郁障碍和其他共病情况。"</data>
+      <data key="d2">chunk-8d926b93e39ba22b74329c016be68187</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;神经科医生&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"神经科医生负责治疗和管理癫痫患者，并且处理相关的脑部问题。"</data>
+      <data key="d2">chunk-8d926b93e39ba22b74329c016be68187</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;儿童&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"儿童是癫痫高发人群之一，尤其是特发性和先天性因素可能导致癫痫。"</data>
+      <data key="d2">chunk-8d926b93e39ba22b74329c016be68187</data>
+    </node>
+    <node id="&quot;青少年&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"青少年期也是癫痫的高发阶段，常见病因包括中枢神经系统感染和脑发育异常等。"</data>
+      <data key="d2">chunk-8d926b93e39ba22b74329c016be68187</data>
+    </node>
+    <node id="&quot;成人&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"成年人中，癫痫常见的病因有海马硬化、头颅外伤、脑肿瘤和中枢神经系统感染性疾病等。"</data>
+      <data key="d2">chunk-8d926b93e39ba22b74329c016be68187</data>
+    </node>
+    <node id="&quot;老年人&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"随着老龄化进程，老年人群中的癫痫发病率因脑血管病、痴呆等因素上升。"</data>
+      <data key="d2">chunk-8d926b93e39ba22b74329c016be68187</data>
+    </node>
+    <node id="&quot;新生儿及婴儿&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"新生儿及婴儿期的常见病因包括先天因素和遗传代谢性原因等。"</data>
+      <data key="d2">chunk-8d926b93e39ba22b74329c016be68187</data>
+    </node>
+    <node id="&quot;精神疾病共患病&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"约20%～40%的癫痫患者会同时患有抑郁障碍、焦虑障碍等其他精神疾病。"</data>
+      <data key="d2">chunk-8d926b93e39ba22b74329c016be68187</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;抗癫痫药物治疗&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"抗癫痫药可能导致精神活动异常，如认知损害和情感症状。"</data>
+      <data key="d2">chunk-8d926b93e39ba22b74329c016be68187</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;神经心理学家&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"神经心理学家在评估患者的精神状态和认知功能方面起着关键作用。"</data>
+      <data key="d2">chunk-8d926b93e39ba22b74329c016be68187</data>
+    </node>
+    <node id="&quot;护理人员&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"护理人员负责患者的日常照料，并协助医生进行治疗管理。"</data>
+      <data key="d2">chunk-8d926b93e39ba22b74329c016be68187</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;社会工作者&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"社会工作者帮助癫痫患者解决心理健康和社会适应问题，提高生活质量。"</data>
+      <data key="d2">chunk-8d926b93e39ba22b74329c016be68187</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <edge source="&quot;ILAE&quot;" target="&quot;癫痫&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"ILAE负责制定和更新关于癫痫的分类标准，对于诊断和治疗具有重要影响。"</data>
+      <data key="d6">chunk-8d926b93e39ba22b74329c016be68187</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;癫痫&quot;" target="&quot;精神行为障碍&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"精神行为障碍是由癫痫发作及其相关因素引起的症状表现，是癫痫的一个重要组成部分。"</data>
+      <data key="d6">chunk-8d926b93e39ba22b74329c016be68187</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;癫痫&quot;" target="&quot;神经科医生&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"神经科医生对癫痫的诊断和治疗方法有着专业的指导作用。"</data>
+      <data key="d6">chunk-8d926b93e39ba22b74329c016be68187</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;癫痫&quot;" target="&quot;精神疾病共患病&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"精神疾病共患病增加了癫痫诊疗难度，影响患者生活质量。"</data>
+      <data key="d6">chunk-8d926b93e39ba22b74329c016be68187</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;癫痫&quot;" target="&quot;抗癫痫药物治疗&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"抗癫痫药的使用是管理癫痫的重要手段之一。"</data>
+      <data key="d6">chunk-8d926b93e39ba22b74329c016be68187</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;癫痫&quot;" target="&quot;护理人员&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"护理人员协助医生进行患者的日常照料和病情监测工作。"</data>
+      <data key="d6">chunk-8d926b93e39ba22b74329c016be68187</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;精神行为障碍&quot;" target="&quot;社会工作者&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"社会工作者帮助患者解决与疾病相关的心理和社会问题。"</data>
+      <data key="d6">chunk-8d926b93e39ba22b74329c016be68187</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;INSOMNIA DISORDERS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Insomnia Disorders refers to a condition where individuals experience dissatisfaction with the quantity or quality of sleep, despite having adequate opportunities and environments for sleep, leading to daytime dysfunction."</data>
+      <data key="d2">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;3P HYPOTHESIS (SPIELMAN HYPOTHESIS)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The 3P Hypothesis, also known as Spielman's Hypothesis, is a cognitive-behavioral explanation of the progression from normal sleep to chronic insomnia. It includes predisposing factors, precipitating factors, and perpetuating factors."</data>
+      <data key="d2">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;STIMULUS CONTROL HYPOTHESIS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The Stimulus Control Hypothesis suggests that if quiet and dark environments promote sleep while using mobile phones or worrying inhibits it, an imbalance between these can lead to insomnia. The treatment involves separating inhibiting stimuli from sleep and re-establishing promoting stimuli."</data>
+      <data key="d2">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;COGNITIVE HYPOTHESIS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The Cognitive Hypothesis proposes that chronic insomniacs often have maladaptive cognitive patterns related to sleep, such as excessive worry about sleep issues and intrusive negative thoughts."</data>
+      <data key="d2">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;ICSD-3 (INTERNATIONAL CLASSIFICATION OF SLEEP DISORDERS, THIRD EDITION)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"ICSD-3 is a guideline used for the diagnosis of insomnia disorders which requires symptoms such as difficulty falling or staying asleep or waking too early to be present along with daytime fatigue and reduced functioning."</data>
+      <data key="d2">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;COGNITIVE BEHAVIORAL THERAPY FOR INSOMNIA (CBT-I)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"CBT-I is a first-line treatment method targeting maladaptive behaviors and beliefs that maintain insomnia. It includes sleep restriction, stimulus control, cognitive therapy, relaxation training, and sleep hygiene education."</data>
+      <data key="d2">chunk-f48a90fb1085f41af72c14fc351add62</data>
+    </node>
+    <node id="&quot;APOΕ4&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Apoε4 is a candidate gene associated with an increased risk of developing insomnia disorders."</data>
+      <data key="d2">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;PER3&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"PER3 is a candidate gene that has been implicated in the development of insomnia disorders."</data>
+      <data key="d2">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;HLADQB1*0602&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"HLADQB1*0602 is a genetic marker associated with an increased risk for developing insomnia, as part of candidate gene studies."</data>
+      <data key="d2">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;5HTTLPR&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"5HTTLPR is a polymorphism in the serotonin transporter gene that has been linked to an elevated risk of experiencing insomnia disorders."</data>
+      <data key="d2">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;SLEEP DIARY&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"A Sleep Diary is a subjective assessment tool used to track sleep patterns and quality over time, often recorded for two weeks continuously."</data>
+      <data key="d2">chunk-f48a90fb1085f41af72c14fc351add62</data>
+    </node>
+    <node id="&quot;POLYSOMNOGRAPHY (PSG)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Polysomnography is an objective test used to evaluate the structure of sleep and diagnose various sleep disorders by monitoring physiological parameters during sleep."</data>
+      <data key="d2">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;ACTIGRAPHY&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Actigraphy involves the use of wearable devices that record movement over time, providing information on sleep-wake cycles and circadian rhythms."</data>
+      <data key="d2">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;CHRONIC INSOMNIA DISORDER&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Chronic insomnia disorder is a persistent condition characterized by difficulty falling or staying asleep, lasting for at least three months with significant daytime impairment."</data>
+      <data key="d2">chunk-f48a90fb1085f41af72c14fc351add62</data>
+    </node>
+    <node id="&quot;SHORT-TERM INSOMNIA DISORDER&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Short-term insomnia disorder involves sleep difficulties that last less than three months and may be triggered by specific stressors."</data>
+      <data key="d2">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;INSOMNIA DUE TO ANOTHER MEDICAL CONDITION&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"This condition occurs when insomnia symptoms are secondary to a medical or psychiatric illness, resolving once the underlying issue is treated."</data>
+      <data key="d2">chunk-f48a90fb1085f41af72c14fc351add62</data>
+    </node>
+    <node id="&quot;CBT-I (COGNITIVE BEHAVIORAL THERAPY FOR INSOMNIA)&quot;">
+      <data key="d2">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d1">"CBT-I is a preferred treatment approach for managing symptoms and improving quality of life in individuals suffering from chronic insomnia disorder."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;CHRONIC ILLNESSES AND MENTAL HEALTH CONDITIONS&quot;">
+      <data key="d2">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d1">"This condition highlights the bidirectional relationship between sleep disorders and various health conditions, where treating the underlying illness can alleviate insomnia symptoms."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;INSOMNIA DISORDERS&quot;" target="&quot;3P HYPOTHESIS (SPIELMAN HYPOTHESIS)&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The 3P Hypothesis explains the progression to chronic insomnia, which is an important aspect in understanding and treating Insomnia Disorders."</data>
+      <data key="d6">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;INSOMNIA DISORDERS&quot;" target="&quot;STIMULUS CONTROL HYPOTHESIS&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"The Stimulus Control Hypothesis provides a framework for understanding how environmental factors contribute to or alleviate symptoms of Insomnia Disorders."</data>
+      <data key="d6">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;INSOMNIA DISORDERS&quot;" target="&quot;COGNITIVE HYPOTHESIS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The Cognitive Hypothesis outlines the maladaptive cognitive processes that underlie and maintain insomnia, providing a basis for therapeutic intervention in treating Insomnia Disorders."</data>
+      <data key="d6">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;INSOMNIA DISORDERS&quot;" target="&quot;ICSD-3 (INTERNATIONAL CLASSIFICATION OF SLEEP DISORDERS, THIRD EDITION)&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"ICSD-1 defines diagnostic criteria for various sleep disorders including Insomnia Disorders, guiding clinical assessment and diagnosis."</data>
+      <data key="d6">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;INSOMNIA DISORDERS&quot;" target="&quot;APOΕ4&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"The Apoε4 gene variant has been identified as one of several genetic factors potentially contributing to an increased risk for developing insomnia disorders."</data>
+      <data key="d6">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;INSOMNIA DISORDERS&quot;" target="&quot;PER3&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"PER3 is a candidate gene that plays a role in the regulation of circadian rhythms and sleep-wake cycles, with polymorphisms being linked to insomnia susceptibility."</data>
+      <data key="d6">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;INSOMNIA DISORDERS&quot;" target="&quot;HLADQB1*0602&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Genetic studies have identified HLADQB1*0602 as a genetic marker associated with an elevated risk of experiencing sleep disturbances, particularly in the context of stress-related insomnia."</data>
+      <data key="d6">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;INSOMNIA DISORDERS&quot;" target="&quot;5HTTLPR&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Polymorphisms at the 5HTTLPR locus have been implicated in affecting serotonin regulation and may contribute to vulnerability towards developing insomnia disorders."</data>
+      <data key="d6">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;INSOMNIA DISORDERS&quot;" target="&quot;POLYSOMNOGRAPHY (PSG)&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"PSG is used as an objective method to diagnose and evaluate the severity of insomnia disorders by measuring physiological parameters during nighttime rest."</data>
+      <data key="d6">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;INSOMNIA DISORDERS&quot;" target="&quot;SHORT-TERM INSOMNIA DISORDER&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Short-term insomnia disorder can be considered an initial phase or precursor to more prolonged sleep difficulties if left untreated or mismanaged."</data>
+      <data key="d6">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;SLEEP DIARY&quot;" target="&quot;CHRONIC INSOMNIA DISORDER&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The Sleep Diary is a valuable tool for patients with chronic insomnia, helping them track their sleep patterns over time and assess the effectiveness of interventions."</data>
+      <data key="d6">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ACTIGRAPHY&quot;" target="&quot;SHORT-TERM INSOMNIA DISORDER&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Actigraphy can help differentiate short-term from chronic forms of insomnia through continuous monitoring of movement patterns indicative of sleep-wake cycles."</data>
+      <data key="d6">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;CHRONIC INSOMNIA DISORDER&quot;" target="&quot;CBT-I (COGNITIVE BEHAVIORAL THERAPY FOR INSOMNIA)&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"CBT-I is a preferred treatment approach for managing symptoms and improving quality of life in individuals suffering from chronic insomnia disorder."</data>
+      <data key="d6">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;INSOMNIA DUE TO ANOTHER MEDICAL CONDITION&quot;" target="&quot;CHRONIC ILLNESSES AND MENTAL HEALTH CONDITIONS&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"This condition highlights the bidirectional relationship between sleep disorders and various health conditions, where treating the underlying illness can alleviate insomnia symptoms."</data>
+      <data key="d6">chunk-f48a90fb1085f41af72c14fc351add62</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;ICSD-3&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICSD-3 is a diagnostic standard for sleep disorders, providing criteria for diagnosing conditions like sleepwalking."</data>
+      <data key="d2">chunk-018e34a7a7b2889c960f85874cbf6d1d</data>
+    </node>
+    <node id="&quot;NREM 睡眠 3 期&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"NREM 睡眠 1、2 和 3 期（深度睡眠）是睡眠周期的一部分，睡行症常发生在 NREM 睡眠的第三阶段。"</data>
+      <data key="d2">chunk-018e34a7a7b2889c960f85874cbf6d1d</data>
+    </node>
+    <node id="&quot;PSG&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"PSG 是一种多导睡眠图记录技术，用于评估和诊断各种睡眠障碍，包括睡行症。它能检测到睡行症在深度非快速眼动（NREM）睡眠期间发生的行为特征。</data>
+      <data key="d2">chunk-018e34a7a7b2889c960f85874cbf6d1d</data>
+    </node>
+    <node id="&quot;睡行症&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"睡行症是一种睡眠障碍，其特征是在深度非快速眼动（NREM）睡眠期间突然出现行走和复杂行为。"</data>
+      <data key="d2">chunk-018e34a7a7b2889c960f85874cbf6d1d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;夜惊症&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"夜惊症是另一种觉醒障碍，通常表现为从睡眠中突然醒来伴有尖叫或哭喊，常伴随恐惧情绪及生理反应如心跳加速。"</data>
+      <data key="d2">chunk-018e34a7a7b2889c960f85874cbf6d1d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;遗尿症&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"遗尿症是指夜间不自主排尿现象，在儿童时期较为常见。文中提到睡行症患者可能伴发遗尿症。"</data>
+      <data key="d2">chunk-018e34a7a7b2889c960f85874cbf6d1d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;精神运动性癫痫发作&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"这是一种神经系统的疾病，其特征是在睡眠期间发生，并且个体对环境刺激完全无反应，常伴有持续的动作如吞咽、搓手等。脑电图中有癫痫性放电可证实此诊断。"</data>
+      <data key="d2">chunk-018e34a7a7b2889c960f85874cbf6d1d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;分离性漫游&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"分离性漫游是分离性障碍的一部分，在发作时表现为长时间的复杂行为且患者警觉程度较高，但通常在儿童中罕见。"</data>
+      <data key="d2">chunk-018e34a7a7b2889c960f85874cbf6d1d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;快速眼动睡眠期行为障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"这是一种发生在REM睡眠期间的行为紊乱，特征为肌张力失弛缓和暴力梦境扮演行为。与睡行症不同的是其发作时间及表现形式有显著差异。"</data>
+      <data key="d2">chunk-018e34a7a7b2889c960f85874cbf6d1d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;ICSD-3&quot;" target="&quot;NREM 睡眠 3 期&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"ICSD-3 标准用于诊断发生在 NREM 睡眠第三阶段的睡行症发作。"</data>
+      <data key="d6">chunk-018e34a7a7b2889c960f85874cbf6d1d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;NREM 睡眠 3 期&quot;" target="&quot;PSG&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"多导睡眠图技术 PSG 可以检测到在深度非快速眼动（NREM）睡眠期间发生的睡行症行为特征，特别是在 NREM 第三阶段。"</data>
+      <data key="d6">chunk-018e34a7a7b2889c960f85874cbf6d1d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;睡行症&quot;" target="&quot;夜惊症&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"两者都是觉醒障碍，在临床及病因上相似，并且可能在儿童期后仍持续存在，特别是当它们首发于成年期时，很可能是心理障碍的标志。"</data>
+      <data key="d6">chunk-018e34a7a7b2889c960f85874cbf6d1d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;睡行症&quot;" target="&quot;遗尿症&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"文中提到睡行症患者有时会伴有夜惊症和遗尿症，这些症状通常在儿童中较为常见。"</data>
+      <data key="d6">chunk-018e34a7a7b2889c960f85874cbf6d1d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;睡行症&quot;" target="&quot;精神运动性癫痫发作&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"虽然两者都可能发生在睡眠期间，但精神运动性癫痫发作时个体对环境完全无反应且常有持续动作如吞咽、搓手等行为特征与睡行症不同。"</data>
+      <data key="d6">chunk-018e34a7a7b2889c960f85874cbf6d1d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;睡行症&quot;" target="&quot;分离性漫游&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"虽然两者都涉及复杂的夜间活动，但分离性障碍通常在清醒状态下开始并且患者警觉程度较高，在儿童中罕见，而睡行症则发生在睡眠中的深度非快速眼动期。"</data>
+      <data key="d6">chunk-018e34a7a7b2889c960f85874cbf6d1d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;睡行症&quot;" target="&quot;快速眼动睡眠期行为障碍&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"两者都是觉醒障碍但发作时间不同，前者主要在REM睡眠期间表现出暴力行为，后者发生于NREM睡眠期间且较少有暴力行为。"</data>
+      <data key="d6">chunk-018e34a7a7b2889c960f85874cbf6d1d</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

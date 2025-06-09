@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;ICD-10&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-10 is a diagnostic classification system for mental and behavioral disorders, used here to describe the criteria for diagnosing personality disorders."</data>
+      <data key="d2">chunk-989e182fc199c195dafa8a196c02652a</data>
+    </node>
+    <node id="&quot;DSM-5&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"DSM-5 is a manual by the American Psychiatric Association that provides diagnostic criteria for mental disorders including personality disorders."</data>
+      <data key="d2">chunk-989e182fc199c195dafa8a196c02652a</data>
+    </node>
+    <node id="&quot;人格障碍患病率调查结果因评定方法和调查地区的不同而有很大的差异&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"This event refers to studies and surveys that investigate the prevalence rates of personality disorders, which vary based on different assessment methods and regions."</data>
+      <data key="d2">chunk-989e182fc199c195dafa8a196c02652a</data>
+    </node>
+    <node id="&quot;人格障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Personality disorder is described as persistent patterns of thoughts and behaviors that deviate significantly from cultural expectations and cause distress or impairment in functioning."</data>
+      <data key="d2">chunk-989e182fc199c195dafa8a196c02652a</data>
+    </node>
+    <node id="&quot;童年期或青少年期&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"This event refers to the developmental periods during which personality disorders typically begin, often lasting into adulthood."</data>
+      <data key="d2">chunk-989e182fc199c195dafa8a196c02652a</data>
+    </node>
+    <node id="&quot;生物-社会-心理学模型&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"A theoretical framework proposing that personality disorders result from interactions between genetic and environmental factors."</data>
+      <data key="d2">chunk-989e182fc199c195dafa8a196c02652a</data>
+    </node>
+    <node id="&quot;遗传因素&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Genetic influences play a significant role in the development of personality disorders, as indicated by studies on family history and genetic predispositions."</data>
+      <data key="d2">chunk-989e182fc199c195dafa8a196c02652a</data>
+    </node>
+    <node id="&quot;脑神经发育因素&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Neurodevelopmental aspects may contribute to personality disorders, including structural brain changes and neurotransmitter imbalances."</data>
+      <data key="d2">chunk-989e182fc199c195dafa8a196c02652a</data>
+    </node>
+    <node id="&quot;心理社会因素&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Psychosocial factors such as family environment and cultural adaptation play a role in the development of personality disorders."</data>
+      <data key="d2">chunk-989e182fc199c195dafa8a196c02652a</data>
+    </node>
+    <node id="&quot;偏执型人格障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A specific type of personality disorder characterized by suspiciousness, paranoia, and difficulty trusting others."&lt;SEP&gt;"A type of personality disorder characterized by suspiciousness and a pervasive tendency to interpret the actions of others as threatening."</data>
+      <data key="d2">chunk-989e182fc199c195dafa8a196c02652a&lt;SEP&gt;chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;分裂型人格障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A type of personality disorder involving eccentric behavior, odd beliefs or perceptions, and social withdrawal."&lt;SEP&gt;"A type of personality disorder with features similar to schizophrenia, involving disturbances in thinking, emotion, and behavior."</data>
+      <data key="d2">chunk-989e182fc199c195dafa8a196c02652a&lt;SEP&gt;chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;反社会型人格障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A personality disorder marked by a disregard for the rights of others, deceitfulness, irritability, and impulsivity."&lt;SEP&gt;"A pervasive pattern of disregard for, and violation of, the rights of others."</data>
+      <data key="d2">chunk-989e182fc199c195dafa8a196c02652a&lt;SEP&gt;chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;边缘型人格障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A severe form of personality disorder characterized by emotional instability, identity disturbance, and impulsive behavior."&lt;SEP&gt;"A type of personality disorder characterized by instability in interpersonal relationships, self-image, and affects."</data>
+      <data key="d2">chunk-989e182fc199c195dafa8a196c02652a&lt;SEP&gt;chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;表演型人格障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A type of personality disorder where individuals seek attention, have a strong need to be admired, and may appear theatrical or dramatic."</data>
+      <data key="d2">chunk-989e182fc199c195dafa8a196c02652a</data>
+    </node>
+    <node id="&quot;强迫型人格障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"An obsessive-compulsive personality disorder characterized by excessive perfectionism, control issues, and indecisiveness."</data>
+      <data key="d2">chunk-989e182fc199c195dafa8a196c02652a</data>
+    </node>
+    <node id="&quot;回避型人格障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A type of personality disorder marked by social inhibition, feelings of inadequacy, and sensitivity to rejection."</data>
+      <data key="d2">chunk-989e182fc199c195dafa8a196c02652a</data>
+    </node>
+    <node id="&quot;依赖型人格障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A personality disorder characterized by a pervasive need to be taken care of, submissive behavior, and fear of abandonment."</data>
+      <data key="d2">chunk-989e182fc199c195dafa8a196c02652a</data>
+    </node>
+    <node id="&quot;其他特异人格障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Includes other specified or unspecified personality disorders that do not fit into the above categories but still cause significant distress or impairment."</data>
+      <data key="d2">chunk-989e182fc199c195dafa8a196c02652a</data>
+    </node>
+    <node id="&quot;自恋型人格障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A pattern of grandiosity, need for admiration, lack of empathy, and a sense of entitlement. "&lt;SEP&gt;"A personality disorder characterized by a grandiose sense of self-importance, need for admiration, and lack of empathy towards others."</data>
+      <data key="d2">chunk-989e182fc199c195dafa8a196c02652a&lt;SEP&gt;chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+    </node>
+    <node id="&quot;非特指的人格障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Personality disorders that do not fit into the above categories but still cause significant distress or impairment."</data>
+      <data key="d2">chunk-989e182fc199c195dafa8a196c02652a</data>
+    </node>
+    <node id="&quot;混合型和其他人格障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Includes personality disorders with mixed features or atypical presentations, causing significant distress or impairment."</data>
+      <data key="d2">chunk-989e182fc199c195dafa8a196c02652a</data>
+    </node>
+    <node id="&quot;药物治疗&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Medical treatment involving the use of medication to manage symptoms associated with personality disorders."</data>
+      <data key="d2">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;心理治疗&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Therapeutic approach focusing on helping patients understand their problems and encouraging them to change maladaptive behaviors."</data>
+      <data key="d2">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;精神分析治疗&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A traditional method of treating personality disorders using psychoanalytic techniques, particularly focusing on self-psychology for narcissistic personality disorder and object relations theory for borderline personality disorder."</data>
+      <data key="d2">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+    </node>
+    <node id="&quot;认知行为治疗（CBT）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A form of therapy targeting the cognitive and behavioral aspects of personality disorders such as dependent or obsessive-compulsive personality disorders."</data>
+      <data key="d2">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+    </node>
+    <node id="&quot;辩证行为治疗（DBT）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A therapeutic method developed for borderline personality disorder that focuses on training emotional management skills to reduce self-harm behaviors."</data>
+      <data key="d2">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;支持治疗&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A treatment approach involving listening and empathy, aiming to help patients feel relaxed, safe, and accepted while supporting their potential self-regulation abilities."</data>
+      <data key="d2">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+    </node>
+    <node id="&quot;阿立哌唑&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Aripiprazole is an antipsychotic drug used to alleviate psychotic symptoms and depression."</data>
+      <data key="d2">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;利培酮&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Risperidone is another antipsychotic medication often prescribed for the treatment of schizophrenia-like symptoms in personality disorders."</data>
+      <data key="d2">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;奥氮平&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Olanzapine, an atypical antipsychotic drug used to manage psychotic and depressive symptoms associated with certain personality disorders."</data>
+      <data key="d2">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;氟伏沙明&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Fluvoxamine is an antidepressant medication that can help improve symptoms of depression in patients with borderline or other personality disorders."</data>
+      <data key="d2">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;氟西汀&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Fluoxetine, a selective serotonin reuptake inhibitor (SSRI) used to treat depressive and anxiety symptoms associated with certain personality disorders."</data>
+      <data key="d2">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;舍曲林&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Sertraline is an antidepressant medication prescribed for depression and other mood disturbances in patients with personality disorders."</data>
+      <data key="d2">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;氯硝西泮&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Clonazepam, a benzodiazepine used to manage anxiety, agitation, and sleep issues related to certain personality disorders."</data>
+      <data key="d2">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;劳拉西泮&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Lorazepam is another benzodiazepine medication prescribed for symptoms such as anxiety, insomnia, and acute agitation in patients with personality disorders."</data>
+      <data key="d2">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;ICD-10&quot;" target="&quot;DSM-5&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"Both ICD-10 and DSM-5 are used for diagnosing personality disorders, with some differences in their descriptions and criteria."</data>
+      <data key="d6">chunk-989e182fc199c195dafa8a196c02652a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ICD-10&quot;" target="&quot;人格障碍患病率调查结果因评定方法和调查地区的不同而有很大的差异&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"The survey results of the prevalence rates of personality disorders may use ICD-10 for diagnosis, impacting the interpretation of findings."</data>
+      <data key="d6">chunk-989e182fc199c195dafa8a196c02652a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DSM-5&quot;" target="&quot;人格障碍患病率调查结果因评定方法和调查地区的不同而有很大的差异&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"Similarly, the DSM-5 can influence the results due to its diagnostic criteria and assessment methods used in prevalence studies."</data>
+      <data key="d6">chunk-989e182fc199c195dafa8a196c02652a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;生物-社会-心理学模型&quot;" target="&quot;遗传因素&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"The biological-social-psychological model incorporates genetic factors as a key component in understanding personality disorders."</data>
+      <data key="d6">chunk-989e182fc199c195dafa8a196c02652a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;生物-社会-心理学模型&quot;" target="&quot;心理社会因素&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"The biological-social-psychological model includes psychosocial factors such as family environment in explaining personality disorders."</data>
+      <data key="d6">chunk-989e182fc199c195dafa8a196c02652a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;遗传因素&quot;" target="&quot;脑神经发育因素&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"Neurodevelopmental aspects and genetic predispositions may interact to influence the development of personality disorders."</data>
+      <data key="d6">chunk-989e182fc199c195dafa8a196c02652a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;偏执型人格障碍&quot;" target="&quot;分裂型人格障碍&quot;">
+      <data key="d4">4.0</data>
+      <data key="d5">"Both types of personality disorders may exhibit signs of suspiciousness and social withdrawal, but differ in specific behavioral patterns."</data>
+      <data key="d6">chunk-989e182fc199c195dafa8a196c02652a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;偏执型人格障碍&quot;" target="&quot;药物治疗&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Patients with paranoid personality disorder may receive drug treatments to manage symptoms such as paranoia or depression."</data>
+      <data key="d6">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分裂型人格障碍&quot;" target="&quot;心理治疗&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Split-type personality disorders are often treated through psychological therapies rather than solely relying on medication, focusing on understanding the roots of their issues and promoting personal growth."</data>
+      <data key="d6">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分裂型人格障碍&quot;" target="&quot;阿立哌唑&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Aripiprazole may be used to manage psychotic or depressive symptoms associated with schizotypal or other personality disorders that resemble schizophrenia."</data>
+      <data key="d6">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分裂型人格障碍&quot;" target="&quot;利培酮&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Risperidone is typically prescribed for the treatment of psychosis in patients suffering from personality disorders similar to schizophrenia."</data>
+      <data key="d6">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分裂型人格障碍&quot;" target="&quot;奥氮平&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Olanzapine may be used when managing symptoms akin to those found in schizophrenia in certain personality disorder cases."</data>
+      <data key="d6">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;反社会型人格障碍&quot;" target="&quot;边缘型人格障碍&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"These two severe forms of personality disorder share some characteristics such as impulsivity and disregard for the rights of others."</data>
+      <data key="d6">chunk-989e182fc199c195dafa8a196c02652a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;反社会型人格障碍&quot;" target="&quot;药物治疗&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"Patients with antisocial personality disorders may receive drug treatments when experiencing transient psychotic symptoms or extreme stress, but long-term use is generally not recommended unless necessary."</data>
+      <data key="d6">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;反社会型人格障碍&quot;" target="&quot;氯硝西泮&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"Clonazepam may help manage symptoms of anxiety and agitation in patients diagnosed with antisocial personality disorder."</data>
+      <data key="d6">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;反社会型人格障碍&quot;" target="&quot;劳拉西泮&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Lorazepam is used to alleviate acute stress, insomnia, or irritability in individuals suffering from antisocial personality traits."</data>
+      <data key="d6">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;边缘型人格障碍&quot;" target="&quot;辩证行为治疗（DBT）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"DBT is specifically developed for borderline personality disorder to train emotional management skills and improve patients' self-control abilities."</data>
+      <data key="d6">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;边缘型人格障碍&quot;" target="&quot;氟伏沙明&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Fluvoxamine can help manage depression and related mood disturbances in patients with borderline personality disorder."</data>
+      <data key="d6">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;边缘型人格障碍&quot;" target="&quot;氟西汀&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Fluoxetine is often prescribed to address depressive symptoms commonly seen in individuals with borderline personality disorder."</data>
+      <data key="d6">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;边缘型人格障碍&quot;" target="&quot;舍曲林&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Sertraline can be used to treat depression and other mood disorders associated with borderline or related personality conditions."</data>
+      <data key="d6">chunk-ef18a4572d9a0dc1110684c4f12573ea</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;表演型人格障碍&quot;" target="&quot;依赖型人格障碍&quot;">
+      <data key="d4">4.0</data>
+      <data key="d5">"Both types involve a reliance on external validation, but differ in how they seek it (through attention-seeking or needing care)."</data>
+      <data key="d6">chunk-989e182fc199c195dafa8a196c02652a</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

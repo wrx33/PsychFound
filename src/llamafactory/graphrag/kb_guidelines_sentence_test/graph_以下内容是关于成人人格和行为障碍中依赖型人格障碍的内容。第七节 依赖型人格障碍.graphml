@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;ICD-10&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-10 is an international classification system used for diagnosing and classifying diseases, including mental disorders."</data>
+      <data key="d2">chunk-56e002fd45f7cd8373ac16d49d1de224</data>
+    </node>
+    <node id="&quot;DSM-IV&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"DSM-IV (Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition) is a handbook published by the American Psychiatric Association that includes criteria for the diagnosis of psychiatric conditions."</data>
+      <data key="d2">chunk-56e002fd45f7cd8373ac16d49d1de224</data>
+    </node>
+    <node id="&quot;依赖型人格障碍患者&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"依赖型人格障碍患者表现为对他人的过度依赖，行为上过分顺从和依附，感到害怕被拒绝和抛弃。"</data>
+      <data key="d2">chunk-56e002fd45f7cd8373ac16d49d1de224</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;边缘型人格障碍患者&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"边缘型人格障碍患者有对被抛弃的恐惧，并用空虚感、愤怒感以及主动诉求来对抗这种恐惧。"</data>
+      <data key="d2">chunk-56e002fd45f7cd8373ac16d49d1de224</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;回避型人格障碍患者&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"回避型人格障碍患者极度担心羞辱与拒绝，而在依赖型人格障碍中，患者不会从关系中回避或退缩，反而寻求维持良好关系。"</data>
+      <data key="d2">chunk-56e002fd45f7cd8373ac16d49d1de224</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;依赖型人格障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"依赖型人格障碍是一种以对他人的过度依赖为主要特征的人格障碍，表现为过分顺从、依附和对被拒绝或抛弃的恐惧。"</data>
+      <data key="d2">chunk-56e002fd45f7cd8373ac16d49d1de224</data>
+    </node>
+    <node id="&quot;社交焦虑&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"社交焦虑是依赖型人格障碍患者的一种常见症状，表现为在社交场合感到害怕和不安。"</data>
+      <data key="d2">chunk-56e002fd45f7cd8373ac16d49d1de224</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;文化因素&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"评估依赖型人格障碍时需要考虑患者的年龄及文化背景，以确保诊断的准确性。"</data>
+      <data key="d2">chunk-56e002fd45f7cd8373ac16d49d1de224</data>
+    </node>
+    <node id="&quot;诊断标准&quot;">
+      <data key="d2">chunk-56e002fd45f7cd8373ac16d49d1de224</data>
+      <data key="d1">"在评估和诊断时，必须结合年龄与文化背景，确保正确判断是否符合依赖型人格障碍的标准。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;ICD-10&quot;" target="&quot;DSM-IV&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"ICD-10和DSM-IV都是用于精神疾病诊断的标准系统，在诊断依赖型人格障碍时，二者可能会得出不同的患病率结果。"</data>
+      <data key="d6">chunk-56e002fd45f7cd8373ac16d49d1de224</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ICD-10&quot;" target="&quot;依赖型人格障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"ICD-10提供用于诊断依赖型人格障碍的标准和项目。"</data>
+      <data key="d6">chunk-56e002fd45f7cd8373ac16d49d1de224</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DSM-IV&quot;" target="&quot;依赖型人格障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"DSM-IV提供了另一种标准来诊断依赖型人格障碍，有时会与ICD-10得出不同的患病率结果。"</data>
+      <data key="d6">chunk-56e002fd45f7cd8373ac16d49d1de224</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;依赖型人格障碍患者&quot;" target="&quot;边缘型人格障碍患者&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"两者都表现出对被抛弃的恐惧，但处理方式不同：依赖型人格障碍采用增加忍耐和顺从行为的方式，而边缘型人格障碍则用空虚感、愤怒及主动诉求来对抗这种恐惧。"</data>
+      <data key="d6">chunk-56e002fd45f7cd8373ac16d49d1de224</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;依赖型人格障碍患者&quot;" target="&quot;回避型人格障碍患者&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"两者都表现出对羞辱与拒绝的担心，但不同的是依赖型人格障碍患者寻求维持良好关系，而回避型人格障碍患者则会从关系中回避或退缩。"</data>
+      <data key="d6">chunk-56e002fd45f7cd8373ac16d49d1de224</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;依赖型人格障碍患者&quot;" target="&quot;社交焦虑&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"社交焦虑是依赖型人格障碍患者的典型症状之一，影响其日常社会交往活动。"</data>
+      <data key="d6">chunk-56e002fd45f7cd8373ac16d49d1de224</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;文化因素&quot;" target="&quot;诊断标准&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"在评估和诊断时，必须结合年龄与文化背景，确保正确判断是否符合依赖型人格障碍的标准。"</data>
+      <data key="d6">chunk-56e002fd45f7cd8373ac16d49d1de224</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

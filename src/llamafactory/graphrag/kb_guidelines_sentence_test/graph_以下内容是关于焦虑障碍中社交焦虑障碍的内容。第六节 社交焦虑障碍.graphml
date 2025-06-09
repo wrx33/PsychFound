@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;社交焦虑障碍（SAD）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"指在一种或多种社交或公共场合中表现出与环境实际威胁不相称的强烈恐惧和（或）焦虑及回避行为。"&lt;SEP&gt;"社交焦虑障碍是指在一种或多种社交或公共场合中表现出与环境实际威胁不相称的强烈恐惧和（或）焦虑及回避行为。"</data>
+      <data key="d2">chunk-fe7ae5f65188d165df591345e0dee0d4</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;中国精神障碍流行病学资料&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"2019 年发布的关于中国社交焦虑障碍患病率的研究报告，显示年患病率为 0.4%，终生患病率为 0.6%。"&lt;SEP&gt;"提供了关于中国社交焦虑障碍的具体患病率数据和相关统计信息，如年患病率0.4%，终生患病率为0.6%。"</data>
+      <data key="d2">chunk-fe7ae5f65188d165df591345e0dee0d4</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;下丘脑-垂体-肾上腺轴&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"与社会压力源的高反应性有关，可能增加社交回避行为的风险。"</data>
+      <data key="d2">chunk-fe7ae5f65188d165df591345e0dee0d4</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;美国社交焦虑障碍患病率&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"指美国社交焦虑障碍的年患病率为8%。"</data>
+      <data key="d2">chunk-fe7ae5f65188d165df591345e0dee0d4</data>
+    </node>
+    <node id="&quot;社交困难&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"是导致社交焦虑障碍发展的重要风险因素。"</data>
+      <data key="d2">chunk-fe7ae5f65188d165df591345e0dee0d4</data>
+    </node>
+    <node id="&quot;磁共振波谱（MRS）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"用于显示社交焦虑障碍患者的大脑代谢异常。"</data>
+      <data key="d2">chunk-fe7ae5f65188d165df591345e0dee0d4</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;共病抑郁障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"与社交焦虑障碍共同存在的情况。"</data>
+      <data key="d2">chunk-fe7ae5f65188d165df591345e0dee0d4</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;药物治疗&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"指通过药物来缓解患者的焦虑症状，常用药物包括SSRIs和SNRIs等。"</data>
+      <data key="d2">chunk-fe7ae5f65188d165df591345e0dee0d4</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;认知行为治疗（CBT）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"对儿童及青少年社交焦虑障碍心理治疗方法之一。"</data>
+      <data key="d2">chunk-fe7ae5f65188d165df591345e0dee0d4</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;家庭、职业和社会功能受限&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"指生物、心理、社会等因素相互影响的结果。"</data>
+      <data key="d2">chunk-fe7ae5f65188d165df591345e0dee0d4</data>
+    </node>
+    <node id="&quot;社交焦虑障碍患者前扣带皮层&quot;">
+      <data key="d2">chunk-fe7ae5f65188d165df591345e0dee0d4</data>
+      <data key="d1">"研究表明，社交焦虑障碍患者在大脑特定区域如前扣带皮层存在代谢异常。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;社交焦虑障碍患者&quot;">
+      <data key="d2">chunk-fe7ae5f65188d165df591345e0dee0d4</data>
+      <data key="d1">"社交困难是导致社交焦虑障碍发展的重要风险因素，社会技能培训可以预防或减轻相关症状。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;杏仁核和脑岛过度活化&quot;">
+      <data key="d2">chunk-fe7ae5f65188d165df591345e0dee0d4</data>
+      <data key="d1">"研究表明，杏仁核和脑岛的过度活化与社交焦虑障碍患者的症状严重程度相关。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <edge source="&quot;社交焦虑障碍（SAD）&quot;" target="&quot;中国精神障碍流行病学资料&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"该报告提供了关于中国社交焦虑障碍的具体患病率数据和相关统计信息。"</data>
+      <data key="d6">chunk-fe7ae5f65188d165df591345e0dee0d4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;社交焦虑障碍（SAD）&quot;" target="&quot;下丘脑-垂体-肾上腺轴&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"研究发现下丘脑-垂体-肾上腺轴对社会压力源的高反应性与社交回避行为有关联。"</data>
+      <data key="d6">chunk-fe7ae5f65188d165df591345e0dee0d4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;社交焦虑障碍（SAD）&quot;" target="&quot;磁共振波谱（MRS）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"使用磁共振波谱技术可以对社交焦虑障碍患者的大脑代谢异常进行研究。"</data>
+      <data key="d6">chunk-fe7ae5f65188d165df591345e0dee0d4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;社交焦虑障碍（SAD）&quot;" target="&quot;共病抑郁障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"约72%的社交焦虑障碍患者共病其他精神障碍，其中最常见的包括其他焦虑障碍、抑郁障碍和物质使用障碍。"</data>
+      <data key="d6">chunk-fe7ae5f65188d165df591345e0dee0d4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;社交焦虑障碍（SAD）&quot;" target="&quot;药物治疗&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"SSRIs类药物可以有效缓解社交焦虑障碍患者的焦虑症状，并有助于心理治疗的顺利开展。"</data>
+      <data key="d6">chunk-fe7ae5f65188d165df591345e0dee0d4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;社交困难&quot;" target="&quot;社交焦虑障碍患者&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"社交困难是导致社交焦虑障碍发展的重要风险因素，社会技能培训可以预防或减轻相关症状。"</data>
+      <data key="d6">chunk-fe7ae5f65188d165df591345e0dee0d4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;磁共振波谱（MRS）&quot;" target="&quot;社交焦虑障碍患者前扣带皮层&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"研究表明，社交焦虑障碍患者在大脑特定区域如前扣带皮层存在代谢异常。"</data>
+      <data key="d6">chunk-fe7ae5f65188d165df591345e0dee0d4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;磁共振波谱（MRS）&quot;" target="&quot;杏仁核和脑岛过度活化&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"研究表明，杏仁核和脑岛的过度活化与社交焦虑障碍患者的症状严重程度相关。"</data>
+      <data key="d6">chunk-fe7ae5f65188d165df591345e0dee0d4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;药物治疗&quot;" target="&quot;认知行为治疗（CBT）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"对于儿童及青少年的社交焦虑障碍，药物治疗和心理治疗应同时使用以达到最大的治疗效果。"</data>
+      <data key="d6">chunk-fe7ae5f65188d165df591345e0dee0d4</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

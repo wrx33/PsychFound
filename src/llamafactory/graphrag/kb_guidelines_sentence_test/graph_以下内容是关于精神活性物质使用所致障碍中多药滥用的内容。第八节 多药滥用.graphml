@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;精神活性物质使用所致障碍中多药滥用章节&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"该章节详细描述了多药滥用的定义、原因、临床特征及其对个体和社会的影响，涉及药物成瘾者同时或先后交替滥用两种及以上的药物。&lt;SEP&gt;"该章节详细描述了多药滥用的定义、原因、临床特征及其对个体和社会的影响，涉及药物成瘾者同时或先后交替滥用两种及以上的药物。"</data>
+      <data key="d2">chunk-01a36732a12ec6068adc25604a6ee8ba</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;多药滥用（POLYDRUG ABUSE）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"指同时或先后交替滥用两种及两种以上精神活性物质的行为方式，常见于药物成瘾者中。"</data>
+      <data key="d2">chunk-01a36732a12ec6068adc25604a6ee8ba</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;丁丙诺啡、异丙嗪、东莨菪碱的组合（1+1套餐）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"是一种常见的多药滥用例子，在黑市毒品市场中广泛使用以增加药效和延长作用时间。"</data>
+      <data key="d2">chunk-01a36732a12ec6068adc25604a6ee8ba</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;酒精联合使用的物质&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"包括海洛因、摇头丸、苯二氮䓬类、阿片类药物等，体现了多药滥用中的典型组合方式之一。"</data>
+      <data key="d2">chunk-01a36732a12ec6068adc25604a6ee8ba</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;黑市毒品纯度较低，含有多种成分&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"这种现象客观上促进了多药滥用的发生，因为低纯度的毒品需要通过混合使用来达到预期的效果。"</data>
+      <data key="d2">chunk-01a36732a12ec6068adc25604a6ee8ba</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;急诊室就诊原因&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"在描述中提及多药滥用中毒是导致患者到急诊室寻求治疗的主要原因之一。"</data>
+      <data key="d2">chunk-01a36732a12ec6068adc25604a6ee8ba</data>
+    </node>
+    <node id="&quot;丁丙诺啡、异丙嗪、东莨菪碱的组合（1、1套餐）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"是一种常见的多药滥用例子，在黑市毒品市场中广泛使用以增加药效和延长作用时间。"</data>
+      <data key="d2">chunk-01a36732a12ec6068adc25604a6ee8ba</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;多药滥用的临床特征&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"描述了多药滥用的原因与类型，包括增加药效、延长作用时间等，并列举了一些具体的药物组合如丁丙诺啡、异丙嗪、东莨菪碱组合。"</data>
+      <data key="d2">chunk-01a36732a12ec6068adc25604a6ee8ba</data>
+    </node>
+    <node id="&quot;戒断症状&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"描述了戒断过程中的生理和心理变化，是识别多药滥用的重要线索之一。"</data>
+      <data key="d2">chunk-01a36732a12ec6068adc25604a6ee8ba</data>
+    </node>
+    <node id="&quot;黑市毒品市场&quot;">
+      <data key="d0">"LOCATION"</data>
+      <data key="d1">"地点描述黑市毒品市场的特性，即低纯度、成分复杂，增加了药物混合使用的风险和难度。"</data>
+      <data key="d2">chunk-01a36732a12ec6068adc25604a6ee8ba</data>
+    </node>
+    <node id="&quot;急诊室多药滥用中毒&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"描述了因多药滥用而导致的急性医疗事件，是多药滥用导致严重健康问题的一个直接表现形式。"</data>
+      <data key="d2">chunk-01a36732a12ec6068adc25604a6ee8ba</data>
+    </node>
+    <node id="&quot;治疗方案&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"包括药物和非药物治疗方法，并强调了根据患者的具体情况来定制个性化的治疗策略的重要性。"</data>
+      <data key="d2">chunk-01a36732a12ec6068adc25604a6ee8ba</data>
+    </node>
+    <node id="&quot;心理治疗方法&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"提供了一种有效减少多药滥用复发的方法，通过心理干预帮助患者重建健康的生活方式。"</data>
+      <data key="d2">chunk-01a36732a12ec6068adc25604a6ee8ba</data>
+    </node>
+    <node id="&quot;多药滥用&quot;">
+      <data key="d2">chunk-01a36732a12ec6068adc25604a6ee8ba</data>
+      <data key="d1">"在黑市中，低纯度的多种成分促进了使用者为了达到特定效果而混合使用不同药物的情况。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;精神活性物质使用所致障碍中多药滥用章节&quot;" target="&quot;多药滥用（POLYDRUG ABUSE）&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"该章节深入探讨了多药滥用的各种方面，包括其原因、类型、临床特征和治疗方法。"</data>
+      <data key="d6">chunk-01a36732a12ec6068adc25604a6ee8ba</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;多药滥用（POLYDRUG ABUSE）&quot;" target="&quot;丁丙诺啡、异丙嗪、东莨菪碱的组合（1+1套餐）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"这种具体例子是理解和研究多药滥用现象的重要组成部分，展示了药物使用者如何通过混合使用来增强效果。"</data>
+      <data key="d6">chunk-01a36732a12ec6068adc25604a6ee8ba</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;多药滥用（POLYDRUG ABUSE）&quot;" target="&quot;酒精联合使用的物质&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"这类组合体现了特定群体中常见的多药滥用模式，如老年人群中的阿片类药物与酒精等的混用。"</data>
+      <data key="d6">chunk-01a36732a12ec6068adc25604a6ee8ba</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;多药滥用（POLYDRUG ABUSE）&quot;" target="&quot;黑市毒品纯度较低，含有多种成分&quot;">
+      <data key="d4">12.0</data>
+      <data key="d5">"低纯度和多样性的成分增加了多药滥用的风险，并使得识别和治疗更加复杂。"</data>
+      <data key="d6">chunk-01a36732a12ec6068adc25604a6ee8ba</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;多药滥用（POLYDRUG ABUSE）&quot;" target="&quot;丁丙诺啡、异丙嗪、东莨菪碱的组合（1、1套餐）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"这种具体例子是理解和研究多药滥用现象的重要组成部分，展示了药物使用者如何通过混合使用来增强效果。"</data>
+      <data key="d6">chunk-01a36732a12ec6068adc25604a6ee8ba</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;多药滥用的临床特征&quot;" target="&quot;戒断症状&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"抓住戒断症状是识别和诊断多药滥用的重要方面。"</data>
+      <data key="d6">chunk-01a36732a12ec6068adc25604a6ee8ba</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;戒断症状&quot;" target="&quot;急诊室多药滥用中毒&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"多药滥用患者在急诊室中出现的中毒症状可能伴随有其他药物引起的戒断症状。"</data>
+      <data key="d6">chunk-01a36732a12ec6068adc25604a6ee8ba</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;黑市毒品市场&quot;" target="&quot;多药滥用&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"在黑市中，低纯度的多种成分促进了使用者为了达到特定效果而混合使用不同药物的情况。"</data>
+      <data key="d6">chunk-01a36732a12ec6068adc25604a6ee8ba</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;治疗方案&quot;" target="&quot;心理治疗方法&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"非药物治疗中的心理疗法是整体治疗计划的重要组成部分，旨在帮助患者克服对药物的依赖并减少复发风险。"</data>
+      <data key="d6">chunk-01a36732a12ec6068adc25604a6ee8ba</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

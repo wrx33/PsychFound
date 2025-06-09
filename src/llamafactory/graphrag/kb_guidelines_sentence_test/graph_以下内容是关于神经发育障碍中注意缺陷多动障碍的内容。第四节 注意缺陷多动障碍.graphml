@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;ADHD&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"ADHD, or Attention Deficit Hyperactivity Disorder, is the most common neurodevelopmental disorder characterized by age-inappropriate inattention, hyperactivity, and impulsivity."</data>
+      <data key="d2">chunk-10bbcb6d07db7e829041fc9e95408008</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;DSM-5&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"DSM-5 refers to the Diagnostic and Statistical Manual of Mental Disorders, 5th Edition, published by the American Psychiatric Association, which is a standard reference for the diagnosis of mental disorders including ADHD."</data>
+      <data key="d2">chunk-10bbcb6d07db7e829041fc9e95408008</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;ICD-11&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-11 is the eleventh revision of the International Classification of Diseases, an international standard diagnostic tool on disease and health conditions, now adopted in China as the official diagnostic criteria for ADHD."</data>
+      <data key="d2">chunk-10bbcb6d07db7e829041fc9e95408008</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;TWIN STUDIES&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Twin studies are research methods used to analyze genetic contributions to conditions like ADHD, with reported heritability of 0.76."</data>
+      <data key="d2">chunk-10bbcb6d07db7e829041fc9e95408008</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;PRENATAL AND PERINATAL FACTORS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"These include environmental risks such as prenatal tobacco or alcohol exposure, low birth weight, premature birth, toxic exposures (like lead), and family environment factors."</data>
+      <data key="d2">chunk-10bbcb6d07db7e829041fc9e95408008</data>
+    </node>
+    <node id="&quot;BRAIN IMAGING STUDIES&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Brain imaging studies consistently find reduced brain volume in ADHD patients, with differences becoming negligible in adolescence and adulthood."</data>
+      <data key="d2">chunk-10bbcb6d07db7e829041fc9e95408008</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;FUNCTIONAL BRAIN IMAGING STUDIES&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"These studies reveal lower activation of the ventral striatum associated with reward anticipation in ADHD patients."</data>
+      <data key="d2">chunk-10bbcb6d07db7e829041fc9e95408008</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;COGNITIVE DEFICITS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Cognitive deficits in ADHD include executive function impairments like inhibition control, visuospatial and verbal working memory, vigilance, and planning."</data>
+      <data key="d2">chunk-10bbcb6d07db7e829041fc9e95408008</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;BEHAVIORAL TREATMENTS&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Behavioral treatments are non-pharmacological interventions that help improve the core symptoms of ADHD, especially beneficial for young children."</data>
+      <data key="d2">chunk-10bbcb6d07db7e829041fc9e95408008</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;PARENT TRAINING PROGRAMS&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"These programs provide guidance to parents and teachers on managing children's behavior using behavioral correction methods."</data>
+      <data key="d2">chunk-10bbcb6d07db7e829041fc9e95408008</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;LEARNING SKILLS EDUCATION&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Special education services aimed at improving learning skills, methods, and content for ADHD patients with learning difficulties."</data>
+      <data key="d2">chunk-10bbcb6d07db7e829041fc9e95408008</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;INTELLECTUAL DISABILITIES&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Intellectual disabilities are characterized by significant developmental delays in cognitive abilities, often requiring special assessments to differentiate from ADHD."</data>
+      <data key="d2">chunk-10bbcb6d07db7e829041fc9e95408008</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;PRENATAL/PERINATAL FACTORS&quot;">
+      <data key="d2">chunk-10bbcb6d07db7e829041fc9e95408008</data>
+      <data key="d1">"Environmental risk factors such as prenatal exposure to tobacco or alcohol, low birth weight, premature birth, toxic exposures (like lead), and family environment factors contribute to the onset of ADHD."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;ADHD&quot;" target="&quot;DSM-5&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The diagnosis of ADHD typically follows the DSM-5 guidelines which provide a detailed set of criteria for diagnosing the disorder."</data>
+      <data key="d6">chunk-10bbcb6d07db7e829041fc9e95408008</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ADHD&quot;" target="&quot;ICD-11&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"ICD-11 is now used as the official diagnostic criteria in China, reflecting its importance and reliability in diagnosing ADHD."</data>
+      <data key="d6">chunk-10bbcb6d07db7e829041fc9e95408008</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ADHD&quot;" target="&quot;TWIN STUDIES&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Twin studies help elucidate the genetic underpinnings of ADHD, showing a significant heritability score of 0.76."</data>
+      <data key="d6">chunk-10bbcb6d07db7e829041fc9e95408008</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ADHD&quot;" target="&quot;PRENATAL/PERINATAL FACTORS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Environmental risk factors such as prenatal exposure to tobacco or alcohol, low birth weight, premature birth, toxic exposures (like lead), and family environment factors contribute to the onset of ADHD."</data>
+      <data key="d6">chunk-10bbcb6d07db7e829041fc9e95408008</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ADHD&quot;" target="&quot;BRAIN IMAGING STUDIES&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Brain imaging studies have consistently found reduced brain volume in ADHD patients, with differences becoming negligible in adolescence and adulthood."</data>
+      <data key="d6">chunk-10bbcb6d07db7e829041fc9e95408008</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ADHD&quot;" target="&quot;FUNCTIONAL BRAIN IMAGING STUDIES&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Functional brain imaging studies reveal lower activation of the ventral striatum associated with reward anticipation in ADHD patients."</data>
+      <data key="d6">chunk-10bbcb6d07db7e829041fc9e95408008</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ADHD&quot;" target="&quot;COGNITIVE DEFICITS&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"ADHD is characterized by a wide range of cognitive deficits, including executive function impairments such as inhibition control, visuospatial and verbal working memory, vigilance, and planning."</data>
+      <data key="d6">chunk-10bbcb6d07db7e829041fc9e95408008</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ADHD&quot;" target="&quot;BEHAVIORAL TREATMENTS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Behavioral treatments are non-pharmacological interventions that aim to improve the core symptoms of ADHD, particularly beneficial for young children."</data>
+      <data key="d6">chunk-10bbcb6d07db7e829041fc9e95408008</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ADHD&quot;" target="&quot;PARENT TRAINING PROGRAMS&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Parent training programs provide guidance to parents and teachers on managing children's behavior using behavioral correction methods, helping improve ADHD symptoms."</data>
+      <data key="d6">chunk-10bbcb6d07db7e829041fc9e95408008</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ADHD&quot;" target="&quot;LEARNING SKILLS EDUCATION&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Special education services for ADHD patients with learning difficulties aim to enhance learning skills, methods, and content."</data>
+      <data key="d6">chunk-10bbcb6d07db7e829041fc9e95408008</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ADHD&quot;" target="&quot;INTELLECTUAL DISABILITIES&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Intellectual disabilities are distinct from ADHD but require careful differentiation during assessment due to overlapping symptoms."</data>
+      <data key="d6">chunk-10bbcb6d07db7e829041fc9e95408008</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

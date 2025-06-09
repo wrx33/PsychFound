@@ -1,0 +1,7 @@
+model_name_or_path: /data/sjtu/wrx/llamafactory/psychgpt-coldstart-0303-merge
+template: qwen
+# finetuning_type: lora
+# infer_backend: vllm
+# temperature: 0.6
+max_new_tokens: 4096
+repetition_penalty: 1.2

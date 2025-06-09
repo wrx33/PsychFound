@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;INTERNATIONAL CLASSIFICATION OF SLEEP DISORDERS (ICSD)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICSD is a classification system used primarily by sleep specialists to categorize various types of sleep disorders."</data>
+      <data key="d2">chunk-68e6fa82f93963f5c55b0486a9649ec4</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;DIAGNOSTIC AND STATISTICAL MANUAL OF MENTAL DISORDERS (DSM)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"DSM, published by the American Psychiatric Association, classifies mental health conditions including those related to sleep disorders."</data>
+      <data key="d2">chunk-68e6fa82f93963f5c55b0486a9649ec4</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;INTERNATIONAL CLASSIFICATION OF DISEASES (ICD)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD is a system developed by the World Health Organization for classifying diseases and health-related issues, including sleep disorders."</data>
+      <data key="d2">chunk-68e6fa82f93963f5c55b0486a9649ec4</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;GLOBAL SLEEP-WAKE DISORDER INCIDENCE&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"The incidence rate of global sleep-wake disorder has been rising due to accelerated life rhythms and increased social pressures."</data>
+      <data key="d2">chunk-68e6fa82f93963f5c55b0486a9649ec4</data>
+    </node>
+    <node id="&quot;2015 CHINESE SLEEP INDEX REPORT&quot;">
+      <data key="d0">"DOCUMENT"</data>
+      <data key="d1">"A report documenting the prevalence and impact of sleep disorders in China, indicating a high percentage of severe sleep issues among the population."</data>
+      <data key="d2">chunk-68e6fa82f93963f5c55b0486a9649ec4</data>
+    </node>
+    <node id="&quot;ALEX&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"A hypothetical figure representing a leader or researcher involved in sleep disorder studies."</data>
+      <data key="d2">chunk-68e6fa82f93963f5c55b0486a9649ec4</data>
+    </node>
+    <node id="&quot;WORLD HEALTH ORGANIZATION (WHO)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"An international organization responsible for the development and maintenance of the International Classification of Diseases (ICD)."</data>
+      <data key="d2">chunk-68e6fa82f93963f5c55b0486a9649ec4</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;CHINA&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"The location where the 2015 Chinese Sleep Index Report was published, highlighting sleep disorder prevalence."</data>
+      <data key="d2">chunk-68e6fa82f93963f5c55b0486a9649ec4</data>
+    </node>
+    <node id="&quot;SLEEP DISORDERS CLASSIFICATION UPDATE&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"An ongoing process involving updates and revisions to classification systems like ICSD, DSM, and ICD for sleep disorders."</data>
+      <data key="d2">chunk-68e6fa82f93963f5c55b0486a9649ec4</data>
+    </node>
+    <node id="&quot;SLEEP DISORDERS&quot;">
+      <data key="d2">chunk-68e6fa82f93963f5c55b0486a9649ec4</data>
+      <data key="d1">"The ICSD provides a detailed classification for over 100 types of sleep-wake disorders."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;LIFE RHYTHMS&quot;">
+      <data key="d2">chunk-68e6fa82f93963f5c55b0486a9649ec4</data>
+      <data key="d1">"Increasing life rhythms contribute to the rising incidence of global sleep-wake disorder."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;SLEEP DISORDERS IN CHINA&quot;">
+      <data key="d2">chunk-68e6fa82f93963f5c55b0486a9649ec4</data>
+      <data key="d1">"The report highlights the prevalence and impact of severe sleep issues among the Chinese population."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;INTERNATIONAL CLASSIFICATION OF SLEEP DISORDERS (ICSD)&quot;" target="&quot;SLEEP DISORDERS&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The ICSD provides a detailed classification for over 100 types of sleep-wake disorders."</data>
+      <data key="d6">chunk-68e6fa82f93963f5c55b0486a9649ec4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;INTERNATIONAL CLASSIFICATION OF SLEEP DISORDERS (ICSD)&quot;" target="&quot;WORLD HEALTH ORGANIZATION (WHO)&quot;">
+      <data key="d4">12.0</data>
+      <data key="d5">"The WHO indirectly influences the development of classifications such as ICSD through its broader classification system."</data>
+      <data key="d6">chunk-68e6fa82f93963f5c55b0486a9649ec4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DIAGNOSTIC AND STATISTICAL MANUAL OF MENTAL DISORDERS (DSM)&quot;" target="&quot;SLEEP DISORDERS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The DSM categorizes mental health conditions, including those related to sleep disturbances."</data>
+      <data key="d6">chunk-68e6fa82f93963f5c55b0486a9649ec4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;INTERNATIONAL CLASSIFICATION OF DISEASES (ICD)&quot;" target="&quot;SLEEP DISORDERS&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"ICD offers a framework for classifying and diagnosing various diseases, including sleep disorders."</data>
+      <data key="d6">chunk-68e6fa82f93963f5c55b0486a9649ec4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;GLOBAL SLEEP-WAKE DISORDER INCIDENCE&quot;" target="&quot;LIFE RHYTHMS&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Increasing life rhythms contribute to the rising incidence of global sleep-wake disorder."</data>
+      <data key="d6">chunk-68e6fa82f93963f5c55b0486a9649ec4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;2015 CHINESE SLEEP INDEX REPORT&quot;" target="&quot;SLEEP DISORDERS IN CHINA&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The report highlights the prevalence and impact of severe sleep issues among the Chinese population."</data>
+      <data key="d6">chunk-68e6fa82f93963f5c55b0486a9649ec4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;2015 CHINESE SLEEP INDEX REPORT&quot;" target="&quot;CHINA&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"This report is a significant document published in China, reflecting sleep disorder statistics specific to the country."</data>
+      <data key="d6">chunk-68e6fa82f93963f5c55b0486a9649ec4</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

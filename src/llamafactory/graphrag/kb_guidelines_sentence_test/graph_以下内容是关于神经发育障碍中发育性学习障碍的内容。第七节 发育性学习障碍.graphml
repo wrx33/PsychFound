@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;发育性学习障碍（DEVELOPMENTAL LEARNING DISORDER, DLD）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"DLD是指起始于学龄早期的学习技能受损情况，包括阅读、计算、书写表达等。这类障碍不是由生理或心理疾病直接导致的，而是由于认知功能缺陷引起的。"</data>
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;遗传因素&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"发育性学习障碍具有强烈的家族聚集性和遗传背景，如同卵双胞胎患病率为87%，一级亲属患病率高于45%。阅读障碍和数学障碍在特定家系中的发病率远超普通人群。"</data>
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;危险因素&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"包括早产儿、低出生体重、围生期病理条件以及孕期酒精或烟草暴露等因素会增加发育性学习障碍的风险。"</data>
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+    </node>
+    <node id="&quot;神经解剖与组织学&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"发育性学习障碍患者的脑部存在多种异常，如微小脑回和皮质异位等，且在不同区域的不对称性和细胞结构上显示出差异。此外，86%汉语阅读障碍儿童在胚胎期外胚层的发育中表现出异常。"</data>
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+    </node>
+    <node id="&quot;脑影像与神经电生理学&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"SPECT扫描显示患者大脑某些区域血流和代谢降低，特别是在枕叶、额叶、颞-顶区更为显著；另外诱发电位潜伏期延长也是常见现象。"</data>
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;遗传与环境因素交互作用&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"这些因素影响着脑部结构及功能的发育，导致个体在语言文字视-听觉信息处理上长期存在困难。不同语言系统间差异显著，汉语阅读障碍尤其体现在解码技能和语法规则应用上的挑战。"</data>
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;临床特征&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"包括但不限于读字不准确、理解力低下、拼写错误、书面表达混乱以及数学计算能力差等。这些问题可以单独出现或者合并存在，并且常伴随有情绪与行为问题，如焦虑、抑郁、冲动多动等，社会适应功能受损明显。"</data>
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+    </node>
+    <node id="&quot;诊断要点&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"包括证明学习技能障碍的存在（如阅读准确性或理解力障碍）、评估结果需低于同龄儿童平均水平至少两个标准差，并且排除因教育机会缺乏或其他精神和神经病性障碍造成的成绩低下等因素。"</data>
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+    </node>
+    <node id="&quot;智力发育障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"有智力发育迟缓历史，韦氏儿童智商测试总分、言语分或操作分数均低于70；适应行为量表商为缺陷水平（即&lt;70），且社会功能损害明显。"</data>
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+    </node>
+    <node id="&quot;其他精神障碍所致学业成绩低下&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"在相应精神障碍如双相情感障碍等发生前，出现学习能力下降，该现象由上述疾病直接引起而非单纯的学习技能问题。"</data>
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+    </node>
+    <node id="&quot;阅读障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"指起源于学龄早期的阅读技能受损情况。它与数学障碍、书写表达困难等一起构成了DLD的一部分。"</data>
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;数学障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"是指在学习数字和进行基本运算时遇到显著困难的情况，常见于发育性学习障碍患者中。"</data>
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+    </node>
+    <node id="&quot;拼写障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"指书写文字或符号的能力受损，包括添加、省略或替代字符等问题。"</data>
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+    </node>
+    <node id="&quot;社会适应能力受损&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"指在社交互动和日常生活中的功能受限情况，可能伴随学习障碍出现。"</data>
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+    </node>
+    <node id="&quot;注意缺陷多动障碍（ADHD）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"是一种常见的神经发育障碍，常与DLD共存，表现为注意力不集中、过度活跃及冲动行为。"</data>
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+    </node>
+    <node id="&quot;物质滥用&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"指患者可能涉及药物或酒精的不当使用，这可能是伴随学习障碍出现的行为问题之一。"</data>
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+    </node>
+    <node id="&quot;破坏性行为障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"包括品行障碍和对立违抗性障碍等，这些障碍可能导致攻击性和破坏行为增加，有时与ADHD共病。"</data>
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+    </node>
+    <node id="&quot;抑郁障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"包括重性抑郁障碍和心境恶劣障碍，患者可能经历持续的悲伤情绪和生活质量下降。"</data>
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+    </node>
+    <node id="&quot;智力测验&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"如韦氏智力测验，用于评估个体的认知能力，并帮助诊断发育性学习障碍与排除其他疾病。"</data>
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+    </node>
+    <node id="&quot;学业成就测验或学习技能诊断测验&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"这类测试可以帮助识别学生在阅读、书写和数学等关键领域的具体弱点。"</data>
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+    </node>
+    <node id="&quot;行为量表&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"用于评估学习障碍相关症状及情绪问题，帮助制定个性化的治疗计划。"</data>
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+    </node>
+    <node id="&quot;个体化教育计划（IEP）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"根据学生的学习需要和能力定制的教育方案，旨在支持学生克服其特定挑战，并促进学业进步和个人发展。"</data>
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+    </node>
+    <node id="&quot;早产儿和极低出生体重儿&quot;">
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+      <data key="d1">"这些条件是发育性学习障碍风险增加的重要外部因素，表明了环境对疾病发展的影响作用。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;药物治疗&quot;">
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+      <data key="d1">"治疗计划基于评估结果进行个性化调整，旨在改善患者的特定症状和生活质量。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;学习技能特殊教育和强化训练&quot;">
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+      <data key="d1">"家庭支持对于确保孩子能够参与并受益于个体化教育计划至关重要。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;家庭干预&quot;">
+      <data key="d2">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+      <data key="d1">"家庭支持对于确保孩子能够参与并受益于个体化教育计划至关重要。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;发育性学习障碍（DEVELOPMENTAL LEARNING DISORDER, DLD）&quot;" target="&quot;遗传因素&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"DLD的发生与高度的家族聚集性和特定遗传背景相关联，反映了其在某种程度上的基因基础。"</data>
+      <data key="d6">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;遗传因素&quot;" target="&quot;阅读障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"研究表明，遗传背景在阅读障碍的发生中起着重要作用，家族聚集性高。"</data>
+      <data key="d6">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;危险因素&quot;" target="&quot;早产儿和极低出生体重儿&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"这些条件是发育性学习障碍风险增加的重要外部因素，表明了环境对疾病发展的影响作用。"</data>
+      <data key="d6">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;危险因素&quot;" target="&quot;物质滥用&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"某些环境和条件可能会增加个体滥用物质的风险，尤其是对于已经有学习或情感问题的儿童。"</data>
+      <data key="d6">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;脑影像与神经电生理学&quot;" target="&quot;遗传与环境因素交互作用&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"通过SPECT扫描观察到的大脑特定区域的变化反映了在遗传和环境影响下的大脑结构发育异常，这进一步确认了病因机制。"</data>
+      <data key="d6">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;脑影像与神经电生理学&quot;" target="&quot;阅读障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"SPECT扫描技术显示了受影响区域的大脑活动模式变化，揭示了阅读障碍背后的生物学机制。"</data>
+      <data key="d6">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;临床特征&quot;" target="&quot;诊断要点&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"临床表现为阅读、书写表达及数学计算能力障碍的患者符合DLD的标准定义和诊断依据。"</data>
+      <data key="d6">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;临床特征&quot;" target="&quot;拼写障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"患者可能表现出书写和文字处理方面的困难，这是发育性学习障碍的一部分症状。"</data>
+      <data key="d6">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;智力发育障碍&quot;" target="&quot;其他精神障碍所致学业成绩低下&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"两者都可能导致学习能力和适应性下降，但原因不同：前者源于智能低下的直接后果，后者则由特定心理或情感状态所导致的间接影响。"</data>
+      <data key="d6">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;社会适应能力受损&quot;" target="&quot;破坏性行为障碍&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"这些障碍可能导致儿童在社交环境中遇到困难，并出现攻击性和破坏行为。"</data>
+      <data key="d6">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;注意缺陷多动障碍（ADHD）&quot;" target="&quot;抑郁障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"两者常共病，且可能相互影响，导致更严重的心理健康问题和功能损害。"</data>
+      <data key="d6">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;行为量表&quot;" target="&quot;药物治疗&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"治疗计划基于评估结果进行个性化调整，旨在改善患者的特定症状和生活质量。"</data>
+      <data key="d6">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;学习技能特殊教育和强化训练&quot;" target="&quot;家庭干预&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"家庭支持对于确保孩子能够参与并受益于个体化教育计划至关重要。"</data>
+      <data key="d6">chunk-5a725d8e365ee52b3df7504bfb344969</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

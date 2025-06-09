@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;ALZHEIMER’S DISEASE (AD)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Alzheimer's disease is a progressive neurodegenerative disorder characterized by cognitive impairment, behavioral abnormalities, and decreased social functioning."</data>
+      <data key="d2">chunk-7a2703feeca38c97847d91271e599268</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;WORLD HEALTH ORGANIZATION (WHO)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The World Health Organization reports on the prevalence of dementia globally, indicating that Alzheimer's disease is the most common type among them."</data>
+      <data key="d2">chunk-7a2703feeca38c97847d91271e599268</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;SENILE PLAQUES (SP)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Senile plaques are a pathological change in the brain of Alzheimer’s patients, mainly composed of beta-amyloid protein (Aβ)."</data>
+      <data key="d2">chunk-7a2703feeca38c97847d91271e599268</data>
+    </node>
+    <node id="&quot;NEUROFIBRILLARY TANGLES (NFT)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Neurofibrillary tangles are another major characteristic of the pathology in Alzheimer's disease, primarily made up of hyperphosphorylated microtubule-associated proteins, specifically tau protein."</data>
+      <data key="d2">chunk-7a2703feeca38c97847d91271e599268</data>
+    </node>
+    <node id="&quot;AMYLOID PRECURSOR PROTEIN (APP) GENE&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The APP gene is one of four genes associated with Alzheimer’s disease that can cause early-onset familial AD through mutation or polymorphism."</data>
+      <data key="d2">chunk-7a2703feeca38c97847d91271e599268</data>
+    </node>
+    <node id="&quot;PRESENILIN 1 (PSEN1) GENE&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The PSEN1 gene is linked to early-onset familial Alzheimer's disease due to mutations or genetic variations."</data>
+      <data key="d2">chunk-7a2703feeca38c97847d91271e599268</data>
+    </node>
+    <node id="&quot;PRESENILIN 2 (PSEN2) GENE&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The PSEN2 gene also has a close relationship with early-onset familial AD through its mutations and polymorphisms."</data>
+      <data key="d2">chunk-7a2703feeca38c97847d91271e599268</data>
+    </node>
+    <node id="&quot;APOLIPOPROTEIN E (APOE) GENE&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The APOE gene is closely associated with late-onset sporadic Alzheimer's disease, particularly the ε4 allele."</data>
+      <data key="d2">chunk-7a2703feeca38c97847d91271e599268</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;EARLY-ONSET ALZHEIMER'S DISEASE&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Early-onset Alzheimer's disease refers to cases where the symptoms start before the age of 65."</data>
+      <data key="d2">chunk-7a2703feeca38c97847d91271e599268</data>
+    </node>
+    <node id="&quot;LATE-ONSET ALZHEIMER'S DISEASE&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Late-onset Alzheimer's disease describes cases that begin after the age of 65."</data>
+      <data key="d2">chunk-7a2703feeca38c97847d91271e599268</data>
+    </node>
+    <node id="&quot;FAMILY HISTORY&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The presence or absence of family history is a significant factor in diagnosing early-onset familial or late-onset sporadic forms of Alzheimer’s disease."</data>
+      <data key="d2">chunk-7a2703feeca38c97847d91271e599268</data>
+    </node>
+    <node id="&quot;GENETIC FACTORS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Genetics plays a crucial role in the onset and progression of both early and late-onset types of Alzheimer's disease, with specific genes such as APP, PSEN1, PSEN2, and APOE being implicated."</data>
+      <data key="d2">chunk-7a2703feeca38c97847d91271e599268</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;RISK FACTORS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Various risk factors contribute to the development of Alzheimer’s disease including age, gender (higher in females), low education level, smoking, hypertension, obesity, hearing loss, head trauma, lack of physical activity, social isolation, diabetes, and depression."</data>
+      <data key="d2">chunk-7a2703feeca38c97847d91271e599268</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;COGNITIVE ASSESSMENT&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Cognitive assessment includes various tests to evaluate the severity and extent of cognitive impairment in Alzheimer’s disease patients."</data>
+      <data key="d2">chunk-7a2703feeca38c97847d91271e599268</data>
+    </node>
+    <node id="&quot;MEDICAL EVALUATION&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Medical evaluation involves comprehensive diagnostic procedures including physical examination, blood tests, imaging studies like MRI or PET scans, and cerebrospinal fluid analysis."</data>
+      <data key="d2">chunk-7a2703feeca38c97847d91271e599268</data>
+    </node>
+    <edge source="&quot;ALZHEIMER’S DISEASE (AD)&quot;" target="&quot;WORLD HEALTH ORGANIZATION (WHO)&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The WHO reports on the prevalence of dementia and indicates that Alzheimer's disease is the most common type among them."</data>
+      <data key="d6">chunk-7a2703feeca38c97847d91271e599268</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ALZHEIMER’S DISEASE (AD)&quot;" target="&quot;APOLIPOPROTEIN E (APOE) GENE&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The APOE gene is particularly associated with sporadic late-onset forms of Alzheimer's disease, reflecting its significant role in the genetic etiology of this condition."</data>
+      <data key="d6">chunk-7a2703feeca38c97847d91271e599268</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;WORLD HEALTH ORGANIZATION (WHO)&quot;" target="&quot;RISK FACTORS&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"The WHO reports on global risk factors contributing to Alzheimer's disease, highlighting various demographic and lifestyle elements involved."</data>
+      <data key="d6">chunk-7a2703feeca38c97847d91271e599268</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;SENILE PLAQUES (SP)&quot;" target="&quot;NEUROFIBRILLARY TANGLES (NFT)&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Both senile plaques and neurofibrillary tangles are key pathological features in the brain of Alzheimer’s disease patients, indicating their significant roles in its progression."</data>
+      <data key="d6">chunk-7a2703feeca38c97847d91271e599268</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;AMYLOID PRECURSOR PROTEIN (APP) GENE&quot;" target="&quot;PRESENILIN 1 (PSEN1) GENE&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Mutations or polymorphisms in both APP and PSEN1 genes are closely linked to early-onset familial Alzheimer's disease, indicating their significant roles in the genetic aspects of this condition."</data>
+      <data key="d6">chunk-7a2703feeca38c97847d91271e599268</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;EARLY-ONSET ALZHEIMER'S DISEASE&quot;" target="&quot;LATE-ONSET ALZHEIMER'S DISEASE&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Both early-onset and late-onset Alzheimer’s disease are types of neurodegenerative disorders but differ in the age at onset."</data>
+      <data key="d6">chunk-7a2703feeca38c97847d91271e599268</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;GENETIC FACTORS&quot;" target="&quot;RISK FACTORS&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"While genetic factors are significant, they coexist with other risk factors like lifestyle choices and environmental influences in contributing to Alzheimer's disease."</data>
+      <data key="d6">chunk-7a2703feeca38c97847d91271e599268</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;COGNITIVE ASSESSMENT&quot;" target="&quot;MEDICAL EVALUATION&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"A medical evaluation often precedes a cognitive assessment as it provides essential baseline information for understanding the patient’s condition before more specific tests are conducted."</data>
+      <data key="d6">chunk-7a2703feeca38c97847d91271e599268</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

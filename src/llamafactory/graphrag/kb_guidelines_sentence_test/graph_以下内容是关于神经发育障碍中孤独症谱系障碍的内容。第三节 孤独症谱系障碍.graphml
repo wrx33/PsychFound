@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;美国疾病预防控制中心&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"美国疾病预防控制中心是一个负责监控公共卫生状况并提供相关报告的组织。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;ICD-11&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"ICD-11是国际疾病分类第十一版，为精神健康和神经发育障碍提供了诊断标准。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;DSM-5&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"DSM-5是美国精神病学会发布的第五版《精神疾病诊断与统计手册》，用于指导精神疾病的诊断工作。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;中国比奈智力测验&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"中国比奈智力测验是一种用于评估个体智力水平的心理测试工具。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;丹佛发育筛查量表（DDST）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"丹佛发育筛查量表是一种儿童早期发展状况的筛查工具，用来检测发育迟缓等问题。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;格塞尔发展诊断量表（GDDS）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"格塞尔发展诊断量表用于评估婴儿和幼儿的发展里程碑，识别潜在的发展问题。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;心理教育评定量表（PEP）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"心理教育评定量表是一种详细的心理测评工具，用来评估儿童的发育水平及智能情况。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;PEABODY 图片词汇测验（PPVT）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Peabody图片词汇测验用于评估个体语言理解能力，适用于不同年龄段的人群。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;韦氏学前儿童智力量表（WPPSI）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"韦氏学前儿童智力量表是一种智力测试工具，专门设计用于评估3至6岁幼儿的智力水平。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;韦氏儿童智力量表（WISC）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"韦氏儿童智力量表是为年龄在6到16岁的孩子设计的心理测量工具，用来评估他们的认知能力。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;韦氏成人智力量表（WAIS）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"韦氏成人智力量表是一种用于成年人的智力测试，可提供全面的认知功能评估。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;瑞文渐进模型试验（RPM）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"瑞文渐进模型试验是一种非言语的心理测量工具，用来衡量个体的推理能力和逻辑思维能力。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;克氏孤独症行为量表（CABS）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"克氏孤独症行为量表用于评估儿童和青少年的行为问题及社交障碍程度。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;孤独症行为量表（ABC）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"孤独症行为量表是一种家长和教师使用的工具，用来记录自闭症孩子的行为特征。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;改良婴幼儿孤独症量表（M-CHAT）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"改良婴幼儿孤独症量表用于筛查24个月以下儿童的自闭症风险。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;孤独症谱系障碍筛查问卷（ASSQ）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"孤独症谱系障碍筛查问卷是评估孩子是否存在自闭症倾向的一种工具，由家长填写完成。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;儿童孤独症评定量表（CARS）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"儿童孤独症评定量表是一种专业的诊断工具，用于识别和评估儿童的自闭症状状表现。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;孤独症诊断访谈量表（ADI）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"孤独症诊断访谈量表是一个结构化的行为访谈问卷，旨在通过与照顾者对话来评估受试者的社交行为。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;孤独症诊断观察量表（ADOS）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"孤独症诊断观察量表是基于行为的测试工具，用于评估自闭症谱系障碍的症状表现及其严重程度。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;克氏孤独症行为量表（CABS）筛查与诊断&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"该事件代表了通过使用CABS进行自闭症行为问题及社交障碍的筛查和诊断过程。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;孤独症谱系障碍筛查问卷（ASSQ）评估&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"这是一类针对儿童的筛查活动，旨在识别其是否具有自闭症的症状风险。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;丹佛模式早期介入项目&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"丹佛模式是一种以发展为导向的干预方法，适用于孤独症谱系障碍患者的教育康复和行为治疗。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;结构化教学&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"结构化教学是在特殊教育中采用的一种系统性、有组织的教学策略，特别针对自闭症儿童设计。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;图片交流系统&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"图片交流系统是一种辅助沟通工具，帮助言语能力有限的孤独症患者通过图像进行有效的非口头交流。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;应用行为分析（ABA）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"应用行为分析是治疗自闭症的一种科学疗法，基于增强原理来提高或减少特定的行为表现。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;回合试验教学（DTT）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"回合试验教学是一种系统化的方法，用于通过重复的学习过程改善孤独症患者的社会互动技能。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;串联行为教学&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"串联行为教学是指将多个学习单元组合在一起进行连续的行为训练，以促进更广泛的技能掌握。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;自然情境教学&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"自然情境教学强调在真实生活场景中教授社交互动和沟通技巧给孤独症患者。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;利培酮&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"利培酮是一种抗精神病药物，用于治疗精神分裂症、双相情感障碍和其他行为问题。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;阿立哌唑&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"阿立哌唑是另一种抗精神病药，主要用于治疗自闭症儿童的易激惹行为和精神症状。"</data>
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+    </node>
+    <node id="&quot;TECHNOLOGY CO., LTD.&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"'科技有限公司'(Technology Co., Ltd.)是一家位于北京的公司，参与了一个重要的项目——开发一项新的AI技术。"</data>
+      <data key="d2">chunk-9e47a922b3aeaf7df7f07cef88365c1f</data>
+    </node>
+    <node id="&quot;研发部&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"研发部是科技有限公司的一个部门，负责研究新技术并将其应用于实际产品中。"</data>
+      <data key="d2">chunk-9e47a922b3aeaf7df7f07cef88365c1f</data>
+    </node>
+    <node id="&quot;北京市海淀区中关村大街1号&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"'北京市海淀区中关村大街1号'是科技有限公司的总部地址。"</data>
+      <data key="d2">chunk-9e47a922b3aeaf7df7f07cef88365c1f</data>
+    </node>
+    <node id="&quot;智能未来计划(SMART FUTURE PROJECT)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"'智能未来计划'(Smart Future Project)是一个重要的项目，旨在开发新的AI技术。"</data>
+      <data key="d2">chunk-9e47a922b3aeaf7df7f07cef88365c1f</data>
+    </node>
+    <node id="&quot;孤独症谱系障碍&quot;">
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+      <data key="d1">"ICD-11为孤独症谱系障碍提供了临床症状分类和标准，有助于其诊断和治疗。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;儿童孤独症诊疗康复指南&quot;">
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+      <data key="d1">"国家卫生健康委员会发布了用于指导临床实践和政策制定的相关指南，包括针对儿童自闭症治疗的具体建议。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;国家卫生健康委员会&quot;">
+      <data key="d2">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+      <data key="d1">"国家卫生健康委员会发布了用于指导临床实践和政策制定的相关指南，包括针对儿童自闭症治疗的具体建议。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;XIAO MING&quot;">
+      <data key="d2">chunk-9e47a922b3aeaf7df7f07cef88365c1f</data>
+      <data key="d1">"小明在研发部工作，该部门致力于开发新的技术。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;美国疾病预防控制中心&quot;" target="&quot;孤独症谱系障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"美国疾病预防控制中心负责报告孤独症谱系障碍的患病率变化，监测其流行趋势和发展动态。"</data>
+      <data key="d6">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;美国疾病预防控制中心&quot;" target="&quot;丹佛发育筛查量表（DDST）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"美国疾病预防控制中心可能参考了丹佛发育筛查量表的数据来报告孤独症谱系障碍的发病率。"</data>
+      <data key="d6">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ICD-11&quot;" target="&quot;孤独症谱系障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"ICD-11为孤独症谱系障碍提供了临床症状分类和标准，有助于其诊断和治疗。"</data>
+      <data key="d6">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DSM-5&quot;" target="&quot;孤独症谱系障碍&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"DSM-5提供了孤独症谱系障碍的诊断标准，并指导相关评估与治疗方法的选择。"</data>
+      <data key="d6">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;中国比奈智力测验&quot;" target="&quot;心理教育评定量表（PEP）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"PEP和中国比奈智力测验都可以用于评估儿童的认知能力和发育水平，帮助制定个性化的干预计划。"</data>
+      <data key="d6">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;丹佛发育筛查量表（DDST）&quot;" target="&quot;格塞尔发展诊断量表（GDDS）&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"这两种工具都属于早期发育评估工具，并且可以结合使用以提供更全面的评价结果。"</data>
+      <data key="d6">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;韦氏学前儿童智力量表（WPPSI）&quot;" target="&quot;韦氏成人智力量表（WAIS）&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"这两种测试均基于韦氏智力量表的发展体系，适用于不同年龄段的人群以评估其认知功能。"</data>
+      <data key="d6">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;瑞文渐进模型试验（RPM）&quot;" target="&quot;孤独症谱系障碍筛查问卷（ASSQ）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"这些工具都用于识别和发展性障碍儿童的早期干预方案制定中发挥关键作用，特别是在自闭症方面。"</data>
+      <data key="d6">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;克氏孤独症行为量表（CABS）&quot;" target="&quot;孤独症行为量表（ABC）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"这两种评估工具都是为了帮助家长和专业人士识别和发展治疗计划以应对儿童的自闭症症状而设计的。"</data>
+      <data key="d6">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;孤独症谱系障碍筛查问卷（ASSQ）&quot;" target="&quot;孤独症诊断观察量表（ADOS）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"这两种方法结合起来使用能够为儿童的自闭症状况提供更加全面和精确的信息，有助于制定有效的干预策略。"</data>
+      <data key="d6">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;儿童孤独症评定量表（CARS）&quot;" target="&quot;孤独症诊断访谈量表（ADI）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"这两项测试是被广泛使用的自闭症评估工具，它们可以提供不同维度的数据以支持准确诊断。"</data>
+      <data key="d6">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;TECHNOLOGY CO., LTD.&quot;" target="&quot;北京市海淀区中关村大街1号&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"科技有限公司的总部位于北京市海淀区中关村大街1号。"</data>
+      <data key="d6">chunk-9e47a922b3aeaf7df7f07cef88365c1f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;TECHNOLOGY CO., LTD.&quot;" target="&quot;研发部&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"研发部是科技有限公司的一个部门，负责研究新技术并将其应用于实际产品中。"</data>
+      <data key="d6">chunk-9e47a922b3aeaf7df7f07cef88365c1f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;TECHNOLOGY CO., LTD.&quot;" target="&quot;智能未来计划(SMART FUTURE PROJECT)&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"科技有限公司参与了'智能未来计划'(Smart Future Project)，旨在开发新的AI技术。"</data>
+      <data key="d6">chunk-9e47a922b3aeaf7df7f07cef88365c1f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;研发部&quot;" target="&quot;XIAO MING&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"小明在研发部工作，该部门致力于开发新的技术。"</data>
+      <data key="d6">chunk-9e47a922b3aeaf7df7f07cef88365c1f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;儿童孤独症诊疗康复指南&quot;" target="&quot;国家卫生健康委员会&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"国家卫生健康委员会发布了用于指导临床实践和政策制定的相关指南，包括针对儿童自闭症治疗的具体建议。"</data>
+      <data key="d6">chunk-18b5578dfe7dcf57c99dbc836b0bfb76</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

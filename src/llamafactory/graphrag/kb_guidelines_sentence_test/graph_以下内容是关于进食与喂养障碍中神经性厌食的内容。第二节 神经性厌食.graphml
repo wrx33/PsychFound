@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;ICD-11&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-11 is the International Classification of Diseases, 11th edition which includes diagnostic criteria for anorexia nervosa and guides clinical assessments."&lt;SEP&gt;"ICD-11 是国际疾病分类第十一版，提供了神经性厌食的诊断标准及其临床评估方法。"</data>
+      <data key="d2">chunk-62bcab7d3ee0991a97773a1c3a6321ba</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;DSM-5&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"DSM-5 is the fifth edition of the Diagnostic and Statistical Manual of Mental Disorders published by the American Psychiatric Association, providing guidelines for diagnosing and treating mental disorders including anorexia nervosa."&lt;SEP&gt;"DSM-5 是美国精神病学会出版的精神障碍诊断与统计手册第五版，也包含了神经性厌食症的诊断和治疗指南。"</data>
+      <data key="d2">chunk-62bcab7d3ee0991a97773a1c3a6321ba</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;EDEQ-6&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"EDEQ-6 is the Eating Disorder Examination Questionnaire version 6, used to assess restrictive eating behaviors and related psychological features."&lt;SEP&gt;"EDEQ-6 是进食障碍检查问卷（第 6 版），用于评估对进食的限制行为及相关的心理特征。"</data>
+      <data key="d2">chunk-62bcab7d3ee0991a97773a1c3a6321ba</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;EDI-1&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"EDI-1 is the Eating Disorders Inventory version 1, which evaluates disordered eating behaviors from a cognitive-behavioral perspective."&lt;SEP&gt;"EDI-1 是进食障碍调查量表（第 1 版），从认知和心理方面评定厌食或贪食行为。"</data>
+      <data key="d2">chunk-62bcab7d3ee0991a97773a1c3a6321ba</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;FBT (FAMILY-BASED TREATMENT)&quot;">
+      <data key="d0">"ROLE"</data>
+      <data key="d1">"FBT is a type of psychotherapeutic intervention for adolescent anorexia nervosa that involves family members in the treatment process."&lt;SEP&gt;"FBT 基于家庭的治疗是用于治疗青少年神经性厌食症的一种心理干预方法，强调家庭在饮食恢复中的作用。"</data>
+      <data key="d2">chunk-62bcab7d3ee0991a97773a1c3a6321ba</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;NEUROLOGICAL ANOREXIA&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Neurological Anorexia refers to an eating disorder characterized by excessive pursuit of low weight and pathological fear of weight gain, leading to malnutrition."</data>
+      <data key="d2">chunk-62bcab7d3ee0991a97773a1c3a6321ba</data>
+    </node>
+    <node id="&quot;SCHOOLS&quot;">
+      <data key="d0">"LOCATION"</data>
+      <data key="d1">"Schools are important settings for identifying and managing students with neurological anorexia, providing support and facilitating early intervention."</data>
+      <data key="d2">chunk-62bcab7d3ee0991a97773a1c3a6321ba</data>
+    </node>
+    <node id="&quot;FAMILY&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The family plays a crucial role in the care and treatment of individuals suffering from neurological anorexia, particularly during adolescence."</data>
+      <data key="d2">chunk-62bcab7d3ee0991a97773a1c3a6321ba</data>
+    </node>
+    <node id="&quot;ADOLESCENTS AND YOUNG ADULTS (AGE GROUP)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"This group is frequently affected by neurological anorexia and requires specific management approaches."</data>
+      <data key="d2">chunk-62bcab7d3ee0991a97773a1c3a6321ba</data>
+    </node>
+    <node id="&quot;ADOLESCENTS/YOUNG ADULTS (AGE GROUP)&quot;">
+      <data key="d2">chunk-62bcab7d3ee0991a97773a1c3a6321ba</data>
+      <data key="d1">"Neurological anorexia commonly affects adolescents and young adults, necessitating specialized management strategies."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;TREATMENT PROCESS&quot;">
+      <data key="d2">chunk-62bcab7d3ee0991a97773a1c3a6321ba</data>
+      <data key="d1">"Families play a central role in the treatment process for individuals with neurological anorexia."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;EARLY INTERVENTION&quot;">
+      <data key="d2">chunk-62bcab7d3ee0991a97773a1c3a6321ba</data>
+      <data key="d1">"Schools are essential in identifying cases of neurological anorexia early on, facilitating prompt intervention."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;ICD-11&quot;" target="&quot;EDEQ-6&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"ICD-11 provides diagnostic criteria, while EDEQ-6 serves as an assessment tool to evaluate according to these criteria."&lt;SEP&gt;"ICD-11 提供诊断标准，而 EDEQ-6 作为评估工具帮助临床医生根据 ICD-11 标准进行评估。</data>
+      <data key="d6">chunk-62bcab7d3ee0991a97773a1c3a6321ba</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ICD-11&quot;" target="&quot;FBT (FAMILY-BASED TREATMENT)&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"ICD-11 中提到的神经性厌食诊断标准指导了包括 FBT 在内的治疗策略的发展和应用。&lt;SEP&gt;"The diagnostic criteria in ICD-11 guide the development of therapeutic approaches such as FBT."</data>
+      <data key="d6">chunk-62bcab7d3ee0991a97773a1c3a6321ba</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DSM-5&quot;" target="&quot;EDI-1&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"DSM-5 offers theoretical frameworks, while EDI-1 is a specific assessment tool for evaluating mental health conditions."&lt;SEP&gt;"DSM-5 和 EDI-1 均用于精神疾病的诊断和治疗，其中 DSM-5 提供理论框架，EDI-1 则是具体量表。</data>
+      <data key="d6">chunk-62bcab7d3ee0991a97773a1c3a6321ba</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DSM-5&quot;" target="&quot;FBT (FAMILY-BASED TREATMENT)&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"DSM-5 为临床医生提供了关于神经性厌食症的重要信息，影响着诸如 FBT 等疗法的应用与推广。&lt;SEP&gt;"The information provided by DSM-5 impacts the application and promotion of therapies like FBT."</data>
+      <data key="d6">chunk-62bcab7d3ee0991a97773a1c3a6321ba</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;NEUROLOGICAL ANOREXIA&quot;" target="&quot;ADOLESCENTS/YOUNG ADULTS (AGE GROUP)&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Neurological anorexia commonly affects adolescents and young adults, necessitating specialized management strategies."</data>
+      <data key="d6">chunk-62bcab7d3ee0991a97773a1c3a6321ba</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;SCHOOLS&quot;" target="&quot;EARLY INTERVENTION&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Schools are essential in identifying cases of neurological anorexia early on, facilitating prompt intervention."</data>
+      <data key="d6">chunk-62bcab7d3ee0991a97773a1c3a6321ba</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;FAMILY&quot;" target="&quot;TREATMENT PROCESS&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Families play a central role in the treatment process for individuals with neurological anorexia."</data>
+      <data key="d6">chunk-62bcab7d3ee0991a97773a1c3a6321ba</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

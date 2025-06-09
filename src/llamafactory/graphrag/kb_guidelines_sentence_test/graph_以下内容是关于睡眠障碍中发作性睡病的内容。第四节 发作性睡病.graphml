@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;发作性睡病&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"发作性睡病是一种睡眠障碍疾病，主要表现为日间过度嗜睡、猝倒、睡眠瘫痪和睡眠幻觉。该病症分为1型和2型，根据脑脊液中的下丘脑分泌素水平进行区分。其病因不明，可能与遗传因素和环境因素共同作用有关。"</data>
+      <data key="d2">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;HLA-DQB1*0602&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"HLA-DQB1*0602 是一个高度相关的基因型，在发作性睡病患者中阳性率较高，达到88%～100%，远高于普通人群的23%。"</data>
+      <data key="d2">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;HCRT-1&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Hcrt-1是诊断发作性睡病的重要指标之一，特别是在区分1型和2型发作性睡病时。其水平显著下降通常与1型发作性睡病相关联。</data>
+      <data key="d2">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;ICSD-3&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"ICSD-3 is a diagnostic classification system used for identifying different types of sleep disorders, including发作性睡病. It categorizes 1型和2型发作性睡病 based on specific diagnostic criteria."</data>
+      <data key="d2">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;多导睡眠图（POLYSOMNOGRAPHY，PSG）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"多导睡眠图是一种用于评估夜间睡眠质量和检测各种睡眠障碍的诊断工具。它可以显示睡眠潜伏期缩短、出现睡眠始发REM睡眠等特征。"</data>
+      <data key="d2">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;多次睡眠潜伏期试验（MSLT）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"MSLT 是一种测试日间嗜睡程度的方法，通过进行4至5次小睡实验来评估平均睡眠潜伏期和SOREMP出现情况。它是诊断发作性睡病的重要依据之一。"</data>
+      <data key="d2">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;清醒维持试验（MAINTENANCE OF WAKEFULNESS TEST，MWT）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"MWT用于评估日间维持清醒的能力，而非直接的诊断工具，主要用于疗效评估。它帮助了解患者在日常生活中保持警觉状态的能力。"</data>
+      <data key="d2">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;EPWORTH 嗜睡量表（ESS）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Epworth嗜睡量表是一种自我报告问卷，用于评估日间嗜睡的程度和频率，是诊断发作性睡病的辅助工具之一。"</data>
+      <data key="d2">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;斯坦福嗜睡量表（SSS）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"斯坦福嗜睡量表也是一种用于评价日间嗜睡程度的心理测量工具，帮助医生了解患者睡眠状况及其日常活动的影响。"</data>
+      <data key="d2">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;莫达非尼&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"莫达非尼是一种用于治疗发作性睡病的日间嗜睡症状的药物，通过增强中枢神经系统活性来提高患者的清醒度和警觉性。"</data>
+      <data key="d2">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;哌甲酯&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"哌甲酯是另一种用于治疗日间嗜睡及控制猝倒发作的药物，它增加大脑中的多巴胺和去甲肾上腺素水平以改善睡眠觉醒调节功能。"</data>
+      <data key="d2">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;文拉法辛&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"文拉法辛是一种抗抑郁药，也可用来治疗猝倒症状，在发作性睡病中通常用其缓释片进行治疗。"</data>
+      <data key="d2">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;度洛西汀&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"度洛西汀也是一种用于治疗猝倒的药物，它可以有效抑制5-羟色胺和去甲肾上腺素的再摄取，从而减少猝倒发作。"</data>
+      <data key="d2">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;瑞波西汀&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"瑞波西汀是选择性NA再摄取抑制剂的一种，用于治疗猝倒症状，通过增强中枢神经系统中的NA活性来发挥作用。"</data>
+      <data key="d2">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;阿托莫西汀&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"阿托莫西汀是一种抗抑郁药，用于治疗猝倒发作，它选择性地抑制突触前神经元对去甲肾上腺素的再摄取，增强其功能。"</data>
+      <data key="d2">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;发作性睡病&quot;" target="&quot;HLA-DQB1*0602&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"HLA-DQB1*0602基因的阳性率在发作性睡病患者中远高于普通人群，暗示该基因与发病机制密切相关。"</data>
+      <data key="d6">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发作性睡病&quot;" target="&quot;HCRT-1&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"脑脊液中的Hcrt-1水平是诊断和区分不同类型发作性睡病的重要依据。"</data>
+      <data key="d6">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发作性睡病&quot;" target="&quot;ICSD-3&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"ICSD-3提供了一套标准的诊断和分类体系来帮助识别不同类型（1型和2型）的发作性睡病及其具体临床特征。"</data>
+      <data key="d6">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发作性睡病&quot;" target="&quot;多导睡眠图（POLYSOMNOGRAPHY，PSG）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"多导睡眠图是评估夜间睡眠质量和诊断发作性睡病的重要工具之一，可以显示特定的生理参数变化以支持诊断。"</data>
+      <data key="d6">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发作性睡病&quot;" target="&quot;多次睡眠潜伏期试验（MSLT）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"MSLT用于量化日间嗜睡的程度，并且是区分1型和2型发作性睡病的重要检测方法之一。"</data>
+      <data key="d6">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发作性睡病&quot;" target="&quot;清醒维持试验（MAINTENANCE OF WAKEFULNESS TEST，MWT）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"MWT通过评估患者在特定时间段内的保持清醒能力来帮助判断日间嗜睡的程度及其对日常生活的影响。"</data>
+      <data key="d6">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发作性睡病&quot;" target="&quot;EPWORTH 嗜睡量表（ESS）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Epworth嗜睡量表是一种简便的自我报告工具，用于评估患者在特定活动中的困倦程度，是诊断日间过度嗜睡的重要参考。"</data>
+      <data key="d6">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发作性睡病&quot;" target="&quot;斯坦福嗜睡量表（SSS）&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"斯坦福嗜睡量表提供了另一种方法来量化日间的嗜睡度和频率，有助于全面评估患者的状态。"</data>
+      <data key="d6">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发作性睡病&quot;" target="&quot;莫达非尼&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"莫达非尼是一种用于改善日间清醒状态的药物，在治疗发作性睡病中的日间过度困倦症状中扮演着重要角色。"</data>
+      <data key="d6">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发作性睡病&quot;" target="&quot;哌甲酯&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"哌甲酯被广泛应用于减少日间嗜睡和控制猝倒发作，帮助改善发作性睡病患者的日常活动能力。"</data>
+      <data key="d6">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发作性睡病&quot;" target="&quot;文拉法辛&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"文拉法辛用于治疗猝倒症状，在发作性睡病患者中作为提高清醒度的药物使用。"</data>
+      <data key="d6">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发作性睡病&quot;" target="&quot;度洛西汀&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"度洛西汀在控制猝倒发作和改善睡眠质量方面显示出良好效果，是发作性睡病治疗中的重要组成部分。"</data>
+      <data key="d6">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发作性睡病&quot;" target="&quot;瑞波西汀&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"瑞波西汀通过增强去甲肾上腺素活性来减少猝倒发作的频率及严重程度，在治疗发作性睡病中具有显著效果。"</data>
+      <data key="d6">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发作性睡病&quot;" target="&quot;阿托莫西汀&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"阿托莫西汀用于控制猝倒症状，通过选择性地抑制去甲肾上腺素再摄取来增强其在中枢神经系统中的功能。"</data>
+      <data key="d6">chunk-eec7b06c0d4976c70869933adc42132d</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

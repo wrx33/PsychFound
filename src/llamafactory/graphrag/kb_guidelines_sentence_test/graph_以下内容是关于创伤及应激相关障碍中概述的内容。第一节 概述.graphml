@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;DSM-5&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"DSM-5 is a manual published by the American Psychiatric Association that classifies mental disorders, including trauma and stress-related disorders."</data>
+      <data key="d2">chunk-f8c0a631eee163485710d70939edb88e</data>
+    </node>
+    <node id="&quot;ICD-11&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-11 is a classification of diseases issued by the World Health Organization which categorizes mental health conditions, including trauma and stress-related disorders."</data>
+      <data key="d2">chunk-f8c0a631eee163485710d70939edb88e</data>
+    </node>
+    <node id="&quot;美国911恐怖袭击事件&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"The 9/11 terrorist attacks in America refer to the significant event involving multiple terrorist attacks on September 11th, 2001 that have had lasting impacts on American society and global politics."</data>
+      <data key="d2">chunk-f8c0a631eee163485710d70939edb88e</data>
+    </node>
+    <node id="&quot;唐山大地震&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Tangshan Earthquake was a major natural disaster which occurred in China’s Hebei Province in 1976 causing extensive casualties and societal impact."</data>
+      <data key="d2">chunk-f8c0a631eee163485710d70939edb88e</data>
+    </node>
+    <node id="&quot;汶川大地震&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Wenchuan Earthquake refers to the catastrophic earthquake that struck Sichuan province, China on May 12th, 2008 leading to significant loss of life and property damage."</data>
+      <data key="d2">chunk-f8c0a631eee163485710d70939edb88e</data>
+    </node>
+    <node id="&quot;战争相关创伤后应激障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"War-related PTSD (Post-Traumatic Stress Disorder) refers to the mental health condition that affects veterans or individuals exposed to war scenarios, characterized by symptoms such as re-experiencing trauma, avoidance of reminders of trauma, and hyperarousal."</data>
+      <data key="d2">chunk-f8c0a631eee163485710d70939edb88e</data>
+    </node>
+    <node id="&quot;适应障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Adjustment Disorder is a type of stress-related disorder where an individual experiences significant emotional or behavioral difficulties in response to a stressful life event that is generally expected to resolve once the stressor is removed."</data>
+      <data key="d2">chunk-f8c0a631eee163485710d70939edb88e</data>
+    </node>
+    <node id="&quot;延长哀伤障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Prolonged Grief Disorder (PGD) describes persistent and severe grief following bereavement, characterized by yearning for the deceased person and emotional pain."</data>
+      <data key="d2">chunk-f8c0a631eee163485710d70939edb88e</data>
+    </node>
+    <node id="&quot;反应性依恋障碍（RAD）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Reactive Attachment Disorder (RAD) is a condition where children do not develop expected social and emotional relationships due to severe neglect or abuse, leading to difficulties in forming secure attachments."</data>
+      <data key="d2">chunk-f8c0a631eee163485710d70939edb88e</data>
+    </node>
+    <node id="&quot;去抑制性社会参与障碍（DSED）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Disinhibited Social Engagement Disorder (DSED) is characterized by an eagerness for interaction with unfamiliar adults, potentially indicating a lack of developmentally appropriate social boundaries and emotional attachment issues."</data>
+      <data key="d2">chunk-f8c0a631eee163485710d70939edb88e</data>
+    </node>
+    <node id="&quot;急性应激障碍（ASD）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Acute Stress Disorder (ASD) is diagnosed in individuals who develop symptoms within one month after experiencing or witnessing a traumatic event."</data>
+      <data key="d2">chunk-f8c0a631eee163485710d70939edb88e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;创伤后应激障碍（PTSD）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Post-Traumatic Stress Disorder (PTSD) is characterized by persistent distressing experiences and emotional, cognitive, behavioral, and physiological signs of intense fear, helplessness, or horror following exposure to severe traumatic events."</data>
+      <data key="d2">chunk-f8c0a631eee163485710d70939edb88e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;复杂性创伤后应激障碍（C-PTSD）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Complex Post-Traumatic Stress Disorder (C-PTSD) involves prolonged, repeated trauma that affects an individual's sense of self and their ability to regulate emotions."</data>
+      <data key="d2">chunk-f8c0a631eee163485710d70939edb88e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;适应障碍（AD）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Adjustment Disorders are stress-related conditions caused by or exacerbated by a stressful event, characterized by emotional or behavioral symptoms in response to life changes."</data>
+      <data key="d2">chunk-f8c0a631eee163485710d70939edb88e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;延长哀伤障碍（PGD）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Prolonged Grief Disorder (PGD) is a mental health condition involving prolonged and intense grief that interferes significantly with daily functioning following the loss of a loved one."</data>
+      <data key="d2">chunk-f8c0a631eee163485710d70939edb88e</data>
+    </node>
+    <node id="&quot;创伤及应激相关障碍&quot;">
+      <data key="d2">chunk-f8c0a631eee163485710d70939edb88e</data>
+      <data key="d1">"The DSM-5 includes various trauma and stress-related disorders like PTSD, ASD, AD, RAD, DSED categorizing them under this umbrella term."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;创伤后应激障碍&quot;">
+      <data key="d2">chunk-f8c0a631eee163485710d70939edb88e</data>
+      <data key="d1">"The 9/11 attacks significantly influenced the research on PTSD, with studies showing varying rates of PTSD among survivors in the aftermath of the event."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;DSM-5&quot;" target="&quot;创伤及应激相关障碍&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The DSM-5 includes various trauma and stress-related disorders like PTSD, ASD, AD, RAD, DSED categorizing them under this umbrella term."</data>
+      <data key="d6">chunk-f8c0a631eee163485710d70939edb88e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ICD-11&quot;" target="&quot;延长哀伤障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"ICD-11 includes Prolonged Grief Disorder among its classifications, recognizing it as a distinct condition due to its severe and persistent nature."</data>
+      <data key="d6">chunk-f8c0a631eee163485710d70939edb88e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;美国911恐怖袭击事件&quot;" target="&quot;创伤后应激障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"The 9/11 attacks significantly influenced the research on PTSD, with studies showing varying rates of PTSD among survivors in the aftermath of the event."</data>
+      <data key="d6">chunk-f8c0a631eee163485710d70939edb88e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;唐山大地震&quot;" target="&quot;创伤及应激相关障碍&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Following the Tangshan earthquake, there was a noted prevalence of trauma and stress-related disorders amongst orphans over decades post-disaster."</data>
+      <data key="d6">chunk-f8c0a631eee163485710d70939edb88e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;汶川大地震&quot;" target="&quot;适应障碍&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"After the Wenchuan earthquake, studies observed varying levels of adjustment disorder in both children and adults, reflecting how severe natural disasters impact mental health."</data>
+      <data key="d6">chunk-f8c0a631eee163485710d70939edb88e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性应激障碍（ASD）&quot;" target="&quot;创伤后应激障碍（PTSD）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"ASD is often a precursor to PTSD, where individuals who experience ASD may develop PTSD if they do not receive appropriate treatment or support within months of the traumatic event."</data>
+      <data key="d6">chunk-f8c0a631eee163485710d70939edb88e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;创伤后应激障碍（PTSD）&quot;" target="&quot;复杂性创伤后应激障碍（C-PTSD）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Both C-PTSD and PTSD are forms of trauma-related disorders, but C-PTSD is specifically linked to prolonged or repeated trauma, leading to additional symptoms like difficulties in relationships and self-concept."</data>
+      <data key="d6">chunk-f8c0a631eee163485710d70939edb88e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;创伤后应激障碍（PTSD）&quot;" target="&quot;适应障碍（AD）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Both AD and PTSD are conditions that can arise from traumatic events but differ in the severity and duration of their impact on daily functioning."</data>
+      <data key="d6">chunk-f8c0a631eee163485710d70939edb88e</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

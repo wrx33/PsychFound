@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;神经性贪食&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"神经性贪食是一种进食障碍，表现为反复发作的暴食和强烈的控制体重观念，伴随一系列补偿行为以防止体重增加。"</data>
+      <data key="d2">chunk-50a2cd2a6e3bc07ac9a51bb567ca160a</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;急性胃扩张&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"急性胃扩张是由于反复暴食引起的消化系统并发症之一。"</data>
+      <data key="d2">chunk-50a2cd2a6e3bc07ac9a51bb567ca160a</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;神经性厌食&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"神经性厌食是一种进食障碍，通常先于神经性贪食出现，在青少年晚期和成年早期发病。"</data>
+      <data key="d2">chunk-50a2cd2a6e3bc07ac9a51bb567ca160a</data>
+    </node>
+    <node id="&quot;美国 FDA &quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"美国食品药品监督管理局（FDA）是批准药物的机构，例如氟西汀用于治疗神经性贪食。"</data>
+      <data key="d2">chunk-50a2cd2a6e3bc07ac9a51bb567ca160a</data>
+    </node>
+    <node id="&quot;暴食清除行为&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"暴食清除行为包括通过各种手段防止体重增加的补偿性行为，如诱吐、滥用泻药等。"</data>
+      <data key="d2">chunk-50a2cd2a6e3bc07ac9a51bb567ca160a</data>
+    </node>
+    <node id="&quot;抑郁障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"抑郁障碍是一种常见的精神疾病，与神经性贪食有较高的共病率。"</data>
+      <data key="d2">chunk-50a2cd2a6e3bc07ac9a51bb567ca160a</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;焦虑障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"焦虑障碍也是一种常见的心境障碍，常伴随神经性贪食患者出现。"</data>
+      <data key="d2">chunk-50a2cd2a6e3bc07ac9a51bb567ca160a</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;电解质紊乱&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"电解质紊乱是由于反复暴食、呕吐和导泻引起的代谢系统并发症之一。"</data>
+      <data key="d2">chunk-50a2cd2a6e3bc07ac9a51bb567ca160a</data>
+    </node>
+    <node id="&quot;心脏功能异常&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"心脏功能异常可以由神经性贪食患者的清除行为导致脱水、水电解质失衡引起。"</data>
+      <data key="d2">chunk-50a2cd2a6e3bc07ac9a51bb567ca160a</data>
+    </node>
+    <node id="&quot;认知行为治疗&quot;">
+      <data key="d0">"ROLE"</data>
+      <data key="d1">"认知行为治疗是一种心理治疗方法，适用于神经性贪食患者以减少暴食和补偿行为。"</data>
+      <data key="d2">chunk-50a2cd2a6e3bc07ac9a51bb567ca160a</data>
+    </node>
+    <node id="&quot;人际心理治疗&quot;">
+      <data key="d0">"ROLE"</data>
+      <data key="d1">"人际心理治疗通过解决人际关系问题来帮助减轻患者的暴食清除行为。"</data>
+      <data key="d2">chunk-50a2cd2a6e3bc07ac9a51bb567ca160a</data>
+    </node>
+    <node id="&quot;辩证行为治疗&quot;">
+      <data key="d0">"ROLE"</data>
+      <data key="d1">"辩证行为治疗在青少年和成人神经性贪食患者中显示出减少暴食、清除行为及非自杀性自伤的优越效果。"</data>
+      <data key="d2">chunk-50a2cd2a6e3bc07ac9a51bb567ca160a</data>
+    </node>
+    <node id="&quot;氟西汀&quot;">
+      <data key="d2">chunk-50a2cd2a6e3bc07ac9a51bb567ca160a</data>
+      <data key="d1">"美国食品药品监督管理局批准了氟西汀用于治疗神经性贪食患者。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;神经性贪食患者&quot;">
+      <data key="d2">chunk-50a2cd2a6e3bc07ac9a51bb567ca160a</data>
+      <data key="d1">"认知行为治疗作为一线心理治疗方法用于减少神经性贪食患者的暴食冲动及补偿行为。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;神经性贪食&quot;" target="&quot;急性胃扩张&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"急性胃扩张是由反复暴食引发的一种消化系统并发症，直接与神经性贪食有关。"</data>
+      <data key="d6">chunk-50a2cd2a6e3bc07ac9a51bb567ca160a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;神经性贪食&quot;" target="&quot;抑郁障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"神经性贪食共病抑郁障碍远高于单独存在的可能性，两者有较高的关联性和相互影响。"</data>
+      <data key="d6">chunk-50a2cd2a6e3bc07ac9a51bb567ca160a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;神经性贪食&quot;" target="&quot;焦虑障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"焦虑障碍与神经性贪食患者有着显著的相关性，可能通过心理治疗缓解症状。"</data>
+      <data key="d6">chunk-50a2cd2a6e3bc07ac9a51bb567ca160a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;美国 FDA &quot;" target="&quot;氟西汀&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"美国食品药品监督管理局批准了氟西汀用于治疗神经性贪食患者。"</data>
+      <data key="d6">chunk-50a2cd2a6e3bc07ac9a51bb567ca160a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;暴食清除行为&quot;" target="&quot;电解质紊乱&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"频繁的暴食清除行为会导致电解质紊乱等代谢问题，影响身体健康。"</data>
+      <data key="d6">chunk-50a2cd2a6e3bc07ac9a51bb567ca160a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;暴食清除行为&quot;" target="&quot;心脏功能异常&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"暴食清除行为可能导致脱水和水电解质失衡，进而引起心脏功能异常。"</data>
+      <data key="d6">chunk-50a2cd2a6e3bc07ac9a51bb567ca160a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;暴食清除行为&quot;" target="&quot;人际心理治疗&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"通过解决人际关系问题，帮助减轻和消除患者的暴食清除行为。"</data>
+      <data key="d6">chunk-50a2cd2a6e3bc07ac9a51bb567ca160a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;认知行为治疗&quot;" target="&quot;神经性贪食患者&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"认知行为治疗作为一线心理治疗方法用于减少神经性贪食患者的暴食冲动及补偿行为。"</data>
+      <data key="d6">chunk-50a2cd2a6e3bc07ac9a51bb567ca160a</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;辩证行为治疗&quot;" target="&quot;神经性贪食患者&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"辩证行为治疗有助于减少青少年及成人的暴食、补偿行为以及非自杀性自伤倾向。"</data>
+      <data key="d6">chunk-50a2cd2a6e3bc07ac9a51bb567ca160a</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

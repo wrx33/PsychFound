@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;DSM-5&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"DSM-5 is the Diagnostic and Statistical Manual of Mental Disorders, 5th Edition published by the American Psychiatric Association."&lt;SEP&gt;"DSM-5是美国精神病学会出版的《精神疾病诊断与统计手册》第5版。"</data>
+      <data key="d2">chunk-2d110e48bc463abb6cf62fa1c20a02c5</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;ICD-10&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-10 stands for International Classification of Diseases, 10th Revision which provides codes to classify diagnoses and procedures recorded on inpatient medical records and other data sources."&lt;SEP&gt;"ICD-10是指国际疾病分类第十次修订本，提供编码来分类住院病人医疗记录中的诊断和程序记录。"</data>
+      <data key="d2">chunk-2d110e48bc463abb6cf62fa1c20a02c5</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;性偏好障碍（SEXUAL PREFERENCE DISORDERS）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Sexual preference disorders refer to a type of sexual psychological disorder characterized by sexual behavior that deviates significantly from societal norms, and such deviations are the primary or sole means of sexual excitement and fulfillment."&lt;SEP&gt;"性偏好障碍是一种精神心理疾病，表现为个体的性行为明显偏离社会规范，并以这种偏离行为为主要或唯一性的满足手段。"</data>
+      <data key="d2">chunk-2d110e48bc463abb6cf62fa1c20a02c5</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;AMERICAN PSYCHIATRIC ASSOCIATION&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"美国精神病学会是DSM-5手册的出版者，该手册用于诊断各种精神疾病包括性欲倒错障碍等。"</data>
+      <data key="d2">chunk-2d110e48bc463abb6cf62fa1c20a02c5</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;DSM-5&quot;" target="&quot;性偏好障碍（SEXUAL PREFERENCE DISORDERS）&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"DSM-5 classifies sexual preference disorders under paraphilic disorders with specific diagnostic criteria."&lt;SEP&gt;"DSM-5将性偏好障碍分类为性欲倒错障碍，并提供具体的诊断标准。"</data>
+      <data key="d6">chunk-2d110e48bc463abb6cf62fa1c20a02c5</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DSM-5&quot;" target="&quot;AMERICAN PSYCHIATRIC ASSOCIATION&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"美国精神病学会负责出版包含各种精神疾病诊断标准的手册，包括性欲倒错障碍等。"</data>
+      <data key="d6">chunk-2d110e48bc463abb6cf62fa1c20a02c5</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ICD-10&quot;" target="&quot;性偏好障碍（SEXUAL PREFERENCE DISORDERS）&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"ICD-10 provides diagnostic codes and classification for sexual preference disorders, offering a framework for clinical diagnosis and treatment."&lt;SEP&gt;"ICD-10提供了用于诊断和治疗性偏好障碍的编码体系，为临床诊断提供了框架。"</data>
+      <data key="d6">chunk-2d110e48bc463abb6cf62fa1c20a02c5</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;ICU (重症监护病房)&quot;">
+      <data key="d0">"LOCATION"</data>
+      <data key="d1">"ICU 是一种提供重症病人高级护理和治疗的地方，谵妄在此环境中高发。&lt;SEP&gt;"ICU 是一种提供重症病人高级护理和治疗的地方，谵妄在此环境中高发。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;谵妄（DELIRIUM）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"谵妄是一种急性脑病综合征，表现为认知功能受损、注意力障碍、意识水平变化及其他心理行为症状。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;老年人群&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"老年人群是指65岁以上的群体，这一群体中谵妄发病率较高，尤其在伴有严重躯体疾病的情况下更为常见。&lt;SEP&gt;"老年人群是指65岁以上的群体，这一群体中谵妄发病率较高，尤其在伴有严重躯体疾病的情况下更为常见。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;痴呆患者&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"痴呆患者更容易出现谵妄，特别是伴有严重躯体疾病的患者。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;高龄&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"高龄是指年龄较大的状态，增加患谵妄的风险。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+    </node>
+    <node id="&quot;认知功能损害&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"认知功能损害是导致谵妄的一个重要风险因素。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+    </node>
+    <node id="&quot;严重躯体疾病&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"严重躯体疾病如感染、电解质紊乱等，增加患谵妄的风险。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;视听障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"视听障碍可能是导致谵妄的一个因素。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;营养不良&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"营养不良可能引发或加剧谵妄症状。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;水电解质失衡&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"水电解质失衡是诱发谵妄的常见原因之一。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;药物/酒依赖&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"药物或酒精依赖患者在戒断期间容易出现谵妄，如震颤性谵妄。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+    </node>
+    <node id="&quot;手术&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"术后是谵妄的高发期之一。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;外伤&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"创伤事件可能引发谵妄症状。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;严重生活事件&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"经历重大心理压力或精神打击时容易出现谵妄。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+    </node>
+    <node id="&quot;疲劳&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"过度的劳累和疲惫是导致谵妄的风险因素之一。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+    </node>
+    <node id="&quot;睡眠不足&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"缺乏充足的休息时间会增加患谵妄的可能性。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+    </node>
+    <node id="&quot;外界刺激过少或过多&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"环境过于单调或者过度的刺激可能触发谵妄症状。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+    </node>
+    <node id="&quot;环境恐怖陌生单调&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"患者在不熟悉的环境中感到恐惧和不安，可能导致谵妄。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+    </node>
+    <node id="&quot;震颤性谵妄&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"一种特定类型的谵妄，发生在酒精戒断期间。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+    </node>
+    <node id="&quot;镇痛药&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"镇痛药物的使用可能成为诱发谵妄的重要因素之一。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+    </node>
+    <node id="&quot;抗生素&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"长期或不当使用抗生素可能导致患者出现谵妄症状。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+    </node>
+    <node id="&quot;抗胆碱能药&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"抗胆碱能药物的使用可能引发神经递质失衡导致的谵妄。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+    </node>
+    <node id="&quot;抗惊厥药&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"抗癫痫药物也可能成为诱发谵妄的因素之一。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+    </node>
+    <node id="&quot;抗帕金森药&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"治疗帕金森病的药物在某些情况下可能导致患者出现谵妄。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+    </node>
+    <node id="&quot;镇静催眠药&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"长期使用可能影响神经递质平衡，导致谵妄症状。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+    </node>
+    <node id="&quot;抗精神病药&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"用于缓解严重精神症状的药物，在某些情况下可能导致患者出现谵妄。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+    </node>
+    <node id="&quot;抗抑郁药&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"长期使用可能影响神经递质平衡，导致谵妄风险增加。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+    </node>
+    <node id="&quot;中枢兴奋剂&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"刺激大脑活动的药物可能导致患者出现谵妄症状。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+    </node>
+    <node id="&quot;皮质醇激素&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"长期使用可能影响神经递质平衡，导致谵妄风险增加。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+    </node>
+    <node id="&quot;抗肿瘤药&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"化疗药物可能导致患者出现谵妄症状。"</data>
+      <data key="d2">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+    </node>
+    <edge source="&quot;ICU (重症监护病房)&quot;" target="&quot;谵妄（DELIRIUM）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"ICU 是谵妄高发的地方，尤其是在老年患者和有严重疾病的患者中。"</data>
+      <data key="d6">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ICU (重症监护病房)&quot;" target="&quot;痴呆患者&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"痴呆患者在 ICU 中更容易发生谵妄，特别是在高龄和严重躯体疾病的情况下。"</data>
+      <data key="d6">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ICU (重症监护病房)&quot;" target="&quot;手术&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"术后患者，尤其是老年患者在 ICU 中容易出现谵妄。"</data>
+      <data key="d6">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;谵妄（DELIRIUM）&quot;" target="&quot;老年人群&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"老年人更容易出现谵妄，特别是在伴有其他健康问题的情况下。"</data>
+      <data key="d6">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;老年人群&quot;" target="&quot;营养不良&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"老年人中营养不良的现象较为常见，并且容易导致或加重谵妄症状。"</data>
+      <data key="d6">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;老年人群&quot;" target="&quot;严重躯体疾病&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"老年人群中伴有严重躯体疾病的患者更容易发生谵妄。"</data>
+      <data key="d6">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;痴呆患者&quot;" target="&quot;视听障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"痴呆患者更容易出现视、听等感知功能的障碍，进一步增加患谵妄的风险。"</data>
+      <data key="d6">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;严重躯体疾病&quot;" target="&quot;水电解质失衡&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"严重的身体状况可能导致电解质和水代谢紊乱，进而诱发或加重谵妄症状。"</data>
+      <data key="d6">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;药物/酒依赖&quot;" target="&quot;震颤性谵妄&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"酒精戒断期间出现的症状，如震颤和意识障碍属于特定类型的谵妄现象。"</data>
+      <data key="d6">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;手术&quot;" target="&quot;外伤&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"外科手术及意外创伤是谵妄的常见诱因之一。"</data>
+      <data key="d6">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;镇痛药&quot;" target="&quot;抗胆碱能药&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"这两类药物均可能通过影响神经递质平衡导致患者出现谵妄症状。"</data>
+      <data key="d6">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;抗生素&quot;" target="&quot;皮质醇激素&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"不当使用这些药物可能导致患者的生理平衡失调，引发或加剧谵妄症状。"</data>
+      <data key="d6">chunk-eec94c83314fa9d837a6cfe2f4366e6e</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

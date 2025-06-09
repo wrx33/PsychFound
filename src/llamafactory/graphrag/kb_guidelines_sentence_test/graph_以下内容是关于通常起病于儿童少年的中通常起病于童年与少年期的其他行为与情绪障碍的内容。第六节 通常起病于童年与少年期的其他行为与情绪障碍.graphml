@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;ICD-11&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-11 is the International Classification of Diseases, 11th Revision, which includes a diagnostic classification draft for behavioral and emotional disorders with onset in childhood and adolescence."</data>
+      <data key="d2">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+    </node>
+    <node id="&quot;儿童少年行为与情绪障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"This event refers to various behavioral and emotional disorders that typically begin during childhood or adolescence according to the ICD-11 diagnostic criteria."</data>
+      <data key="d2">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+    </node>
+    <node id="&quot;遗尿症&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"遗尿症, also known as enuresis, is a condition where children above 5 years of age repeatedly cannot control their bladder, often at night, but do not have any physical or psychological disorders."&lt;SEP&gt;"遺尿症, also known as enuresis, is a condition where children above 5 years of age repeatedly cannot control their bladder, often at night, but do not have any physical or psychological disorders."</data>
+      <data key="d2">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+    </node>
+    <node id="&quot;遗传因素&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"遗传因素 refer to hereditary elements which may contribute to the onset and development of conditions like enuresis and encopresis."</data>
+      <data key="d2">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+    </node>
+    <node id="&quot;遗粪症&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Encopresis, also known as non-organic fecal incontinence, refers to children older than 4 years who frequently experience unexplained involuntary passage of stool outside the toilet."</data>
+      <data key="d2">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+    </node>
+    <node id="&quot;非器质性遗尿症&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Non-organic enuresis refers to a condition where children above 5 years of age repeatedly cannot control their bladder without any physical or psychological disorders."</data>
+      <data key="d2">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;功能性疾病&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Functional diseases refer to conditions where the body functions abnormally but there are no identifiable structural abnormalities in the organs involved."</data>
+      <data key="d2">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+    </node>
+    <node id="&quot;神经发育迟缓&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Neurodevelopmental delay is a condition characterized by slower development of neural pathways and could be one of the causes for functional enuresis."</data>
+      <data key="d2">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+    </node>
+    <node id="&quot;家庭矛盾&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Family conflicts are stressors that may contribute to the onset or exacerbation of conditions like non-organic enuresis in children."</data>
+      <data key="d2">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+    </node>
+    <node id="&quot;泌尿系统病变&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Urological lesions refer to physical abnormalities in the urinary system, such as infections, anatomical malformations, and functional disorders."</data>
+      <data key="d2">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;神经系统疾病&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Neurological diseases include conditions that affect the brain, spinal cord, or nerves. These can cause symptoms like enuresis due to impairment of neural pathways involved in bladder control."</data>
+      <data key="d2">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;重性精神病&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Severe mental disorders encompass psychiatric illnesses severe enough to impair daily functioning and may also manifest symptoms such as enuresis."</data>
+      <data key="d2">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+    </node>
+    <node id="&quot;遗尿报警器治疗&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Enuresis alarm therapy is a method used to train children to wake up before they wet the bed by using alarms that go off when urine is detected in the mattress."</data>
+      <data key="d2">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+    </node>
+    <node id="&quot;生物反馈治疗&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Biofeedback treatment involves teaching patients how to control bodily functions such as bladder muscles through interactive biofeedback principles."</data>
+      <data key="d2">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+    </node>
+    <node id="&quot;三环类抗抑郁药&quot;">
+      <data key="d0">"MEDICINE"</data>
+      <data key="d1">"Tricyclic antidepressants are medications used off-label for treating enuresis, likely due to their effects on neurotransmitters related to sleep and arousal."</data>
+      <data key="d2">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+    </node>
+    <node id="&quot;抗胆碱能药物&quot;">
+      <data key="d0">"MEDICINE"</data>
+      <data key="d1">"Anticholinergic drugs like atropine or scopolamine may be used in the treatment of non-organic encopresis, though they are less effective than tricyclic antidepressants."</data>
+      <data key="d2">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+    </node>
+    <node id="&quot;非器质性遺尿症&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Non-organic enuresis refers to a condition where children above 5 years of age repeatedly cannot control their bladder without any physical or psychological disorders."</data>
+      <data key="d2">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;生物反馈治療&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Biofeedback treatment involves teaching patients how to control bodily functions such as bladder muscles through interactive biofeedback principles."</data>
+      <data key="d2">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+    </node>
+    <node id="&quot;非器质性遗粪症&quot;">
+      <data key="d2">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+      <data key="d1">"In diagnosing non-organic encopresis, severe mental disorders must be ruled out as potential causes."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;遺尿症&quot;">
+      <data key="d2">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+      <data key="d1">"Genetic factors may contribute to the occurrence of enuresis, suggesting a hereditary link among affected individuals."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;非器質性遗粪症&quot;">
+      <data key="d2">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+      <data key="d1">"In diagnosing non-organic encopresis, severe mental disorders must be ruled out as potential causes."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;泌尿系統病变&quot;">
+      <data key="d2">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+      <data key="d1">"Urological lesions and neurological diseases both need careful differential diagnosis when assessing causes for symptoms such as nocturnal incontinence."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;遗尿报警器治療&quot;">
+      <data key="d2">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+      <data key="d1">"Both enuresis alarm therapy and biofeedback treatment aim to train children on bladder control but through different mechanisms."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;ICD-11&quot;" target="&quot;儿童少年行为与情绪障碍&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"The ICD-11 diagnostic classification includes and classifies various behavioral and emotional disorders in childhood and adolescence."</data>
+      <data key="d6">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ICD-11&quot;" target="&quot;遗粪症&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"The ICD-11 diagnostic classification also covers and classifies non-organic encopresis as an event in childhood and adolescence."</data>
+      <data key="d6">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;遗尿症&quot;" target="&quot;遗传因素&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Genetic factors may contribute to the occurrence of enuresis, suggesting a hereditary link among affected individuals."</data>
+      <data key="d6">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;遗传因素&quot;" target="&quot;遺尿症&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Genetic factors may contribute to the occurrence of enuresis, suggesting a hereditary link among affected individuals."</data>
+      <data key="d6">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;非器质性遗尿症&quot;" target="&quot;泌尿系统病变&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Non-organic enuresis needs to be differentiated from urological lesions through detailed examination and testing."</data>
+      <data key="d6">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;功能性疾病&quot;" target="&quot;家庭矛盾&quot;">
+      <data key="d4">12.0</data>
+      <data key="d5">"Family conflicts can act as stressors leading to the development or worsening of functional diseases like enuresis and encopresis."</data>
+      <data key="d6">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;泌尿系统病变&quot;" target="&quot;神经系统疾病&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Urological lesions and neurological diseases both need careful differential diagnosis when assessing causes for symptoms such as nocturnal incontinence."</data>
+      <data key="d6">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;泌尿系统病变&quot;" target="&quot;非器质性遺尿症&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Non-organic enuresis needs to be differentiated from urological lesions through detailed examination and testing."</data>
+      <data key="d6">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;神经系统疾病&quot;" target="&quot;泌尿系統病变&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Urological lesions and neurological diseases both need careful differential diagnosis when assessing causes for symptoms such as nocturnal incontinence."</data>
+      <data key="d6">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;重性精神病&quot;" target="&quot;非器质性遗粪症&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"In diagnosing non-organic encopresis, severe mental disorders must be ruled out as potential causes."</data>
+      <data key="d6">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;重性精神病&quot;" target="&quot;非器質性遗粪症&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"In diagnosing non-organic encopresis, severe mental disorders must be ruled out as potential causes."</data>
+      <data key="d6">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;遗尿报警器治疗&quot;" target="&quot;生物反馈治疗&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Both enuresis alarm therapy and biofeedback treatment aim to train children on bladder control but through different mechanisms."</data>
+      <data key="d6">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;生物反馈治疗&quot;" target="&quot;遗尿报警器治療&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Both enuresis alarm therapy and biofeedback treatment aim to train children on bladder control but through different mechanisms."</data>
+      <data key="d6">chunk-7f593ae449dd1b262737edd2026d5ba3</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

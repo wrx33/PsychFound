@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;进食障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"进食障碍是一类影响个体正常饮食行为的疾病，包括多种具体的分类和亚型。"</data>
+      <data key="d2">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;婴幼儿喂养障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"婴幼儿喂养障碍是针对0至5岁儿童在进食方面的健康问题和发展停滞情况的关注领域。"</data>
+      <data key="d2">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;回避/限制性摄食障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"一种以避免食物或减少摄入量为特征的行为障碍，常影响婴幼儿、儿童和青少年的营养状况及发展。"</data>
+      <data key="d2">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;异食症&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"指持续性地嗜好食用非食品物质的现象，常见于特定年龄段的儿童以及部分成人患者中。"</data>
+      <data key="d2">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+    </node>
+    <node id="&quot;反刍障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"以个体反复将摄入的食物重新咀嚼并再次吞咽或吐出的行为为特征的一种疾病状况。"</data>
+      <data key="d2">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+    </node>
+    <node id="&quot;临床研究资料的积累&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"近年来关于进食障碍的研究数据逐渐丰富，推动了分类整合的发展。"</data>
+      <data key="d2">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+    </node>
+    <node id="&quot;疾病分类视角转变&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"指从新的角度理解疾病的类别和特性，促进了进食障碍和婴幼儿喂养障碍的综合考虑。"</data>
+      <data key="d2">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+    </node>
+    <node id="&quot;神经性厌食&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"一种以强烈恐惧体重增加及对身体形象扭曲认知为特征的精神疾病。"</data>
+      <data key="d2">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;神经性贪食&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"表现为反复大量进食和清除行为，如呕吐或使用泻药等，常见于青少年和年轻女性中。"</data>
+      <data key="d2">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+    </node>
+    <node id="&quot;食物缺乏现象&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"指由于食品供应不足导致的无法满足基本营养需求的情况。"</data>
+      <data key="d2">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+    </node>
+    <node id="&quot;文化相关的食物限制现象&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"某些社会或文化背景下的个体可能会因为特定习俗而避免食用某些类型的食物。"</data>
+      <data key="d2">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+    </node>
+    <node id="&quot;家庭治疗&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"一种治疗方法，通过改善患者与其家人之间的关系来解决进食障碍的问题。"</data>
+      <data key="d2">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+    </node>
+    <node id="&quot;行为干预&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"针对进食障碍采用的行为技术，旨在改变患者的饮食习惯和态度。"</data>
+      <data key="d2">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+    </node>
+    <node id="&quot;铁缺乏症&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"体内铁元素不足，可能会影响红细胞生成及整体健康状态。"</data>
+      <data key="d2">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+    </node>
+    <node id="&quot;锌缺乏症&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"体内的锌水平低于正常范围，可能导致生长发育迟缓及其他健康问题。"</data>
+      <data key="d2">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+    </node>
+    <node id="&quot;胃食管反流&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"指胃内容物逆流入食道的状况，常见于婴幼儿及成人中。"</data>
+      <data key="d2">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+    </node>
+    <node id="&quot;幽门狭窄&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"一种婴儿期常见的消化系统疾病，引起食物通过胃部受阻。"</data>
+      <data key="d2">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+    </node>
+    <node id="&quot;铁缺乏症和锌缺乏症&quot;">
+      <data key="d2">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+      <data key="d1">"这些营养状况问题可能与摄入非食品物质的行为有关联。</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;胃食管反流和幽门狭窄&quot;">
+      <data key="d2">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+      <data key="d1">"两者都需要在诊断反刍障碍时排除，以避免误诊。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;进食障碍&quot;" target="&quot;回避/限制性摄食障碍&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"回避/限制性摄食障碍是进食障碍分类之一，占进食障碍的13.8%。"</data>
+      <data key="d6">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;婴幼儿喂养障碍&quot;" target="&quot;回避/限制性摄食障碍&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"两者都在探讨影响孩子食物摄入的健康问题，并且相互补充研究视角。</data>
+      <data key="d6">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;回避/限制性摄食障碍&quot;" target="&quot;神经性厌食&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"两者都属于进食障碍的范畴，并且需要区分诊断标准以进行准确评估。</data>
+      <data key="d6">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;异食症&quot;" target="&quot;反刍障碍&quot;">
+      <data key="d4">4.0</data>
+      <data key="d5">"两者都是进食和喂养障碍的不同形式，都涉及异常的食物处理行为。"</data>
+      <data key="d6">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;异食症&quot;" target="&quot;铁缺乏症和锌缺乏症&quot;">
+      <data key="d4">4.0</data>
+      <data key="d5">"这些营养状况问题可能与摄入非食品物质的行为有关联。</data>
+      <data key="d6">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;反刍障碍&quot;" target="&quot;胃食管反流和幽门狭窄&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"两者都需要在诊断反刍障碍时排除，以避免误诊。"</data>
+      <data key="d6">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;家庭治疗&quot;" target="&quot;行为干预&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"在处理进食障碍时，两者常常结合使用，共同促进患者的康复。"</data>
+      <data key="d6">chunk-a1ea386a1d768678052be17a2c645b8b</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

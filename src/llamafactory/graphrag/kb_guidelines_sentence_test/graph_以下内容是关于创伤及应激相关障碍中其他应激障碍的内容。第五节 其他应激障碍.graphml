@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;DSM-5&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"DSM-5 is a diagnostic and statistical manual published by the American Psychiatric Association, used for diagnosing mental disorders including trauma and stressor-related disorders."</data>
+      <data key="d2">chunk-4b20182d3534395c41a852796a029f75</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;延长哀伤障碍（PGD）患者群&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"延长哀伤障碍的高危患病群体包括女性、老年人、文化程度低者、家庭收入低下者及非优势种族者。此外，有流产史、儿童期分离焦虑、童年虐待、父母离世、与逝者关系亲密、对逝者过度情感依赖、不安全的依恋关系、暴力性的致死事件、对亲人的去世缺乏心理准备、缺少有效的社会支持等因素的人群也属于高危人群。"</data>
+      <data key="d2">chunk-4b20182d3534395c41a852796a029f75</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;反应性依恋障碍（RAD）患者&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"患有反应性依恋障碍的儿童主要表现为在生命早期由于被忽视或虐待，不能与父母或者照料者建立起健康的依恋关系，并表现出持续性的社交和情绪障碍。诊断要点包括情感退缩、社交互动异常等特征。"</data>
+      <data key="d2">chunk-4b20182d3534395c41a852796a029f75</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;去抑制性社会参与障碍（DSED）患者&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"患有该障碍的儿童通常在5岁之前发病，核心表现为超出了社会预期的、亲疏不分的社交行为模式，无法区别依恋对象，并且常常具有侵入性的社交行为。"</data>
+      <data key="d2">chunk-4b20182d3534395c41a852796a029f75</data>
+    </node>
+    <node id="&quot;心理治疗和药物治疗&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"作为延长哀伤障碍、反应性依恋障碍及去抑制性社会参与障碍的主要治疗方法，包括认知行为疗法、催眠治疗等方法，有时也会辅以抗抑郁药或三环类抗抑郁药。"</data>
+      <data key="d2">chunk-4b20182d3534395c41a852796a029f75</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;心理健康教育与家庭管理&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"涉及通过早期的心理健康教育来增强孩子的适应能力和抗压能力，并强调父母的积极作用和对疾病的正确态度。这种管理方式有助于孩子在成长过程中逐步消退早年创伤的影响。"</data>
+      <data key="d2">chunk-4b20182d3534395c41a852796a029f75</data>
+    </node>
+    <node id="&quot;延长哀伤障碍（PGD）临床特征&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"延长哀伤障碍的临床特征包括持续性的、极度痛苦体验，表现为过度追忆逝者、对相关事物敏感或避免接触、难以进行正常生活和重新定位自我等。"</data>
+      <data key="d2">chunk-4b20182d3534395c41a852796a029f75</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;适应样障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"适用于经历长期应激源后出现症状延迟发作或过长病程的情况。"</data>
+      <data key="d2">chunk-4b20182d3534395c41a852796a029f75</data>
+    </node>
+    <node id="&quot;持续性复杂居丧障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"以严重和持续的悲痛及哀伤反应为特征，通常在与密切关系的人死亡12个月（儿童为6个月）以上才可诊断。"</data>
+      <data key="d2">chunk-4b20182d3534395c41a852796a029f75</data>
+    </node>
+    <node id="&quot;创伤及应激相关障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"指由特定类型的创伤或压力事件引发的一系列心理和行为问题的集合。"</data>
+      <data key="d2">chunk-4b20182d3534395c41a852796a029f75</data>
+    </node>
+    <node id="&quot;其他特定的创伤及应激相关障碍&quot;">
+      <data key="d2">chunk-4b20182d3534395c41a852796a029f75</data>
+      <data key="d1">"适应样障碍是其他特定的创伤及应激相关障碍的一种类型，用于描述长期压力后的延迟或持续性症状。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;DSM-5&quot;" target="&quot;延长哀伤障碍（PGD）患者群&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"DSM-5提供诊断标准，帮助识别和评估患有延长哀伤障碍的人群，并指导其治疗方案制定。"</data>
+      <data key="d6">chunk-4b20182d3534395c41a852796a029f75</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DSM-5&quot;" target="&quot;反应性依恋障碍（RAD）患者&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"DSM-5用于诊断儿童是否患反应性依恋障碍，包括提供相关的临床特征和风险因素标准."</data>
+      <data key="d6">chunk-4b20182d3534395c41a852796a029f75</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;延长哀伤障碍（PGD）患者群&quot;" target="&quot;心理治疗和药物治疗&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"心理治疗和药物治疗是针对延长哀伤障碍的常见治疗方法，旨在改善患者的症状及其生活质量。"</data>
+      <data key="d6">chunk-4b20182d3534395c41a852796a029f75</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;延长哀伤障碍（PGD）患者群&quot;" target="&quot;延长哀伤障碍（PGD）临床特征&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"这些特征帮助识别并诊断患有延长哀伤障碍的人，从而制定相应的治疗计划。"</data>
+      <data key="d6">chunk-4b20182d3534395c41a852796a029f75</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;反应性依恋障碍（RAD）患者&quot;" target="&quot;心理治疗和药物治疗&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"通过心理疗法及必要时辅以药物治疗来纠正患者的社交互动行为模式，帮助他们建立健康的依恋关系。"</data>
+      <data key="d6">chunk-4b20182d3534395c41a852796a029f75</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;去抑制性社会参与障碍（DSED）患者&quot;" target="&quot;心理健康教育与家庭管理&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"针对患有该障碍的儿童及其家庭提供早期的心理健康指导和支持，促进他们的社会适应能力和情感发展。"</data>
+      <data key="d6">chunk-4b20182d3534395c41a852796a029f75</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;心理治疗和药物治疗&quot;" target="&quot;延长哀伤障碍（PGD）临床特征&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"通过心理疗法改善患者的痛苦体验，并帮助他们重新开始新的生活模式。"</data>
+      <data key="d6">chunk-4b20182d3534395c41a852796a029f75</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;适应样障碍&quot;" target="&quot;其他特定的创伤及应激相关障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"适应样障碍是其他特定的创伤及应激相关障碍的一种类型，用于描述长期压力后的延迟或持续性症状。"</data>
+      <data key="d6">chunk-4b20182d3534395c41a852796a029f75</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;持续性复杂居丧障碍&quot;" target="&quot;其他特定的创伤及应激相关障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"持续性复杂居丧障碍也是其他特定的创伤及应激相关障碍的一部分，强调对丧失亲人的悲痛反应。"</data>
+      <data key="d6">chunk-4b20182d3534395c41a852796a029f75</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

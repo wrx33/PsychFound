@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;精神科药物&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"精神科药物包括抗焦虑、抗抑郁等药物，用于治疗与精神健康相关的问题。"</data>
+      <data key="d2">chunk-bc41560aab6a08baa015bee1cc00ba53</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;选择性5-羟色胺再摄取抑制剂（SSRI）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"SSRI是一类新型的抗抑郁药，通过增加大脑中的血清素水平来减轻症状。"</data>
+      <data key="d2">chunk-bc41560aab6a08baa015bee1cc00ba53</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;5-羟色胺和去甲肾上腺素再摄取抑制剂（SNRI）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"SNRI是一种治疗焦虑症、抑郁症和其他精神疾病的药物类型。"</data>
+      <data key="d2">chunk-bc41560aab6a08baa015bee1cc00ba53</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;三环类抗抑郁药（TCA）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"TCA是一类传统的抗抑郁药，与新型抗抑郁药相比疗效相当，但副作用可能更多。"</data>
+      <data key="d2">chunk-bc41560aab6a08baa015bee1cc00ba53</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;非典型抗精神病药物&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"此类药物用于治疗精神分裂症和其他严重的精神疾病，有时与其他抗抑郁药联合使用以提高疗效。"</data>
+      <data key="d2">chunk-bc41560aab6a08baa015bee1cc00ba53</data>
+    </node>
+    <node id="&quot;多学科团队&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"多学科团队由不同专业的专家组成，共同为躯体症状障碍的患者提供全面的医疗服务和支持。"</data>
+      <data key="d2">chunk-bc41560aab6a08baa015bee1cc00ba53</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;首诊医生&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"负责对首次就诊的患者的初步诊断和处理，可能涉及转诊或会诊。"</data>
+      <data key="d2">chunk-bc41560aab6a08baa015bee1cc00ba53</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;精神科医生&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"在躯体症状障碍治疗中具有专业优势，包括疾病识别、医患关系管理及心理干预与药物治疗指导。"</data>
+      <data key="d2">chunk-bc41560aab6a08baa015bee1cc00ba53</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;患者主要躯体症状的接诊医生&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"负责处理患者的主诉问题，并进行必要的转诊或会诊。"</data>
+      <data key="d2">chunk-bc41560aab6a08baa015bee1cc00ba53</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <edge source="&quot;精神科药物&quot;" target="&quot;选择性5-羟色胺再摄取抑制剂（SSRI）&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"精神科药物中包括SSRI这类新型抗抑郁药用于治疗各种精神健康问题。"</data>
+      <data key="d6">chunk-bc41560aab6a08baa015bee1cc00ba53</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;精神科药物&quot;" target="&quot;5-羟色胺和去甲肾上腺素再摄取抑制剂（SNRI）&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"精神科药物中包含SNRI，这是一种有效的治疗焦虑症、抑郁症等疾病的药物类型。"</data>
+      <data key="d6">chunk-bc41560aab6a08baa015bee1cc00ba53</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;精神科药物&quot;" target="&quot;三环类抗抑郁药（TCA）&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"精神科药物也包括TCA这类传统抗抑郁药，与新型抗抑郁药相比疗效相当。"</data>
+      <data key="d6">chunk-bc41560aab6a08baa015bee1cc00ba53</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;精神科药物&quot;" target="&quot;多学科团队&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"多学科团队在治疗躯体症状障碍时使用精神科药物，并指导患者进行正确的用药管理。"</data>
+      <data key="d6">chunk-bc41560aab6a08baa015bee1cc00ba53</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;多学科团队&quot;" target="&quot;精神科医生&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"精神科医生是多学科团队的重要成员之一，在疾病的识别、心理干预等方面发挥关键作用。"</data>
+      <data key="d6">chunk-bc41560aab6a08baa015bee1cc00ba53</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;首诊医生&quot;" target="&quot;精神科医生&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"首诊医生在必要时可向精神科医生寻求帮助，进行患者病情的专业判断和治疗指导。"</data>
+      <data key="d6">chunk-bc41560aab6a08baa015bee1cc00ba53</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;首诊医生&quot;" target="&quot;患者主要躯体症状的接诊医生&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"首诊医生与主诉医生之间紧密合作，共同处理患者的躯体症状障碍问题。"</data>
+      <data key="d6">chunk-bc41560aab6a08baa015bee1cc00ba53</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

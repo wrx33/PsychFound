@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;组织&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"文本中未直接提及具体组织名称，但提到了医疗机构、研究机构等可能涉及该领域的多种组织。</data>
+      <data key="d2">chunk-f14d67a8bc8c5820bab5ff72b66df9e3</data>
+    </node>
+    <node id="&quot;阿片类物质使用者&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"阿片类物质使用者指那些依赖于或滥用阿片类药物的人群，包括海洛因和吗啡的使用者。他们可能会经历急性中毒、戒断症状以及相关的心理和社会问题。</data>
+      <data key="d2">chunk-f14d67a8bc8c5820bab5ff72b66df9e3</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;医生和研究人员&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"医生和研究人员是评估、诊断和治疗阿片类物质依赖症的主要群体，他们在临床实践中起着至关重要的作用。</data>
+      <data key="d2">chunk-f14d67a8bc8c5820bab5ff72b66df9e3</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;中国（未明确提及具体地点）&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"文本内容在中国语境下讨论，但没有直接提及具体的地理位置或城市名称。</data>
+      <data key="d2">chunk-f14d67a8bc8c5820bab5ff72b66df9e3</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;阿片类物质使用障碍诊断与治疗会议或研讨&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"虽然文本中没有明确指出，但是可以推断出类似学术交流会或者研讨会这样的事件是存在的，旨在促进对于阿片类药物依赖症的理解和治疗方法的发展。</data>
+      <data key="d2">chunk-f14d67a8bc8c5820bab5ff72b66df9e3</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;阿片类物质&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"阿片类物质是指任何天然的或（半）合成的、对机体产生类似吗啡效应的一类物质。"</data>
+      <data key="d2">chunk-f14d67a8bc8c5820bab5ff72b66df9e3</data>
+    </node>
+    <node id="&quot;急性中毒&quot;">
+      <data key="d2">chunk-f14d67a8bc8c5820bab5ff72b66df9e3</data>
+      <data key="d1">"急性中毒和戒断是阿片类物质滥用的两个不同阶段，前者可能导致后者的发生。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;戒断&quot;">
+      <data key="d2">chunk-f14d67a8bc8c5820bab5ff72b66df9e3</data>
+      <data key="d1">"急性中毒和戒断是阿片类物质滥用的两个不同阶段，前者可能导致后者的发生。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;纳洛酮&quot;">
+      <data key="d2">chunk-f14d67a8bc8c5820bab5ff72b66df9e3</data>
+      <data key="d1">"纳洛酮是一种用于治疗急性中毒的重要药物。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;美沙酮&quot;">
+      <data key="d2">chunk-f14d67a8bc8c5820bab5ff72b66df9e3</data>
+      <data key="d1">"美沙酮常被用来缓解戒断症状，帮助患者平稳过渡。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;丁丙诺啡&quot;">
+      <data key="d2">chunk-f14d67a8bc8c5820bab5ff72b66df9e3</data>
+      <data key="d1">"丁丙诺啡也是一种用于减轻戒断反应的有效药物。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;急性戒断综合征&quot;">
+      <data key="d2">chunk-f14d67a8bc8c5820bab5ff72b66df9e3</data>
+      <data key="d1">"曲马多能够缓解急性期的不适症状，帮助患者尽快恢复。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;曲马多&quot;">
+      <data key="d2">chunk-f14d67a8bc8c5820bab5ff72b66df9e3</data>
+      <data key="d1">"曲马多能够缓解急性期的不适症状，帮助患者尽快恢复。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;阿片类物质使用者&quot;" target="&quot;中国（未明确提及具体地点）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"文本中讨论的案例涉及到中国的药物滥用问题，尽管没有直接指出特定地理位置。"</data>
+      <data key="d6">chunk-f14d67a8bc8c5820bab5ff72b66df9e3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;阿片类物质使用者&quot;" target="&quot;医生和研究人员&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"医生和研究人员致力于诊断、治疗和支持阿片类物质成瘾者康复过程中的各种需求。"</data>
+      <data key="d6">chunk-f14d67a8bc8c5820bab5ff72b66df9e3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;阿片类物质使用者&quot;" target="&quot;纳洛酮&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"纳洛酮是治疗阿片类物质依赖者急性中毒的关键药物。"</data>
+      <data key="d6">chunk-f14d67a8bc8c5820bab5ff72b66df9e3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;阿片类物质使用者&quot;" target="&quot;美沙酮&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"美沙酮对于帮助成瘾者平稳过渡具有重要作用，有助于减少复吸风险。"</data>
+      <data key="d6">chunk-f14d67a8bc8c5820bab5ff72b66df9e3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;中国（未明确提及具体地点）&quot;" target="&quot;阿片类物质使用障碍诊断与治疗会议或研讨&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"这些学术交流会在不同的时间和地点举行，旨在促进对在中国广泛存在的问题的研究和治疗方法的发展。"</data>
+      <data key="d6">chunk-f14d67a8bc8c5820bab5ff72b66df9e3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性中毒&quot;" target="&quot;戒断&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"急性中毒和戒断是阿片类物质滥用的两个不同阶段，前者可能导致后者的发生。"</data>
+      <data key="d6">chunk-f14d67a8bc8c5820bab5ff72b66df9e3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性中毒&quot;" target="&quot;纳洛酮&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"纳洛酮是一种用于治疗急性中毒的重要药物。"</data>
+      <data key="d6">chunk-f14d67a8bc8c5820bab5ff72b66df9e3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;戒断&quot;" target="&quot;美沙酮&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"美沙酮常被用来缓解戒断症状，帮助患者平稳过渡。"</data>
+      <data key="d6">chunk-f14d67a8bc8c5820bab5ff72b66df9e3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;戒断&quot;" target="&quot;丁丙诺啡&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"丁丙诺啡也是一种用于减轻戒断反应的有效药物。"</data>
+      <data key="d6">chunk-f14d67a8bc8c5820bab5ff72b66df9e3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性戒断综合征&quot;" target="&quot;曲马多&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"曲马多能够缓解急性期的不适症状，帮助患者尽快恢复。"</data>
+      <data key="d6">chunk-f14d67a8bc8c5820bab5ff72b66df9e3</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

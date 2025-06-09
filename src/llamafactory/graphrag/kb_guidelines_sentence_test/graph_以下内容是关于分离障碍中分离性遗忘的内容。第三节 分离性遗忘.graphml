@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;分离性遗忘（DISSOCIATIVE AMNESIA DISORDER）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"分离性遗忘是指患者不能回忆重要的个人信息，尤其是创伤性的或应激性的事件，并且这种遗忘无法通过正常的生理过程解释。"</data>
+      <data key="d2">chunk-34284cab7c4d6d307f958bd2984bc731</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;女性&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"在分离性遗忘的案例中，女性患病率略高，尤其是在青春期后期和成年期。"</data>
+      <data key="d2">chunk-34284cab7c4d6d307f958bd2984bc731</data>
+    </node>
+    <node id="&quot;急性心理社会因素的巨大打击（如被强奸、暴力打击等）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"这种事件可能导致患者经历严重的惊吓、内疚等情绪反应，并可能引发分离性遗忘。"</data>
+      <data key="d2">chunk-34284cab7c4d6d307f958bd2984bc731</data>
+    </node>
+    <node id="&quot;临床评估检查&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"医生通过一系列问题询问，以判断患者是否存在分离性遗忘的症状和特征。"</data>
+      <data key="d2">chunk-34284cab7c4d6d307f958bd2984bc731</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;心理治疗&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"包括认知疗法、催眠治疗、精神动力学心理治疗以及团体心理治疗等多种方法的综合应用。"</data>
+      <data key="d2">chunk-34284cab7c4d6d307f958bd2984bc731</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;分离性遗忘（DISSOCIATIVE AMNESIA DISORDER）&quot;" target="&quot;临床评估检查&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"临床评估检查用于诊断和确认患者的分离性遗忘状况，包括对患者的记忆丧失情况进行详细调查。"</data>
+      <data key="d6">chunk-34284cab7c4d6d307f958bd2984bc731</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性遗忘（DISSOCIATIVE AMNESIA DISORDER）&quot;" target="&quot;心理治疗&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"针对分离性遗忘的心理治疗方法旨在帮助患者恢复丢失的记忆，缓解症状，并处理潜在的创伤事件。"</data>
+      <data key="d6">chunk-34284cab7c4d6d307f958bd2984bc731</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;女性&quot;" target="&quot;急性心理社会因素的巨大打击（如被强奸、暴力打击等）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"女性患者可能在经历巨大的心理社会压力后出现分离性遗忘的症状。"</data>
+      <data key="d6">chunk-34284cab7c4d6d307f958bd2984bc731</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

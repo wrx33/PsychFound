@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;人格解体-现实解体障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"人格解体-现实解体障碍是一种持续性或反复发作的精神疾病，特征是个体感知自身完整性和周围环境的非真实感。"</data>
+      <data key="d2">chunk-ae5e627715843f8b87001d8241b65835</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;青春期后期或成年早期&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"这是人格解体-现实解体障碍高发的时间段，主要影响女性，发病率是男性的2到4倍。"</data>
+      <data key="d2">chunk-ae5e627715843f8b87001d8241b65835</data>
+    </node>
+    <node id="&quot;患者体验状态 &quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"包括人格和现实的非真实感体验，如感觉自己与情感分离、身体不完整等。这些症状可能导致个人功能受损。"</data>
+      <data key="d2">chunk-ae5e627715843f8b87001d8241b65835</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;短暂的人格解体与现实解体体验&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"这种经历可能出现在健康人群或特定条件下（如冥想、深度催眠状态），并需要与其他临床问题区分开来，以进行准确的诊断和治疗。"</data>
+      <data key="d2">chunk-ae5e627715843f8b87001d8241b65835</data>
+    </node>
+    <node id="&quot;实验室检查及EEG&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"这些医学检测手段用于排除其他可能导致人格-现实解体症状的疾病或情况。"</data>
+      <data key="d2">chunk-ae5e627715843f8b87001d8241b65835</data>
+    </node>
+    <node id="&quot;精神病学&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"精神病学是研究精神疾病及其治疗方法的医学领域。"</data>
+      <data key="d2">chunk-ae5e627715843f8b87001d8241b65835</data>
+    </node>
+    <node id="&quot;心理健康诊所&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"提供心理治疗和药物管理服务，帮助患者应对人格解体-现实解体障碍。"</data>
+      <data key="d2">chunk-ae5e627715843f8b87001d8241b65835</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;医生&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"负责诊断和治疗人格解体-现实解体障碍的专业人员。"</data>
+      <data key="d2">chunk-ae5e627715843f8b87001d8241b65835</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;临床心理学家&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"专门提供心理评估、咨询和治疗方法，帮助患者理解并应对非真实感体验。"</data>
+      <data key="d2">chunk-ae5e627715843f8b87001d8241b65835</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;普通人群中的年发生率为19%（调查）&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"提供了人格解体-现实解体障碍在特定地理区域或人群中发生的频率。"</data>
+      <data key="d2">chunk-ae5e627715843f8b87001d8241b65835</data>
+    </node>
+    <node id="&quot;健康人群和临床中亦可见到&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"描述了短暂的人格解体与现实解体体验在不同地理位置的个体中的常见性。"</data>
+      <data key="d2">chunk-ae5e627715843f8b87001d8241b65835</data>
+    </node>
+    <node id="&quot;危险经历（危及生命的情况）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"可能导致人格-现实解体障碍的症状出现。"</data>
+      <data key="d2">chunk-ae5e627715843f8b87001d8241b65835</data>
+    </node>
+    <node id="&quot;心理治疗原则及其方法&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"包括认知行为疗法、精神动力学治疗等，用于帮助患者处理非真实感体验。"</data>
+      <data key="d2">chunk-ae5e627715843f8b87001d8241b65835</data>
+    </node>
+    <node id="&quot;药物筛选&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"通过实验室检查和EEG进行的测试，以排除其他可能引起症状的原因。"</data>
+      <data key="d2">chunk-ae5e627715843f8b87001d8241b65835</data>
+    </node>
+    <node id="&quot;抗抑郁药（如氟西汀）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"用于改善伴随的人格解体-现实解体障碍中的抑郁症。"</data>
+      <data key="d2">chunk-ae5e627715843f8b87001d8241b65835</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;治疗原则&quot;">
+      <data key="d2">chunk-ae5e627715843f8b87001d8241b65835</data>
+      <data key="d1">"基于患者的症状描述，心理治疗、药物治疗等方法可以有效改善人格解体-现实解体障碍的症状。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <edge source="&quot;人格解体-现实解体障碍&quot;" target="&quot;患者体验状态 &quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"患者经历非真实感，包括对自身和周围环境的感知分离，是诊断人格解体-现实解体障碍的关键标准。"</data>
+      <data key="d6">chunk-ae5e627715843f8b87001d8241b65835</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;人格解体-现实解体障碍&quot;" target="&quot;医生&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"医生负责诊断和治疗人格解体-现实解体障碍，并制定相应的药物或心理治疗计划。"</data>
+      <data key="d6">chunk-ae5e627715843f8b87001d8241b65835</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;人格解体-现实解体障碍&quot;" target="&quot;心理健康诊所&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"心理健康诊所提供的治疗和支持帮助患者管理和改善人格解体-现实解体障碍的症状。"</data>
+      <data key="d6">chunk-ae5e627715843f8b87001d8241b65835</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;人格解体-现实解体障碍&quot;" target="&quot;抗抑郁药（如氟西汀）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"抗抑郁药物用于辅助治疗人格解体-现实解体障碍中的抑郁症，改善患者的整体状况。"</data>
+      <data key="d6">chunk-ae5e627715843f8b87001d8241b65835</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;患者体验状态 &quot;" target="&quot;治疗原则&quot;">
+      <data key="d4">12.0</data>
+      <data key="d5">"基于患者的症状描述，心理治疗、药物治疗等方法可以有效改善人格解体-现实解体障碍的症状。"</data>
+      <data key="d6">chunk-ae5e627715843f8b87001d8241b65835</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;患者体验状态 &quot;" target="&quot;临床心理学家&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"临床心理学家通过专业评估帮助理解患者的非真实感体验，提供个性化的咨询和治疗方法。"</data>
+      <data key="d6">chunk-ae5e627715843f8b87001d8241b65835</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;短暂的人格解体与现实解体体验&quot;" target="&quot;实验室检查及EEG&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"为了区分短暂性体验和其他长期病症，可能需要进行详细的医学检测和评估。"</data>
+      <data key="d6">chunk-ae5e627715843f8b87001d8241b65835</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;实验室检查及EEG&quot;" target="&quot;药物筛选&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"药物筛选需要通过详细的医学检测来排除其他疾病，确保准确的诊断和治疗计划制定。"</data>
+      <data key="d6">chunk-ae5e627715843f8b87001d8241b65835</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

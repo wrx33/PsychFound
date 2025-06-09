@@ -1,0 +1,4 @@
+model_name_or_path: /data/sjtu/wrx/model_weights/Llama3-8B-Chinese-Chat/
+adapter_name_or_path: /data/sjtu/wrx/llamafactory/psychgpt_sft-llama3-8b-lora-256-0802/checkpoint-30000/
+template: llama3
+finetuning_type: lora

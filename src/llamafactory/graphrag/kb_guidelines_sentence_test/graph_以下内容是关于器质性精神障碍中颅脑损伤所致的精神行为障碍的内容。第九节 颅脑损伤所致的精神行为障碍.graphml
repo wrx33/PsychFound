@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;颅脑损伤所致的精神行为障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"颅脑损伤所致的精神行为障碍是指在颅脑受伤基础上产生的各种精神及行为上的问题。该事件涵盖了从急性期到慢性期的各种临床表现，包括认知功能损害、人格改变等。"</data>
+      <data key="d2">chunk-e3206dc510ba4d8b1c3fcecb4b6aec12</data>
+    </node>
+    <node id="&quot;创伤后痴呆&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"创伤后痴呆是由于颅脑损伤引起的一种长期的认知功能下降状态，常常与神经退行性变有关。"</data>
+      <data key="d2">chunk-e3206dc510ba4d8b1c3fcecb4b6aec12</data>
+    </node>
+    <node id="&quot;急性期精神障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"急性期精神障碍是指在颅脑受伤后的短期内出现的精神症状，包括脑震荡和脑外伤性谵妄等。这些症状可能会影响患者的意识、记忆及情绪状态。"</data>
+      <data key="d2">chunk-e3206dc510ba4d8b1c3fcecb4b6aec12</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;慢性期精神障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"慢性期精神障碍是患者在颅脑损伤后一段时间内经历的长期精神问题，常见的有神经认知障碍、人格改变和脑外伤性癫痫等。这些症状可能持续数年，并影响患者的日常生活和社会功能。"</data>
+      <data key="d2">chunk-e3206dc510ba4d8b1c3fcecb4b6aec12</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;创伤后头痛&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"创伤后头痛是指头部受伤后的头痛症状，常见于颅脑损伤患者中。这种头痛可能是由于脑组织的直接损害或继发性的神经结构变化引起。"</data>
+      <data key="d2">chunk-e3206dc510ba4d8b1c3fcecb4b6aec12</data>
+    </node>
+    <node id="&quot;美国&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"美国是一个国家，在文中提到每年有170万例颅脑损伤病例。"</data>
+      <data key="d2">chunk-e3206dc510ba4d8b1c3fcecb4b6aec12</data>
+    </node>
+    <node id="&quot;创伤性脑损伤（TBI）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"创伤性脑损伤，也称为脑外伤，是最常见的脑损伤形式。在脑组织受伤的基础上产生的精神障碍被称为颅脑损伤所致的精神行为障碍。"</data>
+      <data key="d2">chunk-e3206dc510ba4d8b1c3fcecb4b6aec12</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;神经科&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"神经科是医疗机构中的一个科室，专门负责诊断和治疗各种神经系统疾病，包括急性期的颅脑损伤患者。"</data>
+      <data key="d2">chunk-e3206dc510ba4d8b1c3fcecb4b6aec12</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;精神科&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"精神科是一个专注于诊断、评估及治疗精神障碍患者的专科部门，在文中它被描述为处理慢性期精神行为障碍的核心科室。"</data>
+      <data key="d2">chunk-e3206dc510ba4d8b1c3fcecb4b6aec12</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;格拉斯哥昏迷量表（GCS）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"GCS是一种用于评估颅脑损伤患者意识水平的工具，可以将病情分为轻度、中度和重度昏迷等级。"</data>
+      <data key="d2">chunk-e3206dc510ba4d8b1c3fcecb4b6aec12</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;磁敏感加权成像（SWI）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"SWI是一种能够检出微出血灶的影像学技术，在诊断颅脑损伤时具有较高的敏感性。"</data>
+      <data key="d2">chunk-e3206dc510ba4d8b1c3fcecb4b6aec12</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;颅脑损伤所致的精神行为障碍&quot;" target="&quot;创伤后痴呆&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"创伤后痴呆是由于颅脑损伤导致的认知功能下降，属于精神行为障碍的一种类型."</data>
+      <data key="d6">chunk-e3206dc510ba4d8b1c3fcecb4b6aec12</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性期精神障碍&quot;" target="&quot;慢性期精神障碍&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"急性期和慢性期的区分在于患者在颅脑受伤后短期内出现的症状（如急性期）与长期持续的精神问题（如慢性期）之间的差异."</data>
+      <data key="d6">chunk-e3206dc510ba4d8b1c3fcecb4b6aec12</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性期精神障碍&quot;" target="&quot;创伤性脑损伤（TBI）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"创伤性脑损伤后，患者可能会经历一系列急性精神症状，包括脑震荡和脑外伤性谵妄等。</data>
+      <data key="d6">chunk-e3206dc510ba4d8b1c3fcecb4b6aec12</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;慢性期精神障碍&quot;" target="&quot;精神科&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"精神科负责评估和管理患者在颅脑受伤后的长期精神症状，包括慢性认知功能损害和个人特质变化等。</data>
+      <data key="d6">chunk-e3206dc510ba4d8b1c3fcecb4b6aec12</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;创伤后头痛&quot;" target="&quot;美国&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"文中提到的美国每年170万例颅脑损伤病例中，可能有许多患者会经历创伤后头痛症状。</data>
+      <data key="d6">chunk-e3206dc510ba4d8b1c3fcecb4b6aec12</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;创伤性脑损伤（TBI）&quot;" target="&quot;神经科&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"神经科是治疗颅脑损伤急性期精神障碍的主要科室。</data>
+      <data key="d6">chunk-e3206dc510ba4d8b1c3fcecb4b6aec12</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;创伤性脑损伤（TBI）&quot;" target="&quot;格拉斯哥昏迷量表（GCS）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"该工具常用于评估由创伤性脑损伤引起的意识水平改变。</data>
+      <data key="d6">chunk-e3206dc510ba4d8b1c3fcecb4b6aec12</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;创伤性脑损伤（TBI）&quot;" target="&quot;磁敏感加权成像（SWI）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"SWI在检测颅脑损伤后的微出血灶方面显示出显著效果，帮助临床医生更好地评估患者的病情和制定治疗计划。</data>
+      <data key="d6">chunk-e3206dc510ba4d8b1c3fcecb4b6aec12</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

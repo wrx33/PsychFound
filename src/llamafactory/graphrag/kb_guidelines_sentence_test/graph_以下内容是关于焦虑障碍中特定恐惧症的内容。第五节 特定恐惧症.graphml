@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;特定恐惧症（SPECIFIC PHOBIA）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"特定恐惧症是一种对某种特定物体或场景产生强烈、持久且不合理的恐惧，患者会主动回避这些对象或情境。它包括多种类型如动物恐惧症、自然环境恐惧症和情境恐惧症等。该疾病全球终生患病率约为 3%～15%，在中国2019年的数据中年患病率为2.0%，终生患病率为2.6%。特定恐惧症常在童年或成年早期出现，并可增加罹患其他精神障碍的风险。其危险因素包括遗传、社会环境和神经生物学等因素。诊断主要通过临床访谈、行为评估及量表评估等方法进行。治疗以心理治疗为主，认知行为疗法为最有效的方法。"</data>
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;中国精神障碍流行病学资料&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"2019年中国精神障碍流行病学资料显示我国特定恐惧症的年患病率为 2.0%，终生患病率为 2.6%。这项研究提供了该疾病在中国的具体发病率和趋势信息。"</data>
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;多学科团队&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"多学科团队由精神科医生、护士、心理治疗师和初级保健人员组成，负责特定恐惧症的管理和治疗工作。他们共同合作，为患者提供全面的支持和服务。</data>
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;全球终生患病率&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"全球终生患病率约为3%～15%，表明特定恐惧症在全球范围内的流行情况。"</data>
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;动物恐惧症&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"动物恐惧症是特定恐惧症的一种类型，主要表现为对动物的强烈恐惧。它是所有类型中最为常见的之一。"</data>
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;高度恐惧症&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"高度恐惧症也是特定恐惧症的一种常见类型，涉及对高处（如高空）的强烈恐惧。"</data>
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;生理反应&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"患者在面对恐惧情境时可能经历心跳加速、出汗、颤栗、呼吸急促等生理反应。这种症状与实际危险及社会文化环境不符。"</data>
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;血液-注射-损伤型恐惧症&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"该类型恐惧症个体表现出血管迷走神经性晕厥，即在面对刺激时出现心跳加速和血压上升，随后出现心跳缓慢、血压下降甚至晕厥的现象。"</data>
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;认知因素&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"特定恐惧症的形成可能与患者的认知过程有关，包括对恐惧对象的认知偏差等。"</data>
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;人格特质&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"遗传因素和环境因素可能影响个体的人格特质，进而增加患特定恐惧症的风险。"</data>
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;创伤性事件&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"特定恐惧症的发生可能与个人经历过的重大或持续性的心理压力、创伤有关。这些事件可加剧患者的恐惧情绪。"</data>
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;应激因素&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"包括环境中的各种刺激源和生活事件，这些都可能导致个体产生焦虑和恐惧等反应。"</data>
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;社会支持&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"来自家人、朋友或社区的支持可以减轻特定恐惧症患者的症状及痛苦程度。缺乏社会支持可能会加重病情。"</data>
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;临床访谈&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"通过详细的病史询问和体格检查来评估患者是否患有特定恐惧症，这是诊断过程中的一个重要步骤。"</data>
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;行为评估&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"通过实际暴露于刺激情境中观察患者的反应情况，以更准确地评估患者的真实恐惧程度。"</data>
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;量表评估&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"使用标准化的心理测量工具来评价特定恐惧症的症状严重性和范围，如FSS（恐惧调查量表）。"</data>
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;暴露疗法&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"通过逐步将患者暴露于恐惧情境中来减轻患者的焦虑和恐惧反应。这是一种认知行为治疗的方法之一。"</data>
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;系统脱敏疗法&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"通过分级的、逐步递增的方式帮助患者适应并最终克服其对特定刺激物或场景的过度恐惧。"</data>
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;放松训练&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"在暴露于恐惧情境前进行深呼吸和肌肉松弛练习，以减少患者的生理紧张反应。"</data>
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;虚拟现实（VR）技术&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"利用计算机生成的虚拟环境模拟特定恐惧刺激，帮助患者识别并对抗不良认知模式，改善恐惧情绪。"</data>
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+    </node>
+    <node id="&quot;精神分裂症&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"与特定恐惧症相比，精神分裂症患者的恐惧感往往伴随着妄想和离奇的行为，并且自知力较差。"</data>
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;强迫障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"患者在缺乏明显刺激源的情况下仍会经历反复的焦虑或恐怖情绪，这不同于仅因明确的恐惧对象而产生的焦虑。"</data>
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;广泛性焦虑障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"持续且过度的担忧和紧张感，影响日常生活的各个领域，但与特定情境下的强烈恐惧不同。"</data>
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+    </node>
+    <node id="&quot;抑郁障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"患者可能经历悲伤、无助等情绪，同时伴随对某些情景或物体的恐惧反应。然而，这种恐惧并非主要症状。"</data>
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+    </node>
+    <node id="&quot;虚拟现实技术&quot;">
+      <data key="d2">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d1">"利用计算机生成的环境帮助患者对抗其不良认知模式并减轻恐惧情绪。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;特定恐惧症（SPECIFIC PHOBIA）&quot;" target="&quot;中国精神障碍流行病学资料&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"特定恐惧症的患病率数据通过2019年中国精神障碍流行病学资料得以具体化和验证。"&lt;SEP&gt;"该研究提供了有关特定恐惧症在中国的具体患病率和趋势信息。"</data>
+      <data key="d6">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;特定恐惧症（SPECIFIC PHOBIA）&quot;" target="&quot;多学科团队&quot;">
+      <data key="d4">20.0</data>
+      <data key="d5">"多学科团队为特定恐惧症患者提供全面支持和服务，帮助其管理和治疗疾病。"&lt;SEP&gt;"由不同专业人员组成的团队共同合作，为患者提供综合治疗方案和服务。"</data>
+      <data key="d6">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;特定恐惧症（SPECIFIC PHOBIA）&quot;" target="&quot;全球终生患病率&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"表明该疾病在全球范围内的广泛存在和影响程度。"</data>
+      <data key="d6">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;特定恐惧症（SPECIFIC PHOBIA）&quot;" target="&quot;动物恐惧症&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"是特定恐惧症的一种常见类型，主要表现为对特定动物的过度恐惧。"</data>
+      <data key="d6">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;特定恐惧症（SPECIFIC PHOBIA）&quot;" target="&quot;高度恐惧症&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"涉及对高处等自然环境的高度敏感和恐惧。"</data>
+      <data key="d6">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;特定恐惧症（SPECIFIC PHOBIA）&quot;" target="&quot;生理反应&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"患者在暴露于恐惧情境时可能出现各种生理症状，如心跳加速、出汗等。"</data>
+      <data key="d6">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;特定恐惧症（SPECIFIC PHOBIA）&quot;" target="&quot;血液-注射-损伤型恐惧症&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"属于特定恐惧症的一种类型，表现出特有的血管迷走神经性晕厥现象。"</data>
+      <data key="d6">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;特定恐惧症（SPECIFIC PHOBIA）&quot;" target="&quot;认知因素&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"患者的认知过程可能影响其对恐惧情境的反应和处理方式。"</data>
+      <data key="d6">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;特定恐惧症（SPECIFIC PHOBIA）&quot;" target="&quot;人格特质&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"遗传和社会环境因素可能通过影响人格特质来增加患该病的风险。"</data>
+      <data key="d6">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;特定恐惧症（SPECIFIC PHOBIA）&quot;" target="&quot;创伤性事件&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"重大心理压力或经历可能导致患者产生强烈的焦虑和恐惧反应。"</data>
+      <data key="d6">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;特定恐惧症（SPECIFIC PHOBIA）&quot;" target="&quot;应激因素&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"环境中的刺激源可能引发患者的恐惧情绪，影响其生活质量。"</data>
+      <data key="d6">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;特定恐惧症（SPECIFIC PHOBIA）&quot;" target="&quot;社会支持&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"家庭、朋友和社会的支持可以减轻患者症状并改善心理健康状况。"</data>
+      <data key="d6">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;特定恐惧症（SPECIFIC PHOBIA）&quot;" target="&quot;临床访谈&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"通过详细询问病史和体格检查，帮助医生诊断疾病的具体类型和严重程度。"</data>
+      <data key="d6">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;特定恐惧症（SPECIFIC PHOBIA）&quot;" target="&quot;行为评估&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"在实际情境中观察患者的反应，以确定其真实恐惧程度并制定治疗计划。"</data>
+      <data key="d6">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;特定恐惧症（SPECIFIC PHOBIA）&quot;" target="&quot;量表评估&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"通过标准化工具评价症状的严重性和范围，帮助医生做出准确诊断。"</data>
+      <data key="d6">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;特定恐惧症（SPECIFIC PHOBIA）&quot;" target="&quot;暴露疗法&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"逐步将患者暴露于刺激情境中，减少其对这些场景的过度恐惧反应。"</data>
+      <data key="d6">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;特定恐惧症（SPECIFIC PHOBIA）&quot;" target="&quot;系统脱敏疗法&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"通过分级递增的方式帮助患者适应并克服对其恐惧对象或情境的强烈厌恶感。"</data>
+      <data key="d6">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;特定恐惧症（SPECIFIC PHOBIA）&quot;" target="&quot;放松训练&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"在暴露治疗前进行放松练习，减少生理紧张和恐惧反应。"</data>
+      <data key="d6">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;特定恐惧症（SPECIFIC PHOBIA）&quot;" target="&quot;虚拟现实技术&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"利用计算机生成的环境帮助患者对抗其不良认知模式并减轻恐惧情绪。"</data>
+      <data key="d6">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;特定恐惧症（SPECIFIC PHOBIA）&quot;" target="&quot;精神分裂症&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"两种疾病的区别在于，前者患者的恐惧与妄想和自知力丧失有关，后者则主要表现为对特定刺激的过度反应。"</data>
+      <data key="d6">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;特定恐惧症（SPECIFIC PHOBIA）&quot;" target="&quot;强迫障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"尽管两者都涉及强烈的焦虑情绪，但两者的触发因素不同，治疗方法也有所差异。"</data>
+      <data key="d6">chunk-9c87eff8eed218dd0822120a3561f381</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

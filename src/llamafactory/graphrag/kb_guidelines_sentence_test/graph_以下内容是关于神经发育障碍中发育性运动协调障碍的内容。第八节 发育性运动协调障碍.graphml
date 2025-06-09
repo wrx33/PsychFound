@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;发育性运动协调障碍（DCD）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"发育性运动协调障碍是一种影响儿童神经发育的疾病，主要特征包括大运动、精细运动技能获得明显落后，导致动作笨拙和不准确。虽然智力正常，但会影响学业成就和社会适应能力。"</data>
+      <data key="d2">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;丹麦儿童大型队列研究&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"一项探索丹麦儿童发育性协调障碍风险因素的大型队列研究，揭示了性别、早产等因素与DCD的关系。"</data>
+      <data key="d2">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;ICD-11&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-11是世界卫生组织发布的一种国际疾病分类系统，用于识别和编码各种健康问题，包括发育性协调障碍的诊断要点。"</data>
+      <data key="d2">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;孕期不良因素&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"孕期不良因素可能导致儿童出现发育性运动协调障碍，例如缺氧等影响神经发育的因素。"</data>
+      <data key="d2">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;早期不能提供合理营养&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"婴幼儿时期如果未能获得合理的营养支持，可能增加患发育性运动协调障碍的风险。"</data>
+      <data key="d2">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;超早期早产&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"儿童在极早期（如非常提前的胎龄）出生可能是导致发育性协调障碍的一个风险因素。"</data>
+      <data key="d2">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;低出生体重&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"低出生体重可能是一个影响婴幼儿神经发育的因素，与发育性运动协调障碍的发生相关联。"</data>
+      <data key="d2">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;体格检查&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"包括神经系统检查在内的完整身体检查是评估疑似患有DCD的儿童的一种方式。"</data>
+      <data key="d2">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;精神状况检查&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"对疑似患有DCD的患者进行的精神健康状态评估，以确定是否存在心理行为异常。"</data>
+      <data key="d2">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;神经发育情况&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"指评估患者的神经系统发育情况，以了解其是否符合正常发展标准。"</data>
+      <data key="d2">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;运动能力检查&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"针对疑似患有DCD的儿童进行的大运动和精细运动技能测试。"</data>
+      <data key="d2">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;智力水平评估&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"通过心理学测试来评估儿童的认知能力和学术成就情况。"</data>
+      <data key="d2">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;自我概念评估&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"了解个体对自己身份的认识，包括自尊心、自信等方面的内容。"</data>
+      <data key="d2">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;兴趣爱好评估&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"识别患者的喜好和参与活动的能力，作为全面发展的衡量标准之一。"</data>
+      <data key="d2">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;遗传代谢性疾病检查&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"为了排除其他潜在的医学原因导致的症状，进行相关基因检测和血液分析等。"</data>
+      <data key="d2">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;维生素B12及叶酸缺乏&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"这些营养素的不足可能影响神经系统的正常发育，是排查DCD病因时需要考虑的因素之一。"</data>
+      <data key="d2">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;贫血检查&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"血液测试用于确定患者是否存在贫血问题，这可能会干扰正常的神经发展过程。"</data>
+      <data key="d2">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;MRI 检查&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"利用磁共振成像技术来观察大脑和神经系统结构是否正常，以排除其他潜在疾病的可能性。"</data>
+      <data key="d2">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;发育性运动协调障碍（DCD）&quot;" target="&quot;丹麦儿童大型队列研究&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"该研究表明了特定风险因素如性别、早产与发育性协调障碍的关系."</data>
+      <data key="d6">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发育性运动协调障碍（DCD）&quot;" target="&quot;ICD-11&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"ICD-11提供了关于诊断和分类发育性协调障碍的详细标准，帮助临床医生识别患者。"</data>
+      <data key="d6">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发育性运动协调障碍（DCD）&quot;" target="&quot;孕期不良因素&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"研究表明了孕期不利条件如缺氧可能影响儿童神经系统的正常发展，从而导致DCD的发生。"</data>
+      <data key="d6">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发育性运动协调障碍（DCD）&quot;" target="&quot;早期不能提供合理营养&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"研究发现，在婴幼儿时期若未能获得适当的营养支持，可能会增加患DCD的风险。"</data>
+      <data key="d6">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发育性运动协调障碍（DCD）&quot;" target="&quot;超早期早产&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"一项研究表明，极早期出生可能是导致儿童出现DCD的一个风险因素。"</data>
+      <data key="d6">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发育性运动协调障碍（DCD）&quot;" target="&quot;低出生体重&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"有研究指出，较低的出生体重大大增加了儿童患DCD的可能性。"</data>
+      <data key="d6">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发育性运动协调障碍（DCD）&quot;" target="&quot;体格检查&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"通过完整的身体和神经系统检查可以发现影响儿童发展的潜在问题，包括诊断DCD。"</data>
+      <data key="d6">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发育性运动协调障碍（DCD）&quot;" target="&quot;精神状况检查&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"精神健康评估有助于识别是否存在伴随的心理行为异常，是诊断DCD的重要环节之一。"</data>
+      <data key="d6">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发育性运动协调障碍（DCD）&quot;" target="&quot;神经发育情况&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"评估患者是否达到应有的发展里程碑对于早期发现和干预DCD至关重要。"</data>
+      <data key="d6">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发育性运动协调障碍（DCD）&quot;" target="&quot;运动能力检查&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"大运动及精细运动技能测试是诊断DCD的关键步骤，帮助识别动作笨拙和其他问题。"</data>
+      <data key="d6">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发育性运动协调障碍（DCD）&quot;" target="&quot;智力水平评估&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"认知能力和学术表现的评价有助于排除其他原因导致的表现不佳，并支持对DCD的确诊。"</data>
+      <data key="d6">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发育性运动协调障碍（DCD）&quot;" target="&quot;自我概念评估&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"了解患者的社会心理状况，能够更好地支持他们的整体治疗计划和应对挑战的能力。"</data>
+      <data key="d6">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发育性运动协调障碍（DCD）&quot;" target="&quot;兴趣爱好评估&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"识别患者的喜好有助于制定个性化的干预措施来促进其全面发展和生活质量的提高。"</data>
+      <data key="d6">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发育性运动协调障碍（DCD）&quot;" target="&quot;遗传代谢性疾病检查&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"通过检测排除潜在的医学病因，是全面评估儿童健康状况的一部分。"</data>
+      <data key="d6">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发育性运动协调障碍（DCD）&quot;" target="&quot;维生素B12及叶酸缺乏&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"营养素不足可能干扰神经系统的正常发展过程，并影响DCD患者的诊断和治疗策略。"</data>
+      <data key="d6">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发育性运动协调障碍（DCD）&quot;" target="&quot;贫血检查&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"血液测试用于排除其他健康问题，有助于准确判断是否需要针对特定症状进行干预。"</data>
+      <data key="d6">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发育性运动协调障碍（DCD）&quot;" target="&quot;MRI 检查&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"通过脑部成像技术可帮助识别可能影响发展的问题，并为制定治疗计划提供依据。"</data>
+      <data key="d6">chunk-ac30114667aa001072dc10574ecd189e</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

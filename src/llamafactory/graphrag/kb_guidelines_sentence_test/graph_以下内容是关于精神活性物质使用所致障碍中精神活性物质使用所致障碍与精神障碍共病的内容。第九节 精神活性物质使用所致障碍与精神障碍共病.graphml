@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;美国国立精神卫生研究所抗精神病药物临床疗效项目 CATIE&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"CATIE 是一项关于抗精神病药物效果的研究项目，旨在评估不同类型的抗精神病药物在治疗精神分裂症方面的有效性和安全性。"</data>
+      <data key="d2">chunk-c11ea88af205b6c1fdbd3b385261f1cf</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;ASSIST&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"ASSIST（酒精、烟草和精神活性物质使用相关问题筛查量表）用于多种物质滥用的筛查工具，能够快速识别患者物质使用的风险水平。"</data>
+      <data key="d2">chunk-c11ea88af205b6c1fdbd3b385261f1cf</data>
+    </node>
+    <node id="&quot;胶体金免疫层析法&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"胶体金免疫层析法是一种尿液检测技术，广泛应用于包括海洛因、苯丙胺等在内的各种精神活性物质的生物样本检测中。"</data>
+      <data key="d2">chunk-c11ea88af205b6c1fdbd3b385261f1cf</data>
+    </node>
+    <node id="&quot;呼气式酒精检测仪&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"一种快速实用的酒精筛查工具，能够通过呼吸气体中的乙醇浓度来判断个体是否饮酒以及饮酒量。"</data>
+      <data key="d2">chunk-c11ea88af205b6c1fdbd3b385261f1cf</data>
+    </node>
+    <node id="&quot;苯丙胺类兴奋剂 ATS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"ATS 是一类精神活性物质，包括多种类型的兴奋剂，如安非他命等，常用于治疗注意力缺陷多动障碍（ADHD），但也可能导致滥用和相关心理问题。"</data>
+      <data key="d2">chunk-c11ea88af205b6c1fdbd3b385261f1cf</data>
+    </node>
+    <node id="&quot;精神活性物质使用所致障碍&quot;">
+      <data key="d2">chunk-c11ea88af205b6c1fdbd3b385261f1cf</data>
+      <data key="d1">"CATIE 研究提供了有关精神分裂症患者中精神活性物质使用障碍患病率的数据，显示出高比例的共病情况。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;精神分裂症患者&quot;">
+      <data key="d2">chunk-c11ea88af205b6c1fdbd3b385261f1cf</data>
+      <data key="d1">"CATIE 研究提供了有关精神活性物质使用障碍在精神分裂症中的数据，揭示了该群体中较高的共病率。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;筛查&quot;">
+      <data key="d2">chunk-c11ea88af205b6c1fdbd3b385261f1cf</data>
+      <data key="d1">"ASSIST 作为一种量表工具，用于多种物质滥用的筛查，包括酒精、烟草和精神活性物质，有助于识别患者物质使用的风险水平并进行早期干预。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;生物样本检测&quot;">
+      <data key="d2">chunk-c11ea88af205b6c1fdbd3b385261f1cf</data>
+      <data key="d1">"胶体金免疫层析法是一种常用的尿液检测技术，在生物样本检测中广泛应用于各种精神活性物质的筛查，有助于识别使用情况。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;快速筛查&quot;">
+      <data key="d2">chunk-c11ea88af205b6c1fdbd3b385261f1cf</data>
+      <data key="d1">"呼气式酒精检测仪器提供了一种快速、实用的方法来筛选饮酒者，并且能够在短时间内得到结果。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;焦虑障碍&quot;">
+      <data key="d2">chunk-c11ea88af205b6c1fdbd3b385261f1cf</data>
+      <data key="d1">"ATS 的滥用与多种精神健康问题相关联，特别是焦虑障碍的复发率较高并且治疗依从性差。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;美国国立精神卫生研究所抗精神病药物临床疗效项目 CATIE&quot;" target="&quot;精神活性物质使用所致障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"CATIE 研究提供了有关精神分裂症患者中精神活性物质使用障碍患病率的数据，显示出高比例的共病情况。"</data>
+      <data key="d6">chunk-c11ea88af205b6c1fdbd3b385261f1cf</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;美国国立精神卫生研究所抗精神病药物临床疗效项目 CATIE&quot;" target="&quot;精神分裂症患者&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"CATIE 研究提供了有关精神活性物质使用障碍在精神分裂症中的数据，揭示了该群体中较高的共病率。"</data>
+      <data key="d6">chunk-c11ea88af205b6c1fdbd3b385261f1cf</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ASSIST&quot;" target="&quot;筛查&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"ASSIST 作为一种量表工具，用于多种物质滥用的筛查，包括酒精、烟草和精神活性物质，有助于识别患者物质使用的风险水平并进行早期干预。"</data>
+      <data key="d6">chunk-c11ea88af205b6c1fdbd3b385261f1cf</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;胶体金免疫层析法&quot;" target="&quot;生物样本检测&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"胶体金免疫层析法是一种常用的尿液检测技术，在生物样本检测中广泛应用于各种精神活性物质的筛查，有助于识别使用情况。"</data>
+      <data key="d6">chunk-c11ea88af205b6c1fdbd3b385261f1cf</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;呼气式酒精检测仪&quot;" target="&quot;快速筛查&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"呼气式酒精检测仪器提供了一种快速、实用的方法来筛选饮酒者，并且能够在短时间内得到结果。"</data>
+      <data key="d6">chunk-c11ea88af205b6c1fdbd3b385261f1cf</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;苯丙胺类兴奋剂 ATS&quot;" target="&quot;焦虑障碍&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"ATS 的滥用与多种精神健康问题相关联，特别是焦虑障碍的复发率较高并且治疗依从性差。"</data>
+      <data key="d6">chunk-c11ea88af205b6c1fdbd3b385261f1cf</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

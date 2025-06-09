@@ -85,8 +85,8 @@ You can prepare your cold-start data as following:
 **For SFT:**
 
 ```bash
-llamafactory-cli train ./scripts/train_sft/sft_lora.yaml # LoRA
-llamafactory-cli train ./scripts/train_sft/sft_full.yaml # Full parameters
+python -m src.llamafactory.cli train ./examples/train_lora/sft_lora.yaml # LoRA
+python -m src.llamafactory.cli train ./examples/train_full/sft_full.yaml # Full parameters
 ```
 
 **For RL:**
@@ -99,7 +99,7 @@ export ROLLOUT_TP_SIZE=2
 export EXPERIMENT_NAME=diagnosis-psychfound-instruct
 export VLLM_ATTENTION_BACKEND=XFORMERS
 
-bash ./scripts/train_rl/rl_diagnosis.sh
+bash ./tinyzero/scripts/train_rl_diagnosis.sh
 ```
 
 ### 5. Inference

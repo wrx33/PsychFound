@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;IRLSSG&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"IRLSSG is the International Restless Legs Syndrome Study Group, which has developed and revised diagnostic criteria for restless legs syndrome."</data>
+      <data key="d2">chunk-4a949f32de856f0099cf963d6fec49c2</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;RESTLESS LEGS SYNDROME&quot;">
+      <data key="d2">chunk-4a949f32de856f0099cf963d6fec49c2</data>
+      <data key="d1">"IRLSSG develops and revises diagnostic criteria for restless legs syndrome."&lt;SEP&gt;"IRLSSG works on studying and establishing diagnostic standards for Restless Legs Syndrome."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;IRLSSG&quot;" target="&quot;RESTLESS LEGS SYNDROME&quot;">
+      <data key="d4">20.0</data>
+      <data key="d5">"IRLSSG develops and revises diagnostic criteria for restless legs syndrome."&lt;SEP&gt;"IRLSSG works on studying and establishing diagnostic standards for Restless Legs Syndrome."</data>
+      <data key="d6">chunk-4a949f32de856f0099cf963d6fec49c2</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

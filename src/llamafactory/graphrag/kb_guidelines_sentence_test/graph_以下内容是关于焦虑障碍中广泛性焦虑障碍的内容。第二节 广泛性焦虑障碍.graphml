@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;中国精神卫生调查&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"中国精神卫生调查是中国进行的一项关于精神障碍流行病学的调查，发布了相关数据。"</data>
+      <data key="d2">chunk-20eb20b259c48965d2ad329457f58948</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;广泛性焦虑障碍（GENERALIZED ANXIETY DISORDER，GAD）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"广泛性焦虑障碍是以广泛且持续的焦虑和担忧为特征的一种慢性焦虑障碍，伴有运动性紧张和自主神经活动亢进的表现。"</data>
+      <data key="d2">chunk-20eb20b259c48965d2ad329457f58948</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;汉密尔顿焦虑量表（HAMA）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"汉密尔顿焦虑量表是一种用于评估广泛性焦虑障碍患者精神症状的工具。"</data>
+      <data key="d2">chunk-20eb20b259c48965d2ad329457f58948</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;焦虑自评量表（SAS）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"焦虑自评量表是一种自我报告工具，用于评估个体的焦虑水平。"</data>
+      <data key="d2">chunk-20eb20b259c48965d2ad329457f58948</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;广泛性焦虑障碍量表（GAD-7）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"广泛性焦虑障碍量表是另一种常用的评估工具，专门针对广泛性焦虑障碍的症状进行评价。"</data>
+      <data key="d2">chunk-20eb20b259c48965d2ad329457f58948</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;素质因素&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"素质因素指的是广泛性焦虑障碍患者的一些先天或早期经历的因素，例如遗传和童年经历。"</data>
+      <data key="d2">chunk-20eb20b259c48965d2ad329457f58948</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;诱发因素&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"诱发因素是指能够引发广泛性焦虑障碍的具体生活事件，通常是威胁性的事件。"</data>
+      <data key="d2">chunk-20eb20b259c48965d2ad329457f58948</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;维持因素&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"维持因素指的是导致广泛性焦虑障碍持续存在的长期存在的情况或认知特点。"</data>
+      <data key="d2">chunk-20eb20b259c48965d2ad329457f58948</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;精神症状&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"精神症状包括广泛的、过度的担忧，这是广泛性焦虑障碍的精神层面的表现。"</data>
+      <data key="d2">chunk-20eb20b259c48965d2ad329457f58948</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;躯体症状&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"躯体症状是指与自主神经活动亢进相关的各种身体不适和紧张状态。"</data>
+      <data key="d2">chunk-20eb20b259c48965d2ad329457f58948</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;认知特点&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"认知特点是维持因素的一部分，包括‘非黑即白’、‘灾难化’等思维模式。"</data>
+      <data key="d2">chunk-20eb20b259c48965d2ad329457f58948</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <edge source="&quot;中国精神卫生调查&quot;" target="&quot;广泛性焦虑障碍（GENERALIZED ANXIETY DISORDER，GAD）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"中国精神卫生调查包含了关于广泛性焦虑障碍的流行病学数据，揭示了该疾病的患病率和其他相关特征。"</data>
+      <data key="d6">chunk-20eb20b259c48965d2ad329457f58948</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;广泛性焦虑障碍（GENERALIZED ANXIETY DISORDER，GAD）&quot;" target="&quot;汉密尔顿焦虑量表（HAMA）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"汉密尔顿焦虑量表是评估广泛性焦虑障碍患者精神症状的重要工具之一。"</data>
+      <data key="d6">chunk-20eb20b259c48965d2ad329457f58948</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;广泛性焦虑障碍（GENERALIZED ANXIETY DISORDER，GAD）&quot;" target="&quot;焦虑自评量表（SAS）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"焦虑自评量表用于自我评价个体的焦虑水平，是评估广泛性焦虑障碍的有效方法之一。"</data>
+      <data key="d6">chunk-20eb20b259c48965d2ad329457f58948</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;广泛性焦虑障碍（GENERALIZED ANXIETY DISORDER，GAD）&quot;" target="&quot;广泛性焦虑障碍量表（GAD-7）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"广泛性焦虑障碍量表专门用于评估广泛性焦虑障碍的症状，并帮助临床诊断和治疗。"</data>
+      <data key="d6">chunk-20eb20b259c48965d2ad329457f58948</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;广泛性焦虑障碍（GENERALIZED ANXIETY DISORDER，GAD）&quot;" target="&quot;素质因素&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"素质因素是引起广泛性焦虑障碍的重要组成部分之一，影响患者的发病风险和病程发展。"</data>
+      <data key="d6">chunk-20eb20b259c48965d2ad329457f58948</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;广泛性焦虑障碍（GENERALIZED ANXIETY DISORDER，GAD）&quot;" target="&quot;诱发因素&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"生活中的应激事件可以触发或加重广泛性焦虑障碍的症状。"</data>
+      <data key="d6">chunk-20eb20b259c48965d2ad329457f58948</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;广泛性焦虑障碍（GENERALIZED ANXIETY DISORDER，GAD）&quot;" target="&quot;维持因素&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"持续存在的生活压力和特定的认知特点会促进广泛性焦虑障碍的慢性化。"</data>
+      <data key="d6">chunk-20eb20b259c48965d2ad329457f58948</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;广泛性焦虑障碍（GENERALIZED ANXIETY DISORDER，GAD）&quot;" target="&quot;精神症状&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"广泛的担忧是诊断广泛性焦虑障碍的核心特征之一。"</data>
+      <data key="d6">chunk-20eb20b259c48965d2ad329457f58948</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;广泛性焦虑障碍（GENERALIZED ANXIETY DISORDER，GAD）&quot;" target="&quot;躯体症状&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"自主神经系统的过度活跃导致了广泛的躯体不适和紧张状态。"</data>
+      <data key="d6">chunk-20eb20b259c48965d2ad329457f58948</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;维持因素&quot;" target="&quot;认知特点&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"特定的认知模式可以增强或延长广泛性焦虑障碍的症状，促进其慢性化。"</data>
+      <data key="d6">chunk-20eb20b259c48965d2ad329457f58948</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;做作性障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"指个体有意制造或伪装疾病的行为模式，包括躯体疾病和精神障碍。与诈病区别在于缺乏明显的个人获益或外部奖赏，常见于医疗机构中且具有一定的心理病理机制。"</data>
+      <data key="d2">chunk-1e1c59a94779bdcd46626ac0794822e5</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;医疗机构&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"医疗机构是提供医疗服务的组织，文中提到做作性障碍患者在医疗机构中的诊断、治疗和评估情况。&lt;SEP&gt;"医疗机构是提供医疗服务的组织，文中提到做作性障碍患者在医疗机构中的诊断、治疗和评估情况。"</data>
+      <data key="d2">chunk-1e1c59a94779bdcd46626ac0794822e5</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;患者&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"指被描述为有意制造或伪装疾病的个体，可能包括成年早期发病者及有固有的防御机制、不良的自我认知及过度依赖特质的人群。"</data>
+      <data key="d2">chunk-1e1c59a94779bdcd46626ac0794822e5</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;诊断&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"做作性障碍的诊断涉及识别患者是否通过伪造信息来寻求治疗或其他形式的支持。"</data>
+      <data key="d2">chunk-1e1c59a94779bdcd46626ac0794822e5</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;评估&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"评估过程包括观察、分析医疗记录及与他人的访谈，以确定患者的行为模式和动机。"</data>
+      <data key="d2">chunk-1e1c59a94779bdcd46626ac0794822e5</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;治疗原则和策略&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"指针对做作性障碍患者的治疗方法和指导方针，旨在帮助患者改善症状并减少医源性疾病的发生。"</data>
+      <data key="d2">chunk-1e1c59a94779bdcd46626ac0794822e5</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;支持治疗&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"通过情感支持、问题解决式的反馈等方法来减轻患者的压力，并提供无伤害性的干预措施。"</data>
+      <data key="d2">chunk-1e1c59a94779bdcd46626ac0794822e5</data>
+    </node>
+    <edge source="&quot;做作性障碍&quot;" target="&quot;医疗机构&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"做作性障碍患者通常在医疗机构中接受诊断和治疗，且存在因患者反复寻求治疗而导致过度医疗检查的问题。</data>
+      <data key="d6">chunk-1e1c59a94779bdcd46626ac0794822e5</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;做作性障碍&quot;" target="&quot;患者&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"患者有意制造或伪装疾病的行为构成了做作性障碍的核心特征，这与个人心理病理机制密切相关。</data>
+      <data key="d6">chunk-1e1c59a94779bdcd46626ac0794822e5</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;医疗机构&quot;" target="&quot;诊断&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"在医疗机构中进行的诊断活动帮助识别和确认患者的做作性障碍行为。</data>
+      <data key="d6">chunk-1e1c59a94779bdcd46626ac0794822e5</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;患者&quot;" target="&quot;评估&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"对患者的评估有助于理解其伪装疾病的行为模式及其背后的动机。</data>
+      <data key="d6">chunk-1e1c59a94779bdcd46626ac0794822e5</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;患者&quot;" target="&quot;治疗原则和策略&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"制定的治疗原则和策略旨在帮助做作性障碍患者改善症状并减少医源性疾病的发生。</data>
+      <data key="d6">chunk-1e1c59a94779bdcd46626ac0794822e5</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

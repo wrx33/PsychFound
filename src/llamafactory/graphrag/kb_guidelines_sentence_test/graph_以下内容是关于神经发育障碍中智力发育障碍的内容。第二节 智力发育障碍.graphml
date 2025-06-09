@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;ICD-10&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-10是国际疾病分类第十版的缩写，用于对包括智力发育障碍在内的各种医学状况进行编码。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;精神发育迟滞（MR）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"精神发育迟滞（MR）是在ICD-10中用来表示智力发育障碍的一个术语。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;全国 8 个省的流行病学调查&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"这是指在中国八个省份进行的一次关于儿童中智力发育障碍患病率的研究和数据收集活动。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+    </node>
+    <node id="&quot;21-三体综合征&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"一种染色体异常疾病，又称唐氏综合症，导致智力与生长发育迟缓及其他健康问题。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+    </node>
+    <node id="&quot;丹佛发育筛查量表（DDST）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"这是一种用于评估幼儿心理发展水平是否存在异常的量表或工具。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+    </node>
+    <node id="&quot;中国比奈智力测验&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"这是在中国常用的一种智能测试，旨在测量个体的认知能力或智力商数。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+    </node>
+    <node id="&quot;ICD-11&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-11 是国际疾病分类第十一版的缩写，用于更新和改进医学状况的分类。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+    </node>
+    <node id="&quot;暂定的智力发育障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"在 ICD-11 中，这是对未满4岁或由于其他原因无法进行有效评估的孩子的一种特殊分类。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;韦氏学前儿童智力量表（WPPSI）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"这是一种用于评估3至7.5岁儿童智力水平的测试量表。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+    </node>
+    <node id="&quot;韦氏学龄儿童智力量表（WISC）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"这是一款用来测量6到16岁儿童和青少年智力发展的标准化工具。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+    </node>
+    <node id="&quot;韦氏成人智力量表（WAIS）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"这是用于评估成年人智力水平的量表，适用于从18至90岁的群体。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+    </node>
+    <node id="&quot;PEABODY 图片词汇测验（PPVT）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"这是一种针对语言理解能力进行快速筛查和追踪的语言测试工具。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+    </node>
+    <node id="&quot;瑞文渐进模型试验（RPM）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"这是一项非文字智力测验，适合于评估不同年龄段儿童的认知发展水平。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+    </node>
+    <node id="&quot;贝利婴儿发育量表（BSID）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"这是一种用于评估0至36个月大婴幼儿的运动、认知和社交情感发展的工具。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+    </node>
+    <node id="&quot;格塞尔发展诊断量表（GDDS）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"这是用以测量儿童各个发展阶段成长与发展的标准化测试工具。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+    </node>
+    <node id="&quot;0～6 岁儿童发育行为评估量表（儿心量表）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"这是一种专门用于评估0至6岁婴幼儿和学龄前儿童发展情况的量表。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+    </node>
+    <node id="&quot;格里菲斯发育诊断量表（GMDS）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"这是一个综合性的发育评估工具，旨在全面评估婴儿、幼儿和青少年的发育状况。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+    </node>
+    <node id="&quot;儿童适应行为评定量表（CABR）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"这是一种用于评估6至18岁儿童的社会生活能力及其在家庭、学校和社会中的适应行为水平的量表。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+    </node>
+    <node id="&quot;婴儿-初中学生社会生活能力量表&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"这是用以评估0至14岁以下儿童和青少年社会适应功能的一个测试工具。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+    </node>
+    <node id="&quot;适应行为评定量表第二版（ABAS-Ⅱ）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"这是一种广泛使用的适应性行为测量工具，适用于5岁以上各年龄组的个体。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+    </node>
+    <node id="&quot;代谢筛查&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"这是通过检查血液中的代谢产物来识别特定疾病或障碍的一系列测试。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+    </node>
+    <node id="&quot;内分泌检查&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"这是一种评估体内激素水平及其对身体功能影响的过程。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+    </node>
+    <node id="&quot;遗传学检查&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"这涉及分析个体的DNA以确定遗传缺陷或其他基因相关问题的存在。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+    </node>
+    <node id="&quot;脑电图及头颅 CT、MRI 等检查&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"这些是用于诊断大脑和神经系统的结构与功能状况的技术手段。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+    </node>
+    <node id="&quot;注意缺陷多动障碍（ADHD）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"这是一种常见的儿童期精神健康问题，特征为注意力不集中、过动及冲动行为。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+    </node>
+    <node id="&quot;孤独症谱系障碍（ASD）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"这是一种影响社交互动和沟通能力的神经发育状况。"</data>
+      <data key="d2">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+    </node>
+    <edge source="&quot;ICD-10&quot;" target="&quot;精神发育迟滞（MR）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"在 ICD-10 中，“精神发育迟滞（MR）”是智力发育障碍的术语之一，体现了组织对特定医学状况的专业分类。</data>
+      <data key="d6">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ICD-10&quot;" target="&quot;暂定的智力发育障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"在 ICD-11 更新后，'暂定的智力发育障碍'的概念被明确纳入分类中以应对评估限制。</data>
+      <data key="d6">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;全国 8 个省的流行病学调查&quot;" target="&quot;21-三体综合征&quot;">
+      <data key="d4">3.0</data>
+      <data key="d5">"在进行关于儿童中智力发育障碍患病率的研究时可能发现了与21-三体综合征相关的数据，但文中并未直接提及具体发现。</data>
+      <data key="d6">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;丹佛发育筛查量表（DDST）&quot;" target="&quot;中国比奈智力测验&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"两种都是评估和测量儿童认知或发展状况的工具，尽管它们的具体应用领域有所不同。"</data>
+      <data key="d6">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;韦氏学前儿童智力量表（WPPSI）&quot;" target="&quot;贝利婴儿发育量表（BSID）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"两者都是用于不同年龄阶段的儿童发展和认知能力测试，但针对性别有所不同。</data>
+      <data key="d6">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;PEABODY 图片词汇测验（PPVT）&quot;" target="&quot;瑞文渐进模型试验（RPM）&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"这些量表分别侧重于语言理解能力和非文字智力评估，两者互为补充。</data>
+      <data key="d6">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;儿童适应行为评定量表（CABR）&quot;" target="&quot;婴儿-初中学生社会生活能力量表&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"两个量表都旨在全面评估不同年龄段的儿童的社会和情感适应功能。"</data>
+      <data key="d6">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;代谢筛查&quot;" target="&quot;遗传学检查&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"两者都是在诊断智力发育障碍时可能进行的重要医学测试，用于确定潜在病因。</data>
+      <data key="d6">chunk-f0ca1c0d111d47725351b14b77043dcf</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

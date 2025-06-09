@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;拔毛癖（TRICHOTILLOMANIA）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"一种致残性的精神疾病，特征为反复拔除自己或他人的毛发。通常起病于儿童晚期或成年早期，患者伴有显著的情绪困扰和功能损害。"&lt;SEP&gt;"拔毛癖是一种致残性的精神疾病，特征为反复拔除自己或他人的毛发。通常起病于儿童晚期或成年早期，患者伴有显著的情绪困扰和功能损害。"</data>
+      <data key="d2">chunk-274d4b3eddb0cddc17efd79fa96640db</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;抠皮障碍（EXCORIATION DISORDER）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"一种皮肤重复性行为疾病，特征为反复搔抓、抠皮肤而造成皮损。通常起病于青春期，女性患病率较高。患者伴有显著的情绪困扰和功能损害。"&lt;SEP&gt;"抠皮障碍是一种皮肤重复性行为疾病，特征为反复搔抓、抠皮肤而造成皮损，通常起病于青春期，女性患病率较高。患者伴有显著的情绪困扰和功能损害。"</data>
+      <data key="d2">chunk-274d4b3eddb0cddc17efd79fa96640db</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;SSRI 类药物&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"SSRI 类药物是一类抗抑郁药，用于治疗强迫症及相关障碍，但其疗效在拔毛癖与抠皮障碍中的效果仍需进一步研究。"&lt;SEP&gt;"一类抗抑郁药，用于治疗强迫症及相关障碍。临床上也经常被用于抠皮障碍的治疗，但其疗效仍需进一步研究。"</data>
+      <data key="d2">chunk-274d4b3eddb0cddc17efd79fa96640db</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;HOXB8、SAPAP3 及 SLITRK5&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"这些基因与模拟拔毛行为相关，在动物模型中发现它们的缺陷可能导致类似人类拔毛癖的行为。"</data>
+      <data key="d2">chunk-274d4b3eddb0cddc17efd79fa96640db</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;马萨诸塞州总医院拔毛量表（MGH-HPS）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"用于评估和诊断拔毛行为的程度，是目前唯一广泛使用的工具。该量表共7个计分条目，评估近一周的拔毛情况。"&lt;SEP&gt;"这是一个评估近一周内患者拔毛情况的自评工具。"</data>
+      <data key="d2">chunk-274d4b3eddb0cddc17efd79fa96640db</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;搔抓影响量表（SPIS）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"一个自评量表，用来评估抠皮障碍对社会功能和情绪的影响。该量表共10个计分项目。"&lt;SEP&gt;"这是一个自评量表，用来评估抠皮障碍对社会功能和情绪的影响。"</data>
+      <data key="d2">chunk-274d4b3eddb0cddc17efd79fa96640db</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;SAPAP3 &quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"该基因被认为可能与遗传性因素有关，参与了拔毛行为的发生和发展。动物实验表明它与谷氨酸传递异常有关。"</data>
+      <data key="d2">chunk-274d4b3eddb0cddc17efd79fa96640db</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;张医生&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"一位致力于抠皮障碍治疗的研究人员"</data>
+      <data key="d2">chunk-fc2e64194fd7208cd0cd23febc9d4d3c</data>
+    </node>
+    <node id="&quot;北京协和医院&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"一家位于北京市中心，专门进行心理健康研究和治疗的医疗机构"</data>
+      <data key="d2">chunk-fc2e64194fd7208cd0cd23febc9d4d3c</data>
+    </node>
+    <edge source="&quot;拔毛癖（TRICHOTILLOMANIA）&quot;" target="&quot;SSRI 类药物&quot;">
+      <data key="d4">12.0</data>
+      <data key="d5">"SSRI 类药物常用于治疗拔毛癖，尽管荟萃分析显示氯米帕明有效但效果较小，一般不推荐为首选治疗方法."&lt;SEP&gt;"此类药物常用于治疗拔毛行为，尽管疗效需进一步研究."</data>
+      <data key="d6">chunk-274d4b3eddb0cddc17efd79fa96640db</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;拔毛癖（TRICHOTILLOMANIA）&quot;" target="&quot;HOXB8、SAPAP3 及 SLITRK5&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"这些基因被认为可能与遗传性因素有关，参与了拔毛行为的发生和发展."</data>
+      <data key="d6">chunk-274d4b3eddb0cddc17efd79fa96640db</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;拔毛癖（TRICHOTILLOMANIA）&quot;" target="&quot;马萨诸塞州总医院拔毛量表（MGH-HPS）&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"该量表用于评估和诊断拔毛行为的程度，是目前唯一广泛使用的工具."</data>
+      <data key="d6">chunk-274d4b3eddb0cddc17efd79fa96640db</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;拔毛癖（TRICHOTILLOMANIA）&quot;" target="&quot;SAPAP3 &quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"基因缺陷可能与拔毛行为相关，影响其发生和发展。"</data>
+      <data key="d6">chunk-274d4b3eddb0cddc17efd79fa96640db</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;抠皮障碍（EXCORIATION DISORDER）&quot;" target="&quot;SSRI 类药物&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"SSRI 类药物是治疗抠皮障碍的一线用药选择，疗效有待进一步确认."&lt;SEP&gt;"此类药物是一线用药选择，但其疗效仍待验证."</data>
+      <data key="d6">chunk-274d4b3eddb0cddc17efd79fa96640db</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;抠皮障碍（EXCORIATION DISORDER）&quot;" target="&quot;搔抓影响量表（SPIS）&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"此量表用来评估和诊断抠皮障碍的影响程度。"&lt;SEP&gt;"该量表用于评估抠皮行为的严重程度及其对个体生活的影响."</data>
+      <data key="d6">chunk-274d4b3eddb0cddc17efd79fa96640db</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;抠皮障碍（EXCORIATION DISORDER）&quot;" target="&quot;SAPAP3 &quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"谷氨酸传递异常可能与抠皮行为相关，影响其发生和发展。"</data>
+      <data key="d6">chunk-274d4b3eddb0cddc17efd79fa96640db</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

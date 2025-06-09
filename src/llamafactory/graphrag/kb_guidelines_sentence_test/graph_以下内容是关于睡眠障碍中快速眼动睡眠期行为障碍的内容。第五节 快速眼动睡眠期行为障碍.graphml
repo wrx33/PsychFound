@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;REM SLEEP BEHAVIOR DISORDER (RBD)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"REM sleep behavior disorder is a type of sleep disorder characterized by physical activity during REM sleep, often causing injuries to the patient or bed partner and disrupting sleep."</data>
+      <data key="d2">chunk-e2067a54b224c3aba6db743de8b8167f</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;PARKINSON'S DISEASE&quot;">
+      <data key="d2">chunk-e2067a54b224c3aba6db743de8b8167f</data>
+      <data key="d1">"A significant number of patients with Parkinson's disease exhibit signs of RBD, suggesting a possible link or shared underlying mechanism."&lt;SEP&gt;"The relationship between Parkinson's disease and REM sleep behavior disorder indicates that a significant number of patients with Parkinson's show signs of RBD, suggesting a possible link or shared underlying mechanism."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;DEMENTIA WITH LEWY BODIES&quot;">
+      <data key="d2">chunk-e2067a54b224c3aba6db743de8b8167f</data>
+      <data key="d1">"There is a connection between dementia with Lewy bodies and REM sleep behavior disorder, as the text mentions that these conditions often co-occur."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;DEMENTIA WITH LEWY BODIES (DLB)&quot;">
+      <data key="d2">chunk-e2067a54b224c3aba6db743de8b8167f</data>
+      <data key="d1">"There is an increased risk and occurrence of REM sleep behavior disorder in patients diagnosed with dementia with Lewy bodies."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;VIDEO POLYSOMNOGRAPHY (VPSG)&quot;">
+      <data key="d2">chunk-e2067a54b224c3aba6db743de8b8167f</data>
+      <data key="d1">"vPSG provides detailed recordings necessary for diagnosing RBD, distinguishing it from other sleep disorders."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;POLYSOMNOGRAPHY (PSG)&quot;">
+      <data key="d2">chunk-e2067a54b224c3aba6db743de8b8167f</data>
+      <data key="d1">"PSG is used to confirm the diagnosis of REM sleep behavior disorder through physiological monitoring during sleep."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;CHLORAZEPOXIDE&quot;">
+      <data key="d2">chunk-e2067a54b224c3aba6db743de8b8167f</data>
+      <data key="d1">"Chlorazepoxide has been proven effective in reducing symptoms and episodes of RBD, making it a recommended treatment."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;MELATONIN&quot;">
+      <data key="d2">chunk-e2067a54b224c3aba6db743de8b8167f</data>
+      <data key="d1">"Melatonin is used to manage symptoms of RBD due to its effectiveness and good tolerability profile."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;NIGHT-TIME EPILEPSY (NOCTURNAL SEIZURES)&quot;">
+      <data key="d2">chunk-e2067a54b224c3aba6db743de8b8167f</data>
+      <data key="d1">"Differentiating REM sleep behavior disorder from night-time epilepsy involves distinguishing between REM and NREM-related seizures."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;OBSTRUCTIVE SLEEP APNEA (OSA)&quot;">
+      <data key="d2">chunk-e2067a54b224c3aba6db743de8b8167f</data>
+      <data key="d1">"OSA may present limb movements during sleep but differs in PSG findings and responds to treatment differently than RBD."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;PERIODIC LIMB MOVEMENT DISORDER (PLMD)&quot;">
+      <data key="d2">chunk-e2067a54b224c3aba6db743de8b8167f</data>
+      <data key="d1">"Differentiation from periodic limb movement disorder is necessary as these conditions differ in clinical manifestations and PSG results."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;REM SLEEP BEHAVIOR DISORDER (RBD)&quot;" target="&quot;PARKINSON'S DISEASE&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"A significant number of patients with Parkinson's disease exhibit signs of RBD, suggesting a possible link or shared underlying mechanism."&lt;SEP&gt;"The relationship between Parkinson's disease and REM sleep behavior disorder indicates that a significant number of patients with Parkinson's show signs of RBD, suggesting a possible link or shared underlying mechanism."</data>
+      <data key="d6">chunk-e2067a54b224c3aba6db743de8b8167f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;REM SLEEP BEHAVIOR DISORDER (RBD)&quot;" target="&quot;DEMENTIA WITH LEWY BODIES&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"There is a connection between dementia with Lewy bodies and REM sleep behavior disorder, as the text mentions that these conditions often co-occur."</data>
+      <data key="d6">chunk-e2067a54b224c3aba6db743de8b8167f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;REM SLEEP BEHAVIOR DISORDER (RBD)&quot;" target="&quot;DEMENTIA WITH LEWY BODIES (DLB)&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"There is an increased risk and occurrence of REM sleep behavior disorder in patients diagnosed with dementia with Lewy bodies."</data>
+      <data key="d6">chunk-e2067a54b224c3aba6db743de8b8167f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;REM SLEEP BEHAVIOR DISORDER (RBD)&quot;" target="&quot;VIDEO POLYSOMNOGRAPHY (VPSG)&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"vPSG provides detailed recordings necessary for diagnosing RBD, distinguishing it from other sleep disorders."</data>
+      <data key="d6">chunk-e2067a54b224c3aba6db743de8b8167f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;REM SLEEP BEHAVIOR DISORDER (RBD)&quot;" target="&quot;POLYSOMNOGRAPHY (PSG)&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"PSG is used to confirm the diagnosis of REM sleep behavior disorder through physiological monitoring during sleep."</data>
+      <data key="d6">chunk-e2067a54b224c3aba6db743de8b8167f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;REM SLEEP BEHAVIOR DISORDER (RBD)&quot;" target="&quot;CHLORAZEPOXIDE&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Chlorazepoxide has been proven effective in reducing symptoms and episodes of RBD, making it a recommended treatment."</data>
+      <data key="d6">chunk-e2067a54b224c3aba6db743de8b8167f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;REM SLEEP BEHAVIOR DISORDER (RBD)&quot;" target="&quot;MELATONIN&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Melatonin is used to manage symptoms of RBD due to its effectiveness and good tolerability profile."</data>
+      <data key="d6">chunk-e2067a54b224c3aba6db743de8b8167f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;REM SLEEP BEHAVIOR DISORDER (RBD)&quot;" target="&quot;NIGHT-TIME EPILEPSY (NOCTURNAL SEIZURES)&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"Differentiating REM sleep behavior disorder from night-time epilepsy involves distinguishing between REM and NREM-related seizures."</data>
+      <data key="d6">chunk-e2067a54b224c3aba6db743de8b8167f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;REM SLEEP BEHAVIOR DISORDER (RBD)&quot;" target="&quot;OBSTRUCTIVE SLEEP APNEA (OSA)&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"OSA may present limb movements during sleep but differs in PSG findings and responds to treatment differently than RBD."</data>
+      <data key="d6">chunk-e2067a54b224c3aba6db743de8b8167f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;REM SLEEP BEHAVIOR DISORDER (RBD)&quot;" target="&quot;PERIODIC LIMB MOVEMENT DISORDER (PLMD)&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Differentiation from periodic limb movement disorder is necessary as these conditions differ in clinical manifestations and PSG results."</data>
+      <data key="d6">chunk-e2067a54b224c3aba6db743de8b8167f</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

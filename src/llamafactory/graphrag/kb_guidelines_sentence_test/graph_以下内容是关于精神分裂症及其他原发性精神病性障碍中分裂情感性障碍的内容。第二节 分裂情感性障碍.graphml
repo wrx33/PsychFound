@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;分裂情感性障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"分裂情感性障碍是一种精神疾病，其特点是同时存在显著的分裂症状和情感症状。这种病症通常包括幻觉、妄想等精神病性症状以及抑郁或躁狂发作等症状。"</data>
+      <data key="d2">chunk-799fd6064ad57152f4b4c5a3d667dcac</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;精神分裂症&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"精神分裂症是一种严重的精神病，主要特征是思维障碍、幻觉、妄想等精神病性症状，情感活动表现较为平淡或迟钝。"</data>
+      <data key="d2">chunk-799fd6064ad57152f4b4c5a3d667dcac</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;双相障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"双相障碍是一种心境障碍，患者经历躁狂或轻躁狂发作以及抑郁发作。"</data>
+      <data key="d2">chunk-799fd6064ad57152f4b4c5a3d667dcac</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;抑郁障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"抑郁障碍以情绪低落、兴趣缺乏为主要特征，并伴有认知和行为上的变化。"</data>
+      <data key="d2">chunk-799fd6064ad57152f4b4c5a3d667dcac</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;器质性精神障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"器质性精神障碍是由脑器质性疾病或躯体疾病引起的精神病性症状和情感性症状。"</data>
+      <data key="d2">chunk-799fd6064ad57152f4b4c5a3d667dcac</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;偏执性精神障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"偏执性精神障碍表现为系统妄想，妄想内容有一定的现实基础，并伴有持续的幻觉、思维紊乱等特征性症状。"</data>
+      <data key="d2">chunk-799fd6064ad57152f4b4c5a3d667dcac</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;心境障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"心境障碍主要以情感高涨或低落为特点，并伴随认知和行为改变。一些患者可能出现精神病性症状，但这些症状通常与情绪状态协调。"</data>
+      <data key="d2">chunk-799fd6064ad57152f4b4c5a3d667dcac</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;抗精神病药物&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"抗精神病药物用于治疗分裂情感性障碍中的精神病性症状，如利培酮、奥氮平等。"</data>
+      <data key="d2">chunk-799fd6064ad57152f4b4c5a3d667dcac</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;心境稳定剂&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"心境稳定剂用于调节患者的情绪波动，减少情感发作的频率和严重程度，例如碳酸锂等。"</data>
+      <data key="d2">chunk-799fd6064ad57152f4b4c5a3d667dcac</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;抗抑郁药&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"抗抑郁药物治疗分裂情感性障碍中的抑郁症状，如舍曲林、艾司西酞普兰等。"</data>
+      <data key="d2">chunk-799fd6064ad57152f4b4c5a3d667dcac</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;分裂情感性障碍&quot;" target="&quot;精神分裂症&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"分裂情感性障碍与精神分裂症在临床症状上有重叠，但后者的情感活动通常较为平淡或迟钝，而非显著的情感症状。"</data>
+      <data key="d6">chunk-799fd6064ad57152f4b4c5a3d667dcac</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分裂情感性障碍&quot;" target="&quot;双相障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"分裂情感性障碍和双相障碍都包含躁狂或抑郁发作的症状，但在同一发作期间两者存在区别。"</data>
+      <data key="d6">chunk-799fd6064ad57152f4b4c5a3d667dcac</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分裂情感性障碍&quot;" target="&quot;抑郁障碍&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"分裂情感性障碍与抑郁障碍都可能包括抑郁症状，但前者同时有精神病性症状的出现。"</data>
+      <data key="d6">chunk-799fd6064ad57152f4b4c5a3d667dcac</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分裂情感性障碍&quot;" target="&quot;器质性精神障碍&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"器质性精神障碍的症状可能与分裂情感性障碍相似，但其基础在于脑部或躯体疾病。"</data>
+      <data key="d6">chunk-799fd6064ad57152f4b4c5a3d667dcac</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分裂情感性障碍&quot;" target="&quot;偏执性精神障碍&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"偏执性精神障碍和分裂情感性障碍在妄想和其他精神病性症状上存在区别，后者伴有更明显的持续幻觉和行为紊乱。"</data>
+      <data key="d6">chunk-799fd6064ad57152f4b4c5a3d667dcac</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分裂情感性障碍&quot;" target="&quot;心境障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"心境障碍的症状可能与分裂情感性障碍相似，但在症状的协调性和持续时间上有显著差异。"</data>
+      <data key="d6">chunk-799fd6064ad57152f4b4c5a3d667dcac</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分裂情感性障碍&quot;" target="&quot;抗精神病药物&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"抗精神病药物用于治疗分裂情感性障碍中的幻觉、妄想等精神病性症状。"</data>
+      <data key="d6">chunk-799fd6064ad57152f4b4c5a3d667dcac</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分裂情感性障碍&quot;" target="&quot;心境稳定剂&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"心境稳定剂在分裂情感性障碍的治疗中发挥重要作用，有助于调节患者的情绪波动。"</data>
+      <data key="d6">chunk-799fd6064ad57152f4b4c5a3d667dcac</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分裂情感性障碍&quot;" target="&quot;抗抑郁药&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"抗抑郁药物用于缓解分裂情感性障碍中的抑郁症状，改善患者的情感状态和生活质量。"</data>
+      <data key="d6">chunk-799fd6064ad57152f4b4c5a3d667dcac</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

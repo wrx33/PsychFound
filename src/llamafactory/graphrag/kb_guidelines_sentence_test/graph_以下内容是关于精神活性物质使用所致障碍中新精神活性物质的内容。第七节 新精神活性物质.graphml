@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;联合国毒品和犯罪问题办公室&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"负责监测新精神活性物质，并对其进行定义和分类。"</data>
+      <data key="d2">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;国际禁毒公约&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"包括《1961年麻醉品单一公约》和《1971年精神药物公约》，对毒品进行管制。"</data>
+      <data key="d2">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;新精神活性物质（NPS）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"指没有被国际公约所管制，但存在滥用并可能危害公众健康的物质。"&lt;SEP&gt;"指没有被国际禁毒公约所管制，但存在滥用并可能危害公众健康的物质。"</data>
+      <data key="d2">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;大麻&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"一种受管控的精神活性物质，其效应为联合国毒品和犯罪问题办公室定义NPS时的一个参考标准。"</data>
+      <data key="d2">chunk-4cae24a4321049f7908960030703f2a2</data>
+    </node>
+    <node id="&quot;可卡因&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"一种受国际管制的毒品，被用作新精神活性物质药理作用的比较对象之一。"</data>
+      <data key="d2">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;海洛因&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"一种强烈的阿片类药物，其滥用与新型致幻和兴奋剂相比较。"</data>
+      <data key="d2">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;LSD（麦角胺二乙酰胺）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"一种强效的迷幻剂，在NPS的药理作用中被提及作为参考标准。"</data>
+      <data key="d2">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;甲基苯丙胺&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"一种强烈的兴奋剂，用于比较新精神活性物质的效应和滥用情况。"</data>
+      <data key="d2">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;传统毒品&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"指历史上较早出现的、已被国际公约所管制的毒品类别。"</data>
+      <data key="d2">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;合成毒品&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"第二代毒品，指通过化学手段制造的新类型毒品，在NPS定义中作为参考背景。"</data>
+      <data key="d2">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;第三代毒品&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"指新精神活性物质，其预计将成为全球流行的新型毒品类别。"</data>
+      <data key="d2">chunk-4cae24a4321049f7908960030703f2a2</data>
+    </node>
+    <node id="&quot;苯乙胺类&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"一类具有兴奋剂效应的化学合成物，在NPS分类中占很大比例。"</data>
+      <data key="d2">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;氨基吲哚类&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"一种新精神活性物质，主要为致幻和兴奋作用。"</data>
+      <data key="d2">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;苯环己基胺类&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"一类含有多种效应的化学合成物，在NPS分类中被提及。"</data>
+      <data key="d2">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;镇静类（如Γ-羟基丁酸酯）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"一种具有麻醉和镇静作用的新精神活性物质类型。"</data>
+      <data key="d2">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;恰特草&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"一种含有精神活性物质的植物，在NPS分类中被提及作为一类来源。"</data>
+      <data key="d2">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;鼠尾草&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"一种具有致幻效果的精神活性物质植物，属于新精神活性物质之一。"</data>
+      <data key="d2">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;帽蕊木&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"含有精神活性成分的植物，在NPS分类中被提及作为一类来源。"</data>
+      <data key="d2">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;联合国毒品和犯罪问题办公室&quot;" target="&quot;新精神活性物质（NPS）&quot;">
+      <data key="d4">20.0</data>
+      <data key="d5">"联合国毒品和犯罪问题办公室负责监测、定义及分类新精神活性物质。"</data>
+      <data key="d6">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;联合国毒品和犯罪问题办公室&quot;" target="&quot;可卡因&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"可卡因为国际管制的物质之一，在NPS定义中作为参考标准使用。"</data>
+      <data key="d6">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;联合国毒品和犯罪问题办公室&quot;" target="&quot;海洛因&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"海洛因是受广泛监管的精神药物，其滥用情况由联合国毒品和犯罪问题办公室监控。"</data>
+      <data key="d6">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;联合国毒品和犯罪问题办公室&quot;" target="&quot;LSD（麦角胺二乙酰胺）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"作为强效致幻剂，LSD在NPS定义中被提及并受到监管机构的监测。"</data>
+      <data key="d6">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;联合国毒品和犯罪问题办公室&quot;" target="&quot;甲基苯丙胺&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"作为一种强烈的兴奋剂药物，甲基苯丙胺及其滥用情况被联合国毒品和犯罪问题办公室监控。"</data>
+      <data key="d6">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;联合国毒品和犯罪问题办公室&quot;" target="&quot;苯乙胺类&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"苯乙胺类是受监测的新型兴奋剂，其滥用情况由联合国毒品和犯罪问题办公室记录并分析。"</data>
+      <data key="d6">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;联合国毒品和犯罪问题办公室&quot;" target="&quot;恰特草&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"恰特草是一种含有精神活性成分的植物，在监测新精神活性物质时受到关注。"</data>
+      <data key="d6">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;联合国毒品和犯罪问题办公室&quot;" target="&quot;鼠尾草&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"鼠尾草是具有致幻作用的精神活性物质，其滥用情况被联合国毒品和犯罪问题办公室记录并分析。"</data>
+      <data key="d6">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;联合国毒品和犯罪问题办公室&quot;" target="&quot;帽蕊木&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"含有精神活性成分的植物，在监测新精神活性物质时受到关注。"</data>
+      <data key="d6">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;国际禁毒公约&quot;" target="&quot;新精神活性物质（NPS）&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"新精神活性物质尚未被国际禁毒公约所管制，但可能在将来受到监管。"</data>
+      <data key="d6">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;新精神活性物质（NPS）&quot;" target="&quot;合成毒品&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"合成毒品之后出现的新精神活性物质被预测会成为第三代流行毒品。"</data>
+      <data key="d6">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;新精神活性物质（NPS）&quot;" target="&quot;氨基吲哚类&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"氨基吲哚类属于新精神活性物质之一，具有致幻和兴奋作用，在NPS分类中被提及。"</data>
+      <data key="d6">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;新精神活性物质（NPS）&quot;" target="&quot;苯环己基胺类&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"这类化学合成物具有多种效应，在新精神活性物质的分类中占有一席之地。"</data>
+      <data key="d6">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;新精神活性物质（NPS）&quot;" target="&quot;镇静类（如Γ-羟基丁酸酯）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"这类物质在NPS中被列为用于麻醉和镇静的一类，具有特定效应。"</data>
+      <data key="d6">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;传统毒品&quot;" target="&quot;合成毒品&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"传统毒品的使用历史为合成毒品的发展提供了背景，后者在NPS定义中作为参考标准。"</data>
+      <data key="d6">chunk-4cae24a4321049f7908960030703f2a2</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

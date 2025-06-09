@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;OCD&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Obsessive-Compulsive Disorder (OCD) is a mental disorder characterized by repetitive and persistent obsessive thoughts and/or compulsive behaviors, causing significant distress."</data>
+      <data key="d2">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;WORLDWIDE REPORTS&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Worldwide reports indicate that the lifetime prevalence of OCD ranges from 0.8% to 3.0%, with regional variations in reported data."</data>
+      <data key="d2">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;FIRST PEAK PERIOD (ADOLESCENCE)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"The first peak period for OCD occurs during adolescence, typically before age 15, affecting around one-third of patients."</data>
+      <data key="d2">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+    </node>
+    <node id="&quot;SECOND PEAK PERIOD (EARLY ADULTHOOD)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"The second peak period for OCD is early adulthood, particularly between ages 19 and 35 years old."</data>
+      <data key="d2">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+    </node>
+    <node id="&quot;YALE-BROWN OBSESSIVE COMPULSIVE SCALE (Y-BOCS)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Y-BOCS is a clinical assessment tool used to evaluate the symptoms and severity of OCD. It consists of 10 items, covering symptom checklist and severity scale with dimensions such as distress, frequency, conflict, resistance."</data>
+      <data key="d2">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+    </node>
+    <node id="&quot;GOODMAN&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Dr. Goodman developed the Yale-Brown Obsessive Compulsive Scale (Y-BOCS) to assess OCD symptoms and severity."</data>
+      <data key="d2">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+    </node>
+    <node id="&quot;BIOPSYCHOSOCIAL MODEL&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The Biopsychosocial model is a framework used in understanding OCD, suggesting that biological, psychological, and social factors all contribute to the development of the disorder."</data>
+      <data key="d2">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;GENETIC FACTORS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"OCD has genetic influences, with first-degree relatives having an elevated risk for developing the condition compared to the general population."</data>
+      <data key="d2">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+    </node>
+    <node id="&quot;NEUROBIOLOGICAL FACTORS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Various neurotransmitters like norepinephrine and dopamine are imbalanced in OCD patients, contributing to their symptoms."</data>
+      <data key="d2">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+    </node>
+    <node id="&quot;HORMONAL IMBALANCE&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Disruptions in the hypothalamic-pituitary-adrenal (HPA) axis contribute to the pathophysiology of OCD."</data>
+      <data key="d2">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+    </node>
+    <node id="&quot;IMMUNE FACTORS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Certain infections or immune system abnormalities may play a role in the development of OCD for some patients."</data>
+      <data key="d2">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+    </node>
+    <node id="&quot;ELECTROENCEPHALOGRAPHY (EEG)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Abnormal EEG patterns related to heightened arousal and focus are observed in individuals with OCD."</data>
+      <data key="d2">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+    </node>
+    <node id="&quot;FUNCTIONAL NEUROIMAGING&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Techniques such as functional MRI show abnormal brain activity in specific circuits like the orbitofrontal cortex-striatal-thalamus loop in OCD patients."</data>
+      <data key="d2">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+    </node>
+    <node id="&quot;PERSONALITY TRAITS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Individuals with OCD often exhibit perfectionistic tendencies, indecisiveness, sensitivity, and difficulty forming relationships."</data>
+      <data key="d2">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+    </node>
+    <node id="&quot;FAMILY FACTORS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Unhealthy family dynamics can predispose individuals to OCD, including poor communication and conflict within the family unit."</data>
+      <data key="d2">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+    </node>
+    <node id="&quot;STRESSORS&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Psychological stressors such as academic pressures, relationship issues, or life events can trigger OCD symptoms in susceptible individuals."</data>
+      <data key="d2">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+    </node>
+    <node id="&quot;COGNITIVE BEHAVIORAL THERAPY (CBT)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"CBT is a primary psychological intervention for OCD that includes exposure and response prevention techniques to reduce obsessive-compulsive behaviors."</data>
+      <data key="d2">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+    </node>
+    <node id="&quot;DEEP BRAIN STIMULATION (DBS)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"DBS is an invasive procedure considered as a treatment option for severe, treatment-resistant OCD cases."</data>
+      <data key="d2">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+    </node>
+    <node id="&quot;MODIFIED ELECTROCONVULSIVE THERAPY (MECT)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"MECT can be used in conjunction with other treatments for certain OCD patients who meet specific criteria."</data>
+      <data key="d2">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+    </node>
+    <node id="&quot;Y-BOCS&quot;">
+      <data key="d2">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+      <data key="d1">"Dr. Goodman developed the Y-BOCS, which is widely used for assessing and evaluating OCD symptoms and severity."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;OCD&quot;" target="&quot;WORLDWIDE REPORTS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Worldwide reports provide data on the prevalence of OCD, indicating its significant impact globally."</data>
+      <data key="d6">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;OCD&quot;" target="&quot;BIOPSYCHOSOCIAL MODEL&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The Biopsychosocial model provides an integrative framework that includes biological, psychological, and social factors contributing to OCD."</data>
+      <data key="d6">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;FIRST PEAK PERIOD (ADOLESCENCE)&quot;" target="&quot;SECOND PEAK PERIOD (EARLY ADULTHOOD)&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Both peak periods represent critical times in an individual's life where they are most susceptible to developing OCD."</data>
+      <data key="d6">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;GOODMAN&quot;" target="&quot;Y-BOCS&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Dr. Goodman developed the Y-BOCS, which is widely used for assessing and evaluating OCD symptoms and severity."</data>
+      <data key="d6">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;GENETIC FACTORS&quot;" target="&quot;HORMONAL IMBALANCE&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Both genetic predisposition and hormonal imbalances contribute significantly to the onset of OCD symptoms."</data>
+      <data key="d6">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;NEUROBIOLOGICAL FACTORS&quot;" target="&quot;ELECTROENCEPHALOGRAPHY (EEG)&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Abnormal EEG readings indicate heightened brain activity associated with obsessive thoughts in OCD patients."</data>
+      <data key="d6">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;PERSONALITY TRAITS&quot;" target="&quot;FAMILY FACTORS&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Unhealthy family dynamics and certain personality traits are linked, influencing the development of OCD."</data>
+      <data key="d6">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;STRESSORS&quot;" target="&quot;COGNITIVE BEHAVIORAL THERAPY (CBT)&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"CBT is effective in managing stressors that exacerbate OCD symptoms through exposure therapy and cognitive restructuring."</data>
+      <data key="d6">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DEEP BRAIN STIMULATION (DBS)&quot;" target="&quot;MODIFIED ELECTROCONVULSIVE THERAPY (MECT)&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Both MECT and DBS are considered treatments for severe OCD cases when other interventions fail to provide relief."</data>
+      <data key="d6">chunk-e94f2e7ba13884b34579dcf52c78ae76</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

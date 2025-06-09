@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;中枢神经兴奋剂所致障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"指由滥用中枢神经系统兴奋剂引起的一系列精神和身体问题，包括急性中毒、依赖、戒断症状及精神病性障碍。"</data>
+      <data key="d2">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+    </node>
+    <node id="&quot;苯丙胺类兴奋剂&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"是一类人工合成的中枢神经兴奋剂，常在我国使用并导致一系列健康和社会问题。"</data>
+      <data key="d2">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+    </node>
+    <node id="&quot;急性中毒&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"由于过量使用中枢神经系统兴奋剂引发的症状，包括身体和精神上的不良反应，严重时可能导致生命危险。"</data>
+      <data key="d2">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+      <data key="d3">[{"level": 0, "cluster": 3}]</data>
+    </node>
+    <node id="&quot;依赖&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"指个体对中枢神经兴奋剂的躯体或心理上的强烈需求，即使明知有害仍继续使用的状态。"</data>
+      <data key="d2">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;戒断症状&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"在停止使用中枢神经系统兴奋剂后出现的一系列身体和精神不适的症状。"</data>
+      <data key="d2">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;精神病性障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"由于长期或大量使用中枢神经兴奋剂导致的精神病样症状，如幻觉、妄想等。"</data>
+      <data key="d2">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;可卡因&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"一种自然产生的植物生物碱，属于中枢神经系统兴奋剂类药物。"</data>
+      <data key="d2">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+    </node>
+    <node id="&quot;麻黄碱&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"一种天然存在的化合物，具有兴奋作用，属于中枢神经系统的刺激物质。"</data>
+      <data key="d2">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+    </node>
+    <node id="&quot;苯丙胺&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"一类人工合成的中枢神经系统兴奋剂，用于治疗注意力缺陷多动障碍（ADHD）和嗜睡症等病症。"</data>
+      <data key="d2">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;甲基苯丙胺&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"一种强效的人工合成中枢神经兴奋剂，也被称为冰毒，在滥用中非常普遍且危害极大。"</data>
+      <data key="d2">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+      <data key="d3">[{"level": 0, "cluster": 3}]</data>
+    </node>
+    <node id="&quot;甲卡西酮&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"人工合成的兴奋剂之一，具有强烈的致幻和成瘾性。"</data>
+      <data key="d2">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;合成卡西酮&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"一种人工合成的中枢神经兴奋剂，常被非法使用并引发精神问题。"</data>
+      <data key="d2">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;中国医疗机构&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"负责诊断、评估和治疗因滥用中枢神经系统兴奋剂而产生的各种障碍。"</data>
+      <data key="d2">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+    </node>
+    <node id="&quot;临床表现&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"指患者在不同情况下的具体症状，包括急性中毒、依赖、戒断症状以及精神病性障碍等。"</data>
+      <data key="d2">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+    </node>
+    <node id="&quot;诊断与评估&quot;">
+      <data key="d2">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+      <data key="d1">"中国医疗机构负责进行详细的病史采集、体格检查以及辅助检查以确诊中枢神经兴奋剂所致障碍。</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;治疗&quot;">
+      <data key="d2">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+      <data key="d1">"基于患者的临床表现，治疗方案会包括药物和心理支持等多种形式。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;中枢神经兴奋剂所致障碍&quot;" target="&quot;苯丙胺类兴奋剂&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"苯丙胺类兴奋剂是导致中枢神经兴奋剂所致障碍的主要原因。"</data>
+      <data key="d6">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;中枢神经兴奋剂所致障碍&quot;" target="&quot;麻黄碱&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"作为一种自然产生的植物生物碱，麻黄碱的过量使用会引发类似的药物相关症状。"&lt;SEP&gt;"麻黄碱是导致这类健康问题的药物之一。</data>
+      <data key="d6">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;中枢神经兴奋剂所致障碍&quot;" target="&quot;可卡因&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"作为一类中枢神经系统兴奋剂，可卡因的滥用可能导致一系列健康问题。</data>
+      <data key="d6">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性中毒&quot;" target="&quot;依赖&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"过量使用中枢神经系统兴奋剂可能导致急性中毒，并进一步发展成依赖状态。"</data>
+      <data key="d6">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性中毒&quot;" target="&quot;精神病性障碍&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"长期或大量使用导致的急性中毒可以引发精神病性障碍。"</data>
+      <data key="d6">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性中毒&quot;" target="&quot;甲基苯丙胺&quot;">
+      <data key="d4">17.0</data>
+      <data key="d5">"甲基苯丙胺过量使用会迅速引发急性中毒症状，包括精神病性表现。&lt;SEP&gt;"过量摄入甲基苯丙胺可以迅速引发一系列急性中毒症状，包括精神方面的表现。"</data>
+      <data key="d6">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;依赖&quot;" target="&quot;戒断症状&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"一旦个体对中枢神经兴奋剂产生依赖，在停止或减少使用剂量后会出现戒断症状。"</data>
+      <data key="d6">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;依赖&quot;" target="&quot;精神病性障碍&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"慢性和大量的药物滥用可能导致精神病性症状，即使在没有明显身体戒断症状的情况下出现。"</data>
+      <data key="d6">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;依赖&quot;" target="&quot;苯丙胺&quot;">
+      <data key="d4">17.0</data>
+      <data key="d5">"长期使用苯丙胺可能导致使用者对这种物质产生严重的身体和心理依赖。"&lt;SEP&gt;"长期或反复使用苯丙胺会导致使用者对这种物质产生严重的依赖性。</data>
+      <data key="d6">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;戒断症状&quot;" target="&quot;合成卡西酮&quot;">
+      <data key="d4">12.0</data>
+      <data key="d5">"停止使用合成卡西酮后，使用者会经历一系列身体和心理上的不适，如抑郁、焦虑等。"&lt;SEP&gt;"停止使用这种药物后，使用者可能会经历一系列严重的身体和心理上的不适。</data>
+      <data key="d6">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;精神病性障碍&quot;" target="&quot;甲卡西酮&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"长期或大量使用甲卡西酮可能导致患者出现严重的精神病性障碍。&lt;SEP&gt;"长期或大量摄入甲卡西酮可导致出现类似精神分裂的症状。"</data>
+      <data key="d6">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;中国医疗机构&quot;" target="&quot;诊断与评估&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"中国医疗机构负责进行详细的病史采集、体格检查以及辅助检查以确诊中枢神经兴奋剂所致障碍。</data>
+      <data key="d6">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;临床表现&quot;" target="&quot;治疗&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"基于患者的临床表现，治疗方案会包括药物和心理支持等多种形式。"</data>
+      <data key="d6">chunk-9c2fc1429f241dd454a6d9b599c47411</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

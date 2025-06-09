@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;DSM-5&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"DSM-5 is a diagnostic and statistical manual of mental disorders published by the American Psychiatric Association, which includes acute stress disorder (ASD) as one of its diagnoses."</data>
+      <data key="d2">chunk-520ba3b81691a8351c6794d45a96e65c</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;ICD-10&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-10 is an international classification of diseases developed by the World Health Organization, where Acute Stress Disorder is referred to as Acute Stress Reaction."</data>
+      <data key="d2">chunk-520ba3b81691a8351c6794d45a96e65c</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;ICD-11&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-11 is a recent update to the International Classification of Diseases which has removed Acute Stress Reaction from its previous classification under 'Mental and behavioral disorders' and placed it elsewhere, not detailed here."</data>
+      <data key="d2">chunk-520ba3b81691a8351c6794d45a96e65c</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;急性应激障碍（ASD）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Acute Stress Disorder (ASD) is a psychological condition characterized by symptoms following exposure to extreme traumatic events or situations. It usually develops shortly after the trauma, often within an hour, and lasts for no more than one month."</data>
+      <data key="d2">chunk-520ba3b81691a8351c6794d45a96e65c</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;创伤事件&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Traumatic events refer to experiences that are perceived as extremely threatening, dangerous, or horrifying, which can lead to acute stress disorder if they cause significant psychological distress."</data>
+      <data key="d2">chunk-520ba3b81691a8351c6794d45a96e65c</data>
+    </node>
+    <node id="&quot;急性应激反应（ASR）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Acute Stress Reaction (ASR) is a condition described in ICD-10, which was previously used to refer to Acute Stress Disorder before being reclassified in newer versions such as ICD-11."</data>
+      <data key="d2">chunk-520ba3b81691a8351c6794d45a96e65c</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;创伤后应激障碍（PTSD）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Post-Traumatic Stress Disorder (PTSD) is a condition that develops after experiencing or witnessing traumatic events, lasting longer than one month and meeting certain diagnostic criteria."</data>
+      <data key="d2">chunk-520ba3b81691a8351c6794d45a96e65c</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;斯坦福急性应激反应问卷（SASRD）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Stanford Acute Stress Reaction Questionnaire (SASRD) is an assessment tool used to evaluate acute stress disorder in clinical settings."</data>
+      <data key="d2">chunk-520ba3b81691a8351c6794d45a96e65c</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;急性应激障碍量表（ASDS）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Acute Stress Disorder Scale (ASDS) is another evaluation tool used for assessing symptoms of acute stress disorder."</data>
+      <data key="d2">chunk-520ba3b81691a8351c6794d45a96e65c</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;DSM-5&quot;" target="&quot;急性应激障碍（ASD）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The DSM-5 includes a diagnosis for Acute Stress Disorder (ASD), providing criteria and guidelines for its recognition."</data>
+      <data key="d6">chunk-520ba3b81691a8351c6794d45a96e65c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ICD-10&quot;" target="&quot;急性应激障碍（ASD）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"In ICD-10, acute stress disorder is referred to as an 'acute stress reaction', indicating the classification of this condition within their diagnostic framework."</data>
+      <data key="d6">chunk-520ba3b81691a8351c6794d45a96e65c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ICD-11&quot;" target="&quot;急性应激障碍（ASD）&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"ICD-11 has reclassified acute stress reactions, removing them from the mental and behavioral disorders category, though specific details about its new location are not provided here."</data>
+      <data key="d6">chunk-520ba3b81691a8351c6794d45a96e65c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性应激障碍（ASD）&quot;" target="&quot;急性应激反应（ASR）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"In the context of diagnostic systems, Acute Stress Reaction was previously used to describe conditions now referred to as Acute Stress Disorder in newer classifications."</data>
+      <data key="d6">chunk-520ba3b81691a8351c6794d45a96e65c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性应激障碍（ASD）&quot;" target="&quot;创伤后应激障碍（PTSD）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Acute Stress Disorder can evolve into Post-Traumatic Stress Disorder if symptoms persist beyond one month, indicating a potential progression from ASD to PTSD."</data>
+      <data key="d6">chunk-520ba3b81691a8351c6794d45a96e65c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性应激障碍（ASD）&quot;" target="&quot;斯坦福急性应激反应问卷（SASRD）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The Stanford Acute Stress Reaction Questionnaire (SASRD) is used specifically for diagnosing and assessing symptoms of acute stress disorder in patients."</data>
+      <data key="d6">chunk-520ba3b81691a8351c6794d45a96e65c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性应激障碍（ASD）&quot;" target="&quot;急性应激障碍量表（ASDS）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The Acute Stress Disorder Scale (ASDS) is an assessment tool designed to evaluate the severity and presence of acute stress disorder symptoms."</data>
+      <data key="d6">chunk-520ba3b81691a8351c6794d45a96e65c</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

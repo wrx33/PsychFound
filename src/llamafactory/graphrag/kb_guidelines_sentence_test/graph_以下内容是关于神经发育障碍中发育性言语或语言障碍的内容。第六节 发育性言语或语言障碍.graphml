@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;ICD-11&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"ICD-11 是国际疾病分类系统的第十一版，用于诊断和分型发育性言语和语言障碍。"</data>
+      <data key="d2">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;选择性缄默症&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"选择性缄默症是一种在特定情境下拒绝说话的病症。"</data>
+      <data key="d2">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;听力障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"听力障碍是指影响个体听觉功能的问题或疾病状态。"</data>
+      <data key="d2">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;癫痫获得性语言障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"癫痫获得性语言障碍是由于癫痫发作导致的语言障碍，通过脑电图检测可以发现癫痫波。"</data>
+      <data key="d2">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;智力障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"智力障碍是指个体的智商低于70且适应行为评定适应商也低于70的状态。"</data>
+      <data key="d2">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;孤独症谱系障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"孤独症谱系障碍是一类包括社交互动缺陷、重复性行为和单一执着兴趣在内的神经发育障碍群。"</data>
+      <data key="d2">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;脑性瘫痪&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"脑性瘫痪是一种影响个体运动功能的神经疾病，常表现为肌肉痉挛等。"</data>
+      <data key="d2">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;美国&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"美国是提及发育性言语或语言障碍患病率数据的地理区域。"</data>
+      <data key="d2">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+    </node>
+    <node id="&quot;儿童&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"儿童是指2岁到9岁的未成年人，文本中提到他们患发育性言语或语言障碍的具体情况和年龄阶段。"</data>
+      <data key="d2">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+    </node>
+    <node id="&quot;围生期高危因素&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"围生期高危因素指可能影响婴儿大脑发育的不良条件，包括出生并发症等。"</data>
+      <data key="d2">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+    </node>
+    <node id="&quot;遗传因素&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"遗传因素被认为是导致发育性言语或语言障碍的原因之一，虽然具体的基因尚未明确。"</data>
+      <data key="d2">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+    </node>
+    <node id="&quot;脑电图检查&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"脑电图检查是一种用于检测大脑活动的方法，在评估发育性言语或语言障碍时使用。"</data>
+      <data key="d2">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+    </node>
+    <node id="&quot;韦氏学前儿童智力测验（WPPSI）和韦氏儿童智力量表（WISC）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"这些是用于评估智力水平的标准化测试，常被用来排除其他可能影响语言发展的疾病。"</data>
+      <data key="d2">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+    </node>
+    <node id="&quot;汉语沟通发展量表（CDI）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"这是一种专门针对中国人群的语言发育评估工具，可以用于诊断和治疗计划制定。"</data>
+      <data key="d2">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+    </node>
+    <node id="&quot;听力评估&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"进行听力评估是为了排除听力障碍对言语或语言发展的干扰作用。"</data>
+      <data key="d2">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+    </node>
+    <node id="&quot;口腔运动功能训练&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"这是一种针对存在口腔运动问题的儿童实施的语言康复方法，旨在改善其发音能力。"</data>
+      <data key="d2">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+    </node>
+    <node id="&quot;游戏治疗&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"在管理发育性言语障碍时用于帮助儿童克服情绪和行为问题的一种治疗方法。"</data>
+      <data key="d2">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+    </node>
+    <node id="&quot;发育性言语或语言障碍&quot;">
+      <data key="d2">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d1">"ICD-11 用于诊断和分型发育性言语或语言障碍。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;儿童语言发展迟缓数据&quot;">
+      <data key="d2">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d1">"美国提供了关于2至9岁儿童的语言发育迟缓的具体患病率统计数据。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;发育性言语或语言障碍诊断&quot;">
+      <data key="d2">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d1">"脑电图检查用于排除由癫痫引起的语言障碍，并确认是否存在与发育性言语或语言障碍相关的脑活动异常。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;评估工具&quot;">
+      <data key="d2">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d1">"CDI是一种专门针对中文环境设计的早期语言发展筛查和诊断工具，用于评估儿童在不同年龄阶段的语言能力。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;情绪与行为问题管理&quot;">
+      <data key="d2">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d1">"通过提供一个安全且富有创造性的环境来帮助患有发育性言语或语言障碍的孩子处理伴随的情绪和行为挑战。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;ICD-11&quot;" target="&quot;发育性言语或语言障碍&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"ICD-11 用于诊断和分型发育性言语或语言障碍。"</data>
+      <data key="d6">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;选择性缄默症&quot;" target="&quot;发育性言语或语言障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"需要将发育性言语或语言障碍与选择性缄默症相鉴别，以避免误诊。"</data>
+      <data key="d6">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;听力障碍&quot;" target="&quot;发育性言语或语言障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"需要排除由听力障碍引起的发音和语言问题。"</data>
+      <data key="d6">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;癫痫获得性语言障碍&quot;" target="&quot;发育性言语或语言障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"需要通过脑电图检测来鉴别癫痫波，以区分癫痫导致的语言障碍与发育性言语或语言障碍。"</data>
+      <data key="d6">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;智力障碍&quot;" target="&quot;发育性言语或语言障碍&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"在诊断发育性言语或语言障碍时需要排除智力障碍。"</data>
+      <data key="d6">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;孤独症谱系障碍&quot;" target="&quot;发育性言语或语言障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"发育性言语或语言障碍的临床评估中需要与孤独症谱系障碍相鉴别，以区分不同的神经发育问题。"</data>
+      <data key="d6">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;脑性瘫痪&quot;" target="&quot;发育性言语或语言障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"在诊断过程中需排除因脑性瘫痪导致的语言和运动功能异常。"</data>
+      <data key="d6">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;美国&quot;" target="&quot;儿童语言发展迟缓数据&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"美国提供了关于2至9岁儿童的语言发育迟缓的具体患病率统计数据。"</data>
+      <data key="d6">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;围生期高危因素&quot;" target="&quot;遗传因素&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"虽然遗传是主要的病因之一，但围生期高危因素也被认为可能影响到语言障碍的发展，尽管机制尚不完全清楚。"</data>
+      <data key="d6">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;围生期高危因素&quot;" target="&quot;听力评估&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"听力评估可以帮助确定围生期环境中的问题是否对儿童的听觉和随后的语言发展产生了影响。"</data>
+      <data key="d6">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;脑电图检查&quot;" target="&quot;发育性言语或语言障碍诊断&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"脑电图检查用于排除由癫痫引起的语言障碍，并确认是否存在与发育性言语或语言障碍相关的脑活动异常。"</data>
+      <data key="d6">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;韦氏学前儿童智力测验（WPPSI）和韦氏儿童智力量表（WISC）&quot;" target="&quot;发育性言语或语言障碍诊断&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"这些测试被用来排除由于智力低下导致的语言问题，以正确判断是否为发育性言语或语言障碍。"</data>
+      <data key="d6">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;汉语沟通发展量表（CDI）&quot;" target="&quot;评估工具&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"CDI是一种专门针对中文环境设计的早期语言发展筛查和诊断工具，用于评估儿童在不同年龄阶段的语言能力。"</data>
+      <data key="d6">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;游戏治疗&quot;" target="&quot;情绪与行为问题管理&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"通过提供一个安全且富有创造性的环境来帮助患有发育性言语或语言障碍的孩子处理伴随的情绪和行为挑战。"</data>
+      <data key="d6">chunk-02678a9a594daba6e2eb34975d7427e6</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

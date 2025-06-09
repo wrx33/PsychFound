@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;躯体变形障碍（BDD）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"躯体变形障碍是一种强迫相关障碍，其特征为患者对轻微或想象中的外表缺陷过分关注。这种先占观念给患者带来巨大痛苦并导致不同程度的心理社会功能损害。"</data>
+      <data key="d2">chunk-537ae6533287f473eb3d1e7690f2527e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;普通人群&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"在普通人群中，躯体变形障碍的终生患病率约为 1.7%～2.4%，女性略高于男性（分别为2.1%和1.6%）。"&lt;SEP&gt;"普通人群中，躯体变形障碍的终生患病率约为 1.7%～2.4%。</data>
+      <data key="d2">chunk-537ae6533287f473eb3d1e7690f2527e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;特殊人群（如皮肤科和整形外科患者）&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"在这些特殊群体中，躯体变形障碍的患病率可达 3.2%～53.6%，显著高于普通人群。"&lt;SEP&gt;"在这些特殊群体中，躯体变形障碍的患病率可达3.2%-53.6%。"</data>
+      <data key="d2">chunk-537ae6533287f473eb3d1e7690f2527e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;儿童期创伤及负性生活事件&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"环境因素包括童年期的创伤和负面的生活经历，这些可能干扰个体正常的心理发育，并导致他们日后以消极的态度对待自己的身体部位。"</data>
+      <data key="d2">chunk-537ae6533287f473eb3d1e7690f2527e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;成年早期&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"躯体变形障碍通常在青春期或成年早期开始发病。女性多关注体重、皮肤等，而男性则更担心生殖器、体型和头发稀疏。"</data>
+      <data key="d2">chunk-537ae6533287f473eb3d1e7690f2527e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;强迫症（OCD）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"躯体变形障碍与强迫症有共同的遗传学基础，其中 65% 的相关表型可以通过共同的遗传因素解释。"</data>
+      <data key="d2">chunk-537ae6533287f473eb3d1e7690f2527e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;自杀&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"研究显示，高达 27.6% 的躯体变形障碍患者曾试图自杀，并有 0.3% 成功了。此外，该病的住院率较高。"</data>
+      <data key="d2">chunk-537ae6533287f473eb3d1e7690f2527e</data>
+    </node>
+    <node id="&quot;药物滥用&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"研究表明，男性躯体变形障碍患者更可能合并药物滥用或依赖的情况。"</data>
+      <data key="d2">chunk-537ae6533287f473eb3d1e7690f2527e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;体象障碍评定量表（BDD-YBOCS）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"这是一个半结构式的临床医生访谈量表，评估患者过去一周内躯体变形障碍症状的严重程度。"</data>
+      <data key="d2">chunk-537ae6533287f473eb3d1e7690f2527e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;布朗信念评定量表（BABS）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"用于评估患者的自知力水平，共七个项目，得分越高表明患者对自己的状况认知越低。"</data>
+      <data key="d2">chunk-537ae6533287f473eb3d1e7690f2527e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;自杀风险与躯体变形障碍（BDD）&quot;">
+      <data key="d2">chunk-537ae6533287f473eb3d1e7690f2527e</data>
+      <data key="d1">"高比例的患者曾有过自杀念头，甚至尝试过自杀，提示该病存在较高的自杀风险。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;躯体变形障碍（BDD）&quot;" target="&quot;普通人群&quot;">
+      <data key="d4">15.0</data>
+      <data key="d5">"在普通人群中，躯体变形障碍具有一定的终生患病率。"&lt;SEP&gt;"在普通人群中，躯体变形障碍有相对稳定的发病率和流行情况。"</data>
+      <data key="d6">chunk-537ae6533287f473eb3d1e7690f2527e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;躯体变形障碍（BDD）&quot;" target="&quot;特殊人群（如皮肤科和整形外科患者）&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"在这些特定人群中，该病的患病率显著高于普通人群。"&lt;SEP&gt;"特殊群体中，由于接触相关治疗或咨询的机会较多，躯体变形障碍的患病率较高。"</data>
+      <data key="d6">chunk-537ae6533287f473eb3d1e7690f2527e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;躯体变形障碍（BDD）&quot;" target="&quot;儿童期创伤及负性生活事件&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"童年时期的负面经历可能增加日后罹患躯体变形障碍的风险。"</data>
+      <data key="d6">chunk-537ae6533287f473eb3d1e7690f2527e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;躯体变形障碍（BDD）&quot;" target="&quot;成年早期&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"病症通常在青春期或成年后开始发病，女性和男性有不同的关注点。"</data>
+      <data key="d6">chunk-537ae6533287f473eb3d1e7690f2527e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;躯体变形障碍（BDD）&quot;" target="&quot;强迫症（OCD）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"这两种疾病有共同的遗传学基础。"</data>
+      <data key="d6">chunk-537ae6533287f473eb3d1e7690f2527e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;躯体变形障碍（BDD）&quot;" target="&quot;药物滥用&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"部分患者可能会合并药物滥用或依赖的情况，尤其是在男性群体中。"</data>
+      <data key="d6">chunk-537ae6533287f473eb3d1e7690f2527e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;躯体变形障碍（BDD）&quot;" target="&quot;体象障碍评定量表（BDD-YBOCS）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"这是一个用于评估患者症状严重程度的重要工具。"</data>
+      <data key="d6">chunk-537ae6533287f473eb3d1e7690f2527e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;躯体变形障碍（BDD）&quot;" target="&quot;布朗信念评定量表（BABS）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"这是一个评估患者自知力水平的重要工具，有助于诊断和治疗。"</data>
+      <data key="d6">chunk-537ae6533287f473eb3d1e7690f2527e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;自杀&quot;" target="&quot;自杀风险与躯体变形障碍（BDD）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"高比例的患者曾有过自杀念头，甚至尝试过自杀，提示该病存在较高的自杀风险。"</data>
+      <data key="d6">chunk-537ae6533287f473eb3d1e7690f2527e</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

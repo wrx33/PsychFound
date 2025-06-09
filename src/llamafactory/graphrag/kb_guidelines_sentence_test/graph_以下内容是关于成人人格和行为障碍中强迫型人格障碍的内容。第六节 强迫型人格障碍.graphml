@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;强迫型人格障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"强迫型人格障碍是一种精神健康状况，其特征包括过分追求秩序、完美和严格性。患者表现出高要求的自我标准以及对细节的高度关注。他们往往难以适应新环境，且情感表达受限。"</data>
+      <data key="d2">chunk-27814352a613f4798b921d097412c56d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;ICD-10&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-10是指国际疾病分类第十版，是世界卫生组织制定的一套诊断精神健康障碍的标准和准则。在强迫型人格障碍的鉴别诊断中提供具体标准。"</data>
+      <data key="d2">chunk-27814352a613f4798b921d097412c56d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;强迫性障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"强迫性障碍表现为自我失谐的症状，包括闯入性的思维、图像或冲动以及为缓解内心焦虑而采取的重复行为或仪式化行为。这些症状常严重影响患者的正常生活和工作。"</data>
+      <data key="d2">chunk-27814352a613f4798b921d097412c56d</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;抑郁障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"抑郁障碍与强迫型人格障碍有密切关系，表现为长期的情绪低落、失去兴趣或乐趣等特征。"</data>
+      <data key="d2">chunk-27814352a613f4798b921d097412c56d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;自恋型人格障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"自恋型人格障碍具有完美主义倾向，但患者相信他们能够达到完美，而强迫型人格障碍患者则怀疑这种可能性。"</data>
+      <data key="d2">chunk-27814352a613f4798b921d097412c56d</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;分裂型人格障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"分裂型人格障碍表现出拘谨和社会隔离，与强迫型人格障碍相似，但在亲密关系的愿望上有所不同。"</data>
+      <data key="d2">chunk-27814352a613f4798b921d097412c56d</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <edge source="&quot;强迫型人格障碍&quot;" target="&quot;ICD-10&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"ICD-10提供了关于强迫型人格障碍的具体诊断标准，帮助鉴别诊断。"</data>
+      <data key="d6">chunk-27814352a613f4798b921d097412c56d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;强迫型人格障碍&quot;" target="&quot;强迫性障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"强迫型人格障碍和强迫性障碍在症状上有共通之处，但前者更多体现在个人生活的各个层面的现实行为中，而后者主要表现为针对某些具体事件或对象的强迫观念和行为。"</data>
+      <data key="d6">chunk-27814352a613f4798b921d097412c56d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ICD-10&quot;" target="&quot;抑郁障碍&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"ICD-10中的诊断标准可用于鉴别强迫型人格障碍和抑郁障碍之间的差异。"</data>
+      <data key="d6">chunk-27814352a613f4798b921d097412c56d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;强迫性障碍&quot;" target="&quot;自恋型人格障碍&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"两者都可能表现出完美主义倾向，但其背后的原因有所不同。"</data>
+      <data key="d6">chunk-27814352a613f4798b921d097412c56d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;强迫性障碍&quot;" target="&quot;分裂型人格障碍&quot;">
+      <data key="d4">4.0</data>
+      <data key="d5">"虽然两种障碍都表现出拘谨和社会隔离，但在具体原因上有所区别。"</data>
+      <data key="d6">chunk-27814352a613f4798b921d097412c56d</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

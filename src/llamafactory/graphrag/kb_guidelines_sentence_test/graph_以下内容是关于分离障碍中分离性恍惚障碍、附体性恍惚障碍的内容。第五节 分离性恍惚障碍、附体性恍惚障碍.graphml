@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;分离性恍惚障碍（DISSOCIATIVE TRANCE DISORDER）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"这是一种以出现意识改变状态为特征的精神障碍。患者在强大的外部刺激或内心冲突下会不由自主地进入这种状态，表现为意识缩窄、思维改变和丧失自我控制感等。"</data>
+      <data key="d2">chunk-70ac80b5a5f0145e22957133f54f9db1</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;附体性恍惚障碍（POSSESSION TRANCE DISORDER）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"这是一种精神障碍，又称为附体状态。患者在某一时段出现不由自主的身份认同替换现象，新的身份受到某种力量或神灵的影响，并伴有不受控制的行为表现。"</data>
+      <data key="d2">chunk-70ac80b5a5f0145e22957133f54f9db1</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;意识改变状态（ALTERED STATE OF CONSCIOUSNESS，ASC）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"指与正常的清醒意识不同的短暂且可逆的意识状态变化，可以由各种因素如心理压力、药物影响等引起。"</data>
+      <data key="d2">chunk-70ac80b5a5f0145e22957133f54f9db1</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;分离障碍集体发作（EPIDEMIC HYSTERIA）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"这种现象是指在特定群体中出现的心理和行为症状暴发流行，常常发生于学校或宗教场所，在重大威胁或恐慌氛围下由个别敏感个体引发，并通过暗示迅速传播。"</data>
+      <data key="d2">chunk-70ac80b5a5f0145e22957133f54f9db1</data>
+    </node>
+    <node id="&quot;晕厥样昏倒（FAINTING SPELL）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"这是一种突然发生的意识丧失状态，通常与情绪激动有关，可以伴随分离性抽搐发作出现或在过度换气导致呼吸性碱中毒后发生。"</data>
+      <data key="d2">chunk-70ac80b5a5f0145e22957133f54f9db1</data>
+    </node>
+    <node id="&quot;分离性木僵&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"患者表现出僵硬、不动的状态，在特定情境下被触发，但没有意识障碍的其他典型表现。"</data>
+      <data key="d2">chunk-70ac80b5a5f0145e22957133f54f9db1</data>
+    </node>
+    <node id="&quot;缩阳症（KORO SYNDROME）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"一种特殊文化背景下的现象，多见于我国广东、海南地区，表现为对阴茎或其他身体部位缩回体内的极度恐惧和焦虑症状。"</data>
+      <data key="d2">chunk-70ac80b5a5f0145e22957133f54f9db1</data>
+    </node>
+    <node id="&quot;发神经（ATTACK OF NERVES）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"拉丁美洲的术语，指由于强烈情绪或压力导致的突发性行为改变状态，伴有激越表现。"</data>
+      <data key="d2">chunk-70ac80b5a5f0145e22957133f54f9db1</data>
+    </node>
+    <node id="&quot;巫师（SHAMAN）&quot;">
+      <data key="d2">chunk-70ac80b5a5f0145e22957133f54f9db1</data>
+      <data key="d1">"在某些文化中，巫师通过进入附体状态来进行疗病仪式。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <edge source="&quot;分离性恍惚障碍（DISSOCIATIVE TRANCE DISORDER）&quot;" target="&quot;附体性恍惚障碍（POSSESSION TRANCE DISORDER）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"两者都以出现意识改变为特征，但具体症状表现和认同感变化不同。"</data>
+      <data key="d6">chunk-70ac80b5a5f0145e22957133f54f9db1</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性恍惚障碍（DISSOCIATIVE TRANCE DISORDER）&quot;" target="&quot;意识改变状态（ALTERED STATE OF CONSCIOUSNESS，ASC）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"意识改变状态是分离性恍惚障碍的主要临床特征之一。"</data>
+      <data key="d6">chunk-70ac80b5a5f0145e22957133f54f9db1</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;附体性恍惚障碍（POSSESSION TRANCE DISORDER）&quot;" target="&quot;巫师（SHAMAN）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"在某些文化中，巫师通过进入附体状态来进行疗病仪式。"</data>
+      <data key="d6">chunk-70ac80b5a5f0145e22957133f54f9db1</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离障碍集体发作（EPIDEMIC HYSTERIA）&quot;" target="&quot;晕厥样昏倒（FAINTING SPELL）&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"在群体性心理症状暴发中，个体可能会经历各种形式的意识改变事件，包括晕厥样昏倒。"</data>
+      <data key="d6">chunk-70ac80b5a5f0145e22957133f54f9db1</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;缩阳症（KORO SYNDROME）&quot;" target="&quot;发神经（ATTACK OF NERVES）&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"两者都与强烈的情绪和文化背景相关，虽然地理分布不同但有相似的症状表现。"</data>
+      <data key="d6">chunk-70ac80b5a5f0145e22957133f54f9db1</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

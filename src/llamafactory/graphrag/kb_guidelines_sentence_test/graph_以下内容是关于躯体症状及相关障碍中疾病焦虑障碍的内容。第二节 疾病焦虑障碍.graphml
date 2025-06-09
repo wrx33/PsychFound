@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;DSM-5&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"DSM-5 is the Diagnostic and Statistical Manual of Mental Disorders, fifth edition, published by the American Psychiatric Association."</data>
+      <data key="d2">chunk-3d2ec58cb412857bd9ae5907054e41ab</data>
+    </node>
+    <node id="&quot;疑病症（HYPOCHONDRIASIS）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Hypochondriasis was a diagnosis in DSM-IV but has been removed from DSM-5, with most patients now diagnosed as having somatic symptom disorder or illness anxiety disorder."&lt;SEP&gt;"疑病症 (Hypochondriasis) was a diagnosis in DSM-IV but has been removed from DSM-5, with most patients now diagnosed as having somatic symptom disorder or illness anxiety disorder."</data>
+      <data key="d2">chunk-3d2ec58cb412857bd9ae5907054e41ab</data>
+    </node>
+    <node id="&quot;健康焦虑障碍（HEALTH ANXIETY DISORDER）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Health Anxiety Disorder is part of the spectrum that includes Illness Anxiety Disorder (IAD) and Somatic Symptom Disorder in DSM-5, characterized by persistent unrealistic fears about having an illness."</data>
+      <data key="d2">chunk-3d2ec58cb412857bd9ae5907054e41ab</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;躯体症状障碍（SOMATIC SYMPTOM DISORDER）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Somatic Symptom Disorder is a condition characterized by physical symptoms with no medical explanation."</data>
+      <data key="d2">chunk-3d2ec58cb412857bd9ae5907054e41ab</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;患者&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Patients suffer from illness anxiety disorder and seek medical help for their symptoms and concerns."</data>
+      <data key="d2">chunk-3d2ec58cb412857bd9ae5907054e41ab</data>
+    </node>
+    <node id="&quot;医生&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Doctors are healthcare professionals who assess, diagnose, and treat patients with disease anxiety disorder."</data>
+      <data key="d2">chunk-3d2ec58cb412857bd9ae5907054e41ab</data>
+    </node>
+    <node id="&quot;医患关系&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The doctor-patient relationship refers to the trust, communication, and collaboration between healthcare providers and patients dealing with illness anxiety."</data>
+      <data key="d2">chunk-3d2ec58cb412857bd9ae5907054e41ab</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;多学科团队&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"A multidisciplinary team includes various healthcare specialists collaborating to manage and treat illness anxiety disorder."</data>
+      <data key="d2">chunk-3d2ec58cb412857bd9ae5907054e41ab</data>
+    </node>
+    <node id="&quot;疾病焦虑障碍（ILLNESS ANXIETY DISORDER，IAD）&quot;">
+      <data key="d2">chunk-3d2ec58cb412857bd9ae5907054e41ab</data>
+      <data key="d1">"Health Anxiety Disorder and Illness Anxiety Disorder are both part of the spectrum that includes persistent fears about health conditions, with IAD being a specific diagnostic category in DSM-5."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;DSM-5&quot;" target="&quot;疑病症（HYPOCHONDRIASIS）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"DSM-5 no longer uses the diagnosis of hypochondriasis, instead diagnosing patients with either somatic symptom disorder or illness anxiety disorder."</data>
+      <data key="d6">chunk-3d2ec58cb412857bd9ae5907054e41ab</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;健康焦虑障碍（HEALTH ANXIETY DISORDER）&quot;" target="&quot;疾病焦虑障碍（ILLNESS ANXIETY DISORDER，IAD）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Health Anxiety Disorder and Illness Anxiety Disorder are both part of the spectrum that includes persistent fears about health conditions, with IAD being a specific diagnostic category in DSM-5."</data>
+      <data key="d6">chunk-3d2ec58cb412857bd9ae5907054e41ab</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;躯体症状障碍（SOMATIC SYMPTOM DISORDER）&quot;" target="&quot;疾病焦虑障碍（ILLNESS ANXIETY DISORDER，IAD）&quot;">
+      <data key="d4">12.0</data>
+      <data key="d5">"When patients have significant somatic symptoms, they may be diagnosed with Somatic Symptom Disorder rather than Illness Anxiety Disorder."</data>
+      <data key="d6">chunk-3d2ec58cb412857bd9ae5907054e41ab</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;患者&quot;" target="&quot;医生&quot;">
+      <data key="d4">15.0</data>
+      <data key="d5">"Doctors assess, diagnose, and treat disease anxiety disorder in patients, aiming to improve their quality of life."&lt;SEP&gt;"Patients often seek medical help from doctors, who diagnose and provide treatment for disease anxiety disorder."</data>
+      <data key="d6">chunk-3d2ec58cb412857bd9ae5907054e41ab</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;医生&quot;" target="&quot;多学科团队&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Doctors often work within a multidisciplinary team to treat patients with disease anxiety disorder, ensuring comprehensive care."</data>
+      <data key="d6">chunk-3d2ec58cb412857bd9ae5907054e41ab</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;医患关系&quot;" target="&quot;疾病焦虑障碍（ILLNESS ANXIETY DISORDER，IAD）&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"Disease Anxiety Disorder affects the doctor-patient relationship due to high medical usage and low trust between patients and healthcare providers."</data>
+      <data key="d6">chunk-3d2ec58cb412857bd9ae5907054e41ab</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

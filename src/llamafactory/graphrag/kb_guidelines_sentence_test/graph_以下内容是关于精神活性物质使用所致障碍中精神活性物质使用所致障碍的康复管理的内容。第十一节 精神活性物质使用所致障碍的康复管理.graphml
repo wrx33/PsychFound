@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;ALCOHOLICS ANONYMOUS (AA)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Anonymous Alcoholics Association (AA) is a widely influential mutual aid group providing psychological and social support to individuals recovering from alcohol addiction."</data>
+      <data key="d2">chunk-3dac080c1f0aeb50075dd3d22c786184</data>
+    </node>
+    <node id="&quot;匿名戒毒会&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"A mutual aid organization for those recovering from drug addiction, similar in function to Alcoholics Anonymous."</data>
+      <data key="d2">chunk-3dac080c1f0aeb50075dd3d22c786184</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;戒酒者家庭互助会&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Mutual support group primarily for the families of individuals struggling with alcoholism and substance use disorders."</data>
+      <data key="d2">chunk-3dac080c1f0aeb50075dd3d22c786184</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;治疗者&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Healthcare professionals involved in treating individuals with substance use disorders, playing a crucial role in patient care and rehabilitation."</data>
+      <data key="d2">chunk-3dac080c1f0aeb50075dd3d22c786184</data>
+    </node>
+    <node id="&quot;社区卫生服务工作者&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Community health service workers providing follow-up services to patients recovering from substance use disorders, educating both patients and families about the risks of relapse."</data>
+      <data key="d2">chunk-3dac080c1f0aeb50075dd3d22c786184</data>
+    </node>
+    <node id="&quot;基层精神卫生专科&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Primary mental health specialty clinics involved in community-based treatment for individuals with substance use disorders."</data>
+      <data key="d2">chunk-3dac080c1f0aeb50075dd3d22c786184</data>
+    </node>
+    <node id="&quot;司法所&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Legal institutions participating in the rehabilitation efforts for individuals recovering from substance use disorders, often working alongside other entities like police and居委会专干."</data>
+      <data key="d2">chunk-3dac080c1f0aeb50075dd3d22c786184</data>
+    </node>
+    <node id="&quot;禁毒办&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Anti-drug offices at district or street level responsible for coordinating rehabilitation efforts for individuals with substance use disorders."</data>
+      <data key="d2">chunk-3dac080c1f0aeb50075dd3d22c786184</data>
+    </node>
+    <node id="&quot;社区医生&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Community doctors providing medical care and support to individuals recovering from substance use disorders, often part of a broader rehabilitation team."</data>
+      <data key="d2">chunk-3dac080c1f0aeb50075dd3d22c786184</data>
+    </node>
+    <node id="&quot;康复小组&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"Rehabilitation groups composed of various community members and professionals who provide comprehensive support for recovery from substance use disorders."</data>
+      <data key="d2">chunk-3dac080c1f0aeb50075dd3d22c786184</data>
+    </node>
+    <node id="&quot;患者家属&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Family members of patients suffering from substance use disorders, providing support and assistance in the recovery process."</data>
+      <data key="d2">chunk-3dac080c1f0aeb50075dd3d22c786184</data>
+    </node>
+    <node id="&quot;ALCOHOLICSANONYMOUS (AA)&quot;">
+      <data key="d2">chunk-3dac080c1f0aeb50075dd3d22c786184</data>
+      <data key="d1">"Both AA and anonymous drug addiction mutual aid organizations provide psychological and social support, helping individuals recover from their respective addictions."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;匿名戒毒会&quot;" target="&quot;ALCOHOLICSANONYMOUS (AA)&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"Both AA and anonymous drug addiction mutual aid organizations provide psychological and social support, helping individuals recover from their respective addictions."</data>
+      <data key="d6">chunk-3dac080c1f0aeb50075dd3d22c786184</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;戒酒者家庭互助会&quot;" target="&quot;ALCOHOLICSANONYMOUS (AA)&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"While AA is for individuals recovering from alcoholism, the family assistance group provides support specifically to families affected by a loved one's addiction."</data>
+      <data key="d6">chunk-3dac080c1f0aeb50075dd3d22c786184</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;社区卫生服务工作者&quot;" target="&quot;基层精神卫生专科&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"Community health service workers collaborate with primary mental health clinics to provide integrated care for individuals recovering from substance use disorders."</data>
+      <data key="d6">chunk-3dac080c1f0aeb50075dd3d22c786184</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;司法所&quot;" target="&quot;禁毒办&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"Legal institutions like the Judicial Office work in conjunction with Anti-drug offices to coordinate comprehensive rehabilitation programs for those with substance use disorders."</data>
+      <data key="d6">chunk-3dac080c1f0aeb50075dd3d22c786184</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;社区医生&quot;" target="&quot;康复小组&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"Community doctors are integral members of rehabilitation teams, contributing medical expertise and support in patients' recovery journeys."</data>
+      <data key="d6">chunk-3dac080c1f0aeb50075dd3d22c786184</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

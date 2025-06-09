@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;DSM-IV&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"DSM-IV 是精神障碍诊断和统计手册的第四版, 用于分类和定义各类精神疾病。"</data>
+      <data key="d2">chunk-42078538164be05c70ffdf490f336b83</data>
+    </node>
+    <node id="&quot;DSM-5&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"DSM-5 是精神障碍诊断和统计手册的第五版, 在 DSM-IV 的基础上进行了修订，提供了更详细的诊断标准和分类方法。"</data>
+      <data key="d2">chunk-42078538164be05c70ffdf490f336b83</data>
+    </node>
+    <node id="&quot;ICD-11&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-11 是国际疾病分类系统的最新版本，为全球范围内的健康状况提供了一个全面、详尽的清单，并用于统计及定义各类精神疾病。"</data>
+      <data key="d2">chunk-42078538164be05c70ffdf490f336b83</data>
+    </node>
+    <node id="&quot;CHARLES LASEGUE&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"法国医生 Charles Lasegue 是最早确立 '神经性厌食' 这一名称的人。"</data>
+      <data key="d2">chunk-42078538164be05c70ffdf490f336b83</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;WILLIAN W.GULL&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"英国医生 Willian W.Gull 与 Charles Lasegue 一起，是最早确立 '神经性厌食' 这一名称的人。"</data>
+      <data key="d2">chunk-42078538164be05c70ffdf490f336b83</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;RUSSELL&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Russell 是首次提出使用 '神经性贪食' 这个术语的人。"</data>
+      <data key="d2">chunk-42078538164be05c70ffdf490f336b83</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;进食障碍（EATING DISORDER, ED）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"进食障碍是指以反常的进食行为和心理紊乱为特征，伴发显著体重改变和生理、社会功能紊乱的一组疾病。主要包括神经性厌食、神经性贪食和暴食障碍。"</data>
+      <data key="d2">chunk-42078538164be05c70ffdf490f336b83</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;神经性厌食（ANOREXIA NERVOSA, AN）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"神经性厌食是以患者有意通过严格限制能量摄入、清除和增加能量消耗的行为使体重明显下降并低于正常水平为主要特征的一类进食障碍。最常见于青少年和年轻女性，死亡率高达 5%～15%，在所有精神障碍中最高。"</data>
+      <data key="d2">chunk-42078538164be05c70ffdf490f336b83</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;神经性贪食（BULIMIA NERVOSA, BN）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"神经性贪食是以反复发作性暴食及强烈控制体重的先占观念和削弱食物“发胖”效应的补偿行为为主要特征的一类进食障碍。与神经性厌食患者不同，该病患者的体重正常或轻微超重，且30%～80%的人有神经性厌食史。"</data>
+      <data key="d2">chunk-42078538164be05c70ffdf490f336b83</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;暴食障碍（BINGE EATING DISORDER, BED）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"暴食障碍是以反复发作性暴食为主要特征的一类进食障碍，患者易出现肥胖。该病在 DSM-IV 修订版中作为未加标明的进食障碍的一个暂时分类，直到 DSM-5 才成为一个独立疾病。"</data>
+      <data key="d2">chunk-42078538164be05c70ffdf490f336b83</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;回避/限制性摄食障碍（AVOIDANT/RESTRICTIVE FOOD INTAKE DISORDER, ARFID）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"ARFID 是一类在 DSM-5 和 ICD-11 中被纳入进食和喂养障碍的常见问题，主要影响婴幼儿及青少年。"</data>
+      <data key="d2">chunk-42078538164be05c70ffdf490f336b83</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;异食症（PICA）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"异食症是一种常见的进食与喂养障碍，在 DSM-5 和 ICD-11 的分类目录中，被纳入了 '喂养和进食障碍' 中。"</data>
+      <data key="d2">chunk-42078538164be05c70ffdf490f336b83</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;反刍障碍（RUMINATION DISORDER）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"反刍障碍是另一种常见的进食与喂养障碍，在 DSM-5 和 ICD-11 分类目录中也归入到了 '喂养和进食障碍' 类别之中。"</data>
+      <data key="d2">chunk-42078538164be05c70ffdf490f336b83</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <edge source="&quot;DSM-IV&quot;" target="&quot;DSM-5&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"DSM-5 延续并更新了 DSM-IV 的诊断标准和分类方法，特别是在进食障碍领域的变化。"</data>
+      <data key="d6">chunk-42078538164be05c70ffdf490f336b83</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DSM-5&quot;" target="&quot;ICD-11&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"DSM-5 和 ICD-11 在进食障碍的分类上进行了合并，并将 '喂养障碍' 与 '进食障碍' 合并为一个类别。"</data>
+      <data key="d6">chunk-42078538164be05c70ffdf490f336b83</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;CHARLES LASEGUE&quot;" target="&quot;神经性厌食（ANOREXIA NERVOSA, AN）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Charles Lasegue 与 Willian W.Gull 共同确立了 '神经性厌食' 的名称，标志着对该疾病正式定义的开始。"</data>
+      <data key="d6">chunk-42078538164be05c70ffdf490f336b83</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;WILLIAN W.GULL&quot;" target="&quot;神经性厌食（ANOREXIA NERVOSA, AN）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"将 '神经性厌食' 作为一个独立精神障碍疾病正式确立下来，并对后续诊断标准的发展产生重要影响。"</data>
+      <data key="d6">chunk-42078538164be05c70ffdf490f336b83</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;RUSSELL&quot;" target="&quot;神经性贪食（BULIMIA NERVOSA, BN）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Russell 首次提出使用 '神经性贪食' 的术语，标志着对该疾病正式定义的开始。"</data>
+      <data key="d6">chunk-42078538164be05c70ffdf490f336b83</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;进食障碍（EATING DISORDER, ED）&quot;" target="&quot;神经性厌食（ANOREXIA NERVOSA, AN）&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"神经性厌食是进食障碍中的主要分类之一，以其独特的症状和高死亡率著称。"</data>
+      <data key="d6">chunk-42078538164be05c70ffdf490f336b83</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;进食障碍（EATING DISORDER, ED）&quot;" target="&quot;神经性贪食（BULIMIA NERVOSA, BN）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"神经性贪食同样是进食障碍的重要组成部分，以反复发作性的暴食和体重控制行为为特征。"</data>
+      <data key="d6">chunk-42078538164be05c70ffdf490f336b83</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;进食障碍（EATING DISORDER, ED）&quot;" target="&quot;暴食障碍（BINGE EATING DISORDER, BED）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"暴食障碍是最近成为独立分类的进食障碍类型，强调反复发作性暴食行为及其对健康的负面影响。"</data>
+      <data key="d6">chunk-42078538164be05c70ffdf490f336b83</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;进食障碍（EATING DISORDER, ED）&quot;" target="&quot;回避/限制性摄食障碍（AVOIDANT/RESTRICTIVE FOOD INTAKE DISORDER, ARFID）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"ARFID 是近年来被纳入 '进食与喂养障碍' 类别中的一种特殊类型，主要影响婴幼儿及青少年。"</data>
+      <data key="d6">chunk-42078538164be05c70ffdf490f336b83</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;进食障碍（EATING DISORDER, ED）&quot;" target="&quot;异食症（PICA）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"异食症在 DSM-5 和 ICD-11 中被纳入 '喂养和进食障碍' 类别中，是进食障碍的一个重要分类。"</data>
+      <data key="d6">chunk-42078538164be05c70ffdf490f336b83</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;进食障碍（EATING DISORDER, ED）&quot;" target="&quot;反刍障碍（RUMINATION DISORDER）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"反刍障碍同样在 DSM-5 和 ICD-11 分类目录中被纳入 '喂养和进食障碍' 类别之中。"</data>
+      <data key="d6">chunk-42078538164be05c70ffdf490f336b83</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;神经性厌食（ANOREXIA NERVOSA, AN）&quot;" target="&quot;神经性贪食（BULIMIA NERVOSA, BN）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"虽然两者在某些方面相似，但主要区别在于体重状况和疾病特征的不同。"</data>
+      <data key="d6">chunk-42078538164be05c70ffdf490f336b83</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

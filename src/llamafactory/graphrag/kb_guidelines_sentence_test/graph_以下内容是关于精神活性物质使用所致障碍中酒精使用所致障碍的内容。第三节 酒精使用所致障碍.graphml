@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;世界卫生组织&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"世界卫生组织是一个国际性健康机构，提供全球卫生健康统计数据。"</data>
+      <data key="d2">chunk-7be5c98dc7de7ed803557e3d15f2664c</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;急性酒精中毒&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"急性酒精中毒是指短期内摄入大量酒精后出现的一系列中枢神经系统功能紊乱症状，包括脱抑制兴奋、共济失调等。"</data>
+      <data key="d2">chunk-7be5c98dc7de7ed803557e3d15f2664c</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;酒精依赖&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"酒精依赖是一种长期饮酒后无法控制自己的饮酒行为，并伴有耐受性和戒断症状的精神障碍状态。"</data>
+      <data key="d2">chunk-7be5c98dc7de7ed803557e3d15f2664c</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;酒精戒断&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"酒精戒断是指停止饮酒或减少饮酒量后出现的一系列生理和心理症状，包括自主神经功能紊乱、癫痫发作等。"</data>
+      <data key="d2">chunk-7be5c98dc7de7ed803557e3d15f2664c</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;KORSAKOFF 综合征&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Korsakoff 综合征是一种与长期饮酒相关的神经精神障碍，表现为近记忆障碍、虚构及错构等特征。"</data>
+      <data key="d2">chunk-7be5c98dc7de7ed803557e3d15f2664c</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;酒精使用所致障碍&quot;">
+      <data key="d2">chunk-7be5c98dc7de7ed803557e3d15f2664c</data>
+      <data key="d1">"世界卫生组织提供的统计数据显示了酒精使用所致障碍的全球状况和影响。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;世界卫生组织&quot;" target="&quot;酒精使用所致障碍&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"世界卫生组织提供的统计数据显示了酒精使用所致障碍的全球状况和影响。"</data>
+      <data key="d6">chunk-7be5c98dc7de7ed803557e3d15f2664c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;世界卫生组织&quot;" target="&quot;急性酒精中毒&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"世界卫生组织的数据和统计可以帮助评估急性酒精中毒的全球发生率及其影响。"</data>
+      <data key="d6">chunk-7be5c98dc7de7ed803557e3d15f2664c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;世界卫生组织&quot;" target="&quot;酒精依赖&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"世界卫生组织的数据和统计可以帮助评估全球范围内酒精依赖的流行情况及其对健康的负面影响。"</data>
+      <data key="d6">chunk-7be5c98dc7de7ed803557e3d15f2664c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;世界卫生组织&quot;" target="&quot;酒精戒断&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"世界卫生组织的数据和统计可以帮助评估全球范围内酒精戒断的严重性和治疗需求。"</data>
+      <data key="d6">chunk-7be5c98dc7de7ed803557e3d15f2664c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;世界卫生组织&quot;" target="&quot;KORSAKOFF 综合征&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"世界卫生组织的数据和统计有助于了解 Korsakoff 综合征的全球分布情况及其影响因素。"</data>
+      <data key="d6">chunk-7be5c98dc7de7ed803557e3d15f2664c</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

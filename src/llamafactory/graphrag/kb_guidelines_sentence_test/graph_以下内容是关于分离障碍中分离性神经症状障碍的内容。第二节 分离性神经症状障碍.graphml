@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;ICD-11&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-11是国际疾病分类的第十一版，不再强调个体心理社会因素与分离性神经症状障碍之间的因果关系。"</data>
+      <data key="d2">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;分离性神经症状障碍患者&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"该群体倾向于在综合医院而非精神科就诊，并且他们的症状可能长期存在且不易被准确诊断和治疗。&lt;SEP&gt;"该群体倾向于在综合医院而非精神科就诊，并且他们的症状可能长期存在且不易被准确诊断和治疗。"</data>
+      <data key="d2">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+    </node>
+    <node id="&quot;分离性神经症状障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"这是一种主要表现为运动、感觉等神经症状的精神障碍，但其症状与生理功能不匹配，患者往往同时伴有其他躯体疾病或精神障碍。&lt;SEP&gt;"这是一种主要表现为运动、感觉等神经症状的精神障碍，但其症状与生理功能不匹配，患者往往同时伴有其他躯体疾病或精神障碍。"</data>
+      <data key="d2">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;综合医院神经科&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"是患者就诊的主要部门之一，但常常无法提供正确的治疗方案。</data>
+      <data key="d2">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+    </node>
+    <node id="&quot;五官科&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"是患者可能求诊的科室之一，但由于其症状性质，该科往往也无法做出准确诊断。</data>
+      <data key="d2">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+    </node>
+    <node id="&quot;急诊科&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"是患者紧急情况下就诊的地方，但因缺乏精神健康专业知识而难以有效治疗。</data>
+      <data key="d2">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+    </node>
+    <node id="&quot;康复科&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"为患者提供物理和职业疗法服务，但由于对分离性症状的不了解，可能无法进行有效的心理干预。</data>
+      <data key="d2">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+    </node>
+    <node id="&quot;精神障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"包括多种类型的精神健康问题，如焦虑症、抑郁症等，这些都与分离性神经症状障碍共病存在关系。</data>
+      <data key="d2">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;慢性疼痛患者&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"在某些情况下，这类患者也可能表现出分离性神经症状的特征。</data>
+      <data key="d2">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;外伤患者&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"部分经历过创伤事件的人也有可能出现分离性神经症状。</data>
+      <data key="d2">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;癫痫发作&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"虽然与分离性抽搐有相似之处，但两者具有不同的临床表现和诊断标准。</data>
+      <data key="d2">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+    </node>
+    <node id="&quot;综合医院&quot;">
+      <data key="d2">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+      <data key="d1">"这类患者多在综合医院而非精神科就诊，反映了他们在临床识别和治疗上的挑战。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;躯体疾病、其他精神障碍&quot;">
+      <data key="d2">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+      <data key="d1">"分离性神经症状障碍常与躯体疾病及其他精神障碍共病，增加了诊断的复杂性。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;分离性抽搐&quot;">
+      <data key="d2">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+      <data key="d1">"两者具有相似的临床表现，但诊断标准不同，因此必须仔细鉴别以避免误诊或漏诊。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;ICD-11&quot;" target="&quot;分离性神经症状障碍&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"ICD-11对分离性神经症状障碍的分类不再强调心理社会因素与其之间的因果关系。"</data>
+      <data key="d6">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性神经症状障碍患者&quot;" target="&quot;综合医院&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"这类患者多在综合医院而非精神科就诊，反映了他们在临床识别和治疗上的挑战。"</data>
+      <data key="d6">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性神经症状障碍患者&quot;" target="&quot;综合医院神经科&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"这些科室未能提供有效的治疗方案给患有分离性神经症状的病人。"</data>
+      <data key="d6">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性神经症状障碍患者&quot;" target="&quot;五官科&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"五官科无法为分离性神经症状障碍患者提供准确诊断和适当治疗。"</data>
+      <data key="d6">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性神经症状障碍患者&quot;" target="&quot;急诊科&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"在急诊环境中，由于缺乏精神健康专业知识，医生可能难以正确处理这类病人的情况。"</data>
+      <data key="d6">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性神经症状障碍患者&quot;" target="&quot;康复科&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"虽然提供了身体康复服务，但对心理因素的忽视导致整体治疗效果受限。"</data>
+      <data key="d6">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性神经症状障碍&quot;" target="&quot;躯体疾病、其他精神障碍&quot;">
+      <data key="d4">12.0</data>
+      <data key="d5">"分离性神经症状障碍常与躯体疾病及其他精神障碍共病，增加了诊断的复杂性。"</data>
+      <data key="d6">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性神经症状障碍&quot;" target="&quot;精神障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"精神障碍和其他类型的精神健康问题可能与分离性神经症状障碍共存，增加了诊断和治疗难度。"</data>
+      <data key="d6">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性神经症状障碍&quot;" target="&quot;慢性疼痛患者&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"慢性疼痛患者的临床表现可能包括分离性神经症状的一些特征，需要进一步鉴别诊断。"</data>
+      <data key="d6">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;分离性神经症状障碍&quot;" target="&quot;外伤患者&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"经历创伤事件的人中也可能出现分离性神经症状的表现，这需要在治疗过程中加以考虑。"</data>
+      <data key="d6">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;癫痫发作&quot;" target="&quot;分离性抽搐&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"两者具有相似的临床表现，但诊断标准不同，因此必须仔细鉴别以避免误诊或漏诊。"</data>
+      <data key="d6">chunk-aa2ca8e0ac696afb616e04f0280fa7f4</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

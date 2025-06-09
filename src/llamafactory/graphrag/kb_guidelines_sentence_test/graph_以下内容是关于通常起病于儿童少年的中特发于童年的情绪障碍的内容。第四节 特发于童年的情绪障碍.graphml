@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;DSM-5&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition (DSM-5) is a guide used to diagnose mental health conditions."</data>
+      <data key="d2">chunk-16c5639e5eac6299ea72bb170a873f67</data>
+    </node>
+    <node id="&quot;ICD-11&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The International Classification of Diseases, Eleventh Revision (ICD-11) is an international standard diagnostic tool for epidemiology and many other purposes related to health."</data>
+      <data key="d2">chunk-16c5639e5eac6299ea72bb170a873f67</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;同胞竞争障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"同胞竞争障碍 refers to a condition that develops after the birth of a sibling or another close family member, characterized by abnormal emotional disturbances."</data>
+      <data key="d2">chunk-16c5639e5eac6299ea72bb170a873f67</data>
+    </node>
+    <node id="&quot;童年特定恐惧性焦虑障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Childhood Specific Phobia Anxiety Disorder is a disorder where children experience excessive fear towards specific objects or situations and exhibit avoidance behaviors."</data>
+      <data key="d2">chunk-16c5639e5eac6299ea72bb170a873f67</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;童年分离焦虑障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Separation Anxiety Disorder in Childhood is an anxiety disorder wherein children excessively worry about separation from attachment figures such as parents, fearing harm to themselves or loved ones."</data>
+      <data key="d2">chunk-16c5639e5eac6299ea72bb170a873f67</data>
+    </node>
+    <node id="&quot;童年社交焦虑障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Social Anxiety Disorder in Childhood involves excessive and persistent fear of social interactions with strangers and peers, leading to avoidance behaviors."</data>
+      <data key="d2">chunk-16c5639e5eac6299ea72bb170a873f67</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;气质特点&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"气质特点 refers to personality traits that are considered as a factor influencing the development of anxiety disorders in children."</data>
+      <data key="d2">chunk-16c5639e5eac6299ea72bb170a873f67</data>
+    </node>
+    <node id="&quot;遗传及生理因素&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Genetic and physiological factors contribute significantly to the onset of childhood anxiety disorders according to recent research."</data>
+      <data key="d2">chunk-16c5639e5eac6299ea72bb170a873f67</data>
+    </node>
+    <node id="&quot;环境因素（如应激）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Environmental stressors, such as parental overprotection or traumatic events, are risk factors for the development of childhood anxiety disorders."</data>
+      <data key="d2">chunk-16c5639e5eac6299ea72bb170a873f67</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <edge source="&quot;DSM-5&quot;" target="&quot;同胞竞争障碍&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"In DSM-5, '同胞竞争障碍' is listed under miscellaneous conditions that could potentially become clinically significant."</data>
+      <data key="d6">chunk-16c5639e5eac6299ea72bb170a873f67</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DSM-5&quot;" target="&quot;童年分离焦虑障碍&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"The DSM-5 classifies childhood separation anxiety disorder under the broader category of Anxiety Disorders."</data>
+      <data key="d6">chunk-16c5639e5eac6299ea72bb170a873f67</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ICD-11&quot;" target="&quot;童年特定恐惧性焦虑障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"In ICD-11, childhood specific phobia anxiety disorder is classified as a distinct mental health condition."</data>
+      <data key="d6">chunk-16c5639e5eac6299ea72bb170a873f67</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ICD-11&quot;" target="&quot;童年社交焦虑障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"In ICD-11, social anxiety disorder in childhood is categorized as a specific mental health issue."</data>
+      <data key="d6">chunk-16c5639e5eac6299ea72bb170a873f67</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;童年特定恐惧性焦虑障碍&quot;" target="&quot;环境因素（如应激）&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Environmental stressors are significant risk factors for developing specific phobia anxiety disorder during childhood."</data>
+      <data key="d6">chunk-16c5639e5eac6299ea72bb170a873f67</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;气质特点&quot;" target="&quot;遗传及生理因素&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"Together with genetic and physiological factors, temperament traits play an essential role in the onset of childhood anxiety disorders."</data>
+      <data key="d6">chunk-16c5639e5eac6299ea72bb170a873f67</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

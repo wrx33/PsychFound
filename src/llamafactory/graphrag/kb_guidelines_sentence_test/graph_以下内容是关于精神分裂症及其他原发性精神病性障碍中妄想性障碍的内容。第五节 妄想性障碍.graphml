@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;妄想性障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Wangxiangxing Zhaoruan (Delusional Disorder) is a mental disorder characterized by persistent delusions as the main clinical symptom, often associated with feelings of persecution or jealousy."</data>
+      <data key="d2">chunk-15ef48b57de51f9bfe0a511ab7bace70</data>
+    </node>
+    <node id="&quot;精神分裂症&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Shenjing Bingslie Zhuangtai (Schizophrenia) refers to a severe and chronic mental disorder characterized by disorganized thinking, hallucinations, and delusions."</data>
+      <data key="d2">chunk-15ef48b57de51f9bfe0a511ab7bace70</data>
+    </node>
+    <node id="&quot;偏执型人格障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Pizhi Xing Renge Zaozhuang (Paranoid Personality Disorder) involves an enduring pattern of distrust and suspiciousness in interpersonal relationships."</data>
+      <data key="d2">chunk-15ef48b57de51f9bfe0a511ab7bace70</data>
+    </node>
+    <node id="&quot;精神卫生专业机构&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"指专门从事精神病学和心理健康服务的专业组织，负责提供诊断、治疗以及长期的随访观察。"</data>
+      <data key="d2">chunk-15ef48b57de51f9bfe0a511ab7bace70</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;社区及地方相关职能部门&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"包括当地政府部门和社会服务机构，参与管理和支持患者的社会服务和康复活动。"</data>
+      <data key="d2">chunk-15ef48b57de51f9bfe0a511ab7bace70</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;精神障碍患者&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"患有各种心理健康问题的个体，包括妄想性障碍、精神分裂症等，需要专业医疗和社会支持。"</data>
+      <data key="d2">chunk-15ef48b57de51f9bfe0a511ab7bace70</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;医生或治疗师&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"从事心理诊断和治疗的专业人员，在帮助患者管理妄想性障碍方面起关键作用。"</data>
+      <data key="d2">chunk-15ef48b57de51f9bfe0a511ab7bace70</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;住院治疗&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"指对严重精神疾病患者的短期或长期医疗护理，旨在缓解症状和确保安全。"</data>
+      <data key="d2">chunk-15ef48b57de51f9bfe0a511ab7bace70</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;随访观察&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"一种长期监测患者健康状况的活动，帮助评估治疗效果并调整方案。"</data>
+      <data key="d2">chunk-15ef48b57de51f9bfe0a511ab7bace70</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;妄想性障碍&quot;" target="&quot;精神分裂症&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"Wangxiangxing Zhaoruan can be confused with Schizophrenia due to the presence of delusions, but Wangxiangxing Zhaoruan lacks other symptoms like hallucinations and disorganized thinking characteristic of Schizophrenia."</data>
+      <data key="d6">chunk-15ef48b57de51f9bfe0a511ab7bace70</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;妄想性障碍&quot;" target="&quot;偏执型人格障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Both Wangxiangxing Zhaoruan and Pizhi Xing Renge Zaozhuang involve delusional or suspicious thoughts, but Wangxiangxing Zhaoruan includes persistent delusions while Pizhi Xing Renge Zaozhuang does not reach the level of delusion."</data>
+      <data key="d6">chunk-15ef48b57de51f9bfe0a511ab7bace70</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;精神卫生专业机构&quot;" target="&quot;精神障碍患者&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"精神卫生专业机构为患有妄想性障碍的患者提供诊断、治疗和随访服务。"</data>
+      <data key="d6">chunk-15ef48b57de51f9bfe0a511ab7bace70</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;社区及地方相关职能部门&quot;" target="&quot;精神障碍患者&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"地方政府部门和社会服务机构为精神疾病患者提供支持服务，帮助他们融入社会。"</data>
+      <data key="d6">chunk-15ef48b57de51f9bfe0a511ab7bace70</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;精神障碍患者&quot;" target="&quot;医生或治疗师&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"医疗专业人员对患有妄想性障碍的个体进行诊断和提供心理治疗。"</data>
+      <data key="d6">chunk-15ef48b57de51f9bfe0a511ab7bace70</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;精神障碍患者&quot;" target="&quot;住院治疗&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"对于有严重症状或潜在风险的精神疾病患者，通过住院治疗来确保其安全和健康。"</data>
+      <data key="d6">chunk-15ef48b57de51f9bfe0a511ab7bace70</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;精神障碍患者&quot;" target="&quot;随访观察&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"定期监测患者的病情变化，以评估治疗效果和调整治疗方案。"</data>
+      <data key="d6">chunk-15ef48b57de51f9bfe0a511ab7bace70</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

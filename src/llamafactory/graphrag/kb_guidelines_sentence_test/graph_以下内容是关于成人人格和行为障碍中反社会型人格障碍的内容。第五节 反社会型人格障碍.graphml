@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;DSM-5&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"DSM-5是美国精神病学会出版的精神疾病诊断与统计手册的第五版，用于精神疾病的分类和诊断。&lt;SEP&gt;"DSM-5是美国精神病学会出版的精神疾病诊断与统计手册的第五版，用于精神疾病的分类和诊断。"</data>
+      <data key="d2">chunk-624eeb2b594d8e990a4a7436c1accb3e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;ICD-10&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-10是由世界卫生组织发布的国际疾病分类第十次修订本，为各种疾病、病症和健康状况提供标准化术语。&lt;SEP&gt;"ICD-10是由世界卫生组织发布的国际疾病分类第十次修订本，为各种疾病、病症和健康状况提供标准化术语。"</data>
+      <data key="d2">chunk-624eeb2b594d8e990a4a7436c1accb3e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;反社会型人格障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"反社会型人格障碍是一种以不遵守社会规范和漠视或侵犯他人权利为特征的认知情感行为模式，常见于有犯罪历史的个体以及酒精滥用者中。&lt;SEP&gt;"反社会型人格障碍是一种以不遵守社会规范和漠视或侵犯他人权利为特征的认知情感行为模式，常见于有犯罪历史的个体以及酒精滥用者中。"</data>
+      <data key="d2">chunk-624eeb2b594d8e990a4a7436c1accb3e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;流行病学资料&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"流行病学资料提供了关于反社会型人格障碍在不同人群中的患病率和风险因素的信息。"</data>
+      <data key="d2">chunk-624eeb2b594d8e990a4a7436c1accb3e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;男性&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"男性群体中有更高的反社会型人格障碍的发病率，特别是在酒精滥用者中。"</data>
+      <data key="d2">chunk-624eeb2b594d8e990a4a7436c1accb3e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;女性&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"女性群体中反社会型人格障碍的发病率相对较低。"</data>
+      <data key="d2">chunk-624eeb2b594d8e990a4a7436c1accb3e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;监狱、物质成瘾治疗机构或其他司法环境中的个体&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"这类环境中的人群具有较高的反社会型人格障碍患病率，特别是在男性中。"</data>
+      <data key="d2">chunk-624eeb2b594d8e990a4a7436c1accb3e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;童年或青少年时期品行问题&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"儿童或青少年早期可能存在的品行问题是识别反社会型人格障碍的重要指标之一。"</data>
+      <data key="d2">chunk-624eeb2b594d8e990a4a7436c1accb3e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;自恋型人格障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"一种与反社会型人格障碍具有相似特征的精神疾病，但通常没有犯罪历史和童年期品行问题。"</data>
+      <data key="d2">chunk-624eeb2b594d8e990a4a7436c1accb3e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;边缘型人格障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"一种情绪相对更稳定的性格障碍，相比边缘型人格障碍，反社会型人格障碍表现出更多的攻击性行为。"</data>
+      <data key="d2">chunk-624eeb2b594d8e990a4a7436c1accb3e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;DSM-5&quot;" target="&quot;反社会型人格障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"DSM-5将反社会型人格障碍归类为B类人格障碍，并提供了详细的分类和诊断标准。"</data>
+      <data key="d6">chunk-624eeb2b594d8e990a4a7436c1accb3e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ICD-10&quot;" target="&quot;反社会型人格障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"ICD-10将反社会型人格障碍定义为社交紊乱型人格障碍，提供了一个不同的视角和术语系统来描述该病症。"</data>
+      <data key="d6">chunk-624eeb2b594d8e990a4a7436c1accb3e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;反社会型人格障碍&quot;" target="&quot;流行病学资料&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"流行病学资料提供了关于反社会型人格障碍在不同人群中的患病率和风险因素的具体数据。"</data>
+      <data key="d6">chunk-624eeb2b594d8e990a4a7436c1accb3e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;反社会型人格障碍&quot;" target="&quot;男性&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"数据显示，男性群体中有更高的反社会型人格障碍的发病率。"</data>
+      <data key="d6">chunk-624eeb2b594d8e990a4a7436c1accb3e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;反社会型人格障碍&quot;" target="&quot;女性&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"相比之下，女性中该疾病的发病率较低。"</data>
+      <data key="d6">chunk-624eeb2b594d8e990a4a7436c1accb3e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;反社会型人格障碍&quot;" target="&quot;监狱、物质成瘾治疗机构或其他司法环境中的个体&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"这些环境中的人群具有较高的患病率。"</data>
+      <data key="d6">chunk-624eeb2b594d8e990a4a7436c1accb3e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;反社会型人格障碍&quot;" target="&quot;童年或青少年时期品行问题&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"儿童或青少年早期存在的品行问题是未来患反社会型人格障碍的重要预警信号。"</data>
+      <data key="d6">chunk-624eeb2b594d8e990a4a7436c1accb3e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;反社会型人格障碍&quot;" target="&quot;自恋型人格障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"虽然两者都有固执和缺乏同情心的特征，但自恋型人格障碍通常没有犯罪历史或童年期品行问题。"</data>
+      <data key="d6">chunk-624eeb2b594d8e990a4a7436c1accb3e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;反社会型人格障碍&quot;" target="&quot;边缘型人格障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"相比边缘型人格障碍，反社会型人格障碍表现出更高的攻击性行为。"</data>
+      <data key="d6">chunk-624eeb2b594d8e990a4a7436c1accb3e</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

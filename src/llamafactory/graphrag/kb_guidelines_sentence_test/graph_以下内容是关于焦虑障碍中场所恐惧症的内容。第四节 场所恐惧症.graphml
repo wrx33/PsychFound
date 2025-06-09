@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;场所恐惧症（AGORAPHOBIA）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"场所恐惧症是一种焦虑障碍，患者对多种场景出现明显的不合理的恐惧或焦虑反应，并采取主动回避这些场景的行为。其患病率为0.6%～6%，发病高峰在青少年和成年早期。"</data>
+      <data key="d2">chunk-007824b1e09870c42e0015eaf62ea698</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;惊恐发作（PANIC ATTACK）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"惊恐发作是一种强烈的、突发的强烈不适感，常伴有心跳加速、呼吸急促等症状，在场所恐惧症患者中常见。它是引发或加剧场所恐惧症状的一个重要因素。&lt;SEP&gt;"惊恐发作是一种强烈的、突发的强烈不适感，常伴有心跳加速、呼吸急促等症状，在场所恐惧症患者中常见。它是引发或加剧场所恐惧症状的一个重要因素。"</data>
+      <data key="d2">chunk-007824b1e09870c42e0015eaf62ea698</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;中国精神障碍流行病学&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"中国精神障碍流行病学是研究和统计精神疾病发病率及患病情况的组织，它显示了我国场所恐惧症的终生患病率为0.4%，年患病率为0.2%。&lt;SEP&gt;"中国精神障碍流行病学是研究和统计精神疾病发病率及患病情况的组织，它显示了我国场所恐惧症的终生患病率为0.4%，年患病率为0.2%。"</data>
+      <data key="d2">chunk-007824b1e09870c42e0015eaf62ea698</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;童年丧失父母或有分离性焦虑障碍史&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"指患者在童年时期经历的重大创伤事件，如失去父母或者患有分离性焦虑障碍的历史，可能对日后患场所恐惧症产生影响。"</data>
+      <data key="d2">chunk-007824b1e09870c42e0015eaf62ea698</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;抑郁障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"一种常见的情绪障碍，与场所恐惧症有较高的共病率。表现为长期的悲伤情绪、兴趣缺乏等症状。"</data>
+      <data key="d2">chunk-007824b1e09870c42e0015eaf62ea698</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;精神分裂症&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"一种严重的精神疾病，可能导致患者出现幻觉或被害妄想，并引发类似场所恐惧症的行为。"</data>
+      <data key="d2">chunk-007824b1e09870c42e0015eaf62ea698</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;特定恐惧症（SPECIFIC PHOBIA）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"对某一具体场景或物体的强烈、不合理的恐惧反应。与场所恐惧症相比，它针对单一的具体情境而不是多种广泛的情境。"</data>
+      <data key="d2">chunk-007824b1e09870c42e0015eaf62ea698</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;社交焦虑障碍（SOCIAL ANXIETY DISORDER）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"一种常见的焦虑障碍类型，核心症状是对特定社交情景中的负面评价的极度害怕和回避行为。不同于场所恐惧症，后者的核心在于对难以逃离或得到及时救助情况的担忧。"</data>
+      <data key="d2">chunk-007824b1e09870c42e0015eaf62ea698</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;场所恐惧症（AGORAPHOBIA）&quot;" target="&quot;惊恐发作（PANIC ATTACK）&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"惊恐发作是引发或加剧场所恐惧症状的重要因素，尤其在临床样本中更常见。"</data>
+      <data key="d6">chunk-007824b1e09870c42e0015eaf62ea698</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;场所恐惧症（AGORAPHOBIA）&quot;" target="&quot;中国精神障碍流行病学&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"中国精神障碍流行病学发布了关于我国场所恐惧症的患病率数据。"</data>
+      <data key="d6">chunk-007824b1e09870c42e0015eaf62ea698</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;场所恐惧症（AGORAPHOBIA）&quot;" target="&quot;童年丧失父母或有分离性焦虑障碍史&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"这种经历可能增加个体患场所恐惧症的风险，并影响其发病机制。"</data>
+      <data key="d6">chunk-007824b1e09870c42e0015eaf62ea698</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;场所恐惧症（AGORAPHOBIA）&quot;" target="&quot;抑郁障碍&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"抑郁障碍患者可能出现不愿活动和外出的行为，这与场所恐惧症的回避行为有相似之处但也有本质区别。"</data>
+      <data key="d6">chunk-007824b1e09870c42e0015eaf62ea698</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;场所恐惧症（AGORAPHOBIA）&quot;" target="&quot;精神分裂症&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"某些情况下，精神分裂症的症状可能被误认为是场所恐惧症，需要通过详细的精神病学评估来鉴别诊断。"</data>
+      <data key="d6">chunk-007824b1e09870c42e0015eaf62ea698</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;场所恐惧症（AGORAPHOBIA）&quot;" target="&quot;特定恐惧症（SPECIFIC PHOBIA）&quot;">
+      <data key="d4">4.0</data>
+      <data key="d5">"虽然两者都涉及对具体情境的强烈恐惧反应，但场所恐惧症更广泛地针对多种场景而非单一物体或情景。"</data>
+      <data key="d6">chunk-007824b1e09870c42e0015eaf62ea698</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;场所恐惧症（AGORAPHOBIA）&quot;" target="&quot;社交焦虑障碍（SOCIAL ANXIETY DISORDER）&quot;">
+      <data key="d4">3.0</data>
+      <data key="d5">"虽然两者都有回避行为的表现形式，但是触发因素和具体情境有所不同。"</data>
+      <data key="d6">chunk-007824b1e09870c42e0015eaf62ea698</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

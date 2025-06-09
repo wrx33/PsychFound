@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;路易体痴呆&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"路易体痴呆是一种神经系统变性疾病，主要特征为进行性痴呆合并波动性认知功能障碍、自发的帕金森综合征以及幻视等精神症状。通常指dementia with Lewy body (DLB)。"</data>
+      <data key="d2">chunk-01195d5054bcb88b5d69c83499090371</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;阿尔茨海默病&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"阿尔茨海默病是一种常见的神经退行性疾病，以进行性的记忆和认知功能下降为特征，与路易体痴呆有一些相似之处但也有区别，例如前者在大脑皮层萎缩程度相对较重。"</data>
+      <data key="d2">chunk-01195d5054bcb88b5d69c83499090371</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;帕金森病&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"帕金森病是一种慢性神经系统疾病，主要表现为运动障碍如震颤、僵硬和运动迟缓。路易体痴呆与帕金森病有部分病理相似性但临床表现不同，特别是诊断时间上的差异可以区分两者。"</data>
+      <data key="d2">chunk-01195d5054bcb88b5d69c83499090371</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;MEYNERT 基底节&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"Meynert 基底节是大脑的一部分，与路易体痴呆的病理变化相关。该区域在路易体疾病中表现出显著萎缩。"</data>
+      <data key="d2">chunk-01195d5054bcb88b5d69c83499090371</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;壳核&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"壳核是脑部的一个结构，在路易体病中也显示出明显的萎缩。"</data>
+      <data key="d2">chunk-01195d5054bcb88b5d69c83499090371</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;脑血管病变&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"脑血管病变可能会影响认知功能，并需要通过MRI等影像学检查来排除作为路易体痴呆的鉴别诊断。"</data>
+      <data key="d2">chunk-01195d5054bcb88b5d69c83499090371</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;路易体痴呆&quot;" target="&quot;阿尔茨海默病&quot;">
+      <data key="d4">12.0</data>
+      <data key="d5">"路易体痴呆和阿尔茨海默病都表现为认知功能下降，但前者在大脑皮层萎缩程度较轻且有特定的精神症状（如幻视），后者则以显著的记忆功能障碍为特征。"</data>
+      <data key="d6">chunk-01195d5054bcb88b5d69c83499090371</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;路易体痴呆&quot;" target="&quot;帕金森病&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"路易体痴呆和帕金森病具有相似的病理表现，但临床诊断标准存在差异。两者的鉴别主要基于症状出现的时间顺序：若认知障碍在运动障碍之后1年内发生，则倾向于诊断为帕金森病痴呆；反之则可能更符合路易体痴呆的表现。"</data>
+      <data key="d6">chunk-01195d5054bcb88b5d69c83499090371</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;路易体痴呆&quot;" target="&quot;MEYNERT 基底节&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"Meynert 基底节的显著萎缩是诊断和鉴别路易体痴呆的重要病理特征之一。"</data>
+      <data key="d6">chunk-01195d5054bcb88b5d69c83499090371</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;路易体痴呆&quot;" target="&quot;壳核&quot;">
+      <data key="d4">12.0</data>
+      <data key="d5">"在路易体疾病中，壳核表现出显著的萎缩变化，这有助于疾病的早期识别。"</data>
+      <data key="d6">chunk-01195d5054bcb88b5d69c83499090371</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;路易体痴呆&quot;" target="&quot;脑血管病变&quot;">
+      <data key="d4">12.0</data>
+      <data key="d5">"在诊断路易体痴呆时，需要进行脑部影像学检查以排除脑血管疾病的影响。"</data>
+      <data key="d6">chunk-01195d5054bcb88b5d69c83499090371</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

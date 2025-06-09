@@ -1,0 +1,558 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;神经梅毒（NEUROSYPHILIS, NS）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"指苍白密螺旋体感染侵犯脑、脑膜或脊髓后所致的一组综合征。"</data>
+      <data key="d2">chunk-5e11131e46983b1e841b5254fb711855</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;2015年我国梅毒发病数433974例&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"描述了2015年中国梅毒的流行情况，是法定传染病报告中的重要数据之一。"</data>
+      <data key="d2">chunk-5e11131e46983b1e841b5254fb711855</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;HIV感染所致的精神行为障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"指由于人类免疫缺陷病毒感染导致的精神和行为问题的表现及影响。"</data>
+      <data key="d2">chunk-5e11131e46983b1e841b5254fb711855</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;苍白密螺旋体（TREPONEMA PALLIDUM）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The causative agent of syphilis, which leads to the development of neurosyphilis."</data>
+      <data key="d2">chunk-5e11131e46983b1e841b5254fb711855</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;梅毒瘤&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A specific condition that can occur in advanced stages of neurosyphilis, characterized by the formation of nodules."</data>
+      <data key="d2">chunk-5e11131e46983b1e841b5254fb711855</data>
+    </node>
+    <node id="&quot;麻痹性痴呆&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A chronic and severe form of neurosyphilis that typically manifests years after the initial infection."</data>
+      <data key="d2">chunk-5e11131e46983b1e841b5254fb711855</data>
+    </node>
+    <node id="&quot;梅毒性脑膜炎&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"An inflammation of the meninges caused by syphilitic infection, often occurring in early stages of neurosyphilis."</data>
+      <data key="d2">chunk-5e11131e46983b1e841b5254fb711855</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;中枢神经系统淋巴细胞和单核细胞浸润&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"A key pathological feature observed in the central nervous system of individuals suffering from neurosyphilis."</data>
+      <data key="d2">chunk-5e11131e46983b1e841b5254fb711855</data>
+    </node>
+    <node id="&quot;HIV/AIDS&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A viral infection leading to a spectrum of neurological disorders including cognitive impairment and behavioral changes."</data>
+      <data key="d2">chunk-5e11131e46983b1e841b5254fb711855</data>
+    </node>
+    <node id="&quot;脑脊液梅毒血清学检查&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A specific test used to diagnose neurosyphilis by analyzing the cerebrospinal fluid."</data>
+      <data key="d2">chunk-5e11131e46983b1e841b5254fb711855</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;HIV核糖核酸定性和定量检测&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"A laboratory test used to identify and quantify HIV RNA levels in patients, crucial for monitoring disease progression."</data>
+      <data key="d2">chunk-5e11131e46983b1e841b5254fb711855</data>
+    </node>
+    <node id="&quot;HIV 感染所致的精神行为障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"HIV感染导致的一系列精神行为问题，需要通过病因治疗和对症治疗相结合的方式进行处理。"</data>
+      <data key="d2">chunk-9decac119e54ebfaf8d4b7b9025743fe</data>
+    </node>
+    <node id="&quot;抗逆转录病毒药物治疗&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"一种用于控制 HIV 感染的治疗方法，能够降低 HIV 相关性痴呆的发生率，但不能改善已存在的认知障碍症状。"</data>
+      <data key="d2">chunk-9decac119e54ebfaf8d4b7b9025743fe</data>
+    </node>
+    <node id="&quot;单纯疱疹病毒性脑炎（HSE）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"由HSV-1引起的急性脑炎类型，常导致精神行为障碍，特点是起病急、进展快、需要早诊断和治疗。"</data>
+      <data key="d2">chunk-9decac119e54ebfaf8d4b7b9025743fe</data>
+    </node>
+    <node id="&quot;自身免疫性脑炎（AE）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"一种由自身免疫机制介导的脑炎，多数情况下伴有肿瘤，主要影响中枢边缘系统，引起神经精神行为异常。"&lt;SEP&gt;"一类由自身免疫反应引发的脑炎疾病集合。"</data>
+      <data key="d2">chunk-9decac119e54ebfaf8d4b7b9025743fe</data>
+    </node>
+    <node id="&quot;HIV 感染所致的精神障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"指由于 HIV 感染导致的一系列精神疾病，包括认知障碍、谵妄等。"</data>
+      <data key="d2">chunk-9decac119e54ebfaf8d4b7b9025743fe</data>
+    </node>
+    <node id="&quot;痴呆&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"由HIV感染引起的一种严重脑功能紊乱状态，表现为记忆力减退和认知功能下降。"</data>
+      <data key="d2">chunk-9decac119e54ebfaf8d4b7b9025743fe</data>
+    </node>
+    <node id="&quot;ICD-10&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"国际疾病分类第十版，用于医学诊断标准的标准化系统。"</data>
+      <data key="d2">chunk-9decac119e54ebfaf8d4b7b9025743fe</data>
+    </node>
+    <node id="&quot;抗精神病药物治疗&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"使用特定药物来控制精神症状的一种治疗方法。"</data>
+      <data key="d2">chunk-9decac119e54ebfaf8d4b7b9025743fe</data>
+    </node>
+    <node id="&quot;高效抗逆转录病毒疗法（HAART）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"一种综合性的治疗方法，用于抑制HIV的复制和传播。"</data>
+      <data key="d2">chunk-9decac119e54ebfaf8d4b7b9025743fe</data>
+    </node>
+    <node id="&quot;脑炎所致的精神行为障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"由各种类型的脑炎引起的神经精神症状集合。"</data>
+      <data key="d2">chunk-9decac119e54ebfaf8d4b7b9025743fe</data>
+    </node>
+    <node id="&quot;单纯疱疹病毒性脑炎（HSV）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"一种由于HSV感染引起的急性脑部炎症，常伴有精神病性症状。"</data>
+      <data key="d2">chunk-9decac119e54ebfaf8d4b7b9025743fe</data>
+    </node>
+    <node id="&quot;NMDAR脑炎&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"一种特定类型的自身免疫性脑炎，主要影响神经元细胞表面受体。"</data>
+      <data key="d2">chunk-9decac119e54ebfaf8d4b7b9025743fe</data>
+    </node>
+    <node id="&quot;地塞米松&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"地塞米松是一种药物，在治疗中用于减轻炎症和水肿，通常通过静脉滴注给药，每日一次，疗程为 10～14 天。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;一线免疫治疗&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"一线免疫治疗包括糖皮质激素、静脉注射免疫球蛋白和血浆置换，用于治疗自身免疫性脑炎等疾病。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;利妥昔单抗与静脉用环磷酰胺&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"二线治疗方案，用于在一线免疫治疗效果不佳时使用，以继续控制病情发展。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;急性期有效控制、巩固期预防波动&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"这是精神科药物治疗中的一个原则，在疾病的不同阶段采用不同的用药策略来达到更好的疗效和安全性。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;艾司西酞普兰与舍曲林&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"这些是抗抑郁药物，属于选择性血清素再摄取抑制剂（SSRI），在治疗焦虑及抑郁障碍时作为一线选择使用。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;朊蛋白病（PRD）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"是一种由变异的具有传染性的朊蛋白引起的可传递的散发性中枢神经系统变性疾病，表现为快速进展性和不良预后，主要影响大脑皮质、基底节等区域。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;克-雅病（CREUTZFELDT-JAKOB DISEASE，CJD）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"是一种常见的朊蛋白病，其特征为认知功能迅速减退和其他神经系统症状，诊断通常基于特定的脑电图和 MRI 改变。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;静脉注射免疫球蛋白&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"静脉注射免疫球蛋白是一种一线治疗手段，用于增强患者免疫力以对抗自身免疫性疾病。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;血浆置换&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"一种治疗方法，通过移除血液中的有害物质来改善患者的症状和病情。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;利培酮&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"抗精神病药物，用于治疗严重的、持久的精神病性症状和激越行为。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;奥氮平&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"一种非典型抗精神病药物，可以作为首选治疗方案之一使用于精神病性症状的治疗中。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;喹硫平&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"用于紧急或阶段性地给予患者以控制严重的、持久的精神病性症状和激越行为。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;库鲁病&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"由变异朊蛋白引起的疾病，属于朊蛋白病的一种类型，具有类似的病理特征与临床表现。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;格斯特曼-施特劳斯勒-欣克尔综合症（GSS）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"一种罕见的遗传性朊蛋白病，表现为神经退行性疾病症状。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;致死性家族失眠症（FFI）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"一种极为罕见且致命的遗传性朊蛋白病，导致患者出现失眠、体重下降等症状。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;单纯疱疹病毒性脑炎&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"由单纯疱疹病毒感染引起的急性炎症性疾病，需要及时诊断和治疗以降低死亡率和致残率。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;神经内科会诊&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"当疑似有复杂或严重的神经系统疾病时，精神科医生邀请神经内科专家进行专业咨询和评估。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;艾司西酞普兰&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"选择性血清素再摄取抑制剂（SSRI），用于治疗焦虑及抑郁障碍，作为一线抗抑郁药物使用。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;舍曲林&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"另一种选择性血清素再摄取抑制剂，同样用于治疗精神症状，在艾司西酞普兰无效时考虑使用。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;苯二氮䓬类药物&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"改善睡眠的辅助药物，可以给予严重失眠或焦虑患者以缓解其临床症状。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;曲唑酮&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"用于治疗多种精神障碍和躯体疼痛，包括抑郁和激越等症状。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;阿糖胞苷&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"抗病毒药物之一，在尝试性治疗朊蛋白病时使用，但效果并不显著。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;阿糖腺苷&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"另一种用于尝试性的抗病毒剂，对延缓朊蛋白病进展的作用有限。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;干扰素&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"在试图治疗朊蛋白病时使用的一种药物，但临床试验显示其效果不明显。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;金刚烷胺&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"一种抗病毒剂，在尝试性治疗朊蛋白病时使用，同样没有显著疗效。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;脑脊液检查&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"通过检测脑脊液中的14-3-3蛋白来辅助诊断朊蛋白病的一种方法。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;腰椎穿刺&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"一种获取脑脊液样本的手术操作，用于排除其他病因并进行特定疾病的诊断。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;基因诊断&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"通过检测相关的基因突变来辅助朊蛋白病的确诊和分型的一种手段。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;脑电图检查&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"通过观察典型的三相尖波复合波形来辅助诊断克-雅病等疾病的特异性方法之一。"</data>
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+    </node>
+    <node id="&quot;精神病性症状和激越的治疗&quot;">
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d1">"用于紧急或阶段性地给予抗精神病药物治疗严重的精神病性症状。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;自身免疫性脑炎&quot;">
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d1">"两种类型的急性脑炎需要早期诊断和干预措施以降低死亡率和致残率。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;疑似病例&quot;">
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d1">"当疑似有复杂或严重的神经系统疾病时，邀请专家进行专业的评估和治疗建议。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;精神障碍治疗&quot;">
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d1">"作为一线抗抑郁药物使用于治疗焦虑及抑郁障碍等症状。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;失眠和疼痛治疗&quot;">
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d1">"给予严重失眠或躯体疼痛患者以缓解其临床症状和改善睡眠质量。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;精神障碍与疼痛治疗&quot;">
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d1">"用于治疗多种精神障碍，包括抑郁和激越等症状以及部分患者的疼痛管理。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;朊蛋白病尝试性治疗&quot;">
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d1">"一种抗病毒剂，在试图治疗朊蛋白病时使用但效果不明显。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;诊断&quot;">
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d1">"通过检测脑脊液中的14-3-3蛋白来辅助确诊，排除其他可能的原因如感染或自身免疫性疾病。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;克-雅病（CJD）&quot;">
+      <data key="d2">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d1">"典型的三相尖波复合波形可用于辅助诊断克-雅病等疾病的特点和进程。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;神经梅毒（NEUROSYPHILIS, NS）&quot;" target="&quot;2015年我国梅毒发病数433974例&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"神经梅毒是梅毒的一部分，该事件的数据反映了中国整体梅毒的流行情况，其中包含有发展为神经梅毒的风险。"</data>
+      <data key="d6">chunk-5e11131e46983b1e841b5254fb711855</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;神经梅毒（NEUROSYPHILIS, NS）&quot;" target="&quot;HIV感染所致的精神行为障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"两者都涉及由于特定病原体感染所引起的精神健康问题，它们都是中枢神经系统相关疾病的一部分。"</data>
+      <data key="d6">chunk-5e11131e46983b1e841b5254fb711855</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;神经梅毒（NEUROSYPHILIS, NS）&quot;" target="&quot;苍白密螺旋体（TREPONEMA PALLIDUM）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The causative agent of syphilis causes the development of neurosyphilis."</data>
+      <data key="d6">chunk-5e11131e46983b1e841b5254fb711855</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;神经梅毒（NEUROSYPHILIS, NS）&quot;" target="&quot;梅毒性脑膜炎&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Meningitis due to syphilitic infection is an early stage symptom of neurosyphilis."</data>
+      <data key="d6">chunk-5e11131e46983b1e841b5254fb711855</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;神经梅毒（NEUROSYPHILIS, NS）&quot;" target="&quot;脑脊液梅毒血清学检查&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"This diagnostic procedure confirms the presence of neurosyphilis through analysis of cerebrospinal fluid."</data>
+      <data key="d6">chunk-5e11131e46983b1e841b5254fb711855</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;麻痹性痴呆&quot;" target="&quot;中枢神经系统淋巴细胞和单核细胞浸润&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Paralytic dementia involves significant lymphocyte and monocyte infiltration in the brain."</data>
+      <data key="d6">chunk-5e11131e46983b1e841b5254fb711855</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;中枢神经系统淋巴细胞和单核细胞浸润&quot;" target="&quot;HIV/AIDS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The infection with HIV can result in significant lymphocyte and monocyte infiltration in the central nervous system."</data>
+      <data key="d6">chunk-5e11131e46983b1e841b5254fb711855</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;中枢神经系统淋巴细胞和单核细胞浸润&quot;" target="&quot;HIV核糖核酸定性和定量检测&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Quantifying viral load helps understand the extent of neurological involvement."</data>
+      <data key="d6">chunk-5e11131e46983b1e841b5254fb711855</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;抗逆转录病毒药物治疗&quot;" target="&quot;单纯疱疹病毒性脑炎（HSE）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"虽然主要针对HIV感染设计的治疗方法，但在某种程度上也可辅助控制因HIV导致的相关并发症如脑炎等。"&lt;SEP&gt;"虽然直接针对HSE的治疗方法是特定的抗病毒药物，但提及了对因治疗的重要性，而抗逆转录病毒药物对于控制HIV感染具有重要作用。"</data>
+      <data key="d6">chunk-9decac119e54ebfaf8d4b7b9025743fe</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;单纯疱疹病毒性脑炎（HSE）&quot;" target="&quot;自身免疫性脑炎（AE）&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"两者都是急性脑炎的主要类型，并且都可能引发精神行为障碍，但病因不同：前者是病毒感染，后者是自身免疫机制。"</data>
+      <data key="d6">chunk-9decac119e54ebfaf8d4b7b9025743fe</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;自身免疫性脑炎（AE）&quot;" target="&quot;NMDAR脑炎&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"NMDAR脑炎是一种特定类型的自身免疫性脑炎，涉及神经元细胞表面受体的异常反应。"</data>
+      <data key="d6">chunk-9decac119e54ebfaf8d4b7b9025743fe</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;HIV 感染所致的精神障碍&quot;" target="&quot;痴呆&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"HIV感染是导致痴呆的主要原因之一，严重影响患者的认知功能和生活质量。"</data>
+      <data key="d6">chunk-9decac119e54ebfaf8d4b7b9025743fe</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;HIV 感染所致的精神障碍&quot;" target="&quot;ICD-10&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"ICD-10提供了对各种精神疾病的标准诊断方法，并包括了 HIV 所致的精神障碍的分类。"</data>
+      <data key="d6">chunk-9decac119e54ebfaf8d4b7b9025743fe</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;HIV 感染所致的精神障碍&quot;" target="&quot;高效抗逆转录病毒疗法（HAART）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"通过抑制 HIV 病毒复制来减少精神疾病的发病率和进展速度。"</data>
+      <data key="d6">chunk-9decac119e54ebfaf8d4b7b9025743fe</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;痴呆&quot;" target="&quot;抗精神病药物治疗&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"虽然不能直接治愈痴呆，但在控制相关的精神症状方面有效。"</data>
+      <data key="d6">chunk-9decac119e54ebfaf8d4b7b9025743fe</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;痴呆&quot;" target="&quot;ICD-10&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"ICD-10提供了诊断和分类痴呆的标准方法，有助于临床治疗决策。"</data>
+      <data key="d6">chunk-9decac119e54ebfaf8d4b7b9025743fe</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;脑炎所致的精神行为障碍&quot;" target="&quot;单纯疱疹病毒性脑炎（HSV）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"单纯疱疹病毒感染是导致急性神经精神症状的主要原因之一。"</data>
+      <data key="d6">chunk-9decac119e54ebfaf8d4b7b9025743fe</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;地塞米松&quot;" target="&quot;一线免疫治疗&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"地塞米松作为糖皮质激素的一部分被纳入一线免疫治疗方案中使用以减轻炎症反应。"</data>
+      <data key="d6">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;一线免疫治疗&quot;" target="&quot;利妥昔单抗与静脉用环磷酰胺&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"这些二线治疗方法在一线免疫治疗效果不佳时考虑应用，用于进一步控制疾病进展。"</data>
+      <data key="d6">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;一线免疫治疗&quot;" target="&quot;静脉注射免疫球蛋白&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"作为一线免疫治疗方法的一部分，用于增强患者的免疫力以对抗自身免疫性疾病。"</data>
+      <data key="d6">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;一线免疫治疗&quot;" target="&quot;血浆置换&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"在一线免疫治疗中使用血浆置换来清除血液中的有害物质。"</data>
+      <data key="d6">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性期有效控制、巩固期预防波动&quot;" target="&quot;艾司西酞普兰与舍曲林&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"在不同阶段采用艾司西酞普兰与舍曲林等药物进行治疗以达到最佳的疗效和患者安全性。"</data>
+      <data key="d6">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;朊蛋白病（PRD）&quot;" target="&quot;克-雅病（CREUTZFELDT-JAKOB DISEASE，CJD）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"克-雅病是朊蛋白病的一种，具有类似的病理特征和临床表现，在朊蛋白病的诊断中占有重要地位。"</data>
+      <data key="d6">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;朊蛋白病（PRD）&quot;" target="&quot;库鲁病&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"属于由变异朊蛋白引起的可传递的散发性中枢神经系统变性疾病的一种类型。"</data>
+      <data key="d6">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;朊蛋白病（PRD）&quot;" target="&quot;格斯特曼-施特劳斯勒-欣克尔综合症（GSS）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"一种罕见遗传性朊蛋白病，属于朊蛋白疾病谱的一部分。"</data>
+      <data key="d6">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;朊蛋白病（PRD）&quot;" target="&quot;致死性家族失眠症（FFI）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"一种致命的遗传性朊蛋白病，表现为极端的症状和快速进展的特点。"</data>
+      <data key="d6">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;利培酮&quot;" target="&quot;精神病性症状和激越的治疗&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"用于紧急或阶段性地给予抗精神病药物治疗严重的精神病性症状。"</data>
+      <data key="d6">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;奥氮平&quot;" target="&quot;精神病性症状和激越的治疗&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"作为首选非典型抗精神病药物之一，用于缓解患者的精神障碍。"</data>
+      <data key="d6">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;喹硫平&quot;" target="&quot;精神病性症状和激越的治疗&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"紧急使用以快速控制患者的激越行为和精神病性表现。"</data>
+      <data key="d6">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;单纯疱疹病毒性脑炎&quot;" target="&quot;自身免疫性脑炎&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"两种类型的急性脑炎需要早期诊断和干预措施以降低死亡率和致残率。"</data>
+      <data key="d6">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;神经内科会诊&quot;" target="&quot;疑似病例&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"当疑似有复杂或严重的神经系统疾病时，邀请专家进行专业的评估和治疗建议。"</data>
+      <data key="d6">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;艾司西酞普兰&quot;" target="&quot;精神障碍治疗&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"作为一线抗抑郁药物使用于治疗焦虑及抑郁障碍等症状。"</data>
+      <data key="d6">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;舍曲林&quot;" target="&quot;精神障碍治疗&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"用于治疗多种精神障碍，如焦虑和抑郁，在艾司西酞普兰无效时考虑使用。"</data>
+      <data key="d6">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;苯二氮䓬类药物&quot;" target="&quot;失眠和疼痛治疗&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"给予严重失眠或躯体疼痛患者以缓解其临床症状和改善睡眠质量。"</data>
+      <data key="d6">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;曲唑酮&quot;" target="&quot;精神障碍与疼痛治疗&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"用于治疗多种精神障碍，包括抑郁和激越等症状以及部分患者的疼痛管理。"</data>
+      <data key="d6">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;阿糖胞苷&quot;" target="&quot;朊蛋白病尝试性治疗&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"一种抗病毒剂，在试图治疗朊蛋白病时使用但效果不明显。"</data>
+      <data key="d6">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;脑脊液检查&quot;" target="&quot;诊断&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"通过检测脑脊液中的14-3-3蛋白来辅助确诊，排除其他可能的原因如感染或自身免疫性疾病。"</data>
+      <data key="d6">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;腰椎穿刺&quot;" target="&quot;基因诊断&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"在进行基因诊断前获取样本的步骤之一，用于排除其他病因并进行特定疾病的检查。"</data>
+      <data key="d6">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;脑电图检查&quot;" target="&quot;克-雅病（CJD）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"典型的三相尖波复合波形可用于辅助诊断克-雅病等疾病的特点和进程。"</data>
+      <data key="d6">chunk-08d7f67be559863f55711a3e32d6e58f</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

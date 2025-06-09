@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;DSM-5&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The DSM-5 is the fifth edition of the Diagnostic and Statistical Manual of Mental Disorders published by the American Psychiatric Association, which includes diagnoses for gender dysphoria."&lt;SEP&gt;"The DSM-5, also known as the Diagnostic and Statistical Manual of Mental Disorders - Fifth Edition, is a manual published by the American Psychiatric Association used to diagnose mental disorders including gender dysphoria."</data>
+      <data key="d2">chunk-22efdc6f038bd53dbde15d59f428a266</data>
+    </node>
+    <node id="&quot;德国&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"Germany is mentioned as one of the countries where research on gender identity disorder has been conducted."&lt;SEP&gt;"Germany is mentioned in research about the prevalence of gender identity disorder."</data>
+      <data key="d2">chunk-22efdc6f038bd53dbde15d59f428a266</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;澳大利亚&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"Australia is cited as one of the countries where studies have reported incidence rates of gender identity disorders."&lt;SEP&gt;"Australia is mentioned in the context of research findings about the prevalence of gender identity disorders."</data>
+      <data key="d2">chunk-22efdc6f038bd53dbde15d59f428a266</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;芬兰&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"Finland is listed as a country where studies have reported the incidence rates of gender identity disorder."&lt;SEP&gt;"Finland is referenced in studies reporting on the prevalence of gender identity disorders."</data>
+      <data key="d2">chunk-22efdc6f038bd53dbde15d59f428a266</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;苏格兰&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"Scotland is mentioned in research concerning the prevalence of gender identity disorder."&lt;SEP&gt;"Scotland is mentioned in the context of research findings about the prevalence of gender identity disorders."</data>
+      <data key="d2">chunk-22efdc6f038bd53dbde15d59f428a266</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;性身份障碍患者&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Individuals diagnosed with sexual identity disorder experience a mismatch between their biological sex and their perceived gender, causing psychological distress."&lt;SEP&gt;"This refers to individuals suffering from gender identity disorder, who experience distress and may seek medical or surgical interventions to align their physical appearance with their gender identity."</data>
+      <data key="d2">chunk-22efdc6f038bd53dbde15d59f428a266</data>
+    </node>
+    <node id="&quot;性别烦躁（GENDER DYSPHORIA）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Gender dysphoria refers to the significant distress caused by a discrepancy between an individual's experienced or expressed gender and their assigned sex at birth, as recognized in DSM-5."</data>
+      <data key="d2">chunk-22efdc6f038bd53dbde15d59f428a266</data>
+    </node>
+    <node id="&quot;易性症（GENDER IDENTITY DISORDER）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Gender Identity Disorder (GID) is the term used before DSM-5 for individuals experiencing significant distress due to the discrepancy between their experienced or expressed gender and their assigned sex at birth."</data>
+      <data key="d2">chunk-22efdc6f038bd53dbde15d59f428a266</data>
+    </node>
+    <node id="&quot;激素治疗&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Hormone therapy is a medical intervention that involves providing hormones to align one's physical appearance with their gender identity."</data>
+      <data key="d2">chunk-22efdc6f038bd53dbde15d59f428a266</data>
+    </node>
+    <node id="&quot;变性手术（性别重置手术）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Gender reassignment surgery, also known as sex reassignment surgery (SRS), is a surgical procedure aimed at changing the physical characteristics of an individual from one biological sex to another."</data>
+      <data key="d2">chunk-22efdc6f038bd53dbde15d59f428a266</data>
+    </node>
+    <node id="&quot;抑郁障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Depression disorder is often co-occurring with gender identity issues due to social and psychological stressors."</data>
+      <data key="d2">chunk-22efdc6f038bd53dbde15d59f428a266</data>
+    </node>
+    <node id="&quot;焦虑症&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Anxiety disorders can also be comorbid with gender identity disorder, reflecting the emotional turmoil individuals experience due to their condition."</data>
+      <data key="d2">chunk-22efdc6f038bd53dbde15d59f428a266</data>
+    </node>
+    <node id="&quot;研究结果&quot;">
+      <data key="d2">chunk-22efdc6f038bd53dbde15d59f428a266</data>
+      <data key="d1">"Germany is a location where research findings about the prevalence of gender identity disorders have been reported."&lt;SEP&gt;"Research findings on the prevalence of gender identity disorder have been reported in Germany."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;DSM-5&quot;" target="&quot;性别烦躁（GENDER DYSPHORIA）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The concept of gender dysphoria is now recognized and classified by DSM-5 as a mental health condition."</data>
+      <data key="d6">chunk-22efdc6f038bd53dbde15d59f428a266</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;德国&quot;" target="&quot;研究结果&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"Germany is a location where research findings about the prevalence of gender identity disorders have been reported."&lt;SEP&gt;"Research findings on the prevalence of gender identity disorder have been reported in Germany."</data>
+      <data key="d6">chunk-22efdc6f038bd53dbde15d59f428a266</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;澳大利亚&quot;" target="&quot;研究结果&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"Australia is mentioned in the context of research on gender identity disorder, showing its incidence rate."&lt;SEP&gt;"Studies on the incidence rates of gender identity disorders are cited for Australia."</data>
+      <data key="d6">chunk-22efdc6f038bd53dbde15d59f428a266</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;芬兰&quot;" target="&quot;研究结果&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"Finland has provided data regarding the prevalence of gender identity disorders in their population."&lt;SEP&gt;"Finland's research has contributed to data on the prevalence of gender identity disorder."</data>
+      <data key="d6">chunk-22efdc6f038bd53dbde15d59f428a266</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;苏格兰&quot;" target="&quot;研究结果&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"Scotland is cited as a country where studies on the prevalence of gender identity disorders have been conducted."&lt;SEP&gt;"Scotland is mentioned in studies about the incidence rates of gender identity disorders."</data>
+      <data key="d6">chunk-22efdc6f038bd53dbde15d59f428a266</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;性身份障碍患者&quot;" target="&quot;激素治疗&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Hormone therapy is one treatment option used for individuals with sexual identity disorders to help them align their physical appearance with their gender identity."</data>
+      <data key="d6">chunk-22efdc6f038bd53dbde15d59f428a266</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;性身份障碍患者&quot;" target="&quot;变性手术（性别重置手术）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Gender reassignment surgery is a surgical intervention for some patients suffering from sexual identity disorder who seek to change their biological sex."</data>
+      <data key="d6">chunk-22efdc6f038bd53dbde15d59f428a266</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;性身份障碍患者&quot;" target="&quot;抑郁障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Depression is often comorbid with gender identity disorders due to societal and psychological pressures experienced by affected individuals."</data>
+      <data key="d6">chunk-22efdc6f038bd53dbde15d59f428a266</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;性身份障碍患者&quot;" target="&quot;焦虑症&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Anxiety disorders frequently accompany sexual identity disorder, reflecting the stress and distress faced by those dealing with their condition."</data>
+      <data key="d6">chunk-22efdc6f038bd53dbde15d59f428a266</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

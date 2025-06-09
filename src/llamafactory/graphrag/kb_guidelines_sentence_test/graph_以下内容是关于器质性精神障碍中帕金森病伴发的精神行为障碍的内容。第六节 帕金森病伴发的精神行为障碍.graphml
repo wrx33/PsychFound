@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;PARKINSON’S DISEASE (PD)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Parkinson's disease is a central nervous system degenerative condition characterized by motor symptoms such as tremor, rigidity, bradykinesia and postural instability, along with non-motor symptoms including psychiatric behavior issues."</data>
+      <data key="d2">chunk-6b45407653a26db66418ce247524078e</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;DEPRESSION&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Depression in Parkinson’s Disease patients is a common mental symptom that can appear before the onset of motor symptoms, often accompanied by suicidal thoughts but rarely leads to suicide actions."</data>
+      <data key="d2">chunk-6b45407653a26db66418ce247524078e</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;ANXIETY&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Anxiety in Parkinson's disease includes generalized anxiety disorder and panic attacks; it correlates with postural instability and is more prevalent among early-onset cases with dyskinesia or 'on-off' phenomenon."</data>
+      <data key="d2">chunk-6b45407653a26db66418ce247524078e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;PSYCHOTIC SYMPTOMS&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Psychotic symptoms include hallucinations, typically visual and auditory, and delusions, often occurring in severe stages of Parkinson’s disease after a decade or more since diagnosis."</data>
+      <data key="d2">chunk-6b45407653a26db66418ce247524078e</data>
+      <data key="d3">[{"level": 0, "cluster": 3}]</data>
+    </node>
+    <node id="&quot;COGNITIVE IMPAIRMENT/DEMENTIA&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Cognitive impairment can appear early in the course of PD, progressing to dementia which affects daily living activities. It is characterized by deficits in attention, executive function, visuospatial abilities and memory retrieval."</data>
+      <data key="d2">chunk-6b45407653a26db66418ce247524078e</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;UNIFIED PARKINSON'S DISEASE RATING SCALE (UPDRS)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"The UPDRS is a comprehensive scale used for assessing the progression of Parkinson’s disease symptoms."</data>
+      <data key="d2">chunk-6b45407653a26db66418ce247524078e</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;MONTGOMERY-ÅSBERG DEPRESSION RATING SCALE&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"This scale is utilized to assess depression in patients with Parkinson's Disease."</data>
+      <data key="d2">chunk-6b45407653a26db66418ce247524078e</data>
+    </node>
+    <node id="&quot;HAMILTON DEPRESSION RATING SCALE (HDRS)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"A tool used for evaluating the severity of depressive symptoms in PD patients."</data>
+      <data key="d2">chunk-6b45407653a26db66418ce247524078e</data>
+    </node>
+    <node id="&quot;BECK ANXIETY INVENTORY (BAI)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"This inventory measures anxiety levels, often used alongside other scales to comprehensively evaluate mental health conditions in Parkinson's Disease patients."</data>
+      <data key="d2">chunk-6b45407653a26db66418ce247524078e</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;NEUROPSYCHIATRIC INVENTORY (NPI)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"A scale for assessing the presence and severity of neuropsychiatric symptoms such as depression, apathy, agitation/aggression, hallucinations, delusions, euphoria, disinhibition, irritability/lability, repetitive behavior, and anxiety."</data>
+      <data key="d2">chunk-6b45407653a26db66418ce247524078e</data>
+      <data key="d3">[{"level": 0, "cluster": 3}]</data>
+    </node>
+    <node id="&quot;FULD OBJECT MEMORY EVALUATION (FOM)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"A test used to evaluate memory in patients with Parkinson's disease or other neurological conditions."</data>
+      <data key="d2">chunk-6b45407653a26db66418ce247524078e</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;PARKINSON'S DISEASE (PD)&quot;">
+      <data key="d2">chunk-6b45407653a26db66418ce247524078e</data>
+      <data key="d1">"Patients with Parkinson’s disease have a high incidence of depression, ranging from 30% to 80%, often co-occurring with anxiety symptoms."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <edge source="&quot;PARKINSON’S DISEASE (PD)&quot;" target="&quot;DEPRESSION&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Patients with Parkinson’s disease have a high incidence of depression, ranging from 30% to 80%, often co-occurring with anxiety symptoms."</data>
+      <data key="d6">chunk-6b45407653a26db66418ce247524078e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;PARKINSON’S DISEASE (PD)&quot;" target="&quot;ANXIETY&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The presence of anxiety in Parkinson's patients ranges between 3.6% and 40%, sometimes appearing before motor symptoms, indicating a strong correlation between PD progression and mental health issues."</data>
+      <data key="d6">chunk-6b45407653a26db66418ce247524078e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;PARKINSON’S DISEASE (PD)&quot;" target="&quot;PSYCHOTIC SYMPTOMS&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Psychotic symptoms such as hallucinations and delusions are observed in Parkinson’s disease patients, more frequently among those with severe stages of the illness after a decade or more since diagnosis."</data>
+      <data key="d6">chunk-6b45407653a26db66418ce247524078e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;PARKINSON’S DISEASE (PD)&quot;" target="&quot;COGNITIVE IMPAIRMENT/DEMENTIA&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Cognitive decline leading to dementia is common in PD, impacting daily activities and worsening over time. It occurs more frequently among patients with severe motor symptoms or hallucinations."</data>
+      <data key="d6">chunk-6b45407653a26db66418ce247524078e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DEPRESSION&quot;" target="&quot;PARKINSON'S DISEASE (PD)&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Patients with Parkinson’s disease have a high incidence of depression, ranging from 30% to 80%, often co-occurring with anxiety symptoms."</data>
+      <data key="d6">chunk-6b45407653a26db66418ce247524078e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DEPRESSION&quot;" target="&quot;UNIFIED PARKINSON'S DISEASE RATING SCALE (UPDRS)&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"The UPDRS includes assessments for depression severity as part of its comprehensive evaluation of PD symptoms."</data>
+      <data key="d6">chunk-6b45407653a26db66418ce247524078e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ANXIETY&quot;" target="&quot;PARKINSON'S DISEASE (PD)&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The presence of anxiety in Parkinson's patients ranges between 3.6% and 40%, sometimes appearing before motor symptoms, indicating a strong correlation between PD progression and mental health issues."</data>
+      <data key="d6">chunk-6b45407653a26db66418ce247524078e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ANXIETY&quot;" target="&quot;BECK ANXIETY INVENTORY (BAI)&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The BAI is specifically designed to measure anxiety levels in Parkinson's Disease patients, aiding in the diagnosis and management of this symptom."</data>
+      <data key="d6">chunk-6b45407653a26db66418ce247524078e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;PSYCHOTIC SYMPTOMS&quot;" target="&quot;PARKINSON'S DISEASE (PD)&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Psychotic symptoms such as hallucinations and delusions are observed in Parkinson’s disease patients, more frequently among those with severe stages of the illness after a long-term diagnosis."</data>
+      <data key="d6">chunk-6b45407653a26db66418ce247524078e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;PSYCHOTIC SYMPTOMS&quot;" target="&quot;NEUROPSYCHIATRIC INVENTORY (NPI)&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The NPI evaluates both positive and negative symptoms of psychosis in PD patients, providing a comprehensive assessment of their psychiatric condition."</data>
+      <data key="d6">chunk-6b45407653a26db66418ce247524078e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;COGNITIVE IMPAIRMENT/DEMENTIA&quot;" target="&quot;PARKINSON'S DISEASE (PD)&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Cognitive decline leading to dementia is common in PD, impacting daily activities and worsening over time. It occurs more frequently among patients with severe motor symptoms or hallucinations."</data>
+      <data key="d6">chunk-6b45407653a26db66418ce247524078e</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;COGNITIVE IMPAIRMENT/DEMENTIA&quot;" target="&quot;FULD OBJECT MEMORY EVALUATION (FOM)&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"The FOM is used to evaluate the memory aspects of cognitive impairment or dementia in Parkinson's Disease patients."</data>
+      <data key="d6">chunk-6b45407653a26db66418ce247524078e</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

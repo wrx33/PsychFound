@@ -1,0 +1,10 @@
+# model_name_or_path: /data/sjtu/wrx/llamafactory/psychgpt_sft-qwen2-7b-lora-256-12tasks-merge-0114/
+# model_name_or_path: /home/sjtu/wrx/code/TinyZero-main/checkpoints/verl_grpo_diagnosis/diagnosis-instruct-qwen2-7b-orpo-0227-4/actor/global_step_125/
+model_name_or_path: /home/sjtu/wrx/code/TinyZero-main/checkpoints/verl_grpo_diagnosis/diagnosis-instruct-qwen2-7b-orpo-0227-1/actor/global_step_200/
+# adapter_name_or_path: /data/sjtu/wrx/llamafactory/psychgpt-r1-0307-adapter-3/
+template: qwen
+# finetuning_type: lora
+# infer_backend: vllm
+# temperature: 0.9
+max_new_tokens: 3000
+# repetition_penalty: 1.2

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;中国精神卫生调查（CHMS）&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"中国精神卫生调查是一个研究和统计有关精神健康问题的组织，在2019年发布了关于惊恐障碍的相关数据。"</data>
+      <data key="d2">chunk-96274f4181caacb3e41b9881fe11061c</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;患者&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"患有惊恐障碍的人群，表现出强烈的恐惧、焦虑和自主神经系统的症状等。"</data>
+      <data key="d2">chunk-96274f4181caacb3e41b9881fe11061c</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;惊恐障碍（PANIC DISORDER）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"一种反复出现不可预期的惊恐发作的焦虑障碍。该病症对患者的日常生活产生显著影响，并伴有强烈的心理及生理反应。</data>
+      <data key="d2">chunk-96274f4181caacb3e41b9881fe11061c</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;中国精神卫生调查（CHMS）&quot;" target="&quot;患者&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"中国精神卫生调查发布了关于惊恐障碍患病率的数据，直接影响到患者群体的理解和治疗需求。"</data>
+      <data key="d6">chunk-96274f4181caacb3e41b9881fe11061c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;患者&quot;" target="&quot;惊恐障碍（PANIC DISORDER）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"患有惊恐障碍的个体是该病症的主要受影响对象，经历频繁不可预期的发作，严重影响生活质量。"</data>
+      <data key="d6">chunk-96274f4181caacb3e41b9881fe11061c</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

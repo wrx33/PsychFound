@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;DSM-5&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"DSM-5 is a classification system published by the American Psychiatric Association for mental disorders."&lt;SEP&gt;"DSM-5是美国精神病学会出版的精神障碍分类系统。"</data>
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;ICD-10&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-10 is an international classification of diseases published by WHO used in global healthcare and public health fields."&lt;SEP&gt;"ICD-10是由世界卫生组织发布的国际疾病分类标准，用于全球医疗保健和公共卫生领域。"</data>
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;ICD-11&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-11 is the latest version of the International Classification System, published by WHO to better describe disease symptoms, causes, etc."&lt;SEP&gt;"ICD-11是最新版的国际疾病分类系统，由WHO发布，旨在更好地描述疾病的症状、病因等信息。"</data>
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;疑病障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"疑病障碍是一种精神障碍，特征是对自身健康的过分担忧和对可能患病的持续怀疑。"</data>
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;疑病障碍 (HYPOCHONDRIASIS)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Hypochondriasis is a mental disorder characterized by excessive worry about one's health and persistent suspicion of illness."</data>
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+    </node>
+    <node id="&quot;疾病焦虑障碍 (ILLNESS ANXIETY DISORDER)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Illness Anxiety Disorder, also known as Hypochondriasis in DSM-5, involves persistent anxiety about having serious illnesses."</data>
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+    </node>
+    <node id="&quot;躯体形式障碍 (SOMATIC SYMPTOM DISORDERS)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Somatic Symptom Disorders are a type of disorder where physical symptoms cause significant distress and impairment without medical findings."</data>
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+    </node>
+    <node id="&quot;强迫相关障碍 (OBSESSIVE-COMPULSIVE RELATED DISORDERS)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Obsessive-Compulsive Related Disorders include conditions characterized by repetitive thoughts and behaviors, such as hypochondria."</data>
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+    </node>
+    <node id="&quot;社区调查数据 (COMMUNITY SURVEY DATA)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Community Survey Data refers to studies conducted in communities to gather data on the prevalence of Hypochondriasis according to DSM or ICD criteria."</data>
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+    </node>
+    <node id="&quot;遗传学研究 (GENETIC RESEARCH)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Genetic Research involves studies aimed at understanding genetic factors contributing to Hypochondriasis and related disorders."</data>
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+    </node>
+    <node id="&quot;神经生物学研究 (NEUROBIOLOGICAL RESEARCH)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Neurobiological Research includes investigations into the brain mechanisms underlying Hypochondriasis, such as neurotransmitter levels and neural activity patterns."</data>
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+    </node>
+    <node id="&quot;认知行为模式 (COGNITIVE BEHAVIORAL MODEL)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"The Cognitive Behavioral Model explains how persistent excessive worry about health leads to misinterpretation of normal bodily sensations as serious diseases."</data>
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+    </node>
+    <node id="&quot;精神动力学派 (PSYCHOANALYTIC THEORY)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Psychoanalytic Theory views Hypochondriasis as a form of narcissistic neurosis, linked with self-image issues and emotional conflicts."</data>
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+    </node>
+    <node id="&quot;健康先占观念诊断性访谈表 (HEALTH PREOCCUPATION DIAGNOSTIC INTERVIEW)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The Health Preoccupation Diagnostic Interview is a structured evaluation tool used to differentiate somatic anxiety disorders from other conditions in research settings."</data>
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+    </node>
+    <node id="&quot;怀特利指数量表 (WHITELY INDEX)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The Whitely Index is a screening tool for Hypochondriasis, assessing disease worry and belief levels among patients."</data>
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+    </node>
+    <node id="&quot;简版健康焦虑量表 (SHORT HEALTH ANXIETY INVENTORY)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The Short Health Anxiety Inventory measures health anxiety in individuals over the past 6 months using validated subscales and scoring criteria."</data>
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+    </node>
+    <node id="&quot;疾病态度量表 (ILLNESS ATTITUDE SCALES)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The Illness Attitude Scales assess beliefs, fears, and attitudes related to illness among somatoform disorder patients."</data>
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+    </node>
+    <node id="&quot;疑病障碍 &quot;">
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+      <data key="d1">"DSM-5 reclassifies Hypochondriasis as Disease Anxiety Disorder with new diagnostic criteria."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;躯体形式障碍 &quot;">
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+      <data key="d1">"ICD-10 categorizes Hypochondriasis under Somatic Symptom Disorders."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;强迫相关障碍 &quot;">
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+      <data key="d1">"ICD-11 includes Hypochondriasis within Obsessive-Compulsive Related Disorders based on symptomatology."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;社区调查数据 &quot;">
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+      <data key="d1">"Community Survey Data provides prevalence rates of Hypochondriasis across different diagnostic systems and populations."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;神经生物学研究 &quot;">
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+      <data key="d1">"Genetic Research complements Neurobiological Studies to understand the genetic underpinnings of Hypochondriasis."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;遗传学研究 &quot;">
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+      <data key="d1">"Genetic Research complements Neurobiological Studies to understand the genetic underpinnings of Hypochondriasis."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;精神动力学派 &quot;">
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+      <data key="d1">"Both Cognitive Behavioral and Psychoanalytic theories aim to explain the development and maintenance of Hypochondriasis."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;认知行为模式 &quot;">
+      <data key="d2">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+      <data key="d1">"Both Cognitive Behavioral and Psychoanalytic theories aim to explain the development and maintenance of Hypochondriasis."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;DSM-5&quot;" target="&quot;疑病障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"DSM-5中将疑病障碍重新分类为疾病焦虑障碍，并提出新的诊断标准。"</data>
+      <data key="d6">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DSM-5&quot;" target="&quot;疑病障碍 &quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"DSM-5 reclassifies Hypochondriasis as Disease Anxiety Disorder with new diagnostic criteria."</data>
+      <data key="d6">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ICD-10&quot;" target="&quot;疑病障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"ICD-10中，疑病障碍被认为是躯体形式障碍的一种亚型。"</data>
+      <data key="d6">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ICD-10&quot;" target="&quot;躯体形式障碍 &quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"ICD-10 categorizes Hypochondriasis under Somatic Symptom Disorders."</data>
+      <data key="d6">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ICD-11&quot;" target="&quot;疑病障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"ICD-11将疑病障碍归类为强迫相关障碍，并认为其症状与这类障碍的核心特征相符合。"</data>
+      <data key="d6">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ICD-11&quot;" target="&quot;强迫相关障碍 &quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"ICD-11 includes Hypochondriasis within Obsessive-Compulsive Related Disorders based on symptomatology."</data>
+      <data key="d6">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;疑病障碍 &quot;" target="&quot;社区调查数据 &quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Community Survey Data provides prevalence rates of Hypochondriasis across different diagnostic systems and populations."</data>
+      <data key="d6">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;神经生物学研究 &quot;" target="&quot;遗传学研究 &quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"Genetic Research complements Neurobiological Studies to understand the genetic underpinnings of Hypochondriasis."</data>
+      <data key="d6">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;精神动力学派 &quot;" target="&quot;认知行为模式 &quot;">
+      <data key="d4">4.0</data>
+      <data key="d5">"Both Cognitive Behavioral and Psychoanalytic theories aim to explain the development and maintenance of Hypochondriasis."</data>
+      <data key="d6">chunk-e9923d46dfaacbc95fc5b5e60a86a8ff</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

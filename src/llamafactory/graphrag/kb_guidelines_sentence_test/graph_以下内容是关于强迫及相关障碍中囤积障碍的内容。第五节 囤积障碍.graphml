@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;DSM-5&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"DSM-5 是美国精神医学协会出版的精神疾病诊断和统计手册第五版，用于诊断囤积障碍等精神健康问题。"</data>
+      <data key="d2">chunk-0eac57eb8b13247f248b5c9e001aae45</data>
+    </node>
+    <node id="&quot;FROST 和 HARTL&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Frost 和 Hartl 提出了囤积障碍的认知行为模型，并讨论了信息处理缺陷、情感依恋问题及对物品的信念等因素在症状形成中的作用。"</data>
+      <data key="d2">chunk-0eac57eb8b13247f248b5c9e001aae45</data>
+    </node>
+    <node id="&quot;STEKETEE 和 FROST&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"Steketee 和 Frost 在原始概念化的基础上进一步发展了关于囤积障碍病因学的认知行为模型，强调基因脆弱性和环境因素的影响以及强化机制的作用。"</data>
+      <data key="d2">chunk-0eac57eb8b13247f248b5c9e001aae45</data>
+    </node>
+    <node id="&quot;CHINESE POPULATION&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"The Chinese population has higher levels of hoarding symptoms and beliefs compared to the American population according to some studies."</data>
+      <data key="d2">chunk-0eac57eb8b13247f248b5c9e001aae45</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;SI-R&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"SI-R is a self-report questionnaire used to assess hoarding symptoms and includes sub-scales for acquisition, clutter, and difficulty discarding items."</data>
+      <data key="d2">chunk-0eac57eb8b13247f248b5c9e001aae45</data>
+    </node>
+    <node id="&quot;HOARDING SYMPTOMS&quot;">
+      <data key="d2">chunk-0eac57eb8b13247f248b5c9e001aae45</data>
+      <data key="d1">"Hoarding symptoms were previously considered part of OCD but are now recognized as a distinct disorder with different characteristics."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;OBSESSIVE-COMPULSIVE DISORDER&quot;">
+      <data key="d2">chunk-0eac57eb8b13247f248b5c9e001aae45</data>
+      <data key="d1">"Hoarding symptoms were previously considered part of OCD but are now recognized as a distinct disorder with different characteristics."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;CIR&quot;">
+      <data key="d2">chunk-0eac57eb8b13247f248b5c9e001aae45</data>
+      <data key="d1">"Both SI-R and CIR are tools used in clinical assessments for Hoarding Disorder but focus on different aspects of the condition (self-report vs. picture selection)."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;NEURODEVELOPMENTAL DISORDERS&quot;">
+      <data key="d2">chunk-0eac57eb8b13247f248b5c9e001aae45</data>
+      <data key="d1">"Some patients with neurodevelopmental disorders exhibit hoarding due to narrow interests or cognitive deficits."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;HRS&quot;">
+      <data key="d2">chunk-0eac57eb8b13247f248b5c9e001aae45</data>
+      <data key="d1">"Both HRS and SI-R are tools used for assessing Hoarding Disorder, but they differ in their methods of assessment (interview-based vs. self-report)."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;COMPULSIVE PERSONALITY DISORDER&quot;">
+      <data key="d2">chunk-0eac57eb8b13247f248b5c9e001aae45</data>
+      <data key="d1">"In some cases within the Chinese population, compulsive behaviors may be misinterpreted as hoarding due to cultural norms."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;SCHIZOPHRENIA SPECTRUM AND OTHER PSYCHOTIC DISORDERS&quot;">
+      <data key="d2">chunk-0eac57eb8b13247f248b5c9e001aae45</data>
+      <data key="d1">"These disorders can present with hoarding symptoms driven by delusions or negative symptoms."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;DEPRESSION&quot;">
+      <data key="d2">chunk-0eac57eb8b13247f248b5c9e001aae45</data>
+      <data key="d1">"Patients with depression may exhibit hoarding due to fatigue, lack of motivation, and psychomotor retardation."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <edge source="&quot;DSM-5&quot;" target="&quot;FROST 和 HARTL&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Frost 和 Hartl 的工作为 DSM-5 中囤积障碍的诊断提供了理论基础和研究依据."</data>
+      <data key="d6">chunk-0eac57eb8b13247f248b5c9e001aae45</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;FROST 和 HARTL&quot;" target="&quot;STEKETEE 和 FROST&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Steketee 和 Frost 扩展了 Frost 和 Hartl 提出的认知行为模型，深入探讨了基因因素在囤积障碍中的作用."</data>
+      <data key="d6">chunk-0eac57eb8b13247f248b5c9e001aae45</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;CHINESE POPULATION&quot;" target="&quot;HOARDING SYMPTOMS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Studies show that the Chinese population has higher levels of hoarding symptoms compared to Americans, possibly due to cultural influences."</data>
+      <data key="d6">chunk-0eac57eb8b13247f248b5c9e001aae45</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;CHINESE POPULATION&quot;" target="&quot;COMPULSIVE PERSONALITY DISORDER&quot;">
+      <data key="d4">4.0</data>
+      <data key="d5">"In some cases within the Chinese population, compulsive behaviors may be misinterpreted as hoarding due to cultural norms."</data>
+      <data key="d6">chunk-0eac57eb8b13247f248b5c9e001aae45</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;SI-R&quot;" target="&quot;CIR&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Both SI-R and CIR are tools used in clinical assessments for Hoarding Disorder but focus on different aspects of the condition (self-report vs. picture selection)."</data>
+      <data key="d6">chunk-0eac57eb8b13247f248b5c9e001aae45</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;SI-R&quot;" target="&quot;HRS&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Both HRS and SI-R are tools used for assessing Hoarding Disorder, but they differ in their methods of assessment (interview-based vs. self-report)."</data>
+      <data key="d6">chunk-0eac57eb8b13247f248b5c9e001aae45</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;HOARDING SYMPTOMS&quot;" target="&quot;OBSESSIVE-COMPULSIVE DISORDER&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Hoarding symptoms were previously considered part of OCD but are now recognized as a distinct disorder with different characteristics."</data>
+      <data key="d6">chunk-0eac57eb8b13247f248b5c9e001aae45</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;HOARDING SYMPTOMS&quot;" target="&quot;NEURODEVELOPMENTAL DISORDERS&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"Some patients with neurodevelopmental disorders exhibit hoarding due to narrow interests or cognitive deficits."</data>
+      <data key="d6">chunk-0eac57eb8b13247f248b5c9e001aae45</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;HOARDING SYMPTOMS&quot;" target="&quot;SCHIZOPHRENIA SPECTRUM AND OTHER PSYCHOTIC DISORDERS&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"These disorders can present with hoarding symptoms driven by delusions or negative symptoms."</data>
+      <data key="d6">chunk-0eac57eb8b13247f248b5c9e001aae45</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;HOARDING SYMPTOMS&quot;" target="&quot;DEPRESSION&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Patients with depression may exhibit hoarding due to fatigue, lack of motivation, and psychomotor retardation."</data>
+      <data key="d6">chunk-0eac57eb8b13247f248b5c9e001aae45</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

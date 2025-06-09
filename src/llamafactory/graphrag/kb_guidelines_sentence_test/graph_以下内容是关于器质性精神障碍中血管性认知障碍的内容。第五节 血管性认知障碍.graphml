@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;血管性认知障碍（VCI）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"血管性认知障碍是一种由脑血管疾病导致的认知功能下降症状。它包括注意下降、反应迟钝、记忆下降等，常见于中老年人群且病因多为卒中。"</data>
+      <data key="d2">chunk-7403ad2a140acdd2b88c2b440e45ba12</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;血管性痴呆（VAD）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"血管性痴呆是血管性认知障碍的一种严重形式，占所有痴呆病例的12%～20%，仅次于阿尔茨海默病。它在脑卒后一年内发病率约为33%，五年综合发病率为仍有31%。"</data>
+      <data key="d2">chunk-7403ad2a140acdd2b88c2b440e45ba12</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;脑卒中（STROKE）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"脑卒中是血管性认知障碍和血管性痴呆的主要病因之一，可以导致运动、感觉、视觉等多方面的功能障碍以及认知损害。"</data>
+      <data key="d2">chunk-7403ad2a140acdd2b88c2b440e45ba12</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;阿尔茨海默病（AD）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"虽然文中未详细描述阿尔茨海默病的具体内容，但提到它与血管性病变的混合类型是可能存在的病因之一。"</data>
+      <data key="d2">chunk-7403ad2a140acdd2b88c2b440e45ba12</data>
+    </node>
+    <node id="&quot;临床评估和检查&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"对疑似存在血管性认知障碍患者进行的一系列评估包括体格检查、精神状态检查、情感行为评估、认知功能评估以及神经影像学和实验室检查等，以辅助诊断并制定治疗方案。"</data>
+      <data key="d2">chunk-7403ad2a140acdd2b88c2b440e45ba12</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;神经精神症状问卷（NPI）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"神经精神症状问卷是一种用于评估患者是否存在非典型情感和行为的工具。"</data>
+      <data key="d2">chunk-7403ad2a140acdd2b88c2b440e45ba12</data>
+    </node>
+    <node id="&quot;精神障碍诊断与统计手册（第五版）（DSM-5）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"精神障碍诊断与统计手册是一套标准，用于分类和诊断各种心理疾病，包括脑血管病相关的情感行为异常。"</data>
+      <data key="d2">chunk-7403ad2a140acdd2b88c2b440e45ba12</data>
+    </node>
+    <node id="&quot;脑小血管病（CEREBRAL SMALL VESSEL DISEASE, CSVD）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"脑小血管病是一种导致认知功能下降的疾病类型，常见于老年人群且进展缓慢。它包括多种亚型如CAA、低灌注等。"</data>
+      <data key="d2">chunk-7403ad2a140acdd2b88c2b440e45ba12</data>
+    </node>
+    <node id="&quot;脑卒中后抑郁（POST-STROKE DEPRESSION, PSD）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"脑卒中后的抑郁症是患者经历情绪问题的一个重要部分，可能影响其康复过程和生活质量。这种情感障碍可发生在从发病到康复的任何阶段，并与疾病严重程度、支持系统等有关。"</data>
+      <data key="d2">chunk-7403ad2a140acdd2b88c2b440e45ba12</data>
+    </node>
+    <node id="&quot;北京协和医院（BEIJING TIANTAN HOSPITAL）&quot;">
+      <data key="d0">"LOCATION"</data>
+      <data key="d1">"虽然文中未具体提及，但在讨论血管性认知障碍的评估与治疗时，提到需要进行神经影像学检查。而北京天坛医院是国内知名的神经科医疗机构之一，具有丰富的相关经验。"</data>
+      <data key="d2">chunk-7403ad2a140acdd2b88c2b440e45ba12</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;脑血管病相关的人格行为异常&quot;">
+      <data key="d2">chunk-7403ad2a140acdd2b88c2b440e45ba12</data>
+      <data key="d1">"神经精神症状问卷用于评估和诊断脑血管病患者可能出现的情感行为问题，如抑郁、焦虑等。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;精神障碍诊断与统计手册（第五版）（DSM-五）&quot;">
+      <data key="d2">chunk-7403ad2a140acdd2b88c2b440e45ba12</data>
+      <data key="d1">"该手册提供了一套标准用于识别和治疗脑血管病后的抑郁症症状，包括情绪不稳定、焦虑等。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;脑卒中后抑郁（PSD）&quot;">
+      <data key="d2">chunk-7403ad2a140acdd2b88c2b440e45ba12</data>
+      <data key="d1">"该手册提供了一套标准用于识别和治疗脑血管病后的抑郁症症状，包括情绪不稳定、焦虑等。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;血管性认知障碍（VCI）&quot;" target="&quot;脑卒中（STROKE）&quot;">
+      <data key="d4">20.0</data>
+      <data key="d5">"脑卒中是导致血管性认知障碍的主要原因。"</data>
+      <data key="d6">chunk-7403ad2a140acdd2b88c2b440e45ba12</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;血管性认知障碍（VCI）&quot;" target="&quot;临床评估和检查&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"对疑似存在血管性认知障碍患者进行一系列评估可以帮助确定诊断并制定治疗方案。"</data>
+      <data key="d6">chunk-7403ad2a140acdd2b88c2b440e45ba12</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;血管性认知障碍（VCI）&quot;" target="&quot;血管性痴呆（VAD）&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"血管性痴呆是血管性认知障碍的一种严重形式，两者之间存在等级关系。"</data>
+      <data key="d6">chunk-7403ad2a140acdd2b88c2b440e45ba12</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;血管性痴呆（VAD）&quot;" target="&quot;脑卒中（STROKE）&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"血管性痴呆是在脑卒中后发生的一种严重形式的认知功能下降症状，占所有痴呆病例的一定比例。"</data>
+      <data key="d6">chunk-7403ad2a140acdd2b88c2b440e45ba12</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;临床评估和检查&quot;" target="&quot;北京协和医院（BEIJING TIANTAN HOSPITAL）&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"作为国内顶尖的神经科医疗机构之一，北京天坛医院在进行血管性认知障碍的诊断与治疗方面具有重要地位。"</data>
+      <data key="d6">chunk-7403ad2a140acdd2b88c2b440e45ba12</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;神经精神症状问卷（NPI）&quot;" target="&quot;脑血管病相关的人格行为异常&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"神经精神症状问卷用于评估和诊断脑血管病患者可能出现的情感行为问题，如抑郁、焦虑等。"</data>
+      <data key="d6">chunk-7403ad2a140acdd2b88c2b440e45ba12</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;精神障碍诊断与统计手册（第五版）（DSM-五）&quot;" target="&quot;脑卒中后抑郁（PSD）&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"该手册提供了一套标准用于识别和治疗脑血管病后的抑郁症症状，包括情绪不稳定、焦虑等。"</data>
+      <data key="d6">chunk-7403ad2a140acdd2b88c2b440e45ba12</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

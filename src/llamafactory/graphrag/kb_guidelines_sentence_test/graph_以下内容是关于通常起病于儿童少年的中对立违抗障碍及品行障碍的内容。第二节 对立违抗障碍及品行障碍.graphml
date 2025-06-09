@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;对立违抗障碍（ODD）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"对立违抗障碍（oppositional defiant disorder，ODD）是儿童期常见的心理行为障碍，主要表现为与发育水平不相符合的、明显的对权威的消极抵抗、挑衅、不服从和敌意等行为特征。"</data>
+      <data key="d2">chunk-fb4472c4a807ddcecd537c81c5917821</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;品行障碍（CD）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"品行障碍是一种严重的外向性行为障碍，指儿童、青少年期出现反复的、持续性的攻击性和反社会性行为，这些行为违反了与其年龄相应的社会行为规范和道德准则。"</data>
+      <data key="d2">chunk-fb4472c4a807ddcecd537c81c5917821</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;注意缺陷多动障碍（ADHD）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"注意缺陷多动障碍是与对立违抗障碍及品行障碍常见的共病疾病之一，对治疗有重要影响。"</data>
+      <data key="d2">chunk-fb4472c4a807ddcecd537c81c5917821</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;心境障碍（MD）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"心境障碍包括焦虑障碍和抑郁障碍等，在对立违抗障碍患者中较为常见。"</data>
+      <data key="d2">chunk-fb4472c4a807ddcecd537c81c5917821</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;双相障碍（BD）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"诊断对立违抗障碍时要与双相障碍进行鉴别，因为两者症状可能有重叠。"</data>
+      <data key="d2">chunk-fb4472c4a807ddcecd537c81c5917821</data>
+    </node>
+    <node id="&quot;家庭环境&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"在对立违抗障碍和品行障碍的发病机制中，不良的家庭环境（如父母养育方式过于严厉、不一致等）起着重要作用。"</data>
+      <data key="d2">chunk-fb4472c4a807ddcecd537c81c5917821</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;学校环境&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"对立违抗障碍的症状在学校环境中尤为明显，表现为对学习无兴趣，常故意拖延时间。"</data>
+      <data key="d2">chunk-fb4472c4a807ddcecd537c81c5917821</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;社区环境&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"品行障碍的治疗需要考虑社会和社区的支持作用，良好的社区环境有助于改善患者的社会适应能力。"</data>
+      <data key="d2">chunk-fb4472c4a807ddcecd537c81c5917821</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;诊断与鉴别诊断流程&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"对立违抗障碍和品行障碍的诊断强调与其他精神疾病（如注意缺陷多动障碍、双相障碍等）进行区分。"</data>
+      <data key="d2">chunk-fb4472c4a807ddcecd537c81c5917821</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;治疗原则与方法&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"对立违抗障碍及品行障碍的治疗包括心理行为干预、家长培训以及药物治疗等多种手段。"</data>
+      <data key="d2">chunk-fb4472c4a807ddcecd537c81c5917821</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;疾病管理流程&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"强调早期发现和个体化综合干预方案，且患者需长期随访观察。"</data>
+      <data key="d2">chunk-fb4472c4a807ddcecd537c81c5917821</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <edge source="&quot;对立违抗障碍（ODD）&quot;" target="&quot;品行障碍（CD）&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"对立违抗障碍可能发展为品行障碍，约有 30%的早发对立违抗障碍会最终发展为品行障碍。"</data>
+      <data key="d6">chunk-fb4472c4a807ddcecd537c81c5917821</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;对立违抗障碍（ODD）&quot;" target="&quot;注意缺陷多动障碍（ADHD）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"对立违抗障碍患者常伴有注意缺陷多动障碍，共病时药物治疗效果更佳。"</data>
+      <data key="d6">chunk-fb4472c4a807ddcecd537c81c5917821</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;对立违抗障碍（ODD）&quot;" target="&quot;心境障碍（MD）&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"对立违抗障碍的儿童中约有 14%共病焦虑障碍和9%共病抑郁障碍。"</data>
+      <data key="d6">chunk-fb4472c4a807ddcecd537c81c5917821</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;对立违抗障碍（ODD）&quot;" target="&quot;家庭环境&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"不良的家庭环境是导致对立违抗障碍的重要因素之一。"</data>
+      <data key="d6">chunk-fb4472c4a807ddcecd537c81c5917821</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;对立违抗障碍（ODD）&quot;" target="&quot;学校环境&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"在学校的环境中，对立违抗障碍的症状更为明显且对学业和社会功能产生负面影响。</data>
+      <data key="d6">chunk-fb4472c4a807ddcecd537c81c5917821</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;对立违抗障碍（ODD）&quot;" target="&quot;诊断与鉴别诊断流程&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"该流程确保了对立违抗障碍的准确诊断，避免与其他精神疾病混淆。"</data>
+      <data key="d6">chunk-fb4472c4a807ddcecd537c81c5917821</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;对立违抗障碍（ODD）&quot;" target="&quot;治疗原则与方法&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"有效的心理行为干预可以减少对立违抗障碍的行为症状。"</data>
+      <data key="d6">chunk-fb4472c4a807ddcecd537c81c5917821</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;品行障碍（CD）&quot;" target="&quot;注意缺陷多动障碍（ADHD）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"品行障碍患者常伴有注意缺陷多动障碍，需要药物治疗来减少对立违抗症状。</data>
+      <data key="d6">chunk-fb4472c4a807ddcecd537c81c5917821</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;品行障碍（CD）&quot;" target="&quot;社区环境&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"良好的社区支持有助于改善品行障碍患者的社会适应能力。"</data>
+      <data key="d6">chunk-fb4472c4a807ddcecd537c81c5917821</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;品行障碍（CD）&quot;" target="&quot;疾病管理流程&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"强调早期发现和个体化综合干预方案，有助于改善预后。"</data>
+      <data key="d6">chunk-fb4472c4a807ddcecd537c81c5917821</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

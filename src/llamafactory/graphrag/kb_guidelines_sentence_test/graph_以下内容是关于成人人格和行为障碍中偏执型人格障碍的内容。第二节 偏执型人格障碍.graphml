@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;偏执型人格障碍 (PPD)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"偏执型人格障碍是一种以无端猜疑和怀疑他人行为为特征的人格障碍，常见于男性，并且在某些精神分裂症或妄想性障碍患者的家庭中更为常见。其病因涉及遗传、脑神经发育和社会心理因素等。"</data>
+      <data key="d2">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;ICD-10&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-10是世界卫生组织制定的国际疾病分类标准，为各种医学和精神健康状况提供诊断标准，包括偏执型人格障碍的诊断标准。"</data>
+      <data key="d2">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;精神分裂症或妄想性障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"精神分裂症或妄想性障碍是一组涉及持续的精神病症状、妄想和其他认知功能受损的精神疾病。"</data>
+      <data key="d2">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;家庭环境&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"家庭环境对个体的心理发展有重大影响，特别是在偏执型人格障碍的形成过程中起着关键作用。"</data>
+      <data key="d2">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;妄想性障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"一种精神疾病，以系统的、基于现实基础或部分现实基础的妄想为主，可能导致严重的人际冲突和功能受损。"&lt;SEP&gt;"妄想性障碍是一组疾病，以系统的、基于现实基础的妄想为主要临床症状。"</data>
+      <data key="d2">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;分裂型人格障碍与反社会型人格障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"这些是两种不同的人格障碍，具有某些重叠的症状，例如人际关系疏离和猜疑心理，但它们在行为表现上有明显的区别。"&lt;SEP&gt;"这些是两种不同的人格障碍，具有某些重叠的症状，例如人际关系疏远和猜疑心理，但它们在行为表现上有明显的区别。"</data>
+      <data key="d2">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;美国流行病学调查&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"进行了一项关于偏执型人格障碍患病率的研究，并发现其在人群中的患病率为2.3%左右，但研究结果因不同样本而有所不同，范围为0.9%～2.4%，男性患者较为常见。"</data>
+      <data key="d2">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;精神分裂症&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"一种严重的精神疾病，涉及持续的妄想、幻觉和混乱思维，并且会影响患者的日常生活能力和社会功能。"</data>
+      <data key="d2">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;分裂型人格障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"一种以怪异的行为模式、不合逻辑的思想以及缺乏情感联系为特征的人格障碍，表现出一些类似精神分裂症的症状。"</data>
+      <data key="d2">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;反社会型人格障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"一种以持续的不遵守法律、规则以及他人权利为特征的人格障碍，并且表现出缺乏悔意或同情心。"</data>
+      <data key="d2">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;临床特征与评估&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"对偏执型人格障碍患者的症状和行为模式进行详细描述，并提供诊断指导和方法。"</data>
+      <data key="d2">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;治疗原则及常用药物&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"提供对偏执型人格障碍患者进行治疗和管理的一般指导原则以及常用的治疗方法。"</data>
+      <data key="d2">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;疾病管理&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"提供对患有偏执型人格障碍的个体进行日常管理和干预的具体策略和方法。"</data>
+      <data key="d2">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;美国&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"美国是一个国家，在这里提到的是进行流行病学调查的地理位置。"</data>
+      <data key="d2">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;性别差异&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"偏执型人格障碍在男性中的发病率高于女性。"</data>
+      <data key="d2">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;家庭成员 &quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"在疾病管理中提到的家庭成员是指患者的直系亲属或其他近亲，他们在患者的心理状态监测和危机干预方面起着重要作用。"</data>
+      <data key="d2">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;精神科医生 &quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"在疾病管理中提到的精神科医生是指专门从事精神健康诊断、评估和治疗的专业人员，他们在处理复杂的心理状况方面具有专业知识。"</data>
+      <data key="d2">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;心理治疗师 &quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"在疾病管理中提到的心理治疗师是指专门从事心理咨询和支持工作的专业人士，他们利用各种技术和方法来促进个人的心理健康和发展。"</data>
+      <data key="d2">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;社区工作者 &quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"在疾病管理中提到的社区工作者是指那些直接服务或支持社区成员的专业人员，在这里指的是为患有精神健康问题的人提供帮助和资源的工作人员。"</data>
+      <data key="d2">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;偏执型人格障碍 (PPD)&quot;" target="&quot;ICD-10&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"ICD-10提供了偏执型人格障碍的诊断标准，帮助临床医生进行准确的评估和诊断。"</data>
+      <data key="d6">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;偏执型人格障碍 (PPD)&quot;" target="&quot;精神分裂症或妄想性障碍&quot;">
+      <data key="d4">12.0</data>
+      <data key="d5">"偏执型人格障碍患者可能在应激事件中出现短暂精神病性症状，但这些症状通常不会持续很长时间，不足以诊断为精神分裂症或其他精神病性疾病。"</data>
+      <data key="d6">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;偏执型人格障碍 (PPD)&quot;" target="&quot;家庭环境&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"偏执型人格障碍患者的病因与遗传和脑神经发育因素有关，而社会心理因素中特别重要的是家庭环境的影响。"</data>
+      <data key="d6">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;偏执型人格障碍 (PPD)&quot;" target="&quot;妄想性障碍&quot;">
+      <data key="d4">21.0</data>
+      <data key="d5">"虽然两者都涉及怀疑和猜疑的症状，但偏执型人格障碍患者的妄想通常没有持久的精神病学背景支持，并且不会导致与日常生活和工作严重冲突的系统性妄想。"</data>
+      <data key="d6">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;偏执型人格障碍 (PPD)&quot;" target="&quot;分裂型人格障碍与反社会型人格障碍&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"虽然存在一些症状上的相似之处，如人际交往中的疏离感或敌意，但是这些不同的人格障碍在患者的具体行为和动机上有显著的区别。例如，偏执型人格障碍患者的暴力倾向更多是基于报复心理而非持续的对抗性性格特质。"</data>
+      <data key="d6">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;偏执型人格障碍 (PPD)&quot;" target="&quot;美国流行病学调查&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"这项研究表明了偏执型人格障碍在美国人群中的患病率及其特征分布。"</data>
+      <data key="d6">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;偏执型人格障碍 (PPD)&quot;" target="&quot;精神分裂症&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"偏执型人格障碍患者可能在某些情况下表现出类似精神病的症状，但这些症状通常是短暂的，并不意味着患有真正的精神分裂症。"</data>
+      <data key="d6">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;偏执型人格障碍 (PPD)&quot;" target="&quot;分裂型人格障碍&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"两者在人际交往中的疏离感和猜疑心理上有相似之处，但它们的行为表现有所不同。"</data>
+      <data key="d6">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;偏执型人格障碍 (PPD)&quot;" target="&quot;反社会型人格障碍&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"虽然两者在某些方面有相似之处，但偏执型人格障碍患者的行为更多基于报复心理而非持续的对抗性性格特质。"</data>
+      <data key="d6">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;偏执型人格障碍 (PPD)&quot;" target="&quot;临床特征与评估&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"这部分提供了关于偏执型人格障碍的详细临床信息，帮助医生更好地理解其症状表现并做出准确诊断。"</data>
+      <data key="d6">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;偏执型人格障碍 (PPD)&quot;" target="&quot;治疗原则及常用药物&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"这部分为医疗专业人士提供了关于如何处理偏执型人格障碍患者的治疗方案建议，包括心理疗法、药物和其他支持性措施。"</data>
+      <data key="d6">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;偏执型人格障碍 (PPD)&quot;" target="&quot;疾病管理&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"这部分强调了家庭成员或社区工作者在帮助患者减少危险行为中的重要作用，包括密切观察、深入了解心理状态等措施，并建议必要时寻求专业精神科医生的帮助。"</data>
+      <data key="d6">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;偏执型人格障碍 (PPD)&quot;" target="&quot;性别差异&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"研究表明，男性比女性更容易患上偏执型人格障碍，这可能与生理或心理因素有关。"</data>
+      <data key="d6">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;偏执型人格障碍 (PPD)&quot;" target="&quot;家庭成员 &quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"家庭成员通过密切观察和支持帮助患有偏执型人格障碍的个体减少风险行为，并促进他们获得必要的专业治疗。"</data>
+      <data key="d6">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;偏执型人格障碍 (PPD)&quot;" target="&quot;精神科医生 &quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"精神科医生提供专业治疗和干预措施，帮助患有偏执型人格障碍的个体管理和缓解症状。"</data>
+      <data key="d6">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;偏执型人格障碍 (PPD)&quot;" target="&quot;心理治疗师 &quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"心理治疗师提供专业咨询和干预措施，帮助患有偏执型人格障碍的个体理解和处理其症状，并改善生活质量。"</data>
+      <data key="d6">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;偏执型人格障碍 (PPD)&quot;" target="&quot;社区工作者 &quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"社区工作者通过密切监测和支持，帮助患者在日常生活中应对挑战，并减少危险行为的发生。"</data>
+      <data key="d6">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;美国流行病学调查&quot;" target="&quot;美国&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"这项研究在美国进行了，提供了有关偏执型人格障碍患病率和特征的信息。"</data>
+      <data key="d6">chunk-87136bd0370a92281020046e3eea09b3</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

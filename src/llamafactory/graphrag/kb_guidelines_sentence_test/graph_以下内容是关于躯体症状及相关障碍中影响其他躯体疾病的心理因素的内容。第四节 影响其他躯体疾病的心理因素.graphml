@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;DSM-5&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"DSM-5 is a classification system used by mental health professionals for diagnosing psychiatric disorders, which includes the category of psychological factors affecting other medical conditions (PFAOMC)."</data>
+      <data key="d2">chunk-973521ab2d677c3c5f398602b55d5d34</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;精神科医生&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"精神科医生 refers to psychiatrists who are involved in diagnosing and treating mental health issues that may affect physical health conditions."</data>
+      <data key="d2">chunk-973521ab2d677c3c5f398602b55d5d34</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;躯体疾病&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"躯体疾病 refers to physical diseases or medical conditions influenced by psychological factors as per the PFAOMC category in DSM-5."</data>
+      <data key="d2">chunk-973521ab2d677c3c5f398602b55d5d34</data>
+    </node>
+    <node id="&quot;心理因素影响其他躯体疾病&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"心理因素影响其他躯体疾病 refers to psychological factors that negatively impact physical diseases or medical conditions according to the DSM-5 classification."</data>
+      <data key="d2">chunk-973521ab2d677c3c5f398602b55d5d34</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;临床医生&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"临床医生 are healthcare professionals who diagnose and treat patients, including those with PFAOMC (psychological factors affecting other medical conditions)."</data>
+      <data key="d2">chunk-973521ab2d677c3c5f398602b55d5d34</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;躯体症状及相关障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"躯体症状及相关障碍 is the broader category in DSM-5 that encompasses psychological disorders related to physical symptoms or diseases."</data>
+      <data key="d2">chunk-973521ab2d677c3c5f398602b55d5d34</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;心理因素&quot;">
+      <data key="d2">chunk-973521ab2d677c3c5f398602b55d5d34</data>
+      <data key="d1">"心理因素 are factors identified in the DSM-5's PFAOMC category, which can negatively impact 躯体疾病的 course, treatment efficacy, or outcome."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;DSM-5&quot;" target="&quot;精神科医生&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"DSM-5 provides a classification system for psychiatrists (精神科医生) to diagnose and treat mental health issues that affect physical diseases."</data>
+      <data key="d6">chunk-973521ab2d677c3c5f398602b55d5d34</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;精神科医生&quot;" target="&quot;临床医生&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"临床医生 collaborate with 精神科医生 to manage patients whose physical diseases are influenced by psychological factors."</data>
+      <data key="d6">chunk-973521ab2d677c3c5f398602b55d5d34</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;躯体疾病&quot;" target="&quot;心理因素&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"心理因素 are factors identified in the DSM-5's PFAOMC category, which can negatively impact 躯体疾病的 course, treatment efficacy, or outcome."</data>
+      <data key="d6">chunk-973521ab2d677c3c5f398602b55d5d34</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;心理因素影响其他躯体疾病&quot;" target="&quot;临床医生&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"临床医生 play a crucial role in identifying and managing cases where psychological factors (心理因素) negatively impact other medical conditions."</data>
+      <data key="d6">chunk-973521ab2d677c3c5f398602b55d5d34</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;心理因素影响其他躯体疾病&quot;" target="&quot;躯体症状及相关障碍&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"心理因素影响其他躯体疾病 is a subcategory under 躯体症状及相关障碍, focusing specifically on the impact of psychological factors on physical health."</data>
+      <data key="d6">chunk-973521ab2d677c3c5f398602b55d5d34</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;选择性缄默症 (SM)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"选择性缄默症是一种在儿童早期起病的疾病，表现为患者对某些场合的语言表达有明显的限制。其病因涉及生物学因素及环境因素的相互作用，发病机制尚不完全清楚，但与社交焦虑障碍有一定遗传重叠。治疗以心理疗法为主，辅以语言训练和药物治疗（如氟西汀）。"</data>
+      <data key="d2">chunk-1130b61bf0f8f7e3153f07ab35319119</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;童年反应性依恋障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"这是一种在婴儿期由于不良照料模式或社会忽视导致的儿童精神障碍，主要特征是与发育水平不适应的情感退缩行为以及社交和情绪障碍。其发病率低，且需经历严重的社会忽视。治疗重点在于改善养育者与患儿的关系，并提供一个有利于发展安全性依恋的社会环境。"</data>
+      <data key="d2">chunk-1130b61bf0f8f7e3153f07ab35319119</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;童年脱抑制性依恋障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"这是一种由婴幼儿期极度不充分的照料模式导致的儿童精神障碍，主要特征是主动与陌生成人交往的行为模式，表现为过度熟悉行为。治疗同样侧重于改善养育者与患儿之间的关系，并创造一个有利于发展安全性依恋的社会环境。"</data>
+      <data key="d2">chunk-1130b61bf0f8f7e3153f07ab35319119</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;社交焦虑障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"社交焦虑障碍是一种常见的儿童心理问题，与选择性缄默症有遗传方面的重叠。在治疗中，它通常作为共病存在并需要特别关注和处理。"</data>
+      <data key="d2">chunk-1130b61bf0f8f7e3153f07ab35319119</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;孤独症谱系障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"孤独症谱系障碍是另一种涉及社交交流障碍、局限的兴趣或仪式行为的儿童心理问题。与童年反应性依恋障碍有明显的区别，尤其是在社会忽视的历史方面。"</data>
+      <data key="d2">chunk-1130b61bf0f8f7e3153f07ab35319119</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;智力发育障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"这是一种影响智力发展的疾病，患者通常会表现出与其年龄相适应的依恋行为，并且没有出现正性情感减少和情绪调节困难的情况。"</data>
+      <data key="d2">chunk-1130b61bf0f8f7e3153f07ab35319119</data>
+    </node>
+    <node id="&quot;抑郁障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"儿童抑郁障碍是另一种涉及情绪问题的疾病，尽管表现出正性情感减少，但仍然寻求并回应来自照料者的抚慰。与童年反应性依恋障碍有明显的区别。"</data>
+      <data key="d2">chunk-1130b61bf0f8f7e3153f07ab35319119</data>
+    </node>
+    <node id="&quot;注意缺陷多动障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"这是一种影响孩子注意力和行为控制能力的心理障碍，通常表现为社交冲动，但是没有脱抑制依恋障碍中的过度熟悉行为特征。"</data>
+      <data key="d2">chunk-1130b61bf0f8f7e3153f07ab35319119</data>
+    </node>
+    <edge source="&quot;选择性缄默症 (SM)&quot;" target="&quot;童年反应性依恋障碍&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"两者均属于儿童期起病的精神障碍，但具体临床特征及治疗方法有所不同."</data>
+      <data key="d6">chunk-1130b61bf0f8f7e3153f07ab35319119</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;选择性缄默症 (SM)&quot;" target="&quot;童年脱抑制性依恋障碍&quot;">
+      <data key="d4">12.0</data>
+      <data key="d5">"两者都涉及儿童早期的心理健康问题，并且治疗方案都需要家庭、学校和社会的紧密合作以改善患者的社会功能。</data>
+      <data key="d6">chunk-1130b61bf0f8f7e3153f07ab35319119</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;选择性缄默症 (SM)&quot;" target="&quot;社交焦虑障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"两者存在遗传方面的重叠，并且在诊断时需要相互考虑共病情况。</data>
+      <data key="d6">chunk-1130b61bf0f8f7e3153f07ab35319119</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;童年反应性依恋障碍&quot;" target="&quot;童年脱抑制性依恋障碍&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"两者皆由婴幼儿期极度不充分的照料模式导致，但具体表现及治疗方法有所不同。"</data>
+      <data key="d6">chunk-1130b61bf0f8f7e3153f07ab35319119</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;童年反应性依恋障碍&quot;" target="&quot;孤独症谱系障碍&quot;">
+      <data key="d4">4.0</data>
+      <data key="d5">"两者是两种不同的儿童心理问题，都需要详细的精神状况检查以区分它们的症状和治疗需求。</data>
+      <data key="d6">chunk-1130b61bf0f8f7e3153f07ab35319119</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;智力发育障碍&quot;" target="&quot;抑郁障碍&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"两者都表现为情绪问题或发展延迟，但是诊断标准不同，并且需要采取不同的治疗方法。"</data>
+      <data key="d6">chunk-1130b61bf0f8f7e3153f07ab35319119</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;FTD&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"FTD, or frontotemporal dementia, refers to a group of dementias characterized by progressive behavioral abnormalities, executive dysfunction, and language impairment."</data>
+      <data key="d2">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;BVFTD&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Behavior variant frontal temporal dementia (bvFTD) is one subtype of FTD where individuals exhibit social behavior inappropriateness and personality changes."</data>
+      <data key="d2">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;PNFA&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Progressive non-fluent aphasia (PNFA) is a subtype of FTD characterized by progressive difficulty with speech fluency, grammar, and articulation."</data>
+      <data key="d2">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;SD&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Semantic dementia (SD) refers to a condition within the FTD spectrum where individuals suffer from progressive loss of semantic knowledge including objects, people, events, and words."</data>
+      <data key="d2">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;皮克氏病(PICK'S DISEASE)&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Pick's disease is an atypical form of frontotemporal dementia with distinctive histopathological features, characterized by Pick bodies containing hyperphosphorylated tau protein."</data>
+      <data key="d2">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+    </node>
+    <node id="&quot;TDP-43 染色阳性额颞叶变性&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"TDP-43 positive FTD refers to a subtype of FTD where TDP-43 (transactive response DNA binding protein 43 kDa) is the primary pathological hallmark."</data>
+      <data key="d2">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+    </node>
+    <node id="&quot;TAU 染色阳性额颞叶变性&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"Tau-positive FTD refers to a form of frontotemporal dementia characterized by tau protein accumulation, often associated with extrapyramidal diseases."</data>
+      <data key="d2">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+    </node>
+    <node id="&quot;进行性核上性麻痹(PSP)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Progressive supranuclear palsy (PSP) is one motor neuron disease that can co-occur in some cases of frontotemporal dementia."</data>
+      <data key="d2">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+    </node>
+    <node id="&quot;皮层基底节变性(CBD)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Corticobasal degeneration (CBD) is a neurodegenerative disorder that may occur alongside FTD, causing motor and cognitive symptoms."</data>
+      <data key="d2">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+    </node>
+    <node id="&quot;中国失语症语言评估量表&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The Chinese Aphasia Battery is a language assessment tool used for evaluating language function in patients with aphasia."</data>
+      <data key="d2">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+    </node>
+    <node id="&quot;额叶功能评定量表&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Frontal Lobe Evaluation Scale (FLES) is an evaluation scale used to assess frontal lobe functions and behavioral changes associated with FTD."</data>
+      <data key="d2">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+    </node>
+    <node id="&quot;威斯康星卡片测验&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Wisconsin Card Sorting Test is a neuropsychological test that evaluates cognitive flexibility, abstract reasoning, and executive function."</data>
+      <data key="d2">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+    </node>
+    <node id="&quot;STROOP 测验&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Stroop Test is a psychological test used to measure selective attention, cognitive flexibility, and conflict resolution."</data>
+      <data key="d2">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+    </node>
+    <node id="&quot;语义流畅性测验&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Semantic Fluency Test assesses the ability to retrieve semantically related words from memory, important in diagnosing semantic dementia."</data>
+      <data key="d2">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+    </node>
+    <node id="&quot;波士顿命名测验&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Boston Naming Test is a standardized language test used to evaluate naming abilities and verbal fluency in aphasic patients."</data>
+      <data key="d2">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+    </node>
+    <node id="&quot;FLANKER 测验&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Flanker Test evaluates an individual's ability to inhibit responses to conflicting stimuli, measuring cognitive control and executive function."</data>
+      <data key="d2">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+    </node>
+    <node id="&quot;轻度行为损害症状问卷(MBI-C)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"MBI-C is a questionnaire used for assessing behavioral disturbances in patients with neurocognitive disorders such as FTD."</data>
+      <data key="d2">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+    </node>
+    <node id="&quot;神经精神症状问卷(NPI)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"NPI is an assessment tool for evaluating neuropsychiatric symptoms associated with neurodegenerative diseases like frontotemporal dementia."</data>
+      <data key="d2">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;淡漠评定量表&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"Apathy Evaluation Scale (AES) used to evaluate the severity of apathy in neurological patients, often seen in bvFTD."</data>
+      <data key="d2">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+    </node>
+    <node id="&quot;额颞叶痴呆&quot;">
+      <data key="d2">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+      <data key="d1">"The Frontal Lobe Evaluation Scale is commonly used for assessing behavioral changes and cognitive impairments associated with FTD."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;语义性痴呆&quot;">
+      <data key="d2">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+      <data key="d1">"The Chinese Aphasia Battery helps diagnose semantic dementia by evaluating language comprehension and expression."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;FTD&quot;" target="&quot;BVFTD&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Behavior variant frontal temporal dementia (bvFTD) is a specific subtype of frontotemporal dementia (FTD), characterized by social behavior inappropriateness and personality changes."</data>
+      <data key="d6">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;FTD&quot;" target="&quot;PNFA&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Progressive non-fluent aphasia (PNFA) is another subtype within the spectrum of FTD, specifically involving progressive speech fluency issues and grammatical deficits."</data>
+      <data key="d6">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;FTD&quot;" target="&quot;SD&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"Semantic dementia (SD) falls under the broader category of frontotemporal dementia (FTD), particularly affecting semantic knowledge such as object recognition and word comprehension."</data>
+      <data key="d6">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;BVFTD&quot;" target="&quot;神经精神症状问卷(NPI)&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"NPI is an important tool for assessing neuropsychiatric symptoms in patients with behavioral variant frontotemporal dementia (bvFTD), helping to monitor and manage these symptoms."</data>
+      <data key="d6">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;皮克氏病(PICK'S DISEASE)&quot;" target="&quot;TDP-43 染色阳性额颞叶变性&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"Pick’s disease is a form of frontotemporal dementia that is often linked to TDP-4s protein pathology, indicating the significance of molecular pathology in its diagnosis."</data>
+      <data key="d6">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;皮克氏病(PICK'S DISEASE)&quot;" target="&quot;TAU 染色阳性额颞叶变性&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Pick’s disease may also present with tau protein accumulation, highlighting the diversity in pathological markers within frontotemporal dementia subtypes."</data>
+      <data key="d6">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;TDP-43 染色阳性额颞叶变性&quot;" target="&quot;进行性核上性麻痹(PSP)&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Patients with TDP-43 positive FTD may also exhibit symptoms of progressive supranuclear palsy (PSP), suggesting a connection between motor neuron disease and frontotemporal dementia."</data>
+      <data key="d6">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;TAU 染色阳性额颞叶变性&quot;" target="&quot;皮层基底节变性(CBD)&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"Tau-positive FTD often coexists with corticobasal degeneration (CBD), indicating a strong link between tau pathology and motor neuron disease in frontotemporal dementia."</data>
+      <data key="d6">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;中国失语症语言评估量表&quot;" target="&quot;语义性痴呆&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The Chinese Aphasia Battery helps diagnose semantic dementia by evaluating language comprehension and expression."</data>
+      <data key="d6">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;额叶功能评定量表&quot;" target="&quot;额颞叶痴呆&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The Frontal Lobe Evaluation Scale is commonly used for assessing behavioral changes and cognitive impairments associated with FTD."</data>
+      <data key="d6">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;波士顿命名测验&quot;" target="&quot;额颞叶痴呆&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The Boston Naming Test is used in the clinical evaluation of FTD to assess naming abilities and verbal fluency, which are impaired in many subtypes of FTD."</data>
+      <data key="d6">chunk-1b5fe560aeada9326c568ea17c432b3d</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

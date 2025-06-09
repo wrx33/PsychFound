@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;游戏障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"游戏障碍是指持续或反复地使用电子或视频游戏的行为模式，其临床特征主要表现为失控的游戏行为和将游戏作为生活中的优先事项。它与神经生物学、心理学和社会学因素有关。"</data>
+      <data key="d2">chunk-915856ec68d9f41b92cebaac1ddfc7c7</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;线上游戏障碍（GAMING DISORDER, PREDOMINANTLY ONLINE）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"这是指在互联网上使用电子或视频游戏的行为模式，表现出控制游戏的能力下降，并且由于游戏导致负面后果而持续进行。"</data>
+      <data key="d2">chunk-915856ec68d9f41b92cebaac1ddfc7c7</data>
+    </node>
+    <node id="&quot;线下游戏障碍（GAMING DISORDER, PREDOMINANTLY OFFLINE）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"这是一种未通过互联网进行的电子或视频游戏行为模式，同样表现为失控的游戏行为和对游戏作为生活的优先事项的关注。"</data>
+      <data key="d2">chunk-915856ec68d9f41b92cebaac1ddfc7c7</data>
+    </node>
+    <node id="&quot;中国&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"文中提到在中国进行了多项关于游戏障碍的相关调查研究，显示了不同的患病率。这些研究对于了解亚洲国家中青少年和儿童中的游戏障碍问题具有重要价值。</data>
+      <data key="d2">chunk-915856ec68d9f41b92cebaac1ddfc7c7</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;多巴胺转运体&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"游戏中大脑的多巴胺转运体水平下降以及受体占有率降低，这表明与愉悦及认知控制相关的神经传导发生了变化。"</data>
+      <data key="d2">chunk-915856ec68d9f41b92cebaac1ddfc7c7</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;强制循环（COMPULSION LOOP）或核心循环（CORE LOOP）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"这是成瘾性游戏设计中的原理，通过渐进性的习惯性和设计好的活动链来逐渐增加获得的多巴胺奖励，使玩家对游戏产生更强的依赖。"</data>
+      <data key="d2">chunk-915856ec68d9f41b92cebaac1ddfc7c7</data>
+    </node>
+    <node id="&quot;美国精神病协会&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"推荐使用该组织提供的网络游戏障碍诊断标准来进行快速判断，以评估和识别疑似患者是否患有网络游戏障碍。"</data>
+      <data key="d2">chunk-915856ec68d9f41b92cebaac1ddfc7c7</data>
+    </node>
+    <node id="&quot;神经生物学因素&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"游戏障碍与大脑结构和功能的异常有关，尤其是额叶区域、纹状体等脑区。这些变化包括执行控制功能下降、冲动性增强、认知灵活性降低等。"</data>
+      <data key="d2">chunk-915856ec68d9f41b92cebaac1ddfc7c7</data>
+    </node>
+    <node id="&quot;心理学因素&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"游戏障碍患者通常表现出高冲动性、高神经质、内向的性格特点，并可能伴有情绪调节问题如抑郁和焦虑，这与游戏行为的失控有关。"</data>
+      <data key="d2">chunk-915856ec68d9f41b92cebaac1ddfc7c7</data>
+    </node>
+    <node id="&quot;社会学因素&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"家庭和社会环境对游戏障碍的发生有重要影响，包括父母教养方式、学校氛围等。不良的社会支持系统增加了患病风险。"</data>
+      <data key="d2">chunk-915856ec68d9f41b92cebaac1ddfc7c7</data>
+    </node>
+    <node id="&quot;成瘾性网络游戏的设计原理&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"基于'强迫循环'或‘核心循环’设计原理的游戏通过逐步增加玩家的多巴胺奖励来增强游戏黏性，导致玩家更容易上瘾并减少对现实生活活动的关注。"</data>
+      <data key="d2">chunk-915856ec68d9f41b92cebaac1ddfc7c7</data>
+    </node>
+    <node id="&quot;精神障碍共病&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"游戏障碍患者常伴有其他精神疾病如注意缺陷多动障碍、抑郁障碍等，这些共存的精神健康问题需要在治疗中加以考虑和处理。"</data>
+      <data key="d2">chunk-915856ec68d9f41b92cebaac1ddfc7c7</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;早期干预措施&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"对于疑似游戏障碍的个体，在儿童青少年阶段实施预防性干预至关重要，有助于减少发病率和减轻疾病负担。"</data>
+      <data key="d2">chunk-915856ec68d9f41b92cebaac1ddfc7c7</data>
+    </node>
+    <node id="&quot;认知行为疗法&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"这是一种常用的社会心理治疗手段，旨在纠正患者错误的认知偏差并增强其戒断动机，从而有效改善控制游戏的行为。"</data>
+      <data key="d2">chunk-915856ec68d9f41b92cebaac1ddfc7c7</data>
+    </node>
+    <node id="&quot;成瘾性游戏&quot;">
+      <data key="d2">chunk-915856ec68d9f41b92cebaac1ddfc7c7</data>
+      <data key="d1">"这种设计原理被广泛用于成瘾性游戏中，使玩家更容易沉迷于游戏并减少他们对现实生活活动的参与度。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;游戏障碍&quot;" target="&quot;中国&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"中国的调查研究显示了游戏障碍在儿童青少年中的患病率为3.5%～17%，并且男性、特别是儿童青少年人群更容易受到影响。"</data>
+      <data key="d6">chunk-915856ec68d9f41b92cebaac1ddfc7c7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;游戏障碍&quot;" target="&quot;多巴胺转运体&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"在患者的大脑中观察到的多巴胺转运体水平下降以及受体占有率降低是与游戏障碍相关的神经生物学变化的表现之一，提示了愉悦及认知控制方面的改变。"</data>
+      <data key="d6">chunk-915856ec68d9f41b92cebaac1ddfc7c7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;游戏障碍&quot;" target="&quot;精神障碍共病&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"治疗游戏障碍时需要考虑患者是否存在其他精神疾病，这些共存问题可能会增加治疗难度并影响预后效果。"</data>
+      <data key="d6">chunk-915856ec68d9f41b92cebaac1ddfc7c7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;线上游戏障碍（GAMING DISORDER, PREDOMINANTLY ONLINE）&quot;" target="&quot;线下游戏障碍（GAMING DISORDER, PREDOMINANTLY OFFLINE）&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"两者都是游戏障碍的具体类型，虽然它们主要发生在不同的环境中，但都表现出相似的行为特征和病理机制。"</data>
+      <data key="d6">chunk-915856ec68d9f41b92cebaac1ddfc7c7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;强制循环（COMPULSION LOOP）或核心循环（CORE LOOP）&quot;" target="&quot;成瘾性游戏&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"这种设计原理被广泛用于成瘾性游戏中，使玩家更容易沉迷于游戏并减少他们对现实生活活动的参与度。"</data>
+      <data key="d6">chunk-915856ec68d9f41b92cebaac1ddfc7c7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;强制循环（COMPULSION LOOP）或核心循环（CORE LOOP）&quot;" target="&quot;成瘾性网络游戏的设计原理&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"这种设计方法被广泛应用在各种游戏中，通过逐步强化奖励机制来促进玩家的持续参与和依赖行为。"</data>
+      <data key="d6">chunk-915856ec68d9f41b92cebaac1ddfc7c7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;神经生物学因素&quot;" target="&quot;心理学因素&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"两者相互作用影响游戏障碍的发生和发展，例如执行功能下降可能会导致更高的冲动性和情绪调节问题。"</data>
+      <data key="d6">chunk-915856ec68d9f41b92cebaac1ddfc7c7</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;心理学因素&quot;" target="&quot;社会学因素&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"负面的家庭和社会环境可能加剧个体的心理健康问题（如抑郁和焦虑），从而增加游戏障碍的风险。"</data>
+      <data key="d6">chunk-915856ec68d9f41b92cebaac1ddfc7c7</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

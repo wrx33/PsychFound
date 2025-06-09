@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;ICD-10&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"ICD-10是世界卫生组织发布的一个国际疾病分类标准，用于诊断和报告各种精神健康状况及其它医疗条件。急性短暂性精神病性障碍（ATPD）于1992年被正式引入到该系统中作为一项新的诊断类别。"</data>
+      <data key="d2">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;急性短暂性精神病性障碍 (ATPD)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"急性短暂性精神病性障碍是一种以急性发病的幻觉、妄想等症状为特征的精神病，通常在两周内达到最严重状态并在2至3个月内完全康复。该障碍可能与遗传因素、社会经济地位等因素有关，且其预后较好，但诊断稳定性较差。"</data>
+      <data key="d2">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;精神分裂症&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"精神分裂症是一种主要的精神疾病，通常表现为持续的妄想、幻觉、语言混乱等症状，并可能导致严重的心理功能障碍和社交问题。急性短暂性精神病性障碍患者在长期随访中可能被修正为患有精神分裂症或其他类似状况如双相障碍。"</data>
+      <data key="d2">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;双相障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"双相障碍是一种情绪性疾病，其特征是情绪状态的极端波动，在极度兴奋（躁狂）和深度抑郁之间交替出现。急性短暂性精神病性障碍患者可能在长期随访中被修正为患有此病。"</data>
+      <data key="d2">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;分裂情感性精神障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"这是一种同时具有典型的分裂症状（如妄想、幻觉）与情感紊乱的精神疾病，通常以急性发作开始并较快缓解。这种疾病的症状包括情绪波动以及思维和行为的混乱。"</data>
+      <data key="d2">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;世界卫生组织 (WHO)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"世界卫生组织是一个国际性组织，负责制定和更新国际疾病分类标准（ICD），用于全球范围内疾病的诊断和统计。"</data>
+      <data key="d2">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;躯体器质性疾病&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"躯体器质性疾病是指由身体器官或系统的病变引起的疾病状态，这些疾病可能会导致精神症状的发生。"</data>
+      <data key="d2">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;药物中毒&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"药物中毒指的是由于摄入过量的药物或其他化学物质而引起的身体及精神上的不良反应和损害。"</data>
+      <data key="d2">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;急性应激障碍 (ASD)&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"急性应激障碍是一种因暴露于极度或威胁生命的事件后立即发生的短期心理创伤反应，症状包括幻觉、妄想等精神病性表现但通常在几个月内自行缓解。"</data>
+      <data key="d2">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;躁狂发作 &quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"躁狂发作是情绪高涨、兴奋话多等症状的急性发作状态，与环境相协调，区别于其他精神障碍如分裂情感性障碍和抑郁发作。"</data>
+      <data key="d2">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;抑郁发作 &quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"抑郁发作是一种心境低落、思维迟缓等情绪症状的长期或短期发病模式，通常发展缓慢且持续较长时间。"</data>
+      <data key="d2">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;谵妄状态 &quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"谵妄是指急性起病的认知功能障碍和意识水平下降的状态，表现为幻觉、妄想等症状，并伴有注意力分散和其他认知缺陷。"</data>
+      <data key="d2">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;肝性脑病 &quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"肝性脑病是一种由于肝脏功能严重受损导致的神经精神症状综合症，常伴随有代谢紊乱和神经系统异常的表现。"</data>
+      <data key="d2">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;肺性脑病 &quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"肺性脑病是由慢性呼吸衰竭引起的中枢神经系统功能障碍状态，表现为意识模糊、幻觉等精神病表现。"</data>
+      <data key="d2">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <edge source="&quot;ICD-10&quot;" target="&quot;急性短暂性精神病性障碍 (ATPD)&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"ICD-10包含了急性短暂性精神病性障碍这一诊断类别，为该疾病提供了标准化的定义与分类。"</data>
+      <data key="d6">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;ICD-10&quot;" target="&quot;世界卫生组织 (WHO)&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"世界卫生组织发布并更新了国际疾病分类标准（ICD），其中包括急性短暂性精神病性障碍的诊断定义和分类。"</data>
+      <data key="d6">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性短暂性精神病性障碍 (ATPD)&quot;" target="&quot;精神分裂症&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"急性短暂性精神病性障碍患者在长期随访中可能被修正为患有精神分裂症，提示两者之间可能存在某种关联。"</data>
+      <data key="d6">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性短暂性精神病性障碍 (ATPD)&quot;" target="&quot;双相障碍&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"同样地，急性短暂性精神病性障碍患者的诊断也可能随着时间推移而转变为双相障碍，说明它们在临床上可能有相似之处或重叠的部分。"</data>
+      <data key="d6">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性短暂性精神病性障碍 (ATPD)&quot;" target="&quot;分裂情感性精神障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"两者在症状表现上有一定的相似性，如都可急性发作并伴随幻觉和妄想等症状，这使得诊断时需要进行详细的鉴别评估。"</data>
+      <data key="d6">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性短暂性精神病性障碍 (ATPD)&quot;" target="&quot;躯体器质性疾病&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"在排除躯体器质性疾病的情况下才能确诊急性短暂性精神病性障碍，表明这些疾病可能导致类似的精神症状但需区分开来诊断。"</data>
+      <data key="d6">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性短暂性精神病性障碍 (ATPD)&quot;" target="&quot;药物中毒&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"同样地，需要与药物或酒精中毒导致的急性精神症状进行鉴别以准确诊断急性短暂性精神病性障碍。"</data>
+      <data key="d6">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性短暂性精神病性障碍 (ATPD)&quot;" target="&quot;急性应激障碍 (ASD)&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"虽然两者都可能表现出幻觉和妄想的症状，但急性应激障碍通常由明显的心理创伤触发且预后良好，不同于ATPD的长期复杂性和潜在的精神分裂症风险。"</data>
+      <data key="d6">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性短暂性精神病性障碍 (ATPD)&quot;" target="&quot;躁狂发作 &quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"在鉴别诊断中需要区分两者，因为虽然都可能有情绪高涨的症状，但躁狂发作的特点是与环境协调且精神状态良好，而不是突然出现的精神病症状。"</data>
+      <data key="d6">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性短暂性精神病性障碍 (ATPD)&quot;" target="&quot;抑郁发作 &quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"尽管存在一些重叠的临床特征，如情感变化和行为退缩，但抑郁症发展较为缓慢，没有典型的急性精神病性爆发特点。"</data>
+      <data key="d6">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性短暂性精神病性障碍 (ATPD)&quot;" target="&quot;谵妄状态 &quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"与ATPD相似的是两者都可能表现出幻觉、妄想等症状，但谵妄是由于生理原因而非心理因素所致，并且症状通常可逆。"</data>
+      <data key="d6">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性短暂性精神病性障碍 (ATPD)&quot;" target="&quot;肝性脑病 &quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"虽然两者的临床表现上有些相似之处，如幻觉、行为紊乱等，但肝性脑病是由肝脏功能严重受损直接引起的，并需要特定的治疗方法。"</data>
+      <data key="d6">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性短暂性精神病性障碍 (ATPD)&quot;" target="&quot;肺性脑病 &quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"两者都可能表现出精神症状，但在诊断时应考虑到病因的不同，即肺性脑病由呼吸系统疾病导致，而非单纯的神经系统或心理功能异常。"</data>
+      <data key="d6">chunk-b59a7983f4230ba8b84e8265b006bb2c</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

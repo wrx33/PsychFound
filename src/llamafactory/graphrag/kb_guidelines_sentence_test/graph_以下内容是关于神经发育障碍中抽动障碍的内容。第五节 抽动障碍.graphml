@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;TOURETTE 综合征&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Tourette 综合征是一种严重的抽动障碍类型，表现为多种形式的运动和发声抽动，并且常伴有其他神经发育或情绪行为障碍。"</data>
+      <data key="d2">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+    </node>
+    <node id="&quot;短暂性抽动障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"短暂性抽动障碍是儿童期常见的抽动障碍，症状较轻且一般自行缓解。"</data>
+      <data key="d2">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+    </node>
+    <node id="&quot;慢性运动（或发声）抽动障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"慢性运动（或发声）抽动障碍是一种持续时间较长的抽动障碍，患者通常在青少年晚期或成年早期逐渐缓解，但部分可能终身存在症状。"</data>
+      <data key="d2">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+    </node>
+    <node id="&quot;ICD-11&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"ICD-11 is an international classification of diseases that includes diagnostic criteria for various conditions, including Tourette Syndrome and other chronic tic disorders."</data>
+      <data key="d2">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+    </node>
+    <node id="&quot;DSM-5&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"The DSM-5 (Diagnostic and Statistical Manual of Mental Disorders) provides diagnostic criteria used in clinical settings to diagnose mental health disorders, including Tourette Syndrome and other tic disorders."</data>
+      <data key="d2">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;YGTSS (YALE GLOBAL TIC SEVERITY SCALE)&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The YGTSS is a rating scale used in clinical settings to assess the severity of tics, including frequency and impact on daily functioning."</data>
+      <data key="d2">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+    </node>
+    <node id="&quot;ACHENBACH 儿童行为量表&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The Achenbach 儿童行为量表 is a tool used for assessing behavioral and emotional problems in children, often used alongside other assessments for tic disorders."</data>
+      <data key="d2">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+    </node>
+    <node id="&quot;SNAP-Ⅳ 量表&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The SNAP-Ⅳ (Schedule for Affective Disorders and Schizophrenia for School-Age Children) is a tool used to assess symptoms in children, often utilized alongside other assessments for tic disorders."</data>
+      <data key="d2">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+    </node>
+    <node id="&quot;注意缺陷多动障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"注意缺陷多动障碍 (ADHD) is a common neurodevelopmental disorder that can co-occur with Tourette Syndrome and other tic disorders."</data>
+      <data key="d2">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+    </node>
+    <node id="&quot;强迫及相关障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"强迫及相关障碍, such as obsessive-compulsive disorder (OCD), commonly co-occurs with Tourette Syndrome and affects patient's mental health significantly."</data>
+      <data key="d2">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;发育性学习障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"发育性学习障碍 refers to developmental learning difficulties that can occur alongside tic disorders, impacting academic performance and social functioning."</data>
+      <data key="d2">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;品行障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"品行障碍 (conduct disorder) is a behavioral condition often seen in conjunction with Tourette Syndrome or other tic disorders, characterized by persistent antisocial behavior."</data>
+      <data key="d2">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;不宁腿综合征&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"不宁腿综合征 involves uncomfortable leg sensations and an irresistible urge to move the legs, which can co-occur with Tourette Syndrome or other tic disorders."</data>
+      <data key="d2">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;焦虑障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Anxiety disorder is a common comorbidity of Tourette Syndrome and other tic disorders, significantly impacting patient's daily life and mental health."</data>
+      <data key="d2">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;冲动控制障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Impulse control disorders can occur alongside Tourette Syndrome or chronic tic disorders, affecting a person’s ability to control impulsive behaviors."</data>
+      <data key="d2">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;睡眠障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"Sleep disorders are often seen in conjunction with Tourette Syndrome and other tic disorders, impacting sleep quality and daily functioning significantly."</data>
+      <data key="d2">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;TOURETTE 综合症&quot;">
+      <data key="d2">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+      <data key="d1">"The DSM-5 offers detailed diagnostic guidelines for Tourette Syndrome, aiding in the identification and treatment of tic disorders."</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;抽动障碍&quot;">
+      <data key="d2">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+      <data key="d1">"The YGTSS is widely used to assess and manage symptoms in patients with tic disorders, providing valuable insights into the severity and impact of tics."</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;TOURETTE 综合征&quot;" target="&quot;短暂性抽动障碍&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"Tourette 综合征和短暂性抽动障碍都属于抽动障碍类型，但是 Tourette 综合征更为严重且复杂。"</data>
+      <data key="d6">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;TOURETTE 综合征&quot;" target="&quot;慢性运动（或发声）抽动障碍&quot;">
+      <data key="d4">12.0</data>
+      <data key="d5">"Tourette 综合征和慢性运动（或发声）抽动障碍都是持续时间较长的抽动障碍，但 Tourette 综合征更为复杂且严重。"</data>
+      <data key="d6">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;TOURETTE 综合征&quot;" target="&quot;ICD-11&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"The ICD-11 provides the latest diagnostic criteria for Tourette Syndrome, helping clinicians make accurate diagnoses."</data>
+      <data key="d6">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;TOURETTE 综合征&quot;" target="&quot;注意缺陷多动障碍&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"注意缺陷多动障碍 frequently co-occurs with Tourette Syndrome, impacting cognitive and behavioral functions."</data>
+      <data key="d6">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;短暂性抽动障碍&quot;" target="&quot;慢性运动（或发声）抽动障碍&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"慢性运动（或发声）抽动障碍与短暂性抽动障碍都属于抽动障碍类型，但病程长短不同。"</data>
+      <data key="d6">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;DSM-5&quot;" target="&quot;TOURETTE 综合症&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"The DSM-5 offers detailed diagnostic guidelines for Tourette Syndrome, aiding in the identification and treatment of tic disorders."</data>
+      <data key="d6">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;YGTSS (YALE GLOBAL TIC SEVERITY SCALE)&quot;" target="&quot;抽动障碍&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"The YGTSS is widely used to assess and manage symptoms in patients with tic disorders, providing valuable insights into the severity and impact of tics."</data>
+      <data key="d6">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;强迫及相关障碍&quot;" target="&quot;TOURETTE 综合症&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"强迫及相关障碍 commonly accompanies Tourette Syndrome, affecting patient's psychological well-being and daily functioning."</data>
+      <data key="d6">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;发育性学习障碍&quot;" target="&quot;TOURETTE 综合症&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Developmental learning difficulties often accompany Tourette Syndrome, affecting academic performance and social interactions."</data>
+      <data key="d6">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;品行障碍&quot;" target="&quot;TOURETTE 综合症&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"Conduct disorder frequently occurs alongside Tourette Syndrome, impacting behavior and social relationships."</data>
+      <data key="d6">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;不宁腿综合征&quot;" target="&quot;TOURETTE 综合症&quot;">
+      <data key="d4">4.0</data>
+      <data key="d5">"Restless leg syndrome often coexists with Tourette Syndrome, affecting sleep quality and daily activities."</data>
+      <data key="d6">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;焦虑障碍&quot;" target="&quot;TOURETTE 综合症&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"Anxiety disorders commonly accompany Tourette Syndrome, impacting mental health and overall well-being."</data>
+      <data key="d6">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;冲动控制障碍&quot;" target="&quot;TOURETTE 综合症&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"Impulse control issues often occur with Tourette Syndrome, affecting behavioral regulation and social interactions."</data>
+      <data key="d6">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;睡眠障碍&quot;" target="&quot;TOURETTE 综合症&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"Sleep disorders commonly accompany Tourette Syndrome, impacting sleep quality and daily functioning."</data>
+      <data key="d6">chunk-26f3b72334f920e1f9d8dc5a967188d0</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

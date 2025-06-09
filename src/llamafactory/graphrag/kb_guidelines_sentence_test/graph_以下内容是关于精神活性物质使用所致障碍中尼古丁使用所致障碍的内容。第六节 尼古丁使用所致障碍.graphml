@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;世界卫生组织(WHO)&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"世界卫生组织是一个国际性组织，致力于全球公共卫生问题的解决，包括吸烟相关疾病的预防和控制。"</data>
+      <data key="d2">chunk-909f1c926f3cfd4703f85a7e5ad4d5be</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;尼古丁使用所致障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"尼古丁使用所致障碍是指由于反复或持续使用尼古丁导致的一系列心理健康问题，包括依赖、过量中毒及戒断症状等。"</data>
+      <data key="d2">chunk-909f1c926f3cfd4703f85a7e5ad4d5be</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;烟草&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"烟草是一种包含多种化学成分的植物产品，其中主要成分为尼古丁，长期使用可引发各种健康问题和心理依赖性。"</data>
+      <data key="d2">chunk-909f1c926f3cfd4703f85a7e5ad4d5be</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;吸烟者&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"吸烟者是指经常性或偶尔性地吸入烟草制品中含有的尼古丁等化学物质的人群，他们面临着多种健康风险和依赖问题。"</data>
+      <data key="d2">chunk-909f1c926f3cfd4703f85a7e5ad4d5be</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;中国&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"中国的吸烟人口超过3亿，尤其是男性群体，受到尼古丁使用障碍的影响较大。世界卫生组织统计全球每年有600万与吸烟相关的死亡人数，其中约100万人在中国。"</data>
+      <data key="d2">chunk-909f1c926f3cfd4703f85a7e5ad4d5be</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;戒烟中心&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"戒烟中心为希望戒除烟草依赖的个体提供专业治疗和支持服务。这些中心通常会采取多种方法帮助患者成功戒烟并预防复吸。"</data>
+      <data key="d2">chunk-909f1c926f3cfd4703f85a7e5ad4d5be</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;世界卫生组织(WHO)&quot;" target="&quot;尼古丁使用所致障碍&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"世界卫生组织对全球范围内因吸烟导致的相关死亡人数进行了统计，表明了尼古丁使用所致障碍的严重性。"</data>
+      <data key="d6">chunk-909f1c926f3cfd4703f85a7e5ad4d5be</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;尼古丁使用所致障碍&quot;" target="&quot;烟草&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"烟草中的主要成分为尼古丁，长期和大量摄入会引发包括依赖、过量中毒及戒断症状在内的尼古丁使用所致障碍。"</data>
+      <data key="d6">chunk-909f1c926f3cfd4703f85a7e5ad4d5be</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;尼古丁使用所致障碍&quot;" target="&quot;吸烟者&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"吸烟者因长期接触尼古丁而容易发展出尼古丁使用所致障碍，包括依赖、过量中毒和戒断症状等问题。"</data>
+      <data key="d6">chunk-909f1c926f3cfd4703f85a7e5ad4d5be</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;尼古丁使用所致障碍&quot;" target="&quot;中国&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"在中国，由于庞大的吸烟人口基数，尼古丁使用所致障碍成为一个严重的公共卫生问题。"</data>
+      <data key="d6">chunk-909f1c926f3cfd4703f85a7e5ad4d5be</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;尼古丁使用所致障碍&quot;" target="&quot;戒烟中心&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"戒烟中心提供多种治疗方法帮助尼古丁依赖者克服这一障碍，并预防复吸的发生。"</data>
+      <data key="d6">chunk-909f1c926f3cfd4703f85a7e5ad4d5be</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

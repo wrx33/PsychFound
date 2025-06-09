@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;精神分裂症&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"精神分裂症是一种慢性迁延性脑病，其治疗策略是全病程管理，包括药物和非药物治疗方法。"&lt;SEP&gt;"精神分裂症是一组病因未明的严重精神疾病，发病于青壮年期，常有知觉、思维、情感及行为障碍。"</data>
+      <data key="d2">chunk-37056a49754db156b504fed3a9c5f1fe&lt;SEP&gt;chunk-9846b662eda86f2668629d1247193543</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;遗传因素&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"遗传因素对精神分裂症的影响显著，亲缘关系越近患病风险越大，单卵双生子的发病率高于异卵双生子。"</data>
+      <data key="d2">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;环境因素&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"多种环境因素与精神分裂症发病有关，包括母体妊娠期的精神应激、感染及分娩时的并发症等。"</data>
+      <data key="d2">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+    </node>
+    <node id="&quot;神经发育异常假说&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"认为精神分裂症患者大脑在发育和成熟过程中发生紊乱，导致大脑神经环路出现异常改变而发病。"</data>
+      <data key="d2">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+    </node>
+    <node id="&quot;神经生化异常假说&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"抗精神病药氯丙嗪的发展支持了多巴胺功能异常假说，并发展出谷氨酸、γ-氨基丁酸（GABA）及5-HT等假设。"</data>
+      <data key="d2">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+    </node>
+    <node id="&quot;炎症假说&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"认为母体在妊娠期感染暴露可能是精神分裂症的重要危险因素，如流感病毒和弓形虫感染。"</data>
+      <data key="d2">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;临床评估&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"为了明确症状及其严重程度，并为治疗方案提供依据而进行的一系列系统性检查与量表评估过程。"</data>
+      <data key="d2">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+    </node>
+    <node id="&quot;首次发作、反复发作和持续性精神分裂症&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"根据ICD-10标准，精神分裂症分为首次发作、反复发作及持续性三种类型，根据患者的既往病程确定分类。"</data>
+      <data key="d2">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+    </node>
+    <node id="&quot;急性期治疗&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"精神分裂症患者在病情急性期的早期积极药物治疗，目标为缓解症状并预防不稳定性。"</data>
+      <data key="d2">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+    </node>
+    <node id="&quot;巩固期治疗&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"急性期治疗后继续以原有效药物巩固治疗，至少6个月疗程，促进阴性症状改善。"</data>
+      <data key="d2">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+    </node>
+    <node id="&quot;维持期治疗&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"在疗效稳定且无明显不良反应的情况下，根据个体情况确定是否减少剂量并长期维持治疗。"</data>
+      <data key="d2">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+    </node>
+    <node id="&quot;精神分裂症的治疗方案制定&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"根据患者的临床表现、症状持续时间以及病程特点来制定个性化的治疗方案。"</data>
+      <data key="d2">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+    </node>
+    <node id="&quot;阳性和阴性症状量表（PANSS）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"用于评估精神病性临床特征，特别是精神分裂症的阳性及阴性症状。"</data>
+      <data key="d2">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+    </node>
+    <node id="&quot;简明精神病性症状量表（BPRS）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"一种常用的工具，用于评估精神病患者的症状严重程度和类型。"</data>
+      <data key="d2">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+    </node>
+    <node id="&quot;紧张症&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"是一种行为活动异常的表现形式，包括紧张性木僵、紧张性兴奋等状态，并与心境障碍或物质中毒等出现的紧张综合征归为一类。"&lt;SEP&gt;"紧张症是一种临床综合征，表现为精神运动性紊乱的症状。"</data>
+      <data key="d2">chunk-37056a49754db156b504fed3a9c5f1fe&lt;SEP&gt;chunk-9846b662eda86f2668629d1247193543</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;中国精神分裂症防治指南&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"提供指导原则和建议，帮助临床医生确定合适的治疗策略和药物选择。"</data>
+      <data key="d2">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+    </node>
+    <node id="&quot;脑器质性及躯体疾病所致的精神障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"此类精神障碍的特征是精神病性症状在脑器质性疾病或躯体疾病之后出现，并可通过详细的病史采集和检查发现阳性证据。"</data>
+      <data key="d2">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+    </node>
+    <node id="&quot;妄想性障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"表现为围绕一种核心妄想建立的感知障碍，与精神分裂症中的持续幻觉及思维紊乱等特征不同。"</data>
+      <data key="d2">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+    </node>
+    <node id="&quot;改良电抽搐治疗（MECT）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"改良电抽搐治疗用于严重抑郁、极度兴奋躁动患者以及精神分裂症中抗精神病药物无效或不能耐受的患者，是紧张症状的首选治疗方式之一。"</data>
+      <data key="d2">chunk-9846b662eda86f2668629d1247193543</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;心理治疗&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"心理治疗包括支持性治疗、认知行为疗法等技术，旨在提高患者的治疗依从性和社交技能，帮助其回归社会。"</data>
+      <data key="d2">chunk-9846b662eda86f2668629d1247193543</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;物理治疗&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"物理治疗包括改良电抽搐治疗和重复经颅磁刺激（rTMS），用于辅助精神分裂症患者的功能康复及症状缓解。"</data>
+      <data key="d2">chunk-9846b662eda86f2668629d1247193543</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;抗精神病药物&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"抗精神病药物用于治疗精神分裂症和其他相关疾病，但可能导致多种不良反应。"</data>
+      <data key="d2">chunk-9846b662eda86f2668629d1247193543</data>
+    </node>
+    <node id="&quot;体重增加&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"体重增加是使用某些抗精神病药物的常见副作用之一。"</data>
+      <data key="d2">chunk-9846b662eda86f2668629d1247193543</data>
+    </node>
+    <node id="&quot;高血糖&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"高血糖是代谢综合征的一部分，与使用特定抗精神病药物有关。"</data>
+      <data key="d2">chunk-9846b662eda86f2668629d1247193543</data>
+    </node>
+    <node id="&quot;神经阻滞剂恶性综合征（NMS）&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"NMS 是一种罕见但严重的副作用，通常发生在使用大剂量抗精神病药时。"</data>
+      <data key="d2">chunk-9846b662eda86f2668629d1247193543</data>
+    </node>
+    <node id="&quot;癫痫发作&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"癫痫发作是另一种可能由某些抗精神病药物引起的严重不良反应。"</data>
+      <data key="d2">chunk-9846b662eda86f2668629d1247193543</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;重复经颅磁刺激（RTMS）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"rTMS 是一种物理治疗方法，用于治疗顽固性幻听和阴性症状等精神分裂症患者的问题。"</data>
+      <data key="d2">chunk-9846b662eda86f2668629d1247193543</data>
+    </node>
+    <node id="&quot;急性期&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"急性期指精神疾病发作初期的阶段，通常需要住院治疗。"</data>
+      <data key="d2">chunk-9846b662eda86f2668629d1247193543</data>
+    </node>
+    <node id="&quot;巩固维持期&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"巩固维持期是在病情稳定后的阶段，主要目标是防止复发和促进康复。"</data>
+      <data key="d2">chunk-9846b662eda86f2668629d1247193543</data>
+    </node>
+    <node id="&quot;社区治疗&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"社区治疗包括职业指导、心理行为疗法等措施，在患者回归社会时发挥作用。"</data>
+      <data key="d2">chunk-9846b662eda86f2668629d1247193543</data>
+    </node>
+    <node id="&quot;木僵&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"木僵是紧张症的一种表现形式，特征为明显的肌肉张力增加和行为抑制。"</data>
+      <data key="d2">chunk-9846b662eda86f2668629d1247193543</data>
+    </node>
+    <node id="&quot;鉴别诊断&quot;">
+      <data key="d2">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+      <data key="d1">"在对疑似精神分裂症患者进行鉴别诊断时，需要考虑是否可能因脑器质性疾病或躯体疾病导致精神病性症状。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;临床特征与评估&quot;">
+      <data key="d2">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+      <data key="d1">"紧张症作为精神分裂症的一种表现形式，在患者的临床特征中占有重要地位，并影响着患者的社会功能和生活质量。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;代谢综合征&quot;">
+      <data key="d2">chunk-9846b662eda86f2668629d1247193543</data>
+      <data key="d1">"高血糖是代谢综合征的一部分，通常与使用特定抗精神病药物有关联。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <node id="&quot;RTMS&quot;">
+      <data key="d2">chunk-9846b662eda86f2668629d1247193543</data>
+      <data key="d1">"对于有顽固性幻听和阴性症状的精神分裂症患者，rTMS 可作为一种有效的增效治疗方法。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;回归社会&quot;">
+      <data key="d2">chunk-9846b662eda86f2668629d1247193543</data>
+      <data key="d1">"通过提供职业指导、心理行为疗法等措施，帮助患者在稳固后重新融入社会。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;精神分裂症&quot;" target="&quot;遗传因素&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"研究表明精神分裂症的发病与遗传因素有显著关联，包括家族和双胞胎研究的支持。"</data>
+      <data key="d6">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;精神分裂症&quot;" target="&quot;心理治疗&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"精神分裂症患者的非药物治疗策略中，心理治疗是重要的组成部分，帮助提高患者的社会功能和回归社会的能力。"</data>
+      <data key="d6">chunk-9846b662eda86f2668629d1247193543</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;精神分裂症&quot;" target="&quot;物理治疗&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"在某些情况下，如急性期或严重的兴奋躁动状态，可采用改良电抽搐治疗作为首选的物理治疗方法。"</data>
+      <data key="d6">chunk-9846b662eda86f2668629d1247193543</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;精神分裂症&quot;" target="&quot;癫痫发作&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"某些用于治疗精神分裂症的药物可能诱发癫痫发作等严重不良反应。"</data>
+      <data key="d6">chunk-9846b662eda86f2668629d1247193543</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;精神分裂症&quot;" target="&quot;紧张症&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"紧张症最常见于精神分裂症，并且曾经是该疾病的亚型之一。"</data>
+      <data key="d6">chunk-9846b662eda86f2668629d1247193543</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;遗传因素&quot;" target="&quot;炎症假说&quot;">
+      <data key="d4">4.0</data>
+      <data key="d5">"遗传背景可能是决定妊娠期感染是否会导致成年期精神分裂症的关键因素之一。"</data>
+      <data key="d6">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;环境因素&quot;" target="&quot;神经发育异常假说&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"环境因素可能对大脑神经环路的发展产生不良影响，支持了精神分裂症的神经发育障碍观点。"</data>
+      <data key="d6">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;临床评估&quot;" target="&quot;急性期治疗&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"临床评估为急性期的药物选择和疗效监测提供依据，确保患者在急性期得到适当的治疗。"</data>
+      <data key="d6">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;临床评估&quot;" target="&quot;阳性和阴性症状量表（PANSS）&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"阳性和阴性症状量表是进行临床评估时常用的工具之一，帮助医生了解患者的具体症状及其严重程度。"</data>
+      <data key="d6">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;首次发作、反复发作和持续性精神分裂症&quot;" target="&quot;巩固期治疗&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"根据患者的既往病程分类确定是否需要进入巩固期的长期药物治疗阶段。"</data>
+      <data key="d6">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;精神分裂症的治疗方案制定&quot;" target="&quot;中国精神分裂症防治指南&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"该指南为确定和实施精神分裂症患者的治疗策略提供了重要的指导原则。"</data>
+      <data key="d6">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;紧张症&quot;" target="&quot;临床特征与评估&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"紧张症作为精神分裂症的一种表现形式，在患者的临床特征中占有重要地位，并影响着患者的社会功能和生活质量。"</data>
+      <data key="d6">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;紧张症&quot;" target="&quot;改良电抽搐治疗（MECT）&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"对于原发性精神障碍导致的紧张症状，在躯体情况允许的情况下优先考虑使用MECT作为治疗方法。"</data>
+      <data key="d6">chunk-9846b662eda86f2668629d1247193543</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;紧张症&quot;" target="&quot;RTMS&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"对于有顽固性幻听和阴性症状的精神分裂症患者，rTMS 可作为一种有效的增效治疗方法。"</data>
+      <data key="d6">chunk-9846b662eda86f2668629d1247193543</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;脑器质性及躯体疾病所致的精神障碍&quot;" target="&quot;鉴别诊断&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"在对疑似精神分裂症患者进行鉴别诊断时，需要考虑是否可能因脑器质性疾病或躯体疾病导致精神病性症状。"</data>
+      <data key="d6">chunk-37056a49754db156b504fed3a9c5f1fe</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;心理治疗&quot;" target="&quot;物理治疗&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"心理治疗和物理治疗是精神分裂症综合治疗策略中的两个重要方面，共同促进患者的康复与功能恢复。"</data>
+      <data key="d6">chunk-9846b662eda86f2668629d1247193543</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;抗精神病药物&quot;" target="&quot;体重增加&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"使用某些抗精神病药物可能导致患者出现体重增加的问题。"</data>
+      <data key="d6">chunk-9846b662eda86f2668629d1247193543</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;高血糖&quot;" target="&quot;代谢综合征&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"高血糖是代谢综合征的一部分，通常与使用特定抗精神病药物有关联。"</data>
+      <data key="d6">chunk-9846b662eda86f2668629d1247193543</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性期&quot;" target="&quot;巩固维持期&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"精神分裂症的治疗分为急性期和巩固维持期两个阶段，以确保全程管理的有效性和连续性。"</data>
+      <data key="d6">chunk-9846b662eda86f2668629d1247193543</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;社区治疗&quot;" target="&quot;回归社会&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"通过提供职业指导、心理行为疗法等措施，帮助患者在稳固后重新融入社会。"</data>
+      <data key="d6">chunk-9846b662eda86f2668629d1247193543</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

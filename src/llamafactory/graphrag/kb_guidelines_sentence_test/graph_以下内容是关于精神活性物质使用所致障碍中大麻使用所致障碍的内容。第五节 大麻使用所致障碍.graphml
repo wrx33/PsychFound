@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;《2018 年世界毒品报告》&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"该组织发布的报告提供了关于全球大麻使用情况的数据。"</data>
+      <data key="d2">chunk-98229aefa9ee26999b55c44f7c873302</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;乌拉圭政府&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"乌拉圭政府已通过非医疗性使用大麻合法化的法律。"</data>
+      <data key="d2">chunk-98229aefa9ee26999b55c44f7c873302</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;加拿大政府&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"加拿大政府已通过非医疗性使用大麻合法化的法律。"</data>
+      <data key="d2">chunk-98229aefa9ee26999b55c44f7c873302</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;美国部分州&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"一些美国州份已经将非医疗性使用大麻合法化。"</data>
+      <data key="d2">chunk-98229aefa9ee26999b55c44f7c873302</data>
+    </node>
+    <node id="&quot;大麻及衍生物&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"指所有从大麻植物提取的产品，包括开花顶端（marijuana）、大麻酯（hashish）、大麻油等。"</data>
+      <data key="d2">chunk-98229aefa9ee26999b55c44f7c873302</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;THC&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"四氢大麻酚（tetrahydrocannabinol），一种主要的精神活性成分，具有精神活性作用。"</data>
+      <data key="d2">chunk-98229aefa9ee26999b55c44f7c873302</data>
+    </node>
+    <node id="&quot;CBD&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"大麻二酚（cannabidiol），一种不具精神活性的大麻素成分。"</data>
+      <data key="d2">chunk-98229aefa9ee26999b55c44f7c873302</data>
+    </node>
+    <node id="&quot;急性中毒&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"指由于吸食大量大麻导致的意识、认知等方面的障碍症状。"</data>
+      <data key="d2">chunk-98229aefa9ee26999b55c44f7c873302</data>
+    </node>
+    <node id="&quot;依赖（危险率）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"成人使用大麻成瘾的风险为1:10，青少年或每天使用三次以上者风险为1:6。"</data>
+      <data key="d2">chunk-98229aefa9ee26999b55c44f7c873302</data>
+    </node>
+    <node id="&quot;精神病性障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"在使用大麻期间或之后立即出现的一类精神现象，可能包括幻觉、妄想等。"</data>
+      <data key="d2">chunk-98229aefa9ee26999b55c44f7c873302</data>
+    </node>
+    <node id="&quot;心血管疾病患者&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"这一群体在使用大麻时可能出现严重不良反应，如心率升高和血管扩张引起的症状。"</data>
+      <data key="d2">chunk-98229aefa9ee26999b55c44f7c873302</data>
+    </node>
+    <node id="&quot;青少年&quot;">
+      <data key="d2">chunk-98229aefa9ee26999b55c44f7c873302</data>
+      <data key="d1">"对于青少年群体，大麻使用的成瘾风险明显高于成年人群，显示出较高的比率。"</data>
+      <data key="d0">"UNKNOWN"</data>
+    </node>
+    <edge source="&quot;《2018 年世界毒品报告》&quot;" target="&quot;乌拉圭政府&quot;">
+      <data key="d4">14.0</data>
+      <data key="d5">"该报告显示了全球大麻使用的趋势，并提及乌拉圭政府的合法化政策。"</data>
+      <data key="d6">chunk-98229aefa9ee26999b55c44f7c873302</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;《2018 年世界毒品报告》&quot;" target="&quot;加拿大政府&quot;">
+      <data key="d4">12.0</data>
+      <data key="d5">"该报告也提到了加拿大政府的大麻合法化措施及其影响。"</data>
+      <data key="d6">chunk-98229aefa9ee26999b55c44f7c873302</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;乌拉圭政府&quot;" target="&quot;大麻及衍生物&quot;">
+      <data key="d4">16.0</data>
+      <data key="d5">"乌拉圭政府的政策允许某些形式的大麻产品的使用和销售，包括医用和非医疗性用途的大麻产品。"</data>
+      <data key="d6">chunk-98229aefa9ee26999b55c44f7c873302</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;加拿大政府&quot;" target="&quot;大麻及衍生物&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"加拿大的法规变化允许了大麻及其衍生物在合法框架下的生产和消费。"</data>
+      <data key="d6">chunk-98229aefa9ee26999b55c44f7c873302</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;THC&quot;" target="&quot;CBD&quot;">
+      <data key="d4">4.0</data>
+      <data key="d5">"这两种成分都是从大麻植物中提取的，但只有THC具有精神活性作用，而CBD不具此效果。"</data>
+      <data key="d6">chunk-98229aefa9ee26999b55c44f7c873302</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;急性中毒&quot;" target="&quot;精神病性障碍&quot;">
+      <data key="d4">5.0</data>
+      <data key="d5">"这两类事件均与使用过大剂量的大麻相关联，并且在临床上需要被区分诊断。"</data>
+      <data key="d6">chunk-98229aefa9ee26999b55c44f7c873302</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;依赖（危险率）&quot;" target="&quot;青少年&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"对于青少年群体，大麻使用的成瘾风险明显高于成年人群，显示出较高的比率。"</data>
+      <data key="d6">chunk-98229aefa9ee26999b55c44f7c873302</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;精神病性障碍&quot;" target="&quot;心血管疾病患者&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"患有心血管疾病的个体在使用大麻后可能经历更严重的症状，并且这些症状也可能触发或加剧精神健康问题。"</data>
+      <data key="d6">chunk-98229aefa9ee26999b55c44f7c873302</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>

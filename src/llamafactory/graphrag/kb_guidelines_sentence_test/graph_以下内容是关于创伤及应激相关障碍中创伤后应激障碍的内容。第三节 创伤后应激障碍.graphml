@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;创伤后应激障碍（PTSD）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"PTSD是指个体经历、目睹或遭遇涉及自身或他人的实际死亡、受到死亡威胁等事件导致的精神障碍。其核心症状包括创伤性再体验、回避和麻木、警觉性增高。"</data>
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+    </node>
+    <node id="&quot;复杂性创伤后应激障碍（C-PTSD）&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"C-PTSD是指长期反复经历创伤事件后出现的具有人际关系障碍、负性的自我认知和情绪调节障碍的精神障碍。"</data>
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+    </node>
+    <node id="&quot;急性应激障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"急性应激障碍是起病急，病程不超过一个月的精神障碍。"</data>
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+    </node>
+    <node id="&quot;适应障碍&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"适应障碍主要是生活环境或社会地位的改变引起的长期存在的精神障碍，其中人格特征与应对方式也与此相关。"</data>
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;抑郁障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"抑郁障碍主要表现情绪低落、思维迟缓、活动减少等核心症状，并无创伤后应激障碍特有的症状和重大创伤事件。"</data>
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+    </node>
+    <node id="&quot;焦虑障碍&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"焦虑障碍表现为对自身健康过分忧虑，过度关注躯体主诉，但无明显的重大精神创伤因素或躯体疾病。"</data>
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+    </node>
+    <node id="&quot;CAPS（创伤后应激障碍临床医师评定量表）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"用于诊断PTSD的最常用工具之一，评估个体经历创伤事件后的心理和行为症状。"</data>
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+    </node>
+    <node id="&quot;PSS-I（创伤后应激障碍症状访谈量表）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"一种常用的筛查量表，可以初步评估个体是否存在PTSD的症状。"</data>
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+    </node>
+    <node id="&quot;TF-CBT（针对创伤的认知行为治疗）&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"TF-CBT是一种心理治疗方法，包含暴露、系统脱敏、认知加工治疗等多种技术来帮助患者处理和应对创伤经历。"</data>
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+    </node>
+    <node id="&quot;PET（延长暴露疗法）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"通过让患者面对与创伤相关的想象或情境接触，以增加适应性和耐受能力，直至消除恐惧记忆。"</data>
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+    </node>
+    <node id="&quot;CPT（认知加工治疗）&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"一种由12节组成的心理治疗方法，专注于识别和改变因创伤引起的烦恼想法和感受。"</data>
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+    </node>
+    <node id="&quot;EMDR（眼动脱敏和再加工疗法）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"让患者通过眼球追踪与想象的结合来处理创伤记忆，并重新建立对创伤事件的认知方式。"</data>
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+    </node>
+    <node id="&quot;生物反馈治疗&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"通过监测生理反应并训练个体学会自我调节这些反应来改善心理健康的疗法。"</data>
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+    </node>
+    <node id="&quot;冥想-放松疗法&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"一种帮助减轻压力和焦虑，提高集中力的非药物治疗方法。"</data>
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+    </node>
+    <node id="&quot;游戏疗法&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"利用游戏环境促进个体的情绪表达、问题解决能力和社交技能发展的方法。"</data>
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+    </node>
+    <node id="&quot;艺术疗法&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"通过创作或欣赏艺术作品来帮助患者表达情感和处理创伤经历的方法。"</data>
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+    </node>
+    <node id="&quot;内观疗法&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"一种旨在提高自我意识，促进个人成长的心理治疗方法。"</data>
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+    </node>
+    <node id="&quot;太极疗法&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"结合运动、呼吸控制和精神集中的方法来改善心理健康状态。"</data>
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+    </node>
+    <node id="&quot;瑜伽疗法&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"通过练习瑜伽体式、冥想和呼吸技巧来帮助缓解压力和焦虑的治疗方法。"</data>
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+    </node>
+    <node id="&quot;RTMS（重复经颅磁刺激）&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"利用磁场影响大脑功能，用于治疗抑郁症和其他精神障碍的技术。"</data>
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+    </node>
+    <node id="&quot;MECT（改良电抽搐疗法）&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"通过施加电流引起短暂的癫痫发作来改善严重抑郁和精神病症状的一种治疗方法。"</data>
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+    </node>
+    <node id="&quot;健康教育&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"旨在帮助个体和群体掌握心理卫生知识，树立健康的观念，预防疾病的发生。"</data>
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+    </node>
+    <node id="&quot;心理危机干预&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"为应激者提供支持性治疗，协助其正确应对精神压力事件的方法。"</data>
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+    </node>
+    <node id="&quot;社区的心理社会康复系统&quot;">
+      <data key="d0">"LOCATION"</data>
+      <data key="d1">"一种基于社区的支持体系，帮助患者重建社交技能和生活功能的机构或组织。"</data>
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+    </node>
+    <node id="&quot;CAPS&quot;">
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+      <data key="d1">"CAPS是一种用于诊断PTSD的专业工具，旨在评估个体在经历创伤后的心理行为症状。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;PTSD&quot;">
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+      <data key="d1">"CAPS是一种用于诊断PTSD的专业工具，旨在评估个体在经历创伤后的心理行为症状。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;PSS-I&quot;">
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+      <data key="d1">"PSS-I是筛查PTSD的一个有效量表，帮助识别可能有PTSD的患者。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;C-PTSD&quot;">
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+      <data key="d1">"PTSD和C-PTSD都属于创伤相关的精神障碍，但后者包括了人际关系问题、负性自我认知等额外症状。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;TF-CBT&quot;">
+      <data key="d2">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+      <data key="d1">"TF-CBT是一种治疗PTSD的心理治疗方法，旨在通过多种技术帮助患者处理和应对创伤经历。"</data>
+      <data key="d0">"UNKNOWN"</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <edge source="&quot;适应障碍&quot;" target="&quot;C-PTSD&quot;">
+      <data key="d4">4.0</data>
+      <data key="d5">"虽然两者都与创伤经历有关，但适应障碍更多地涉及应对环境或社会变化的能力问题。"</data>
+      <data key="d6">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;CAPS&quot;" target="&quot;PTSD&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"CAPS是一种用于诊断PTSD的专业工具，旨在评估个体在经历创伤后的心理行为症状。"</data>
+      <data key="d6">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;CAPS&quot;" target="&quot;PSS-I&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"两者都是评估PTSD的工具，但CAPS更侧重于专业诊断，而PSS-I主要用于初步筛查。"</data>
+      <data key="d6">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;PTSD&quot;" target="&quot;PSS-I&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"PSS-I是筛查PTSD的一个有效量表，帮助识别可能有PTSD的患者。"</data>
+      <data key="d6">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;PTSD&quot;" target="&quot;C-PTSD&quot;">
+      <data key="d4">6.0</data>
+      <data key="d5">"PTSD和C-PTSD都属于创伤相关的精神障碍，但后者包括了人际关系问题、负性自我认知等额外症状。"</data>
+      <data key="d6">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;PTSD&quot;" target="&quot;TF-CBT&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"TF-CBT是一种治疗PTSD的心理治疗方法，旨在通过多种技术帮助患者处理和应对创伤经历。"</data>
+      <data key="d6">chunk-29b5830a60f5b06d8aee70b0e29d2315</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>
