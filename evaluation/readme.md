@@ -16,7 +16,14 @@ tensorflow==1.14.0
 tqdm==4.61.2
 ```
 
+The MNER model can be downloaded from Hugging Face:
+
+```
+wangrx33/Psychiatric_medical_named_entity_recognition_model
+```
+
 ### Evaluation Procedure
+
 1. **Prepare the Evaluation Data**
    Download the full evaluation dataset from the [PsychBench](https://github.com/wangrx33/PsychBench) repository, or organize your own test data following the same format as provided in the `./data` directory. Each test instance should be structured as follows:
 
