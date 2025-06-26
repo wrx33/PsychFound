@@ -1,0 +1,2622 @@
+[
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n女，50岁。入睡困难、多梦易醒1个月，每周至少3次。同时感到精力疲乏，工作效率下降，对睡眠产生恐惧感，担心免疫力下降，否认情绪低落和消极观念。对该患者应选择的治疗药物是\n[问题]女，50岁。入睡困难、多梦易醒1个月，每周至少3次。同时感到精力疲乏，工作效率下降，对睡眠产生恐惧感，担心免疫力下降，否认情绪低落和消极观念。对该患者应选择的治疗药物是\nA. 地西泮\nB. 帕罗西汀\nC. 丁螺环酮\nD. 苯巴比妥\nE. 奥氮平\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.地西泮"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-0",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 3,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n下列不属于行为疗法的是\n[问题]下列不属于行为疗法的是\nA. 系统脱敏\nB. 厌恶疗法\nC. 冲击疗法\nD. 自由联想\nE. 前提控制\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.自由联想"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-1",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病治疗",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n女，45岁。当听到家中房子因洪水倒塌的消息后，突然哭闹叫喊，手舞足蹈，拿砖头打砸旁边的房子，表情恐惧而紧张，1天后恢复平静。该患者最可能的诊断是\n[问题]女，45岁。当听到家中房子因洪水倒塌的消息后，突然哭闹叫喊，手舞足蹈，拿砖头打砸旁边的房子，表情恐惧而紧张，1天后恢复平静。该患者最可能的诊断是\nA. 精神分裂症\nB. 癫痫所致精神障碍\nC. 急性应激障碍\nD. 分离性障碍\nE. 躁狂发作\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.急性应激障碍"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-2",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n某女大学生，19岁，病前有强迫性人格特征，在一次动物实验中，因抓大白鼠的方法不对而被鼠咬，引起焦虑和恐惧发作。而后表现为见鼠就惊叫、害怕、心跳剧烈，发展到有人谈到鼠也出现焦虑、紧张、出汗症状。病人主动求医，要求治疗。根据临床表现，应诊断为\n[问题]某女大学生，19岁，病前有强迫性人格特征，在一次动物实验中，因抓大白鼠的方法不对而被鼠咬，引起焦虑和恐惧发作。而后表现为见鼠就惊叫、害怕、心跳剧烈，发展到有人谈到鼠也出现焦虑、紧张、出汗症状。病人主动求医，要求治疗。根据临床表现，应诊断为\nA. 焦虑性神经症\nB. 疑病性神经症\nC. 恐怖性神经症\nD. 抑郁性神经症\nE. 强迫性神经症\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.恐怖性神经症"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-3",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "公卫预防",
+        "Difficulty level": 2,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n以下不属于患者认知活动异常改变的是\n[问题]以下不属于患者认知活动异常改变的是\nA. 感知觉异常\nB. 注意异常\nC. 记忆异常\nD. 定向力异常\nE. 意志行为异常\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.意志行为异常"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-4",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "口腔医学",
+        "Difficulty level": 5,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n一精神病患者言语支离破碎、词句之间缺乏联系，因而别人无法理解其意义，该症状是\n[问题]一精神病患者言语支离破碎、词句之间缺乏联系，因而别人无法理解其意义，该症状是\nA. 病理性赘述\nB. 思维奔逸\nC. 思维散漫\nD. 思维云集\nE. 思维破裂\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.思维破裂"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-5",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "公卫预防",
+        "Difficulty level": 3,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n不影响个体对应激的认知评价的是\n[问题]不影响个体对应激的认知评价的是\nA. 人格特征\nB. 生活经历\nC. 应激源性质\nD. 对应激源的敏感度\nE. 当时个体的心身状态\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.对应激源的敏感度"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-6",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "口腔医学",
+        "Difficulty level": 4,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n男，45岁。因焦虑症接受心理治疗，在治疗过程中患者多次约治疗师看电影，并多次打电话叮嘱治疗师“可能下雨要带雨伞”或者“气温下降要添加衣服”等。患者的这种表现是\n[问题]男，45岁。因焦虑症接受心理治疗，在治疗过程中患者多次约治疗师看电影，并多次打电话叮嘱治疗师“可能下雨要带雨伞”或者“气温下降要添加衣服”等。患者的这种表现是\nA. 象征\nB. 移情\nC. 认同\nD. 阻抗\nE. 投射\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "B.移情"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-7",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "B"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n女，48岁。1年来常无故出现紧张不安、多虑、失眠、头晕、头痛、注意力不集中、阵发性心悸、胸闷、四肢无力。在多家医院就诊，ECG、心电图负荷试验、冠状动脉造影、头颅MRI检查均未发现异常。该患者最可能的诊断是\n[问题]女，48岁。1年来常无故出现紧张不安、多虑、失眠、头晕、头痛、注意力不集中、阵发性心悸、胸闷、四肢无力。在多家医院就诊，ECG、心电图负荷试验、冠状动脉造影、头颅MRI检查均未发现异常。该患者最可能的诊断是\nA. 广泛性焦虑障碍\nB. 躯体形式障碍\nC. 疑病障碍\nD. 恐惧性焦虑障碍\nE. X综合征\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.广泛性焦虑障碍"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-8",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n女，53岁，3月前坐长途火车时突然出现不认识女儿，并对空气大喊“有蜘蛛”，感觉看到自己儿子，经治疗后好转。1周前得知儿子去世消息后再次出现类似症状。既往有高血压五年，200/90mmHg。查定向障碍，视幻觉，思维不连贯。高血压加重时症状加重。最有意义的检查是\n[问题]女，53岁，3月前坐长途火车时突然出现不认识女儿，并对空气大喊“有蜘蛛”，感觉看到自己儿子，经治疗后好转。1周前得知儿子去世消息后再次出现类似症状。既往有高血压五年，200/90mmHg。查定向障碍，视幻觉，思维不连贯。高血压加重时症状加重。最有意义的检查是\nA. 头MRI\nB. 脑电图\nC. 脑脊液\nD. 人格测试\nE. 头颅CT\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.头MRI"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-9",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 4,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n男，22岁，因为怕脏和反复洗手等被诊断为强迫症。心理治疗师要求患者触摸地面、门把手等，之后不允许其洗手并要求其必须接着做事。经治疗，该患者的强迫症状逐渐减轻。这种治疗方法属于\n[问题]男，22岁，因为怕脏和反复洗手等被诊断为强迫症。心理治疗师要求患者触摸地面、门把手等，之后不允许其洗手并要求其必须接着做事。经治疗，该患者的强迫症状逐渐减轻。这种治疗方法属于\nA. 系统脱敏疗法\nB. 行为塑造法\nC. 厌恶疗法\nD. 冲击疗法\nE. 逐级暴露疗法\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.冲击疗法"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-10",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病治疗",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 4,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n关于自知力的描述，正确的是\n[问题]关于自知力的描述，正确的是\nA. 自知力可用于判断精神病的严重程度\nB. 重度精神病患者都没有自知力\nC. 自知力是对自己行为的控制能力\nD. 分离（转换）性障碍患者都有自知力\nE. 精神病性症状完全缓解后自知力就会完全恢复\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.自知力可用于判断精神病的严重程度"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-11",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n心境障碍临床类型不包括\n[问题]心境障碍临床类型不包括\nA. 躁狂发作\nB. 恶劣心境障碍\nC. 惊恐发作\nD. 抑郁发作\nE. 环性心境障碍\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.惊恐发作"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-12",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 3,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n女，36岁。春节乘长途汽车回家途中，突然感到心前区发闷、呼吸困难、出汗，觉得自己要不行了，不能自控，要发疯，为此感到紧张、害怕，立即被送到医院急诊。未经特殊处理，半小时后症状消失。体格检查正常。该患者首先需要做的辅助检查是\n[问题]女，36岁。春节乘长途汽车回家途中，突然感到心前区发闷、呼吸困难、出汗，觉得自己要不行了，不能自控，要发疯，为此感到紧张、害怕，立即被送到医院急诊。未经特殊处理，半小时后症状消失。体格检查正常。该患者首先需要做的辅助检查是\nA. 头颅CT\nB. ECG\nC. 超声心动图\nD. EEG\nE. 胸部X线片\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "B.ECG"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-13",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "急诊医学科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "B"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n某小学组织学生接种乙肝疫苗，有学生因出现头痛、呕吐、四肢乏力因而送到医院就诊，首诊医师及时处置并报告医院有关部门，经医护人员解释、安抚后，39名学生未经治疗症状很快消失，5名学生仍感恶心，并伴有焦虑。医院组织专家会诊后排除了疫苗和其他躯体疾病所致。对上述5名未愈学生的焦虑症状，适宜的心理干预方法是\n[问题]某小学组织学生接种乙肝疫苗，有学生因出现头痛、呕吐、四肢乏力因而送到医院就诊，首诊医师及时处置并报告医院有关部门，经医护人员解释、安抚后，39名学生未经治疗症状很快消失，5名学生仍感恶心，并伴有焦虑。医院组织专家会诊后排除了疫苗和其他躯体疾病所致。对上述5名未愈学生的焦虑症状，适宜的心理干预方法是\nA. 行为塑造\nB. 放松训练\nC. 厌恶疗法\nD. 催眠疗法\nE. 冲击疗法\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.催眠疗法"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-14",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病治疗",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 5,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n女性，34岁，1年来，情绪激动、失眠、心悸、疲乏、消瘦、话多、动作多、注意力不集中、突眼，诊断为甲状腺功能亢进所致精神障碍，其治疗原则哪项是错误的\n[问题]女性，34岁，1年来，情绪激动、失眠、心悸、疲乏、消瘦、话多、动作多、注意力不集中、突眼，诊断为甲状腺功能亢进所致精神障碍，其治疗原则哪项是错误的\nA. 积极治疗原发病\nB. 控制甲状腺功能亢进\nC. 防止感染\nD. 禁用精神药物\nE. 心理治疗\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.禁用精神药物"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-15",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病治疗",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n精神分析治疗理论基础特别关注\n[问题]精神分析治疗理论基础特别关注\nA. 意识\nB. 前意识\nC. 潜意识\nD. 患者心理状况\nE. 患者所处环境\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.潜意识"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-16",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病治疗",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 3,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n女，26岁，大学文化。3天前听到自己丈夫在空难中死亡的噩耗后，突然表现动作减少，目光呆滞，表情茫然，言语迟缓，对问话的回答只言片语。该患者的精神症状属\n[问题]女，26岁，大学文化。3天前听到自己丈夫在空难中死亡的噩耗后，突然表现动作减少，目光呆滞，表情茫然，言语迟缓，对问话的回答只言片语。该患者的精神症状属\nA. 亚木僵状态\nB. 谵妄状态\nC. 痴呆状态\nD. 抑郁状态\nE. 偏执状态\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.亚木僵状态"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-17",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n女性，25岁。既往无精神病史，听闻其母急性心肌梗死去世后，患者不认识家人，反复念叨：不可能，你们骗我。半年后随访该病人，家人反映病人性格有改变，患者出现易激惹，注意力不集中，发作性哭泣，入睡困难，反复梦见其母，不敢看其母遗像等现象，该患者最可能的诊断是\n[问题]女性，25岁。既往无精神病史，听闻其母急性心肌梗死去世后，患者不认识家人，反复念叨：不可能，你们骗我。半年后随访该病人，家人反映病人性格有改变，患者出现易激惹，注意力不集中，发作性哭泣，入睡困难，反复梦见其母，不敢看其母遗像等现象，该患者最可能的诊断是\nA. 创伤后应激障碍\nB. 适应性障碍\nC. 恶劣环境障碍\nD. 恐惧症\nE. 慢性反应性精神病\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.创伤后应激障碍"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-18",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n几无锥体外系反应的抗精神病药物是\n[问题]几无锥体外系反应的抗精神病药物是\nA. 氟哌啶醇\nB. 丙咪嗪\nC. 芬太尼\nD. 氯氮平\nE. 苯海索\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.氯氮平"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-19",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病治疗",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "药学",
+        "Difficulty level": 2,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n女，23岁。近半年来脑子里总是反复考虑某些事情，知道没必要考虑，但是仍然没有办法控制。该患者应该用何种药物\n[问题]女，23岁。近半年来脑子里总是反复考虑某些事情，知道没必要考虑，但是仍然没有办法控制。该患者应该用何种药物\nA. 氯米帕明\nB. 丙咪嗪\nC. 阿米替林\nD. 多虑平\nE. 氯丙咪嗪\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.氯米帕明"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-20",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病治疗",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 4,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n“受试者根据自己的理解和感受对一些意义不明的图象，墨迹作出回答，借以诱导出受试者的经验情绪或内心冲突”称为一种\n[问题]“受试者根据自己的理解和感受对一些意义不明的图象，墨迹作出回答，借以诱导出受试者的经验情绪或内心冲突”称为一种\nA. 智力测试\nB. 投射测验\nC. 运动测验\nD. 感知测验\nE. 人格测验\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "B.投射测验"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-21",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "B"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n女，19岁。在与同学争吵过程中突然晕倒，呼之不应，推之不动，四肢发硬，僵卧于床，双目紧闭，眼睑颤动，同学急抬入病房，询问家属，病人既往有类似发作史，神经系统检查未见阳性体征。最可能的诊断是\n[问题]女，19岁。在与同学争吵过程中突然晕倒，呼之不应，推之不动，四肢发硬，僵卧于床，双目紧闭，眼睑颤动，同学急抬入病房，询问家属，病人既往有类似发作史，神经系统检查未见阳性体征。最可能的诊断是\nA. 恐惧症\nB. 焦虑症\nC. 人格障碍\nD. 抑郁症\nE. 分离性障碍\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.分离性障碍"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-22",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n病人诉自己的血液凝固了，身体干枯了，变成了僵尸。该症状属于\n[问题]病人诉自己的血液凝固了，身体干枯了，变成了僵尸。该症状属于\nA. 思维联想障碍\nB. 思维逻辑障碍\nC. 内脏幻觉\nD. 妄想\nE. 人格解体\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.妄想"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-23",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 3,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n—般不会出现意识障碍的情况是\n[问题]—般不会出现意识障碍的情况是\nA. 躁狂状态\nB. 抑郁状态\nC. 分离状态\nD. 痴呆状态\nE. 应激状态\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.痴呆状态"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-24",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 4,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n不符合神经症共同特点的是\n[问题]不符合神经症共同特点的是\nA. 常有一定的易感素质\nB. 与心理社会因素有关\nC. 一般社会功能相对完好\nD. 可有相应的器质性病变\nE. 一般没有精神病性症状\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.可有相应的器质性病变"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-25",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n表现出绝望、对周围环境无动于衷\n[问题]表现出绝望、对周围环境无动于衷\nA. 角色行为异常\nB. 角色行为冲突\nC. 角色行为适应\nD. 角色行为强化\nE. 角色行为减退\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.角色行为异常"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-26",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "口腔医学",
+        "Difficulty level": 3,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n三环类抗抑郁药的副作用主要是\n[问题]三环类抗抑郁药的副作用主要是\nA. 锥体外系症状\nB. 过敏反应\nC. 心血管副作用\nD. 粒细胞减少\nE. 失眠\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.心血管副作用"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-27",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病治疗",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 4,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n男，40岁，推销员，自述半小时前又突然感到气紧，胸闷，心悸，头晕，出汗，认为生命垂危，被送来急诊。近2月来，这种情况发生过3次，每次持续约0.5～1小时，发病间隙期一切正常，发病与饮食无关。最大可能的诊断是\n[问题]男，40岁，推销员，自述半小时前又突然感到气紧，胸闷，心悸，头晕，出汗，认为生命垂危，被送来急诊。近2月来，这种情况发生过3次，每次持续约0.5～1小时，发病间隙期一切正常，发病与饮食无关。最大可能的诊断是\nA. 癔症发作\nB. 低钾血症\nC. 心肌梗死\nD. 惊恐发作\nE. 内脏性瘫痪\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.惊恐发作"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-28",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n某男职员，经常感到时间紧迫，整日忙忙碌碌；工作中争强好胜，不甘落后；情绪不稳定、外露：好与人争执，富于敌意。近一年来常心前区疼痛，被诊断为冠心病，其人格特征为\n[问题]某男职员，经常感到时间紧迫，整日忙忙碌碌；工作中争强好胜，不甘落后；情绪不稳定、外露：好与人争执，富于敌意。近一年来常心前区疼痛，被诊断为冠心病，其人格特征为\nA. A型行为特征\nB. B型行为特征\nC. C型行为特征\nD. AC混合型行为特征\nE. D型行为特征\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.A型行为特征"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-29",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n在人本主义治疗技术中最重要的是\n[问题]在人本主义治疗技术中最重要的是\nA. 表达\nB. 分析\nC. 指导\nD. 同情\nE. 倾听\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.倾听"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-30",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病治疗",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "公卫预防",
+        "Difficulty level": 2,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n通过抑制5-HT和去甲肾上腺素（NA）再摄取，增加突触间隙5-HT和NA浓度从而增强中枢5-HT和NA能神经功能而发挥抗抑郁作用的药物是\n[问题]通过抑制5-HT和去甲肾上腺素（NA）再摄取，增加突触间隙5-HT和NA浓度从而增强中枢5-HT和NA能神经功能而发挥抗抑郁作用的药物是\nA. 舍曲林\nB. 阿米替林\nC. 吗氯贝胺\nD. 度洛西汀\nE. 曲唑酮\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.度洛西汀"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-31",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病治疗",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "药学",
+        "Difficulty level": 2,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n14岁女性，中学生，外出旅游，夜间出室外解便时突感恐惧紧张，跑步回室途中，不慎跌倒，双手着地。站立起来时，发现双目失明。最可能的诊断是\n[问题]14岁女性，中学生，外出旅游，夜间出室外解便时突感恐惧紧张，跑步回室途中，不慎跌倒，双手着地。站立起来时，发现双目失明。最可能的诊断是\nA. 恐怖性神经症\nB. 焦虑性神经症\nC. 疑病性神经症\nD. 癔症\nE. 双目外伤失明\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.癔症"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-32",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n女，40岁。10年前因胆结石行胆囊切除术，术后病情痊愈。2年前单位倒闭，患者被安排到另一单位看大门，觉得看大门很没面子，但为生活着想又不得不去上班。1年前患者出现胆囊区皮肤触摸疼痛、胀不适伴阵发性心悸、胸闷、失眠、心情不好。患者四处求医，反复做过腹部B超、胃镜、心电图、全套血液生化检查，结果均正常。服过一些药物，病情时好时坏。患者不相信任何检查结果及医师的解释，仍要继续医治。该患者的诊断是\n[问题]女，40岁。10年前因胆结石行胆囊切除术，术后病情痊愈。2年前单位倒闭，患者被安排到另一单位看大门，觉得看大门很没面子，但为生活着想又不得不去上班。1年前患者出现胆囊区皮肤触摸疼痛、胀不适伴阵发性心悸、胸闷、失眠、心情不好。患者四处求医，反复做过腹部B超、胃镜、心电图、全套血液生化检查，结果均正常。服过一些药物，病情时好时坏。患者不相信任何检查结果及医师的解释，仍要继续医治。该患者的诊断是\nA. 抑郁症\nB. 焦虑症\nC. 强迫症\nD. 胆囊切除术后综合征\nE. 躯体形式障碍\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.躯体形式障碍"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-33",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 3,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n既想参赛锻炼自己，又怕成绩不好被人讥笑，此时的动机冲突是\n[问题]既想参赛锻炼自己，又怕成绩不好被人讥笑，此时的动机冲突是\nA. 双趋冲突\nB. 双避冲突\nC. 趋避冲突\nD. 双重趋避冲突\nE. 双重避趋冲突\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.趋避冲突"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-34",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "不符合",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n男，28岁。近1年来认为自己的五脏六腑都已经腐烂、变空了。患者的症状是\n[问题]男，28岁。近1年来认为自己的五脏六腑都已经腐烂、变空了。患者的症状是\nA. 虚无妄想\nB. 虚构\nC. 感知综合障碍\nD. 幻觉\nE. 错觉\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.虚无妄想"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-35",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 3,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n一种比较持久微弱具有渲染性的情绪状态是\n[问题]一种比较持久微弱具有渲染性的情绪状态是\nA. 心境\nB. 激情\nC. 心情\nD. 热情\nE. 应激\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.心境"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-36",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n“前有狼，后有虎”的动机冲突属于\n[问题]“前有狼，后有虎”的动机冲突属于\nA. 双趋冲突\nB. 双避冲突\nC. 趋避冲突\nD. 双重趋避冲突\nE. 双趋双避冲突\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "B.双避冲突"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-37",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "B"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n躁狂发作病人活动增多表现，除了哪项\n[问题]躁狂发作病人活动增多表现，除了哪项\nA. 整日忙碌\nB. 好管闲事\nC. 引人注意\nD. 生活节俭\nE. 行为轻浮\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.生活节俭"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-38",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "公卫预防",
+        "Difficulty level": 2,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n男，63岁。4年前开始出现记忆减退，近1年日益加重，不认识女儿，捡废旧物品，出门找不到家，不会穿衣，常呆坐、呆立、呆望，不言不语，对人冷淡，不关心家人。既往有冶游史。躯体神经系统检查无异常。精神检查：意识清，定向障碍，记忆障碍，个位数计算正确，两位数加法常错，夜间不眠，到处摸索，说身边有人唱歌，内容听不清，流露出悲观情绪，未见自杀行为，生活不能自理。化验：康华试验阴性，CSF正常，CT：脑萎缩，额颞叶明显。该患者治疗效果预后如何\n[问题]男，63岁。4年前开始出现记忆减退，近1年日益加重，不认识女儿，捡废旧物品，出门找不到家，不会穿衣，常呆坐、呆立、呆望，不言不语，对人冷淡，不关心家人。既往有冶游史。躯体神经系统检查无异常。精神检查：意识清，定向障碍，记忆障碍，个位数计算正确，两位数加法常错，夜间不眠，到处摸索，说身边有人唱歌，内容听不清，流露出悲观情绪，未见自杀行为，生活不能自理。化验：康华试验阴性，CSF正常，CT：脑萎缩，额颞叶明显。该患者治疗效果预后如何\nA. 无有效治疗，预后不良\nB. 手术治疗预后较好\nC. 抗梅毒治疗，预后较好\nD. 治疗脑血管病后尚可\nE. 脑脊液分流手术，预后尚可\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.无有效治疗，预后不良"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-39",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n氯丙嗪不宜用于\n[问题]氯丙嗪不宜用于\nA. 精神分裂症\nB. 顽固性呃逆\nC. 晕动症时的呕吐\nD. 人工冬眠疗法\nE. 躁狂症及其他精神病伴有妄想症者\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.晕动症时的呕吐"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-40",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病治疗",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "公卫预防",
+        "Difficulty level": 2,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n男，33岁。问他几岁，答“三十三，三月初三，三月桃花幵，开花结果给猴吃”。该患者临床症状属于\n[问题]男，33岁。问他几岁，答“三十三，三月初三，三月桃花幵，开花结果给猴吃”。该患者临床症状属于\nA. 妄想观念\nB. 强迫观念\nC. 思维奔逸\nD. 思维插入\nE. 思维散漫\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.思维奔逸"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-41",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n工地工人，从3楼跌下，由120转上级医院治疗一路上脑海中不断浮现坠落时的情形并情绪激动不断大声描述，这种记忆属于\n[问题]工地工人，从3楼跌下，由120转上级医院治疗一路上脑海中不断浮现坠落时的情形并情绪激动不断大声描述，这种记忆属于\nA. 机械识记\nB. 有意识记\nC. 无意识记\nD. 逻辑识记\nE. 创伤性应激\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.机械识记"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-42",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 4,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n下列有关双相障碍的说法正确的是\n[问题]下列有关双相障碍的说法正确的是\nA. 双相障碍的临床特点是反复（至少两次）出现心境高涨、精力充沛和活动增加（躁狂或轻躁狂），或心境低落、精力减退和活动减少（抑郁）\nB. 双相障碍的临床特点是反复（至少多次）出现心境高涨、精力充沛和活动增加（躁狂或轻躁狂），或心境低落、精力减退和活动减少（抑郁）\nC. 双相障碍的临床特点是一直出现心境高涨、精力充沛和活动增加（躁狂或轻躁狂），或心境低落、精力减退和活动减少（抑郁）\nD. 与其他心境障碍相比，本病在男性多于女性\nE. 与其他心境障碍相比，本病在女性多于男性\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.双相障碍的临床特点是反复（至少两次）出现心境高涨、精力充沛和活动增加（躁狂或轻躁狂），或心境低落、精力减退和活动减少（抑郁）"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-43",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "公卫预防",
+        "Difficulty level": 1,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n男，35岁。近3个月来经常感到不明原因紧张，不能控制的胡思乱想，时而伴有失控感，窒息，每次持续时间不长，常突然发作。该患者可能的症状是\n[问题]男，35岁。近3个月来经常感到不明原因紧张，不能控制的胡思乱想，时而伴有失控感，窒息，每次持续时间不长，常突然发作。该患者可能的症状是\nA. 痴呆\nB. 抑郁症\nC. 精神分裂症\nD. 强迫症\nE. 焦虑症状\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.焦虑症状"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-44",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n个体在试图逃避某种威胁情境时，或在明确预知某种危险即将发生而又无法应对时，会产生的基本情绪是\n[问题]个体在试图逃避某种威胁情境时，或在明确预知某种危险即将发生而又无法应对时，会产生的基本情绪是\nA. 悲哀\nB. 苦闷\nC. 恐惧\nD. 焦虑\nE. 愤怒\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.恐惧"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-45",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n每当电话铃声的同时就听到辱骂自己的声音，该症状是\n[问题]每当电话铃声的同时就听到辱骂自己的声音，该症状是\nA. 心因性幻听\nB. 元素性幻听\nC. 反射性幻听\nD. 假性幻听\nE. 功能性幻听\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.功能性幻听"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-46",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 4,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n女，21岁，心情压抑，烦闷，兴趣下降三年，三年前高考发挥不好，父母决定让其读二本，自己觉得学校不理想，抱怨都是父母让自己没有好的前途，渐渐做事情没动力，很少参加社团活动，诉近三年来虽然能完成学业，但一直感觉疲惫，生活没有色彩，最可能的诊断是\n[问题]女，21岁，心情压抑，烦闷，兴趣下降三年，三年前高考发挥不好，父母决定让其读二本，自己觉得学校不理想，抱怨都是父母让自己没有好的前途，渐渐做事情没动力，很少参加社团活动，诉近三年来虽然能完成学业，但一直感觉疲惫，生活没有色彩，最可能的诊断是\nA. 急性抑郁障碍\nB. 社交恐惧症\nC. 精神分裂症\nD. 恶劣心境\nE. 双向障碍\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.恶劣心境"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-47",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 3,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n不属于思维内容障碍的是\n[问题]不属于思维内容障碍的是\nA. 思维散漫\nB. 被监视感\nC. 被洞悉感\nD. 被控制感\nE. 罪恶妄想\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.思维散漫"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-48",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n男，20岁，坚持认为自己的父亲已经被人害死了，而那个朝夕陪伴自己的父亲只是看起来像父亲的一个人冒充的，家人劝说也不改变他的看法。该症状最常见于\n[问题]男，20岁，坚持认为自己的父亲已经被人害死了，而那个朝夕陪伴自己的父亲只是看起来像父亲的一个人冒充的，家人劝说也不改变他的看法。该症状最常见于\nA. 抑郁症\nB. 分离（转换）障碍\nC. 强迫障碍\nD. 双相障碍\nE. 精神分裂症\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.精神分裂症"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-49",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n男，48岁。因右胫骨平台骨折术后软组织感染1月余入院治疗。骨科主治医师王某建议进行专家会诊。会诊后决定采用保守治疗，既避免手术治疗造成软组织的进—步损伤，又能节约费用。治疗期间患者经常出现紧张、焦虑，害怕出现组织坏死甚至截肢等严重后果，影响睡眠和康复。针对该患者的紧张焦虑，最适合的心理干预技术是\n[问题]男，48岁。因右胫骨平台骨折术后软组织感染1月余入院治疗。骨科主治医师王某建议进行专家会诊。会诊后决定采用保守治疗，既避免手术治疗造成软组织的进—步损伤，又能节约费用。治疗期间患者经常出现紧张、焦虑，害怕出现组织坏死甚至截肢等严重后果，影响睡眠和康复。针对该患者的紧张焦虑，最适合的心理干预技术是\nA. 冲击疗法\nB. 梦的分析\nC. 厌恶疗法\nD. 系统脱敏疗法\nE. 放松训练\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.放松训练"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-50",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病治疗",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n男，55岁，早期肝癌患者，微创术后，愈合良好，他认为局部癌组织已切除，不要再想着自己是癌症患者，应坦然地面对生活，该患者应对心理应激的方法是\n[问题]男，55岁，早期肝癌患者，微创术后，愈合良好，他认为局部癌组织已切除，不要再想着自己是癌症患者，应坦然地面对生活，该患者应对心理应激的方法是\nA. 提高自身应对能力\nB. 调整对事件的认知\nC. 增加可控性和可预测性\nD. 接受心理治疗的帮助\nE. 采用心理防御机制\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "B.调整对事件的认知"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-51",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病治疗",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "B"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n潜意识又称无意识，在人的心理活动中一般处于\n[问题]潜意识又称无意识，在人的心理活动中一般处于\nA. 警觉状态\nB. 缓冲状态\nC. 知觉状态\nD. 清晰状态\nE. 压抑状态\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.压抑状态"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-52",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n精神分裂症的阳性症状不包括\n[问题]精神分裂症的阳性症状不包括\nA. 第三人称幻听\nB. 影响妄想\nC. 思维破裂\nD. 情感淡漠\nE. 紧张型木僵\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.情感淡漠"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-53",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n一种虚幻的知觉体验是\n[问题]一种虚幻的知觉体验是\nA. 非真实感\nB. 错觉\nC. 幻觉\nD. 虚构\nE. 人格解体\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.幻觉"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-54",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "公卫预防",
+        "Difficulty level": 2,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n慢性酒精中毒的治疗多采用的疗法是\n[问题]慢性酒精中毒的治疗多采用的疗法是\nA. 逐渐戒酒\nB. 综合性疗法\nC. 对症治疗\nD. 心理治疗\nE. 药物治疗\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "B.综合性疗法"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-55",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病治疗",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "公卫预防",
+        "Difficulty level": 3,
+        "answer": "B"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n患者反复出现一些想法，明知不必要或不合理，但无法控制。该症状为\n[问题]患者反复出现一些想法，明知不必要或不合理，但无法控制。该症状为\nA. 联想散漫\nB. 思维插入\nC. 思维奔逸\nD. 强制性思维\nE. 强迫性思维\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.强迫性思维"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-56",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n巴比妥类药物除用于镇静催眠外，还可用于\n[问题]巴比妥类药物除用于镇静催眠外，还可用于\nA. 解热\nB. 镇痛\nC. 抗惊厥\nD. 抗精神分裂症\nE. 抗炎症\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.抗惊厥"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-57",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病治疗",
+        "Clinical Department": "内科",
+        "Medical Discipline": "药学",
+        "Difficulty level": 1,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n女，20岁。近3个月来觉得同学们在背后议论和讥笑他，老师上课也对他指桑骂槐，在公共汽车上常常觉得有人跟踪监视他，不到预定车站就下车，该患者最可能的诊断是\n[问题]女，20岁。近3个月来觉得同学们在背后议论和讥笑他，老师上课也对他指桑骂槐，在公共汽车上常常觉得有人跟踪监视他，不到预定车站就下车，该患者最可能的诊断是\nA. 疑病症\nB. 躁狂症\nC. 分离（转换）性障碍\nD. 精神分裂症\nE. 抑郁发作\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.精神分裂症"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-58",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n女，40岁。半月前头痛，恶心，呕吐2次，伴低热，问话不答。独自发呆，卧床不起，抽搐2次。査体：血压140/90mmHg，下肢肌张力增高，右侧巴氏征（+），脑电图：弥漫性δ波以额颈为主，有阵发性尖波发放。首选的检查方法是\n[问题]女，40岁。半月前头痛，恶心，呕吐2次，伴低热，问话不答。独自发呆，卧床不起，抽搐2次。査体：血压140/90mmHg，下肢肌张力增高，右侧巴氏征（+），脑电图：弥漫性δ波以额颈为主，有阵发性尖波发放。首选的检查方法是\nA. 脑MRI\nB. 脑CT\nC. 心电图\nD. 脑脊液\nE. 智能测试\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.脑MRI"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-59",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "外科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 4,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n男，58岁。近半年工作压力大，经常出现差错，刚做过的事就记不起来，性格变得古怪，喜怒无常，有时情绪低落。一次喝了50ml啤酒后，找不到家而露宿街头。最可能的诊断是\n[问题]男，58岁。近半年工作压力大，经常出现差错，刚做过的事就记不起来，性格变得古怪，喜怒无常，有时情绪低落。一次喝了50ml啤酒后，找不到家而露宿街头。最可能的诊断是\nA. 复发性抑郁症\nB. 阿尔茨海默病\nC. 躁狂症\nD. 神游症\nE. 急性酒精中毒\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "B.阿尔茨海默病"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-60",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "B"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n指导-合作型这种模式主要适用于\n[问题]指导-合作型这种模式主要适用于\nA. 慢性病患者\nB. 急性病患者\nC. 精神患者\nD. 全麻的患者\nE. 昏迷、休克病人\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "B.急性病患者"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-61",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "口腔医学",
+        "Difficulty level": 3,
+        "answer": "B"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n男，30岁，约一年时间孤僻、寡言，近期由于被上级批评后出现失眠，不上班并紧闭门窗，声称有人监视自己，在家中不敢谈话，说家中已被安装窃听器，公安局也要逮捕自己，不吃妻子做的饭食，认为妻子已同他人合伙在饭菜中放了毒药。因此殴打妻子。药物治疗应首选\n[问题]男，30岁，约一年时间孤僻、寡言，近期由于被上级批评后出现失眠，不上班并紧闭门窗，声称有人监视自己，在家中不敢谈话，说家中已被安装窃听器，公安局也要逮捕自己，不吃妻子做的饭食，认为妻子已同他人合伙在饭菜中放了毒药。因此殴打妻子。药物治疗应首选\nA. 丙米嗪\nB. 利培酮\nC. 氯硝西泮\nD. 碳酸锂\nE. 氯丙米嗪\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "B.利培酮"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-62",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 3,
+        "answer": "B"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n提出治疗过程要信任和依靠来访者自身的潜力，而不是依靠治疗师的指导性工作的心理学派观点是\n[问题]提出治疗过程要信任和依靠来访者自身的潜力，而不是依靠治疗师的指导性工作的心理学派观点是\nA. 精神分析\nB. 行为主义\nC. 人本主义\nD. 认知心理\nE. 折衷主义\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.人本主义"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-63",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n男，25岁，近1年来脑内控制不住地思考自己出门有没有锁门，并且每次都会检查几次，明知自己这样做不对但仍然控制不住自己。该患者最可能的诊断是\n[问题]男，25岁，近1年来脑内控制不住地思考自己出门有没有锁门，并且每次都会检查几次，明知自己这样做不对但仍然控制不住自己。该患者最可能的诊断是\nA. 抑郁症\nB. 强迫症\nC. 躁狂发作\nD. 焦虑症\nE. 精神分裂症\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "B.强迫症"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-64",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "B"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n属于投射性的测验的是\n[问题]属于投射性的测验的是\nA. 明尼苏达多人格调查表\nB. 比奈智力测验\nC. 卡特尔16PF测量\nD. 主题统觉测验\nE. 90项症状自评\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.主题统觉测验"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-65",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n病人对医生的问题只能在表面上产生反应，缺乏进一步的联想，该症状为\n[问题]病人对医生的问题只能在表面上产生反应，缺乏进一步的联想，该症状为\nA. 思维被夺取\nB. 思维被洞悉\nC. 思维贫乏\nD. 思维散漫\nE. 思维迟缓\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.思维贫乏"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-66",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n关于自知力的描述不正确的是\n[问题]关于自知力的描述不正确的是\nA. 自知力是自我控制的能力\nB. 神经症患者大都有自知力\nC. 自知力是判断疾病严重程度的重要指标\nD. 自知力是判断疾病恢复程度的重要指标\nE. 自知力与治疗依从性有关\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.自知力是自我控制的能力"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-67",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 3,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n女，50岁。入睡困难、多梦易醒1个月，每周至少3次。同时感到精力疲乏，工作效率下降，对睡眠产生恐惧感，担心免疫力下降，否认情绪低落和消极观念。该患者最可能的诊断是\n[问题]女，50岁。入睡困难、多梦易醒1个月，每周至少3次。同时感到精力疲乏，工作效率下降，对睡眠产生恐惧感，担心免疫力下降，否认情绪低落和消极观念。该患者最可能的诊断是\nA. 疑病症\nB. 神经衰弱\nC. 焦虑症\nD. 恐惧症\nE. 失眠症\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.失眠症"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-68",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n某妇女，核心行为表现是情绪好压抑，性格好自我克制，表面上处处依顺、谦和善忍，回避矛盾，内心却是强压怒火，爱生闷气。该妇女的行为属于\n[问题]某妇女，核心行为表现是情绪好压抑，性格好自我克制，表面上处处依顺、谦和善忍，回避矛盾，内心却是强压怒火，爱生闷气。该妇女的行为属于\nA. C型行为\nB. 预防性行为\nC. B型行为\nD. D型行为\nE. E型行为\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.C型行为"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-69",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "公卫预防",
+        "Difficulty level": 1,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n对心理实质正确全面的理解是\n[问题]对心理实质正确全面的理解是\nA. 是人脑对客观现实的主观能动的反映\nB. 心理是客观现实的反映\nC. 心理是主观想象的反映\nD. 心理是客观现实的主观反映\nE. 心理是想什么就反映什么\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.是人脑对客观现实的主观能动的反映"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-70",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n女性，19岁大一新生，从山区来到城市上学，自述不能见马路上的汽车，当汽车经过时，总感觉汽车可能撞上自己，因此十分恐惧，来心理门诊就诊。最好采用的方法\n[问题]女性，19岁大一新生，从山区来到城市上学，自述不能见马路上的汽车，当汽车经过时，总感觉汽车可能撞上自己，因此十分恐惧，来心理门诊就诊。最好采用的方法\nA. 自由朕想\nB. 厌恶治疗\nC. 生物反馈\nD. 系统脱敏\nE. 梦的分析\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.系统脱敏"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-71",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病治疗",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n男性，22岁，半年前起病，表现：有时头痛头昏，部位不定，未予处理，话多，要办一个1000人的工厂，要当经理。周游全世界，有好几个女朋友，情绪高涨。诊断躁狂症，经碳酸锂，氯丙嗪治疗后症状消失。神经系统检查无异常，2个月后意识清楚，情感淡漠，话少动作缓慢，不洗澡，不换衣服，记忆力好，无自杀观念，阵发性剧烈头痛，用头撞墙，每次半小时左右，曾癫痫大发作1次，喷射性呕吐1次。神经系检查，眼底视乳头水肿，右侧肢体肌张力增高，巴氏征阳性。脑电图中度异常，大量病理高波幅θ波。左侧较多，脑超声波中线向右移0.3cm。最可能诊断是\n[问题]男性，22岁，半年前起病，表现：有时头痛头昏，部位不定，未予处理，话多，要办一个1000人的工厂，要当经理。周游全世界，有好几个女朋友，情绪高涨。诊断躁狂症，经碳酸锂，氯丙嗪治疗后症状消失。神经系统检查无异常，2个月后意识清楚，情感淡漠，话少动作缓慢，不洗澡，不换衣服，记忆力好，无自杀观念，阵发性剧烈头痛，用头撞墙，每次半小时左右，曾癫痫大发作1次，喷射性呕吐1次。神经系检查，眼底视乳头水肿，右侧肢体肌张力增高，巴氏征阳性。脑电图中度异常，大量病理高波幅θ波。左侧较多，脑超声波中线向右移0.3cm。最可能诊断是\nA. 躁狂症\nB. 抑郁症\nC. 躁狂抑郁症\nD. 脑肿瘤所致精神障碍\nE. 癫痫所致精神障碍\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.脑肿瘤所致精神障碍"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-72",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n流体智商，转变为晶体智商所处的年龄阶段为\n[问题]流体智商，转变为晶体智商所处的年龄阶段为\nA. 婴幼儿\nB. 青少年\nC. 青年\nD. 中年\nE. 老年\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.青年"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-73",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "不符合",
+        "Clinical Department": "不符合",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 4,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n下列属于酒精戒断综合征的是\n[问题]下列属于酒精戒断综合征的是\nA. 震颤谵妄\nB. 酒精性痴呆\nC. 酒精所致幻觉症\nD. 科萨可夫综合征\nE. Wernicke脑病\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.震颤谵妄"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-74",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 3,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n一患者检查发现得了病不想活了，可能出现的角色适应问题是\n[问题]一患者检查发现得了病不想活了，可能出现的角色适应问题是\nA. 强化\nB. 冲突\nC. 缺如\nD. 减退\nE. 异常\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.异常"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-75",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 3,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n男，23岁。3个月前劳务输出首次出国，出现紧张、心慌、易怒、失眠多梦。不愿上班，每天打电话向家人寻求安慰。回国1个月后症状自行缓解，恢复如常。该患者最可能的诊断是\n[问题]男，23岁。3个月前劳务输出首次出国，出现紧张、心慌、易怒、失眠多梦。不愿上班，每天打电话向家人寻求安慰。回国1个月后症状自行缓解，恢复如常。该患者最可能的诊断是\nA. 社交焦虑障碍\nB. 适应障碍\nC. 急性应激障碍\nD. 创伤后应激障碍\nE. 广泛性焦虑障碍\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "B.适应障碍"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-76",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "B"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n男性，23岁。大学生，自述不能见马路上的汽车，当汽车经过时总感觉汽车很可能撞上自己，因此十分恐惧，来心理门诊就诊，最好采用的方法是\n[问题]男性，23岁。大学生，自述不能见马路上的汽车，当汽车经过时总感觉汽车很可能撞上自己，因此十分恐惧，来心理门诊就诊，最好采用的方法是\nA. 系统脱敏\nB. 厌恶治疗\nC. 生物反馈\nD. 自由联想\nE. 梦的分析\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.系统脱敏"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-77",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n卡特尔人格因素问卷，将人格因素分为\n[问题]卡特尔人格因素问卷，将人格因素分为\nA. 18个\nB. 16个\nC. 14个\nD. 12个\nE. 8个\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "B.16个"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-78",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "不符合",
+        "Medical Discipline": "口腔医学",
+        "Difficulty level": 2,
+        "answer": "B"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n下列关于抗精神病药氯丙嗪的化学命名，正确的是\n[问题]下列关于抗精神病药氯丙嗪的化学命名，正确的是\nA. 2-氯-N、N-二甲基-10H-苯丙哌唑-10-丙胺\nB. 2-氯-N、N-二甲基-10H-苯丙噻唑-10-丙胺\nC. 2-氯-N、N-二甲基-10H-吩噻嗪-10-丙胺\nD. 2-氯-N、N-二甲基-10H-噻嗪-10-丙胺\nE. 2-氯-N、N-二甲基-10H-哌嗪-10-丙胺\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.2-氯-N、N-二甲基-10H-吩噻嗪-10-丙胺"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-79",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "药学",
+        "Difficulty level": 1,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n男，50岁，10个月前经领导肯定后出现心情好，自我感觉良好，认为自己能力超群。话多，主动和陌生人打招呼，说话，每天睡2～3小时也没有困倦，经治疗后好转。近1个月女儿离婚后患者心情低落，高兴不起来，话少，自责惭愧，认为自己没有给女儿找到好对象。兴趣减退，活动明显减少。睡眠减退，夜间睡眠差，早醒。有自杀观念。隔空听到人说自己无能，没用。不能正常上班。目前该患者最可能的诊断是\n[问题]男，50岁，10个月前经领导肯定后出现心情好，自我感觉良好，认为自己能力超群。话多，主动和陌生人打招呼，说话，每天睡2～3小时也没有困倦，经治疗后好转。近1个月女儿离婚后患者心情低落，高兴不起来，话少，自责惭愧，认为自己没有给女儿找到好对象。兴趣减退，活动明显减少。睡眠减退，夜间睡眠差，早醒。有自杀观念。隔空听到人说自己无能，没用。不能正常上班。目前该患者最可能的诊断是\nA. 分裂情感性障碍\nB. 精神分裂症\nC. 应激相关障碍\nD. 双相障碍抑郁发作\nE. 双相障碍躁狂发作\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.双相障碍抑郁发作"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-80",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n患者，女，25岁，3个月前因工作失误受到领导批评，觉得脸上无光，整日闷闷不乐，脑子里反复考虑自己的错误，觉得同事看不起她，在背后议论她，不愿意出门，并出现失眠，早醒，近一周来，出现兴奋话多，自我感觉好，觉得自己能做国家领导。该患者的药物治疗是\n[问题]患者，女，25岁，3个月前因工作失误受到领导批评，觉得脸上无光，整日闷闷不乐，脑子里反复考虑自己的错误，觉得同事看不起她，在背后议论她，不愿意出门，并出现失眠，早醒，近一周来，出现兴奋话多，自我感觉好，觉得自己能做国家领导。该患者的药物治疗是\nA. 换用利培酮治疗\nB. 地西泮静脉推注\nC. 碳酸锂治疗\nD. 舒必利静脉点滴\nE. 口服奥氮平治疗\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.碳酸锂治疗"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-81",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病治疗",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n人格形成的标志是\n[问题]人格形成的标志是\nA. 自我意识的确立\nB. 社会化程度\nC. 社会角色认同\nD. 自我意识的确立和社会化\nE. 自我意识确立和社会角色认同\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.自我意识的确立和社会化"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-82",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "不符合",
+        "Medical Discipline": "公卫预防",
+        "Difficulty level": 4,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n女，35岁。丈夫嗜赌，瞒着患者欠下高利贷200多万，被人逼债，不辞而别。债主门讨债，患者得知原委后，表现与平素判若两人，口中念念有词，似神鬼附体，称自已是大仙，要为债主摸骨看病。该患者最可能的诊断是\n[问题]女，35岁。丈夫嗜赌，瞒着患者欠下高利贷200多万，被人逼债，不辞而别。债主门讨债，患者得知原委后，表现与平素判若两人，口中念念有词，似神鬼附体，称自已是大仙，要为债主摸骨看病。该患者最可能的诊断是\nA. 抑郁症\nB. 躁狂症\nC. 惊恐障碍\nD. 创伤后应激障碍\nE. 转换分离障碍\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.转换分离障碍"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-83",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n对于精神障碍患者我们应该做到以下几点，但是哪项除外\n[问题]对于精神障碍患者我们应该做到以下几点，但是哪项除外\nA. 尊重\nB. 理解\nC. 躲避\nD. 关爱\nE. 不得歧视\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.躲避"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-84",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "公卫法律伦理",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "口腔医学",
+        "Difficulty level": 1,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n女，36岁。既往体健。在春节乘长途汽车回家的路上突然感到心前区发闷、呼吸困难，出汗，觉得自己就要不行了，自己不能控制自己，自己要发疯了。为此感到紧张、害怕。被紧急送到医院急诊，未做特殊处理，半小时后症状消失。患者最可能的诊断是\n[问题]女，36岁。既往体健。在春节乘长途汽车回家的路上突然感到心前区发闷、呼吸困难，出汗，觉得自己就要不行了，自己不能控制自己，自己要发疯了。为此感到紧张、害怕。被紧急送到医院急诊，未做特殊处理，半小时后症状消失。患者最可能的诊断是\nA. 心绞痛发作\nB. 二尖瓣脱垂\nC. 甲状腺功能亢进症\nD. 嗜铬细胞瘤\nE. 惊恐发作\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.惊恐发作"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-85",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "内科",
+        "Medical Discipline": "公卫预防",
+        "Difficulty level": 3,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n丙米嗪\n[问题]丙米嗪\nA. 阻断D₁、D₁受体\nB. 使突触间隙的NA浓度下降\nC. 阻断N胆碱受体\nD. 对心肌有奎尼丁样作用\nE. 阻断中枢5-HT受体\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.对心肌有奎尼丁样作用"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-86",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "不符合",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n思维贫乏常见于\n[问题]思维贫乏常见于\nA. 抑郁症\nB. 强迫性精神症\nC. 急性精神分裂症\nD. 慢性精神分裂症\nE. 癌症性精神病\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.慢性精神分裂症"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-87",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 4,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n（123～125题共用题干）男，59岁，进行性记忆力下降6个月。怀疑有人偷自己的东西，认为爱人对自己不忠诚，常与邻居发生争执，有时尾随年轻女性，行为幼稚、任性。家人无法管理而住院治疗。既往无脑血管病史。生命征及神经系统检查正常。病史中未提示存在的症状是\n[问题]（123～125题共用题干）男，59岁，进行性记忆力下降6个月。怀疑有人偷自己的东西，认为爱人对自己不忠诚，常与邻居发生争执，有时尾随年轻女性，行为幼稚、任性。家人无法管理而住院治疗。既往无脑血管病史。生命征及神经系统检查正常。病史中未提示存在的症状是\nA. 强制性思维\nB. 妒忌妄想\nC. 人格改变\nD. 易激惹\nE. 近事遗忘\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.强制性思维"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-88",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 3,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n一位来访者要求心理治疗师帮助她做出决定，是否该与其男友分手，但心理治疗师并没有满足其要求，这是因为\n[问题]一位来访者要求心理治疗师帮助她做出决定，是否该与其男友分手，但心理治疗师并没有满足其要求，这是因为\nA. 还没有考虑成熟\nB. 没有这方面的经验\nC. 保持客观中立\nD. 要帮助来访者自立\nE. 出于对来访者的尊重\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.保持客观中立"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-89",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n刘女士2周前经剖宫产产下一女婴，产后奶水不足令孩子啼哭不止，加之家里老人身体不好，婴儿及产妇的照顾和护理也是问题，刘女士因此萌生了悲观厌世的想法。对于医护人员来说，为了解患者的心理状况，比较简便的心理评估工具为\n[问题]刘女士2周前经剖宫产产下一女婴，产后奶水不足令孩子啼哭不止，加之家里老人身体不好，婴儿及产妇的照顾和护理也是问题，刘女士因此萌生了悲观厌世的想法。对于医护人员来说，为了解患者的心理状况，比较简便的心理评估工具为\nA. TAT（主题统觉测验）\nB. H-RB（神经心理成套测验）\nC. SDS（自评抑郁量表）\nD. EPQ（艾森克人格问卷）\nE. MMPI（明尼苏达多相人格调查表）\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.SDS（自评抑郁量表）"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-90",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n心身疾病的诊断原则是\n[问题]心身疾病的诊断原则是\nA. 心理治疗\nB. 发病前有明确的心理社会因素存在\nC. 药物治疗\nD. 采用躯体诊断即可\nE. 心理社会因素可以和躯体症状之间没有明确的时间关系\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "B.发病前有明确的心理社会因素存在"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-91",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 3,
+        "answer": "B"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n碳酸锂\n[问题]碳酸锂\nA. 阻断D₁、D₁受体\nB. 使突触间隙的NA浓度下降\nC. 阻断N胆碱受体\nD. 对心肌有奎尼丁样作用\nE. 阻断中枢5-HT受体\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "B.使突触间隙的NA浓度下降"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-92",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "不符合",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 3,
+        "answer": "B"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n广义的心理治疗包括\n[问题]广义的心理治疗包括\nA. 医护人员对病人的接触的过程\nB. 医护人员对病人的谈话的过程\nC. 医护人员对病人的检查的过程\nD. 医院优美舒适的环境\nE. 以上都是\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.以上都是"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-93",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病治疗",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "口腔医学",
+        "Difficulty level": 1,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n氯丙嗪引起强迫性张口伸舌斜颈属于\n[问题]氯丙嗪引起强迫性张口伸舌斜颈属于\nA. 帕金森综合征\nB. 静坐不能\nC. 迟发性运动障碍\nD. 急性肌张力障碍\nE. 中枢抑制\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.急性肌张力障碍"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-94",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "中西医结合",
+        "Difficulty level": 4,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n女，2岁。智力落后，表情呆滞，眼距宽，眼裂小，鼻梁低，口半张，舌伸出口外，皮肤细嫩，肌张力低下，右侧通贯手，最有确诊意义的检查为\n[问题]女，2岁。智力落后，表情呆滞，眼距宽，眼裂小，鼻梁低，口半张，舌伸出口外，皮肤细嫩，肌张力低下，右侧通贯手，最有确诊意义的检查为\nA. 听力测试\nB. 胸部X线\nC. 染色体\nD. 肝功能\nE. b超超声\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.染色体"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-95",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "儿科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n以下不属于心理咨询手段的是\n[问题]以下不属于心理咨询手段的是\nA. 宣泄\nB. 探索\nC. 领悟\nD. 强化自我控制\nE. 增强自信心\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "B.探索"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-96",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "口腔医学",
+        "Difficulty level": 5,
+        "answer": "B"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n女性，42岁，2个月来，情绪低落，兴趣索然，自觉“高兴不起来”，生不如死，“自己的脑子不灵了”，“像是生了锈的机器”，认为自己成了家庭和社会的累赘，“成了废物”，有胸闷、心悸、心慌的症状，自认为有严重心脏病，不能治愈。主动性言语及活动明显减少，生活被动，愿独处。曾多次自杀未遂，睡眠不好，早醒。该病人的思维表现不包括\n[问题]女性，42岁，2个月来，情绪低落，兴趣索然，自觉“高兴不起来”，生不如死，“自己的脑子不灵了”，“像是生了锈的机器”，认为自己成了家庭和社会的累赘，“成了废物”，有胸闷、心悸、心慌的症状，自认为有严重心脏病，不能治愈。主动性言语及活动明显减少，生活被动，愿独处。曾多次自杀未遂，睡眠不好，早醒。该病人的思维表现不包括\nA. 强制性思维\nB. 思维迟缓\nC. 自杀企图\nD. 疑病观念\nE. 自责自罪观念\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.强制性思维"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-97",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n为患者第一类精神药品注射剂，每张处方为几次常用量\n[问题]为患者第一类精神药品注射剂，每张处方为几次常用量\nA. 一次\nB. 二次\nC. 三次\nD. 四次\nE. 一周\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.一次"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-98",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "口腔医学",
+        "Difficulty level": 2,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n比奈西蒙量表属于一种\n[问题]比奈西蒙量表属于一种\nA. 智力测验\nB. 人格测验\nC. 神经心理测验\nD. 评定量表\nE. 投射实验\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.智力测验"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-99",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "口腔医学",
+        "Difficulty level": 3,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n更年期妇女心理症状的特点哪项不正确\n[问题]更年期妇女心理症状的特点哪项不正确\nA. 能力和精力减退，注意力不集中\nB. 情绪波动较大、紧张、抑郁、焦虑\nC. 有时伴有头痛、失眠、头晕、乏力等躯体症状\nD. 这些心理症状有特异性\nE. 更年期出现的心理症状比精神病患者轻，有波动性，不是持续存在\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.这些心理症状有特异性"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-100",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "妇女保健",
+        "Medical Discipline": "公卫预防",
+        "Difficulty level": 2,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n无论对错都盲目地拒绝他人的意见和劝告，坚持自己的决定，其意志活动缺乏\n[问题]无论对错都盲目地拒绝他人的意见和劝告，坚持自己的决定，其意志活动缺乏\nA. 自觉性\nB. 果断性\nC. 坚韧性\nD. 自制性\nE. 独立性\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.自觉性"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-101",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "公卫预防",
+        "Difficulty level": 3,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n某心理治疗师在路上遇到一位治疗过的患者及其同事，上前过去打招呼，并询问患者最近的病情。该治疗医师违背的心理治疗原则是\n[问题]某心理治疗师在路上遇到一位治疗过的患者及其同事，上前过去打招呼，并询问患者最近的病情。该治疗医师违背的心理治疗原则是\nA. 真诚原则\nB. 中立原则\nC. 耐心原则\nD. 回避原则\nE. 保密原则\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.保密原则"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-102",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "公卫法律伦理",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n“心理障碍大多为幼年压抑的潜意识冲突而引起”。持这种观点的学派是\n[问题]“心理障碍大多为幼年压抑的潜意识冲突而引起”。持这种观点的学派是\nA. 心理生理学派\nB. 人本主义学派\nC. 认知行为学派\nD. 行为主义学派\nE. 精神分析学派\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.精神分析学派"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-103",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n某女生在一次动物试验中，因抓大白鼠方法不对被咬，引起焦虑和恐惧发作，而后表现为见鼠就尖叫害怕心跳剧烈。病人主动求医，心理治疗方法是\n[问题]某女生在一次动物试验中，因抓大白鼠方法不对被咬，引起焦虑和恐惧发作，而后表现为见鼠就尖叫害怕心跳剧烈。病人主动求医，心理治疗方法是\nA. 自由联想法\nB. 厌恶疗法\nC. 奖励疗法\nD. 系统脱敏法\nE. 生物反馈疗法\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.系统脱敏法"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-104",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病治疗",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n男，35岁。近1年来经常吸食“冰毒”，1个月前因工作差错被老板训斥，开始怀疑自己的一举一动被人监控，单位同事含沙射影暗示他将被老板谋害，曾数次报案请求公安局保护。该患者最可能的诊断是\n[问题]男，35岁。近1年来经常吸食“冰毒”，1个月前因工作差错被老板训斥，开始怀疑自己的一举一动被人监控，单位同事含沙射影暗示他将被老板谋害，曾数次报案请求公安局保护。该患者最可能的诊断是\nA. 精神分裂症\nB. 妄想性障碍\nC. 分裂情感性精神障碍\nD. 应激相关障碍\nE. 苯丙胺类兴奋剂所致的精神障碍\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.苯丙胺类兴奋剂所致的精神障碍"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-105",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 3,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n根据沙赫特有关情绪研究的观点，对个体情绪的性质和程度起决定性作用的是\n[问题]根据沙赫特有关情绪研究的观点，对个体情绪的性质和程度起决定性作用的是\nA. 心理应对方式\nB. 认知的方式\nC. 人格的特点\nD. 社会支待程度\nE. 智力的水平\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "B.认知的方式"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-106",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 3,
+        "answer": "B"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n医疗机构及其工作人员实行某些行为，由县级以上人民政府卫生行政部门责令改正，对直接负责的主管人员和其他直接责任人员依法给予或者责令给予降低岗位等级或者撤职的处分；对有关医务人员，暂停六个月以上一年以下执业活动；情节严重的，给予或者责令给予开除的处分，并吊销有关医务人员的执业证书，不属于规定行为的是\n[问题]医疗机构及其工作人员实行某些行为，由县级以上人民政府卫生行政部门责令改正，对直接负责的主管人员和其他直接责任人员依法给予或者责令给予降低岗位等级或者撤职的处分；对有关医务人员，暂停六个月以上一年以下执业活动；情节严重的，给予或者责令给予开除的处分，并吊销有关医务人员的执业证书，不属于规定行为的是\nA. 违反本法规定实施约束、隔离等保护性医疗措施的\nB. 违反本法规定，强迫精神障碍患者劳动的\nC. 违反本法规定对精神障碍患者实施外科手术或者实验性临床医疗的\nD. 违反本法规定，侵害精神障碍患者的通讯和会见探访者等权利的\nE. 违反本法规定，错误诊断精神障碍患者的\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.违反本法规定，错误诊断精神障碍患者的"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-107",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "公卫法律伦理",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "公卫预防",
+        "Difficulty level": 4,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n某校内一女学生感到最近心情低落，表情淡漠，有厌食自杀想法，主动去找心理医生，该医生给予的评估下列哪种最合适\n[问题]某校内一女学生感到最近心情低落，表情淡漠，有厌食自杀想法，主动去找心理医生，该医生给予的评估下列哪种最合适\nA. WISD\nB. EPQ\nC. MMPI\nD. 16-PF\nE. SDS\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.SDS"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-108",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 3,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n心理评估师给患者进行心理评估时，向患者出示了三张意义含糊的图片，并请他根据对图片内容的理解讲一个较为完成的故事，医生由此可以推测患者的个性特征和心理问题。该测验方法属于\n[问题]心理评估师给患者进行心理评估时，向患者出示了三张意义含糊的图片，并请他根据对图片内容的理解讲一个较为完成的故事，医生由此可以推测患者的个性特征和心理问题。该测验方法属于\nA. 调查法\nB. 作业法\nC. 观察法\nD. 投射法\nE. 问卷法\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.投射法"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-109",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 3,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n属于选择性5-羟色胺再摄取抑制剂的抗抑郁药物是\n[问题]属于选择性5-羟色胺再摄取抑制剂的抗抑郁药物是\nA. 吗氯贝胺\nB. 艾司西酞普兰\nC. 文拉法辛\nD. 马普替林\nE. 瑞波西汀\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "B.艾司西酞普兰"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-110",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病治疗",
+        "Clinical Department": "内科",
+        "Medical Discipline": "药学",
+        "Difficulty level": 2,
+        "answer": "B"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n心理治疗中，医生和患者的桥梁\n[问题]心理治疗中，医生和患者的桥梁\nA. 互相信任\nB. 医疗技术\nC. 医生与患者的良好关系\nD. 医生的医疗水平\nE. 互相尊重\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.医生与患者的良好关系"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-111",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "公卫法律伦理",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 4,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n主题统觉测验属于\n[问题]主题统觉测验属于\nA. 人格测验问卷\nB. 智力测验\nC. 人格投射测验\nD. 评定量表\nE. 神经心理学测验\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.人格投射测验"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-112",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "不符合",
+        "Clinical Department": "不符合",
+        "Medical Discipline": "公卫预防",
+        "Difficulty level": 2,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n患者体验到思维活跃脑内概念不断涌现，一个意念接着一个意念。该症状为\n[问题]患者体验到思维活跃脑内概念不断涌现，一个意念接着一个意念。该症状为\nA. 联想散漫\nB. 思维插入\nC. 思维奔逸\nD. 强制性思维\nE. 强迫性思维\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.思维奔逸"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-113",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n下列不属于戒断综合征的表现的是\n[问题]下列不属于戒断综合征的表现的是\nA. 情绪改变\nB. 近记忆增强\nC. 失眠\nD. 幻觉或错觉\nE. 肢体震颤\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "B.近记忆增强"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-115",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "B"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n女性，17岁。与人争吵后大哭大叫，捶胸扯发，在地面打滚，继而突然失语。该症状属\n[问题]女性，17岁。与人争吵后大哭大叫，捶胸扯发，在地面打滚，继而突然失语。该症状属\nA. 感觉性失语\nB. 运动性失语\nC. 緘默症\nD. 违拗症\nE. 癔症性失语\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.癔症性失语"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-116",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "公卫预防",
+        "Difficulty level": 3,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n谵妄状态的主要特征为\n[问题]谵妄状态的主要特征为\nA. 意识障碍，且昼轻夜重\nB. 幻觉\nC. 记忆减退\nD. 错觉\nE. 注意涣散\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.意识障碍，且昼轻夜重"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-117",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "A"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n心理评估的常用方法不包括\n[问题]心理评估的常用方法不包括\nA. 会谈法\nB. 测验法\nC. 调查法\nD. 观察法\nE. 实验法\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.实验法"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-118",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n二类精神药品的处方限量是\n[问题]二类精神药品的处方限量是\nA. 不超过三日常用量\nB. 不超过二日极量\nC. 不超过七日常用量\nD. 不超过十五日常用量\nE. 不超过三十日常用量\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.不超过七日常用量"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-119",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "药学",
+        "Difficulty level": 3,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n人类心理过程的认识过程不包括\n[问题]人类心理过程的认识过程不包括\nA. 感觉\nB. 信念\nC. 记忆\nD. 思维\nE. 想象\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "B.信念"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-120",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "B"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n医学心理学的研究任务不包括\n[问题]医学心理学的研究任务不包括\nA. 将心理学的理论应用于医学领域\nB. 研究心理在疾病过程中的变化\nC. 研究心理在疾病过程中的作用\nD. 研究心理治疗在疾病发展中的意义\nE. 研究生理治疗方法在治疗中的影响\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.研究生理治疗方法在治疗中的影响"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-121",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n女，21岁。因吸食可卡因5天后停用，突然出现严重的自杀行为而被送入急诊室，同时伴有无价值感，无望感，明显的自主神经症状及极度疲劳，食欲下降，精力丧失。最可能是\n[问题]女，21岁。因吸食可卡因5天后停用，突然出现严重的自杀行为而被送入急诊室，同时伴有无价值感，无望感，明显的自主神经症状及极度疲劳，食欲下降，精力丧失。最可能是\nA. 抑郁症\nB. 戒断综合征\nC. 神经衰弱\nD. 精神分裂症\nE. 神经官能症\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "B.戒断综合征"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-122",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 3,
+        "answer": "B"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n第一类精神药品\n[问题]第一类精神药品\nA. 地西泮\nB. 哌醋甲酯\nC. 盐酸可卡因\nD. 去乙酰毛花苷丙\nE. 盐酸普鲁卡因\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "B.哌醋甲酯"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-123",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "药学",
+        "Difficulty level": 2,
+        "answer": "B"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n女，25岁。半年前离婚。某日下班后回到家中突然出现强烈的恐惧感，有如大祸临头，同时心悸、胸闷，呼吸困难，有窒息感。全身多汗、脸红、手脚发麻、四肢颤抖，5～6分钟后逐渐平静。最可能的诊断是\n[问题]女，25岁。半年前离婚。某日下班后回到家中突然出现强烈的恐惧感，有如大祸临头，同时心悸、胸闷，呼吸困难，有窒息感。全身多汗、脸红、手脚发麻、四肢颤抖，5～6分钟后逐渐平静。最可能的诊断是\nA. 恐怖症\nB. 精神分裂症\nC. 慢性焦虑症\nD. 心理生理障碍\nE. 惊恐发作\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.惊恐发作"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-124",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n男，18岁，高三学生。既往学习成绩一贯优良，品德良好。据父母反映该生近半年来，可能因为学习任务太重，高考压力太大，出现学习成缋明显下降，且变得孤僻不与人交往，对父母态度冷漠又粗暴，失眠，有时自语自笑。精神检查时，该学生回答问题语词单调，对上述表现回答说压力太大脑子变得空白听不进老师讲课记忆力变差，回答时面无表情。该学生最可能的诊断是\n[问题]男，18岁，高三学生。既往学习成绩一贯优良，品德良好。据父母反映该生近半年来，可能因为学习任务太重，高考压力太大，出现学习成缋明显下降，且变得孤僻不与人交往，对父母态度冷漠又粗暴，失眠，有时自语自笑。精神检查时，该学生回答问题语词单调，对上述表现回答说压力太大脑子变得空白听不进老师讲课记忆力变差，回答时面无表情。该学生最可能的诊断是\nA. 焦虑症\nB. 抑郁症\nC. 精神分裂症\nD. 神经衰弱\nE. 应激相关障碍\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "C.精神分裂症"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-125",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "C"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n某大学三年级医学生，学习成绩一直不理想，来到学校心理咨询室，诉其在大学生活中不知道自己该干什么，没有主见，经常轻信他人，轻易改变自己的方向。该心理咨询师分析该医学生在意志力上出现的问题是\n[问题]某大学三年级医学生，学习成绩一直不理想，来到学校心理咨询室，诉其在大学生活中不知道自己该干什么，没有主见，经常轻信他人，轻易改变自己的方向。该心理咨询师分析该医学生在意志力上出现的问题是\nA. 动摇\nB. 武断\nC. 执拗\nD. 独断\nE. 盲从\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "E.盲从"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-126",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "E"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n女性，19岁，大学一年级新生，从山区来到城市上学，自述不能见马路上的汽车，当汽车经过时，总感觉汽车很可能撞上自己，因此十分恐惧，来心理门诊就诊，最好采用的方法是\n[问题]女性，19岁，大学一年级新生，从山区来到城市上学，自述不能见马路上的汽车，当汽车经过时，总感觉汽车很可能撞上自己，因此十分恐惧，来心理门诊就诊，最好采用的方法是\nA. 自由联想\nB. 厌恶治疗\nC. 生物反馈\nD. 系统脱敏\nE. 梦的分析\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.系统脱敏"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-128",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病治疗",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n失神与少神的共同表现是\n[问题]失神与少神的共同表现是\nA. 言语失伦\nB. 表情淡漠\nC. 倦怠乏力\nD. 面色晦暗少华\nE. 以上都不是\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.面色晦暗少华"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-129",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "中西医结合",
+        "Difficulty level": 3,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n某人已被确诊为某病，而本人否认自己有病，此人角色行为的改变属于\n[问题]某人已被确诊为某病，而本人否认自己有病，此人角色行为的改变属于\nA. 角色行为冲突\nB. 角色行为减退\nC. 角色行为强化\nD. 角色行为缺如\nE. 角色行为异常\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.角色行为缺如"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-130",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病诊断和鉴别诊断",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 1,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n情感对于情绪来说具有的特点是\n[问题]情感对于情绪来说具有的特点是\nA. 强烈而冲动\nB. 伴有明显的行为变化\nC. 伴有明显的生理变化\nD. 稳定而深刻\nE. 带有明显的情境性\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "D.稳定而深刻"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-131",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "医学基础知识",
+        "Clinical Department": "不符合",
+        "Medical Discipline": "临床医学",
+        "Difficulty level": 2,
+        "answer": "D"
+    },
+    {
+        "conversations": [
+            {
+                "from": "human",
+                "value": "请扮演一位专业的精神科临床医生，详细阅读分析下面的患者信息，并完成单项选择题。\n躁狂症首选\n[问题]躁狂症首选\nA. 碳酸锂\nB. 丙米嗪\nC. 氯丙嗪\nD. 奋乃静\nE. 五氟利多\n不需要做任何分析和解释，直接输出答案选项。"
+            },
+            {
+                "from": "gpt",
+                "value": "A.碳酸锂"
+            }
+        ],
+        "fewshot_examples": "",
+        "id": "CMExam-132",
+        "Disease Group": "精神、行为或神经发育障碍",
+        "Area of Competency": "疾病治疗",
+        "Clinical Department": "精神科",
+        "Medical Discipline": "公卫预防",
+        "Difficulty level": 2,
+        "answer": "A"
+    }
+]
