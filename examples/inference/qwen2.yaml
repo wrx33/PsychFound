@@ -1,4 +1,0 @@
-model_name_or_path: /data/sjtu/wrx/model_weights/Qwen2___5-14B-Instruct/
-template: qwen
-# infer_backend: vllm
-max_new_tokens: 4096

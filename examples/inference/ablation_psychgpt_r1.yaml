@@ -1,8 +1,0 @@
-model_name_or_path: /data/sjtu/wrx/llamafactory/psychgpt-r1-0313-refine-sft-dpo-task2-merge/
-# adapter_name_or_path: /data/sjtu/wrx/llamafactory/psychgpt-r1-0307-adapter-3/
-template: qwen
-# finetuning_type: lora
-# infer_backend: vllm
-# temperature: 0.9
-max_new_tokens: 3000
-# repetition_penalty: 1.2

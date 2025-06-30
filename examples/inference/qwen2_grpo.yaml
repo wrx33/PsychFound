@@ -1,5 +1,0 @@
-model_name_or_path: /home/sjtu/wrx/code/TinyZero-main/checkpoints/verl_grpo_diagnosis/diagnosis-instruct-qwen2-7b-coldstart-0303-1/actor/global_step_135/
-template: qwen
-# infer_backend: vllm
-max_new_tokens: 4096
-repetition_penalty: 1.2

@@ -1,8 +1,0 @@
-model_name_or_path: /data/sjtu/wrx/model_weights/Qwen2-7B-Instruct
-adapter_name_or_path: /data/sjtu/wrx/llamafactory/psychgpt-coldstart-0303
-template: qwen
-finetuning_type: lora
-# infer_backend: vllm
-# temperature: 0.1
-repetition_penalty: 1.2
-max_new_tokens: 2048

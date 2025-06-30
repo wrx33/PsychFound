@@ -1,0 +1,5 @@
+model_name_or_path: path-to-your-checkpoints
+template: qwen
+infer_backend: vllm
+max_new_tokens: 4096
+vllm_maxlen: 4096

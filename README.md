@@ -63,11 +63,13 @@ For those who wish to replicate the pipeline or perform training with private EH
 }
 ```
 
+The `data/dataset_info.json` contains all available datasets. If you are using a custom dataset, please **make sure** to add a *dataset description* in `dataset_info.json` and specify `dataset: dataset_name` before training to use it.
+
 **For RL:**
 
-Run `python ./scripts/data_preprocess/rl_diagnosis.py --local_dir {path_to_your_dataset}` to prepare RL dataset for diagnosis task using your dataset.
+Refer to `python ./tinyzero/examples/data_preprocess/psychfound_diagnosis.py --local_dir {path_to_your_dataset}` to prepare your RL dataset.
 
-You can prepare your cold-start data as following:
+You can organize your cold-start data as following:
 
 ```
 {
@@ -109,7 +111,7 @@ You can use our checkpoints in ./model/checkpoints/psychfound_v1
 You can also change model_name_or_path to the path to your own checkpoints.
 
 ```bash
-llamafactory-cli chat ./scripts/inference/inference.yaml
+python -m src.llamafactory.cli chat ./scripts/inference/inference.yaml
 ```
 
 ## 📄License

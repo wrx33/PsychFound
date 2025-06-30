@@ -1,5 +1,5 @@
 ### model
-model_name_or_path: /data/sjtu/wrx/llamafactory/psychgpt-r1-0313-refine-sft-dpo-task2-knowledge-merge/
+model_name_or_path: path-to-your-model
 
 ### method
 stage: sft
@@ -9,14 +9,14 @@ lora_target: all
 lora_rank: 256
 
 ### dataset
-dataset: identity_psychgpt,psychgpt_sft_refine
+dataset: your_dataset
 template: qwen
 cutoff_len: 4096
 overwrite_cache: true
 preprocessing_num_workers: 16
 
 ### output
-output_dir: /data/sjtu/wrx/llamafactory/psychgpt-r1-0313-refine-sft-dpo-task2-knowledge-sft-CMBCME
+output_dir: path-to-your-output-dir
 logging_steps: 10
 save_steps: 3000
 plot_loss: true
