@@ -10,7 +10,7 @@
   - Diagnostic reasoning and differential diagnosis
   - Medication planning and contraindication analysis
   - Prognosis monitoring and follow-up suggestions
-- **Expert-aligned**: Fine-tuned on 42,266 anonymized EHRs and evaluated via a real-world prospective study and multi-level reader study.
+- **Expert-aligned**: Fine-tuned on 64,588 anonymized EHRs and evaluated via a real-world prospective study and multi-level reader study.
 - **Open Resources**: Includes an open psychiatric corpus and benchmarking dataset (PsychCorpus, PsychBench).
 
 ---
