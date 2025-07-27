@@ -106,7 +106,7 @@ bash ./tinyzero/scripts/train_rl_diagnosis.sh
 
 ### 5. Inference
 
-You can use our checkpoints in ./model/checkpoints/psychfound_v1
+You can use our checkpoints from huggingface:  wangrx33/PsychFound_v1
 
 You can also change model_name_or_path to the path to your own checkpoints.
 
