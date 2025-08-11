@@ -28,10 +28,14 @@ cd PsychFound
 
 ```bash
 pip install -e ".[torch,metrics]" --no-build-isolation
-
 ```
 
 Recommended CUDA version: 12.0
+
+VRAM requirements (7B):
+Training with AdamW and LoRA (r=8): ~14G 
+
+Reasoning: ~10G
 
 ### 3. Data preparation
 
