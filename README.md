@@ -17,6 +17,54 @@
 
 ## 🚀Getting Started
 
+## Quick Start
+
+Here provides a code snippet with `apply_chat_template` to show you how to load the tokenizer and model and how to generate contents.
+
+```python
+from transformers import AutoModelForCausalLM, AutoTokenizer
+device = "cuda" # the device to load the model onto
+
+model = AutoModelForCausalLM.from_pretrained(
+    "path to PsychFound",
+    torch_dtype="auto",
+    device_map="auto"
+)
+tokenizer = AutoTokenizer.from_pretrained("path to PsychFound")
+
+prompt = """
+A 40-year-old female has presented with headache, nausea, two episodes of vomiting, low-grade fever, and non-responsiveness to questions over the past two weeks. she has been staring blankly and has remained bedridden. She has experienced two seizures. Physical examination reveals a blood pressure of 140/90 mmHg, increased muscle tone in the lower limbs, and a positive Babinski sign on the right side. The EEG shows diffuse delta waves predominantly in the frontal and temporal regions, with intermittent sharp wave discharges. The diagnosis for this patient is:
+{
+'A': 'Psychiatric Disorder Due to Viral Encephalitis’, 
+'B': 'Schizophrenia',
+'C': 'Psychiatric Disorder Due to Brain Tumor',
+'D': 'Cancer',
+'E': 'Psychiatric Disorder Due to Epilepsy'}
+"""
+messages = [
+    {"role": "user", "content": prompt}
+]
+text = tokenizer.apply_chat_template(
+    messages,
+    tokenize=False,
+    add_generation_prompt=True
+)
+model_inputs = tokenizer([text], return_tensors="pt").to(device)
+
+generated_ids = model.generate(
+    model_inputs.input_ids,
+    max_new_tokens=512
+)
+generated_ids = [
+    output_ids[len(input_ids):] for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)
+]
+
+response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+
+```
+
+
+
 ### 1. Clone the repository
 
 ```bash
