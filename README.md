@@ -21,6 +21,8 @@
 
 Here provides a code snippet with `apply_chat_template` to show you how to load the tokenizer and model and how to generate contents.
 
+You can use our checkpoints from huggingface:  wangrx33/PsychFound_v1
+
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
 device = "cuda" # the device to load the model onto
@@ -160,8 +162,6 @@ bash ./tinyzero/scripts/train_rl_diagnosis.sh
 ```
 
 ### 5. Inference
-
-You can use our checkpoints from huggingface:  wangrx33/PsychFound_v1
 
 You can also change model_name_or_path to the path to your own checkpoints.
 
