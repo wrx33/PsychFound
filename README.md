@@ -15,8 +15,6 @@
 
 ---
 
-## 🚀Getting Started
-
 ## Quick Start
 
 Here provides a code snippet with `apply_chat_template` to show you how to load the tokenizer and model and how to generate contents.
@@ -65,7 +63,7 @@ response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
 
 ```
 
-
+## 🚀Getting Started
 
 ### 1. Clone the repository
 
