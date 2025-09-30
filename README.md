@@ -19,7 +19,7 @@
 
 Here provides a code snippet with `apply_chat_template` to show you how to load the tokenizer and model and how to generate contents.
 
-You can use our checkpoints from huggingface:  wangrx33/PsychFound_v1
+You can use our checkpoints from huggingface:  wangrx33/PsychFound_v1. 
 
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -41,6 +41,17 @@ A 40-year-old female has presented with headache, nausea, two episodes of vomiti
 'D': 'Cancer',
 'E': 'Psychiatric Disorder Due to Epilepsy'}
 """
+
+prompt = """
+Please complete the diagnostic analysis report, which should include the following:
+- Diagnostic conclusion.
+- Clinical and examination evidence supporting the diagnosis
+- Differential diagnosis and exclusion analysis.
+**Patient Information:**
+Female, 26 years old.
+**Current Medical History:** In January 2012, while in Grade 9, the patient experienced depression, fatigue, drowsiness, and a general feeling of weakness due to academic pressure. She found it difficult to think and complete homework, and could not understand the teacher's lectures. Her nighttime sleep was poor, often falling asleep around 2 or 3 AM, with shallow sleep and frequent awakenings (about 4 times) per night, occurring approximately once a week. She interacted well with others and managed to perform well in the high school entrance exam. In November 2012, after entering a prestigious high school in Inner Mongolia, she felt that others were more capable, and her symptoms reappeared, although her mood improved slightly compared to before. She remained in this state for a long time, with no significant impact on her studies or life. In November 2013, she experienced an unprovoked episode of increased mood, energy, and cognitive speed, resulting in a significant improvement in academic performance. Two to three weeks later, her symptoms of depression, fatigue, and drowsiness worsened. In November 2015, after entering university, she felt a lax lifestyle and developed a strong sense of self-reproach, feeling sad about the future, with a significant worsening of depressive symptoms, including thoughts of life having no meaning and suicidal ideation. She experienced fatigue and drowsiness, lost interest in playing computer games, and found it difficult to complete homework assigned by teachers. Her nighttime sleep was poor, with difficulty falling asleep and shallow sleep almost every night. She interacted well with others. In November 2017, after watching a program about depression, she sought treatment at the First Affiliated Hospital of Fujian Medical University, where she was diagnosed with \"bipolar disorder.\" She did not receive medication treatment and instead opted for further evaluation before taking medication. She was first treated at our hospital in January 2018, diagnosed with recurrent depressive disorder, and was discharged after 2 months of treatment with escitalopram (20 mg/day) and quetiapine fumarate (12.5 mg/day), experiencing a severe episode without psychotic symptoms. Post-discharge, her symptoms were unstable, and she was readmitted for the same diagnosis and treatment, and was discharged in May 2017 with significant improvement. After discharge, she adhered to medication and had occasional low moods but could maintain normal daily life and studies. In May 2022, she witnessed her father's sudden death at home, and her mood deteriorated significantly, often crying silently, with a decline in academic performance and inability to continue schooling. She had suicidal thoughts without a plan and was constantly worried that her mother would suddenly fall ill and leave her. She could maintain normal daily life and eating habits, with sleep still acceptable. In the past two weeks, she has not experienced fever, abdominal pain, diarrhea, nausea, or vomiting, nor has she experienced coma or convulsions. Her appetite is normal, sleep is acceptable, and bowel and bladder functions are normal, with no significant changes in weight.\n\n**Past Medical History:**\nNegative.\n\n**Family History:**\nNegative.\n\n**Physical Examination, Auxiliary Examinations, and Mental Status Examination:**\nPhysical examination revealed no obvious abnormalities. Auxiliary examinations pending. Physical examination revealed no obvious abnormalities.
+"""
+
 messages = [
     {"role": "user", "content": prompt}
 ]
@@ -60,8 +71,43 @@ generated_ids = [
 ]
 
 response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+(### Diagnostics Analysis Report
+
+#### **Diagnostic Conclusion**
+The patient is diagnosed with **Bipolar Disorder, currently in a severe depressive episode**.
+
+#### **Clinical and Examination Evidence Supporting the Diagnosis**
+
+1. **Core Symptoms of Depression**: The patient exhibits persistent depressive symptoms such as mood low, loss of interest, suicidal ideation, and fatigue. These symptoms have been present since childhood, with episodic exacerbation during stressful events (e.g., academic pressure, family crisis).
+
+2. **Evidence of Manic Episodes**: Historical records show that the patient experienced a period of elevated mood, energy, and cognitive speed (November 2013). However, the subsequent worsening of depressive symptoms suggests the presence of bipolar II disorder rather than a manic episode. This supports the differential diagnosis in favor of bipolar disorder.
+
+3. **Family and Personal History**: Negative family history and stable personal history support the diagnosis of bipolar disorder.
+
+4. **Response to Treatment**: The patient's response to SSRI (escitalopram) and antipsychotics (quetiapine) indicates the effectiveness of treatment in bipolar disorder, further supporting the diagnosis.
+
+5. **Exclusion of Other Disorders**: No evidence of organic brain disorders, substance use, or other mental disorders makes bipolar disorder the primary diagnosis.
+
+#### **Differential Diagnosis and Exclusion Analysis**
+
+1. **Depressive Disorder (Unipolar Depression)**: The patient's history includes episodes of depression with no history of manic or hypomanic episodes. However, the presence of manic episodes in the past necessitates a differential diagnosis.
+
+2. **Anxiety Disorders**: While the patient may experience anxiety, the core symptoms of bipolar disorder (mood swings, mood instability) are more consistent with bipolar disorder.
+
+3. **Substance-Induced Disorders**: The patient does not have a history of substance use, making this diagnosis less likely.
+
+4. **Organic Brain Disorders**: Negative physical examination and imaging results rule out organic causes.
+
+5. **Schizophrenia**: The patient's history does not support the presence of psychotic symptoms, making schizophrenia less likely.
+
+#### **Conclusion**
+Based on the patient's clinical presentation, historical records, and treatment response, the diagnosis of Bipolar Disorder, currently in a severe depressive episode, is supported. Further examination of auxiliary tests will help rule out other potential causes of symptoms.
+)
+
 
 ```
+
+(Reasoning ability may be slightly reduced in English interaction compared with Chinese interaction.)
 
 ## 🚀Getting Started
 
