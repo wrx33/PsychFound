@@ -19,7 +19,7 @@
 
 Here provides a code snippet with `apply_chat_template` to show you how to load the tokenizer and model and how to generate contents.
 
-You can use our checkpoints from huggingface:  wangrx33/PsychFound_v1. 
+You can use our checkpoints from huggingface:  wangrx33/PsychFound_v2. 
 
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
