@@ -115,7 +115,7 @@ This project adopts a **three-stage development framework**, and corresponding d
 
 #### 1) Professional Knowledge Injection (Stage 1)
 
-We release the dataset used in the first phase, named PsychCorpus, located at:
+We release part of the dataset used in the first phase, named PsychCorpus, located at:
 
 ```bash
 data/PsychCorpus
