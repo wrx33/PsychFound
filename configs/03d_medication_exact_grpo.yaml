@@ -1,0 +1,37 @@
+stage: medication_exact_grpo
+model_name_or_path: ${PSYCHFOUND_MEDICATION_CATEGORY_MODEL}
+train_data: ${PSYCHFOUND_MEDICATION_EXACT_DATA}/train.jsonl
+eval_data: ${PSYCHFOUND_MEDICATION_EXACT_DATA}/test.jsonl
+output_dir: outputs/03d_medication_exact_grpo
+expected_world_size: 8
+global_prompt_batch_size: 8
+training:
+  learning_rate: 1.0e-6
+  beta: 0.001
+  max_prompt_length: 512
+  max_completion_length: 512
+  num_generations: 8
+  temperature: 0.6
+  epsilon: 0.2
+  num_iterations: 1
+  loss_type: bnpo
+  scale_rewards: group
+  importance_sampling_level: token
+  use_vllm: true
+  vllm_mode: colocate
+  vllm_tensor_parallel_size: 2
+  vllm_gpu_memory_utilization: 0.6
+  vllm_importance_sampling_correction: false
+  per_device_train_batch_size: 8
+  per_device_eval_batch_size: 8
+  gradient_accumulation_steps: 1
+  num_train_epochs: 5
+  bf16: true
+  gradient_checkpointing: true
+  max_grad_norm: 1.0
+  lr_scheduler_type: constant
+  dataloader_drop_last: true
+  logging_steps: 1
+  save_steps: 45
+  eval_strategy: steps
+  eval_steps: 45

@@ -1,0 +1,26 @@
+stage: knowledge_injection
+model_name_or_path: ${PSYCHFOUND_BASE_MODEL}
+dataset_path: data/PsychCorpus/PsychCorpus.jsonl
+output_dir: outputs/01_knowledge_sft
+merged_output_dir: outputs/01_knowledge_sft_merged
+validation_size: 0.1
+seed: 42
+template: {default_system: "You are a helpful assistant."}
+lora: {rank: 256, alpha: 512, dropout: 0.0, target_modules: all-linear}
+training:
+  max_prompt_length: 4096
+  max_completion_length: 2048
+  learning_rate: 1.0e-5
+  warmup_ratio: 0.1
+  num_train_epochs: 5
+  per_device_train_batch_size: 4
+  gradient_accumulation_steps: 1
+  lr_scheduler_type: cosine
+  bf16: false
+  ddp_timeout: 180000000
+  per_device_eval_batch_size: 4
+  overwrite_output_dir: true
+  logging_steps: 10
+  save_steps: 3000
+  eval_strategy: steps
+  eval_steps: 1000

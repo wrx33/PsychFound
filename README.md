@@ -1,208 +1,352 @@
-# PsychFound: A Domain-Adapted and Clinician-Oriented Language Model for Real-World Psychiatric Clinical Practice
+# PsychFound: A Domain-Adapted Large Language Model for Psychiatric Clinical Practice
 
-**PsychFound** is a clinician-oriented large language model (LLM) designed to support full-spectrum psychiatric clinical tasks. Built upon expert-curated corpora and real-world clinical data, it provides evidence-based, structured decision support for diagnosis, treatment, and prognosis management in mental health care.
+**PsychFound** is a clinician-oriented large language model designed to support
+psychiatric clinical workflows, including clinical-text understanding,
+diagnostic reasoning, differential diagnosis, medication recommendation and
+longitudinal management.
+
+This repository provides an independent, end-to-end implementation of the
+development workflow described in:
+
+> Wang, R. et al. A domain-adapted large language model to support clinicians
+> in psychiatric clinical practice. *Nature Machine Intelligence* **8**,
+> 690-707 (2026). https://doi.org/10.1038/s42256-026-01224-w
 
 ---
 
-## 🔍 Key Features
+## Key features
 
-- **End-to-end support** for psychiatric clinical workflows, including:
-  - Diagnostic reasoning and differential diagnosis
-  - Medication planning and contraindication analysis
-  - Prognosis monitoring and follow-up suggestions
-- **Expert-aligned**: Fine-tuned on 64,588 anonymized EHRs and evaluated via a real-world prospective study and multi-level reader study.
-- **Open Resources**: Includes an open psychiatric corpus and benchmarking dataset (PsychCorpus, PsychBench).
+- A single `psychfound` command for data validation, training, inference and evaluation.
+- Domain knowledge injection, reasoning cold start, progressive GRPO and
+  full-cycle clinical SFT in one coherent training system.
+- Deterministic format, clinical-reasoning and accuracy rewards weighted `1:1:2`.
+- Explicit separation between public PsychCorpus data and protected clinical data.
+- Reproducible stage configurations without machine-specific paths or credentials.
+- Unit-tested data contracts, prompts, rewards, pipeline orchestration and metrics.
+
+> [!IMPORTANT]
+> PsychFound is a research and clinical decision-support system. It is not an
+> autonomous diagnostic or prescribing system. Qualified clinicians must review
+> all outputs and retain authority over final clinical decisions.
 
 ---
 
-## Quick Start
+## Development workflow
 
-Here provides a code snippet with `apply_chat_template` to show you how to load the tokenizer and model and how to generate contents.
+```text
+PsychCorpus
+    │
+    ▼
+Professional knowledge SFT
+    │
+    ▼
+Expert reasoning cold-start SFT
+    │
+    ├── Diagnosis: ICD-10 category GRPO → subtype GRPO
+    │
+    └── Medication: drug-category GRPO → exact-drug GRPO
+    │
+    ▼
+Full-cycle clinical multitask SFT
+    │
+    ▼
+PsychBench and clinical evaluation
+```
 
-You can use our checkpoints from huggingface:  wangrx33/PsychFound_v2. 
+The seven executable stages are declared in `configs/pipeline.yaml`. Each stage
+can be inspected, resumed or run independently.
+
+---
+
+## Installation
+
+Python 3.10 or newer and a CUDA-enabled Linux environment are recommended for
+training. The reference configuration uses eight NVIDIA A100 GPUs.
+
+```bash
+git clone https://github.com/wrx33/PsychFound.git
+cd PsychFound
+
+python -m venv .venv
+source .venv/bin/activate
+pip install -e ".[train]"
+```
+
+For inference only:
+
+```bash
+pip install -e ".[inference]"
+```
+
+Inspect the CLI:
+
+```bash
+psychfound --help
+psychfound --version
+```
+
+---
+
+## Data preparation
+
+### ShareGPT SFT format
+
+Knowledge, cold-start and clinical multitask SFT datasets use JSONL records:
+
+```json
+{"conversations": [
+  {"from": "human", "value": "Patient information or clinical question"},
+  {"from": "gpt", "value": "Reference response"}
+]}
+```
+
+Validate a dataset before training:
+
+```bash
+psychfound validate-data --input data/PsychCorpus/PsychCorpus.jsonl
+```
+
+Cold-start targets should contain the structured reasoning contract:
+
+```text
+<think>Clinical reasoning process</think><answer>Final decision</answer>
+```
+
+### GRPO data
+
+Prepare the first diagnosis curriculum round:
+
+```bash
+psychfound prepare-rl \
+  --task diagnosis \
+  --precision category \
+  --input /secure/path/diagnosis.jsonl \
+  --output /secure/path/diagnosis-category \
+  --train-size 800 \
+  --test-size 80 \
+  --seed 42
+```
+
+Repeat with `--precision subtype` for exact ICD-10 subtypes. Medication uses the
+same command with `--task medication`; the category round uses medication-class
+targets and the subtype round uses exact generic drug names.
+
+The command writes pre-templated Qwen ChatML prompts with an initial `<think>`
+prefix, matching the input contract used by the GRPO rollout stage.
+
+Each output directory contains `train.jsonl`, `test.jsonl` and `metadata.json`.
+
+---
+
+## Configuration
+
+Copy `.env.example` to a secure environment configuration and set paths without
+committing it:
+
+```bash
+cp .env.example .env
+set -a
+source .env
+set +a
+```
+
+The repository provides one reference configuration for PsychFound:
+
+- LoRA rank 256 on all linear projection layers.
+- Qwen ChatML with the default system message, assistant-only SFT labels and
+  independently enforced prompt and response limits.
+- SFT learning rate `1e-5`, cosine scheduling, warm-up ratio `0.1`, five epochs,
+  per-device batch size 4, 4,096 prompt tokens and 2,048 response tokens.
+- Full-parameter GRPO with eight generations per prompt, global prompt batch 8,
+  PPO clipping at `0.2`, group-normalized advantages, response-token masking,
+  low-variance KL, learning rate `1e-6` and 512/512 prompt/response limits.
+- Eight-process FSDP training, vLLM rollout, tensor parallelism 2, rollout
+  temperature `0.6`, five epochs and checkpoint/evaluation interval 45.
+- Format, clinical-reasoning keyword and task-accuracy rewards weighted `1:1:2`.
+- A positive KL-penalty coefficient of `0.001`.
+- Inference temperature `0.1`, top-p `0.75` and up to 4,096 generated tokens.
+
+TRL `loss_type: bnpo` is used because its response-token masked batch mean is
+consistent with the token-masked policy loss used by the GRPO actor. See
+`docs/TRAINING_IMPLEMENTATION.md` for the objective and batch-size mapping.
+
+Each SFT stage saves both its adapter and an automatically merged checkpoint.
+The pipeline exports the merged/full checkpoint path to the next stage, so no
+intermediate model environment variables are required during an end-to-end run.
+
+---
+
+## Training
+
+Preview every stage without loading a model or allocating a GPU:
+
+```bash
+psychfound pipeline --dry-run
+```
+
+Run the complete development pipeline:
+
+```bash
+accelerate launch \
+  --config_file configs/accelerate/grpo_fsdp.yaml \
+  -m psychfound pipeline
+```
+
+This launches every stage on eight processes. For inexpensive orchestration checks, use the
+single-process `--dry-run` command above.
+
+Run a bounded stage range:
+
+```bash
+psychfound pipeline \
+  --start-at diagnosis_category_grpo \
+  --stop-after diagnosis_subtype_grpo
+```
+
+Run one SFT configuration directly:
+
+```bash
+psychfound train-sft --config configs/01_knowledge_sft.yaml
+```
+
+SFT configurations merge adapters automatically. To merge an existing adapter
+manually:
+
+```bash
+psychfound merge-adapter \
+  --base-model /path/to/base \
+  --adapter outputs/01_knowledge_sft \
+  --output outputs/01_knowledge_sft_merged
+```
+
+Run GRPO with the eight-process FSDP configuration:
+
+```bash
+accelerate launch \
+  --config_file configs/accelerate/grpo_fsdp.yaml \
+  -m psychfound train-grpo \
+  --config configs/03a_diagnosis_category_grpo.yaml
+```
+
+The default colocated vLLM configuration uses the same GPUs as training. If it
+does not fit on a particular CUDA/vLLM combination, switch to TRL's server mode;
+that changes systems behavior and should be recorded in the run manifest.
+
+Completed pipeline runs write a timestamped manifest under `outputs/runs/`.
+
+---
+
+## Inference
+
+Set `PSYCHFOUND_MODEL`, then run:
+
+```bash
+psychfound infer \
+  --config configs/inference.yaml \
+  --prompt "Please provide a structured diagnostic analysis for the following case: ..."
+```
+
+The model checkpoint can also be loaded directly with Transformers:
 
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
-device = "cuda" # the device to load the model onto
 
+model_path = "/path/to/PsychFound"
+tokenizer = AutoTokenizer.from_pretrained(model_path)
 model = AutoModelForCausalLM.from_pretrained(
-    "path to PsychFound",
+    model_path,
     torch_dtype="auto",
-    device_map="auto"
+    device_map="auto",
 )
-tokenizer = AutoTokenizer.from_pretrained("path to PsychFound")
 
-prompt = """
-Please complete the diagnostic analysis report, which should include the following:
-- Diagnostic conclusion.
-- Clinical and examination evidence supporting the diagnosis
-- Differential diagnosis and exclusion analysis.
-
-### Patient Information:
-Female, 26 years old. **Current Medical History:** In January 2012, while in Grade 9, the patient experienced depression, fatigue, drowsiness, and a general feeling of weakness due to academic pressure. She found it difficult to think and complete homework, and could not understand the teacher's lectures. Her nighttime sleep was poor, often falling asleep around 2 or 3 AM, with shallow sleep and frequent awakenings (about 4 times) per night, occurring approximately once a week. She interacted well with others and managed to perform well in the high school entrance exam. In November 2012, after entering a prestigious high school in Inner Mongolia, she felt that others were more capable, and her symptoms reappeared, although her mood improved slightly compared to before. She remained in this state for a long time, with no significant impact on her studies or life. In November 2013, she experienced an unprovoked episode of increased mood, energy, and cognitive speed, resulting in a significant improvement in academic performance. Two to three weeks later, her symptoms of depression, fatigue, and drowsiness worsened. In November 2015, after entering university, she felt a lax lifestyle and developed a strong sense of self-reproach, feeling sad about the future, with a significant worsening of depressive symptoms, including thoughts of life having no meaning and suicidal ideation. She experienced fatigue and drowsiness, lost interest in playing computer games, and found it difficult to complete homework assigned by teachers. Her nighttime sleep was poor, with difficulty falling asleep and shallow sleep almost every night. She interacted well with others. In November 2017, after watching a program about depression, she sought treatment at the First Affiliated Hospital of Fujian Medical University, where she was diagnosed with \"bipolar disorder.\" She did not receive medication treatment and instead opted for further evaluation before taking medication. She was first treated at our hospital in January 2018, diagnosed with recurrent depressive disorder, and was discharged after 2 months of treatment with escitalopram (20 mg/day) and quetiapine fumarate (12.5 mg/day), experiencing a severe episode without psychotic symptoms. Post-discharge, her symptoms were unstable, and she was readmitted for the same diagnosis and treatment, and was discharged in May 2017 with significant improvement. After discharge, she adhered to medication and had occasional low moods but could maintain normal daily life and studies. In May 2022, she witnessed her father's sudden death at home, and her mood deteriorated significantly, often crying silently, with a decline in academic performance and inability to continue schooling. She had suicidal thoughts without a plan and was constantly worried that her mother would suddenly fall ill and leave her. She could maintain normal daily life and eating habits, with sleep still acceptable. In the past two weeks, she has not experienced fever, abdominal pain, diarrhea, nausea, or vomiting, nor has she experienced coma or convulsions. Her appetite is normal, sleep is acceptable, and bowel and bladder functions are normal, with no significant changes in weight.\n\n**Past Medical History:**\nNegative.\n\n**Family History:**\nNegative.\n\n**Physical Examination, Auxiliary Examinations, and Mental Status Examination:**\nPhysical examination revealed no obvious abnormalities. Auxiliary examinations pending. Physical examination revealed no obvious abnormalities.
-"""
-
-messages = [
-    {"role": "user", "content": prompt}
-]
-text = tokenizer.apply_chat_template(
-    messages,
-    tokenize=False,
-    add_generation_prompt=True
-)
-model_inputs = tokenizer([text], return_tensors="pt").to(device)
-
-generated_ids = model.generate(
-    model_inputs.input_ids,
-    max_new_tokens=512
-)
-generated_ids = [
-    output_ids[len(input_ids):] for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids)
-]
-
-response = tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
-'''
-(<think>\nI need to review the patient's medical records and complete a diagnostic analysis report. First, I will carefully read the provided medical information and then proceed with a step-by-step analysis to ensure no critical points are overlooked.\n\nThe patient is a 26-year-old female whose medical history began in early 2012 during junior high school, when she experienced symptoms such as depression, fatigue, difficulty thinking, and sleep issues due to academic pressure. Despite these symptoms, she achieved excellent results in the high school entrance exam. Similar symptoms recurred during high school, but her mood improved. In November 2013, she experienced a two-to-three-week period of elevated mood, increased energy, and faster thinking, followed by a worsening of depressive symptoms. During her university years, she experienced intense feelings of self-reproach, worsening depression, and suicidal thoughts, leading to a diagnosis of bipolar disorder without medication. In 2018, she was diagnosed with recurrent depressive disorder and received pharmacological treatment. After her father's death in 2022, her depression worsened, and she was readmitted to the hospital.\n\nFirst, the diagnostic conclusion needs to consider whether the patient has bipolar disorder or recurrent depressive disorder. Previous diagnoses at other hospitals indicated bipolar disorder, while this hospital diagnosed recurrent depressive disorder. The key point is whether there is a clear episode of mania or hypomania. According to the patient's history, in November 2013, she experienced a two-to-three-week period of elevated mood, increased energy, and increased confidence, which aligns with the criteria for a hypomanic episode (DSM-5 requires hypomanic episodes to last at least four days, though this can vary by diagnostic criteria). However, symptoms lasting two to three weeks exceed the typical duration of a hypomanic episode (usually at least four days, but no more than one week). Based on the description, this episode may still qualify as hypomania, supporting a diagnosis of bipolar disorder. Confirmation of the duration is needed.\n\nSecond, differential diagnoses need to consider recurrent depressive disorder, adjustment disorder, anxiety disorders, etc. Other factors that could cause mood swings, such as thyroid issues or other somatic diseases, must be ruled out. The patient’s past medical history is negative, and physical examination results are normal, with pending auxiliary tests. These factors may need to be excluded.\n\nAdditionally, the patient has clear precipitating factors (academic pressure, father's death), but her depressive episodes are prolonged and cyclical, with mood swings, especially a possible hypomanic episode in 2013, followed by worsening depression. This more closely aligns with bipolar disorder rather than simple depression. However, previous diagnoses are conflicting, requiring further analysis.\n\nSupporting a diagnosis of bipolar disorder includes a clear episode of elevated mood lasting two to three weeks, accompanied by functional improvement (improved academic performance), followed by worsening depression. This fits the criteria for bipolar II disorder, which includes hypomanic episodes and depressive episodes. Recurrent depressive disorder does not include episodes of mania or hypomania. Therefore, previous diagnoses may have been incorrect or misinterpreted.\n\nIn differential diagnosis, recurrent depressive disorder must be ruled out. If there is a hypomanic episode, it cannot be diagnosed as simple depression. Confirmation is needed that the episode meets hypomanic criteria: duration and sufficient symptoms (such as reduced sleep, increased activity). The patient experienced elevated mood, increased energy, faster thinking, and improved academic performance lasting two to three weeks, which may qualify as hypomania, supporting a diagnosis of bipolar disorder.\n\nFurthermore, the patient's response to treatment may influence the diagnosis. For example, antidepressants may induce mania, but this is not mentioned in the patient's history. The patient is currently on escitalopram and quetiapine, possibly for depression and mood stabilization.\n\nSummary: The diagnosis may be bipolar disorder, currently in a depressive episode. Support for this includes the hypomanic episode in 2013, followed by worsening depression. Recurrent depressive disorder is ruled out due to the presence of a hypomanic phase. Other conditions such as adjustment disorder or anxiety disorder need to be excluded, but the patient's symptoms are more consistent with bipolar disorder.\n\n</think>
-    
-### Diagnostics Analysis Report
-#### **Diagnostic Conclusion**
-The patient is diagnosed with **Bipolar Disorder, currently in a severe depressive episode**.
-#### **Clinical and Examination Evidence Supporting the Diagnosis**
-1. **Core Symptoms of Depression**: The patient exhibits persistent depressive symptoms such as mood low, loss of interest, suicidal ideation, and fatigue. These symptoms have been present since childhood, with episodic exacerbation during stressful events (e.g., academic pressure, family crisis).
-2. **Evidence of Manic Episodes**: Historical records show that the patient experienced a period of elevated mood, energy, and cognitive speed (November 2013). However, the subsequent worsening of depressive symptoms suggests the presence of bipolar II disorder rather than a manic episode. This supports the differential diagnosis in favor of bipolar disorder.
-3. **Family and Personal History**: Negative family history and stable personal history support the diagnosis of bipolar disorder.
-4. **Response to Treatment**: The patient's response to SSRI (escitalopram) and antipsychotics (quetiapine) indicates the effectiveness of treatment in bipolar disorder, further supporting the diagnosis.
-5. **Exclusion of Other Disorders**: No evidence of organic brain disorders, substance use, or other mental disorders makes bipolar disorder the primary diagnosis.
-#### **Differential Diagnosis and Exclusion Analysis**
-1. **Depressive Disorder (Unipolar Depression)**: The patient's history includes episodes of depression with no history of manic or hypomanic episodes. However, the presence of manic episodes in the past necessitates a differential diagnosis.
-2. **Anxiety Disorders**: While the patient may experience anxiety, the core symptoms of bipolar disorder (mood swings, mood instability) are more consistent with bipolar disorder.
-3. **Substance-Induced Disorders**: The patient does not have a history of substance use, making this diagnosis less likely.
-4. **Organic Brain Disorders**: Negative physical examination and imaging results rule out organic causes.
-5. **Schizophrenia**: The patient's history does not support the presence of psychotic symptoms, making schizophrenia less likely.
-#### **Conclusion**
-Based on the patient's clinical presentation, historical records, and treatment response, the diagnosis of Bipolar Disorder, currently in a severe depressive episode, is supported. Further examination of auxiliary tests will help rule out other potential causes of symptoms.
-)
-''' 
+messages = [{"role": "user", "content": "Your clinical prompt"}]
+text = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+inputs = tokenizer(text, return_tensors="pt").to(model.device)
+outputs = model.generate(**inputs, max_new_tokens=4096, temperature=0.1, top_p=0.75)
+print(tokenizer.decode(outputs[0, inputs.input_ids.shape[1]:], skip_special_tokens=True))
 ```
 
-(Reasoning ability may be slightly reduced in English interaction compared with Chinese interaction.)
+---
 
-## 🚀Getting Started
+## Evaluation
 
-### 1. Clone the repository
+The lightweight evaluator accepts JSONL predictions:
+
+```json
+{"task": "diagnosis", "precision": "subtype", "prediction": "<think>...</think><answer>F31.4 ...</answer>", "reference": "F31.4 ..."}
+```
 
 ```bash
-git clone https://github.com/your-username/PsychFound.git
-cd PsychFound
+psychfound evaluate --predictions outputs/predictions.jsonl
 ```
 
-### 2. Install dependencies
+It reports structured-output compliance, clinical-reasoning coverage, task
+accuracy, aggregate reward and task-stratified accuracy. Full PsychBench
+evaluation data are released separately from protected development data.
 
-```bash
-pip install -e ".[torch,metrics]" --no-build-isolation
+---
+
+## Project structure
+
+```text
+PsychFound/
+├── configs/                  # Stage, inference and distributed-training settings
+├── data/PsychCorpus/         # Public domain-knowledge data location
+├── docs/                     # Architecture and data-governance notes
+├── scripts/                  # Convenience validation script
+├── src/psychfound/
+│   ├── data/                 # Data contracts and RL preparation
+│   ├── training/             # SFT, adapter merge, GRPO and pipeline orchestration
+│   ├── rewards.py            # Psychiatric task rewards
+│   ├── inference.py          # Model generation
+│   ├── evaluation.py         # Reproducible metrics
+│   └── cli.py                # Unified public interface
+└── tests/                    # Unit tests
 ```
 
-Recommended CUDA version: 12.0
+---
 
-VRAM requirements (7B):
-Training with AdamW and LoRA (r=8): ~14G 
+## Privacy and responsible use
 
-Reasoning: ~10G
+- Never commit identifiable or re-identifiable patient records.
+- Keep PsychClinical and prospective-study data in access-controlled storage.
+- Record dataset hashes and verify that training cases do not overlap PsychBench.
+- Do not write raw clinical prompts or model responses to public experiment logs.
+- Report model uncertainty and failed runs, not only the best checkpoint.
+- Use outputs as recommendations requiring clinician review.
 
-### 3. Data preparation
+See `docs/DATA_GOVERNANCE.md` for the release checklist.
 
-This project adopts a **three-stage development framework**, and corresponding datasets are used for each stage. Below we describe the data preparation process for each phase:
+---
 
-#### 1) Professional Knowledge Injection (Stage 1)
+## License
 
-We release part of the dataset used in the first phase, named PsychCorpus, located at:
+This repository is released under the MIT License. Clinical datasets and model
+checkpoints may be subject to separate access and usage restrictions.
 
-```bash
-data/PsychCorpus
-```
+---
 
-**PsychCorpus** is a domain-specific corpus constructed from publicly available and expert-curated resources, including clinical guidelines, standard textbooks, and high-quality academic publications in psychiatry. This corpus serves as the foundational knowledge source to infuse general domain expertise into the model.
+## Citation
 
-#### 2) Real-World Clinical Adaptation (Stage 2 & 3)
-
-The dataset used in the second and third phases is **PsychClinical**, constructed from real-world de-identified electronic health records (EHRs). Due to privacy and regulatory constraints, **PsychClinical is not publicly available**.
-
-For those who wish to replicate the pipeline or perform training with private EHR data, we suggest organizing your data in the following format for SFT (Supervised Fine-tuning) and RL (Reinforcement Learning):
-
-**For SFT:**
-
-```
-{
-	"conversations":[
-		{"from": "human",
-		 "value": "your content"}
-		{"from": "gpt",
-		 "value": "your content"}
-	]
+```bibtex
+@article{wang2026psychfound,
+  title   = {A domain-adapted large language model to support clinicians in psychiatric clinical practice},
+  author  = {Wang, Ruoxi and others},
+  journal = {Nature Machine Intelligence},
+  volume  = {8},
+  pages   = {690--707},
+  year    = {2026},
+  doi     = {10.1038/s42256-026-01224-w}
 }
 ```
 
-The `data/dataset_info.json` contains all available datasets. If you are using a custom dataset, please **make sure** to add a *dataset description* in `dataset_info.json` and specify `dataset: dataset_name` before training to use it.
+---
 
-**For RL:**
+## Acknowledgements
 
-Refer to `python ./tinyzero/examples/data_preprocess/psychfound_diagnosis.py --local_dir {path_to_your_dataset}` to prepare your RL dataset.
-
-You can organize your cold-start data as following:
-
-```
-{
-	"conversations":[
-		{"from": "human",
-		 "value": "your content"}
-		{"from": "gpt",
-		 "value": "<think>your content</think> <answer>your content</answer>"}
-	]
-}
-```
-
-### 4. Training 
-
-**For SFT:**
-
-```bash
-python -m src.llamafactory.cli train ./examples/train_lora/sft_lora.yaml # LoRA
-python -m src.llamafactory.cli train ./examples/train_full/sft_full.yaml # Full parameters
-```
-
-**For RL:**
-
-```
-export N_GPUS=2
-export BASE_MODEL={path_to_your_model}
-export DATA_DIR={path_to_your_dataset}
-export ROLLOUT_TP_SIZE=2
-export EXPERIMENT_NAME=diagnosis-psychfound-instruct
-export VLLM_ATTENTION_BACKEND=XFORMERS
-
-bash ./tinyzero/scripts/train_rl_diagnosis.sh
-```
-
-### 5. Inference
-
-You can also change model_name_or_path to the path to your own checkpoints.
-
-```bash
-python -m src.llamafactory.cli chat ./scripts/inference/inference.yaml
-```
-
-## 📄License
-
-This repository is released under the MIT License.
-
-## 📫 Citation
-
-If you use PsychFound in your research, please cite:
-
-```
-Coming soon!
-```
-
-### 🤝 Acknowledgments
-
-This project benifits from [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) and [TinyZero](https://github.com/Jiayi-Pan/TinyZero).
+The original PsychFound research and engineering process benefited from the
+training abstractions and practical fine-tuning experience provided by
+[LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory), and from the compact
+reinforcement-learning design and GRPO experimentation patterns demonstrated by
+[TinyZero](https://github.com/Jiayi-Pan/TinyZero). We gratefully acknowledge
+their open-source contributions.

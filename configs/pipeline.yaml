@@ -1,0 +1,9 @@
+run_dir: outputs/runs
+stages:
+  - {name: knowledge_injection, type: sft, config: configs/01_knowledge_sft.yaml, export_model_as: PSYCHFOUND_KNOWLEDGE_MODEL}
+  - {name: reasoning_cold_start, type: sft, config: configs/02_reasoning_cold_start.yaml, export_model_as: PSYCHFOUND_COLDSTART_MODEL}
+  - {name: diagnosis_category_grpo, type: grpo, config: configs/03a_diagnosis_category_grpo.yaml, export_model_as: PSYCHFOUND_DIAGNOSIS_CATEGORY_MODEL}
+  - {name: diagnosis_subtype_grpo, type: grpo, config: configs/03b_diagnosis_subtype_grpo.yaml, export_model_as: PSYCHFOUND_DIAGNOSIS_SUBTYPE_MODEL}
+  - {name: medication_category_grpo, type: grpo, config: configs/03c_medication_category_grpo.yaml, export_model_as: PSYCHFOUND_MEDICATION_CATEGORY_MODEL}
+  - {name: medication_exact_grpo, type: grpo, config: configs/03d_medication_exact_grpo.yaml, export_model_as: PSYCHFOUND_REASONING_MODEL}
+  - {name: clinical_adaptation, type: sft, config: configs/04_clinical_sft.yaml, export_model_as: PSYCHFOUND_MODEL}
